@@ -1,0 +1,162 @@
+import random
+import numpy as np
+import pandas as pd
+from itertools import combinations
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
+
+
+def split_data(n, test_size=0.2):
+    pairs = list(combinations(range(n), 2))
+    random.seed(random_state)
+    random.shuffle(pairs)
+    
+    N = len(pairs)
+    test_count = int(N * test_size)
+    
+    test_pairs = pairs[:test_count]
+    train_pairs = pairs[test_count:]
+    
+    return train_pairs, test_pairs
+
+def extract_variable_sites(sequences_path):
+    sequences_df = pd.read_csv(sequences_path)
+    seqs = sequences_df['HA1_sequence'].apply(list).to_list()
+    seqs_var = np.array(seqs)
+
+    virus_names = sequences_df['short_name'].tolist()
+    return virus_names, seqs_var
+
+def Calculate_X_Y(groups, pairs, virus_names, seqs_var):
+
+    aa_to_group = {}
+    for group, aa_list in groups.items():
+        for aa in aa_list:
+            aa_to_group[aa] = group
+
+    m = seqs_var.shape[1]
+
+    N = len(pairs)
+    X = np.zeros((N, m))
+
+    for j in range(m):
+        for idx, (k, l) in enumerate(pairs):
+            aa_k = seqs_var[k, j]
+            aa_l = seqs_var[l, j]
+
+            g1 = aa_to_group.get(aa_k, 'other')
+            g2 = aa_to_group.get(aa_l, 'other')
+            X[idx, j] = 1 if g1 != g2 else 0
+
+    distance_df = pd.read_csv(distance_matrix_path, index_col=0)
+        
+    Y = []
+    for i, j in pairs:
+        virus_i = virus_names[i]
+        virus_j = virus_names[j]
+        dist = distance_df.loc[virus_i, virus_j]
+        Y.append(dist)
+
+
+    Y = np.array(Y)
+    return X, Y
+
+
+gm1 = {
+    "nonpolar": ['A', 'F', 'G', 'I', 'L', 'M', 'P', 'V', 'W'],
+    "polar": ['C', 'N', 'Q', 'S', 'T', 'Y'],
+    "charged": ['D', 'E', 'H', 'K', 'R']
+}
+
+gm2 = {
+    "non-polar aliphatic" : ['A', 'G', 'I', 'L', 'M', 'V'],
+    "non-polar aromatic" : ['F', 'P', 'W'],
+    "polar": ['C', 'N', 'Q', 'S', 'T', 'Y'],
+    "charged": ['D', 'E', 'H', 'K', 'R']
+}
+
+gm3 = {
+    "non-polar": ['A', 'F', 'G', 'I', 'L', 'M', 'P', 'V', 'W'],
+    "polar": ['C', 'N', 'Q', 'S', 'T', 'Y'],
+    "positively charged": ['H', 'K', 'R'],
+    "negatively charged": ['D', 'E']
+}
+
+gm4 = {
+    "non-polar aliphatic": ['A', 'G', 'I', 'L', 'M', 'V'],
+    "non-polar aromatic": ['F', 'P', 'W'],
+    "polar": ['C', 'N', 'Q', 'S', 'T', 'Y'],
+    "positively charged": ['H', 'K', 'R'],
+    "negatively charged": ['D', 'E']
+}
+
+gm5 = {
+    "non-polar aliphatic": ['A', 'I', 'L', 'M', 'P', 'V'],
+    "non-polar aromatic": ['F', 'W', 'Y'],
+    "polar": ['N', 'Q', 'S', 'T'],
+    "positively charged": ['H', 'K', 'R'],
+    "negatively charged": ['D', 'E'],
+    "C": ['C'],
+    "G": ['G']
+}
+
+gm6 = {
+    "non-polar aliphatic": ['A', 'I', 'L', 'M', 'P', 'V'],
+    "non-polar aromatic": ['F', 'W', 'Y'],
+    "polar": ['N', 'Q', 'S', 'T'],
+    "charged": ['D', 'E', 'H', 'K', 'R'],
+    "C": ['C'],
+    "G": ['G']
+}
+
+if __name__ == "__main__":
+
+    random_state=42
+    data_set = "1963-2002" # "1963-2002" or "2003-2025"
+    if data_set == "1963-2002":
+        sequences_path = "data/prd/1963-2002/sequences.csv"
+        distance_matrix_path = "data/prd/1963-2002/distance_matrix.csv"
+    else:
+        sequences_path = "data/prd/2003-2025/final_sequences.csv"
+        distance_matrix_path = "data/prd/2003-2025/2003_2025_distance_matrix.csv"
+
+    virus_names, seqs_var = extract_variable_sites(sequences_path)
+    train_pairs, test_pairs = split_data(len(virus_names), test_size=0.2)
+
+
+    i = 1
+    gs = [gm1, gm2, gm3, gm4, gm5, gm6]
+    for gm in gs:
+        X_train, Y_train = Calculate_X_Y(gm, train_pairs, virus_names, seqs_var)
+        X_test, Y_test = Calculate_X_Y(gm, test_pairs, virus_names, seqs_var)
+
+        model = LinearRegression()
+        model.fit(X_train, Y_train)
+
+        Y_pred = model.predict(X_test)
+
+        rmse = np.sqrt(mean_squared_error(Y_test, Y_pred))
+        r2 = r2_score(Y_test, Y_pred)
+        mae = mean_absolute_error(Y_test, Y_pred)
+        print(f"Group: gm_{i} RMSE: {rmse:.4f}, R^2: {r2:.4f}, MAE: {mae:.4f}")
+
+        i += 1
+
+
+# 1963-2002
+# Group: gm_1 RMSE: 1.6251, R^2: 0.9164, MAE: 1.2319
+# Group: gm_2 RMSE: 1.6043, R^2: 0.9185, MAE: 1.2186
+# Group: gm_3 RMSE: 1.5876, R^2: 0.9202, MAE: 1.2115
+# Group: gm_4 RMSE: 1.5623, R^2: 0.9227, MAE: 1.1986
+# Group: gm_5 RMSE: 1.5728, R^2: 0.9217, MAE: 1.2016
+# Group: gm_6 RMSE: 1.6293, R^2: 0.9159, MAE: 1.2362
+
+
+
+# 2003-2025
+# Group: gm_1 RMSE: 1.6788, R^2: 0.2798, MAE: 1.3301
+# Group: gm_2 RMSE: 1.6778, R^2: 0.2807, MAE: 1.3293
+# Group: gm_3 RMSE: 1.6746, R^2: 0.2834, MAE: 1.3257
+# Group: gm_4 RMSE: 1.6749, R^2: 0.2831, MAE: 1.3259
+# Group: gm_5 RMSE: 1.6668, R^2: 0.2900, MAE: 1.3196
+# Group: gm_6 RMSE: 1.6689, R^2: 0.2883, MAE: 1.3224

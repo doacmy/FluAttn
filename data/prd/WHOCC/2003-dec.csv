@@ -1,0 +1,470 @@
+Test Virus,Reference Virus,Titre
+A/Panama/2007/99,A/Panama/2007/99,5120
+A/New York/55/01,A/Panama/2007/99,5120
+A/Hong Kong/1550/02,A/Panama/2007/99,5120
+A/Egypt/130/02,A/Panama/2007/99,1280
+A/Fujian/411/02,A/Panama/2007/99,80
+A/Sendai/4952/02,A/Panama/2007/99,320
+A/Finland/170/03,A/Panama/2007/99,160
+A/Netherlands/369/02,A/Panama/2007/99,2560
+A/Austria/79807/03,A/Panama/2007/99,2560
+A/Rome/3/03,A/Panama/2007/99,1280
+A/Prague/34/03,A/Panama/2007/99,640
+A/Slovakia/252/03,A/Panama/2007/99,320
+A/Latvia/1506/03,A/Panama/2007/99,1280
+A/Perugia/7/03,A/Panama/2007/99,1280
+A/Hannover/94/03,A/Panama/2007/99,5120
+A/Belgrade/1061/03,A/Panama/2007/99,640
+A/Geneva/3340/03,A/Panama/2007/99,1280
+A/Greece/109/03,A/Panama/2007/99,320
+A/Oslo/3391/03,A/Panama/2007/99,1280
+A/Dakar/11/02,A/Panama/2007/99,1280
+A/Lyon/476/03,A/Panama/2007/99,320
+A/Netherlands/17/03,A/Panama/2007/99,320
+A/Firenze/10/03,A/Panama/2007/99,320
+A/Berlin/35/03,A/Panama/2007/99,320
+A/Parma/18/03,A/Panama/2007/99,320
+A/Moscow/48/03,A/Panama/2007/99,80
+A/Geneva/3767/03,A/Panama/2007/99,160
+A/Dakar/10/03,A/Panama/2007/99,160
+A/St. Petersburg/122/03,A/Panama/2007/99,160
+A/Denmark/44/03,A/Panama/2007/99,320
+A/Stockholm/10/03,A/Panama/2007/99,320
+A/Iceland/22/03,A/Panama/2007/99,160
+A/Finland/300/03,A/Panama/2007/99,160
+A/Barcelona/364/03,A/Panama/2007/99,160
+A/Madagascar/69863/03,A/Panama/2007/99,40
+A/Israel/3650/03,A/Panama/2007/99,160
+A/Johannesburg/28/03,A/Panama/2007/99,80
+A/Hong Kong/1227/03,A/Panama/2007/99,320
+A/Panama/2007/99,A/New York/55/01,1280
+A/New York/55/01,A/New York/55/01,2560
+A/Hong Kong/1550/02,A/New York/55/01,2560
+A/Egypt/130/02,A/New York/55/01,640
+A/Fujian/411/02,A/New York/55/01,40
+A/Sendai/4952/02,A/New York/55/01,320
+A/Finland/170/03,A/New York/55/01,80
+A/Netherlands/369/02,A/New York/55/01,1280
+A/Austria/79807/03,A/New York/55/01,1280
+A/Rome/3/03,A/New York/55/01,2560
+A/Prague/34/03,A/New York/55/01,640
+A/Slovakia/252/03,A/New York/55/01,2560
+A/Latvia/1506/03,A/New York/55/01,2560
+A/Perugia/7/03,A/New York/55/01,2560
+A/Hannover/94/03,A/New York/55/01,5120
+A/Belgrade/1061/03,A/New York/55/01,1280
+A/Geneva/3340/03,A/New York/55/01,2560
+A/Greece/109/03,A/New York/55/01,1280
+A/Oslo/3391/03,A/New York/55/01,640
+A/Dakar/11/02,A/New York/55/01,640
+A/Lyon/476/03,A/New York/55/01,320
+A/Netherlands/17/03,A/New York/55/01,320
+A/Firenze/10/03,A/New York/55/01,160
+A/Berlin/35/03,A/New York/55/01,320
+A/Parma/18/03,A/New York/55/01,640
+A/Moscow/48/03,A/New York/55/01,80
+A/Geneva/3767/03,A/New York/55/01,160
+A/Dakar/10/03,A/New York/55/01,80
+A/St. Petersburg/122/03,A/New York/55/01,320
+A/Denmark/44/03,A/New York/55/01,640
+A/Stockholm/10/03,A/New York/55/01,80
+A/Iceland/22/03,A/New York/55/01,320
+A/Finland/300/03,A/New York/55/01,320
+A/Barcelona/364/03,A/New York/55/01,80
+A/Madagascar/69863/03,A/New York/55/01,80
+A/Israel/3650/03,A/New York/55/01,320
+A/Johannesburg/28/03,A/New York/55/01,80
+A/Hong Kong/1227/03,A/New York/55/01,160
+A/Panama/2007/99,A/Hong Kong/1550/02,5120
+A/New York/55/01,A/Hong Kong/1550/02,2560
+A/Hong Kong/1550/02,A/Hong Kong/1550/02,5120
+A/Egypt/130/02,A/Hong Kong/1550/02,1280
+A/Fujian/411/02,A/Hong Kong/1550/02,80
+A/Sendai/4952/02,A/Hong Kong/1550/02,640
+A/Finland/170/03,A/Hong Kong/1550/02,160
+A/Netherlands/369/02,A/Hong Kong/1550/02,2560
+A/Austria/79807/03,A/Hong Kong/1550/02,1280
+A/Rome/3/03,A/Hong Kong/1550/02,1280
+A/Prague/34/03,A/Hong Kong/1550/02,640
+A/Slovakia/252/03,A/Hong Kong/1550/02,320
+A/Latvia/1506/03,A/Hong Kong/1550/02,1280
+A/Perugia/7/03,A/Hong Kong/1550/02,1280
+A/Hannover/94/03,A/Hong Kong/1550/02,2560
+A/Belgrade/1061/03,A/Hong Kong/1550/02,*
+A/Geneva/3340/03,A/Hong Kong/1550/02,2560
+A/Greece/109/03,A/Hong Kong/1550/02,320
+A/Oslo/3391/03,A/Hong Kong/1550/02,320
+A/Dakar/11/02,A/Hong Kong/1550/02,*
+A/Lyon/476/03,A/Hong Kong/1550/02,160
+A/Netherlands/17/03,A/Hong Kong/1550/02,640
+A/Firenze/10/03,A/Hong Kong/1550/02,320
+A/Berlin/35/03,A/Hong Kong/1550/02,320
+A/Parma/18/03,A/Hong Kong/1550/02,640
+A/Moscow/48/03,A/Hong Kong/1550/02,160
+A/Geneva/3767/03,A/Hong Kong/1550/02,320
+A/Dakar/10/03,A/Hong Kong/1550/02,*
+A/St. Petersburg/122/03,A/Hong Kong/1550/02,320
+A/Denmark/44/03,A/Hong Kong/1550/02,640
+A/Stockholm/10/03,A/Hong Kong/1550/02,320
+A/Iceland/22/03,A/Hong Kong/1550/02,160
+A/Finland/300/03,A/Hong Kong/1550/02,320
+A/Barcelona/364/03,A/Hong Kong/1550/02,160
+A/Madagascar/69863/03,A/Hong Kong/1550/02,80
+A/Israel/3650/03,A/Hong Kong/1550/02,160
+A/Johannesburg/28/03,A/Hong Kong/1550/02,160
+A/Hong Kong/1227/03,A/Hong Kong/1550/02,*
+A/Panama/2007/99,A/Egypt/130/02,2560
+A/New York/55/01,A/Egypt/130/02,5120
+A/Hong Kong/1550/02,A/Egypt/130/02,2560
+A/Egypt/130/02,A/Egypt/130/02,2560
+A/Fujian/411/02,A/Egypt/130/02,80
+A/Sendai/4952/02,A/Egypt/130/02,320
+A/Finland/170/03,A/Egypt/130/02,160
+A/Netherlands/369/02,A/Egypt/130/02,*
+A/Austria/79807/03,A/Egypt/130/02,2560
+A/Rome/3/03,A/Egypt/130/02,*
+A/Prague/34/03,A/Egypt/130/02,*
+A/Slovakia/252/03,A/Egypt/130/02,2560
+A/Latvia/1506/03,A/Egypt/130/02,2560
+A/Perugia/7/03,A/Egypt/130/02,5120
+A/Hannover/94/03,A/Egypt/130/02,*
+A/Belgrade/1061/03,A/Egypt/130/02,2560
+A/Geneva/3340/03,A/Egypt/130/02,2560
+A/Greece/109/03,A/Egypt/130/02,640
+A/Oslo/3391/03,A/Egypt/130/02,2560
+A/Dakar/11/02,A/Egypt/130/02,2560
+A/Lyon/476/03,A/Egypt/130/02,*
+A/Netherlands/17/03,A/Egypt/130/02,320
+A/Firenze/10/03,A/Egypt/130/02,*
+A/Berlin/35/03,A/Egypt/130/02,*
+A/Parma/18/03,A/Egypt/130/02,320
+A/Moscow/48/03,A/Egypt/130/02,160
+A/Geneva/3767/03,A/Egypt/130/02,160
+A/Dakar/10/03,A/Egypt/130/02,160
+A/St. Petersburg/122/03,A/Egypt/130/02,320
+A/Denmark/44/03,A/Egypt/130/02,320
+A/Stockholm/10/03,A/Egypt/130/02,320
+A/Iceland/22/03,A/Egypt/130/02,320
+A/Finland/300/03,A/Egypt/130/02,320
+A/Barcelona/364/03,A/Egypt/130/02,160
+A/Madagascar/69863/03,A/Egypt/130/02,80
+A/Israel/3650/03,A/Egypt/130/02,640
+A/Johannesburg/28/03,A/Egypt/130/02,160
+A/Hong Kong/1227/03,A/Egypt/130/02,160
+A/Panama/2007/99,A/Fujian/411/02,80
+A/New York/55/01,A/Fujian/411/02,160
+A/Hong Kong/1550/02,A/Fujian/411/02,160
+A/Egypt/130/02,A/Fujian/411/02,160
+A/Fujian/411/02,A/Fujian/411/02,640
+A/Sendai/4952/02,A/Fujian/411/02,320
+A/Finland/170/03,A/Fujian/411/02,640
+A/Netherlands/369/02,A/Fujian/411/02,160
+A/Austria/79807/03,A/Fujian/411/02,80
+A/Rome/3/03,A/Fujian/411/02,<40
+A/Prague/34/03,A/Fujian/411/02,<40
+A/Slovakia/252/03,A/Fujian/411/02,160
+A/Latvia/1506/03,A/Fujian/411/02,160
+A/Perugia/7/03,A/Fujian/411/02,40
+A/Hannover/94/03,A/Fujian/411/02,40
+A/Belgrade/1061/03,A/Fujian/411/02,160
+A/Geneva/3340/03,A/Fujian/411/02,80
+A/Greece/109/03,A/Fujian/411/02,40
+A/Oslo/3391/03,A/Fujian/411/02,160
+A/Dakar/11/02,A/Fujian/411/02,<40
+A/Lyon/476/03,A/Fujian/411/02,160
+A/Netherlands/17/03,A/Fujian/411/02,640
+A/Firenze/10/03,A/Fujian/411/02,640
+A/Berlin/35/03,A/Fujian/411/02,640
+A/Parma/18/03,A/Fujian/411/02,1280
+A/Moscow/48/03,A/Fujian/411/02,640
+A/Geneva/3767/03,A/Fujian/411/02,640
+A/Dakar/10/03,A/Fujian/411/02,320
+A/St. Petersburg/122/03,A/Fujian/411/02,320
+A/Denmark/44/03,A/Fujian/411/02,640
+A/Stockholm/10/03,A/Fujian/411/02,1280
+A/Iceland/22/03,A/Fujian/411/02,320
+A/Finland/300/03,A/Fujian/411/02,640
+A/Barcelona/364/03,A/Fujian/411/02,1280
+A/Madagascar/69863/03,A/Fujian/411/02,160
+A/Israel/3650/03,A/Fujian/411/02,640
+A/Johannesburg/28/03,A/Fujian/411/02,640
+A/Hong Kong/1227/03,A/Fujian/411/02,320
+A/Panama/2007/99,A/Sendai/4952/02,160
+A/New York/55/01,A/Sendai/4952/02,320
+A/Hong Kong/1550/02,A/Sendai/4952/02,320
+A/Egypt/130/02,A/Sendai/4952/02,80
+A/Fujian/411/02,A/Sendai/4952/02,640
+A/Sendai/4952/02,A/Sendai/4952/02,640
+A/Finland/170/03,A/Sendai/4952/02,640
+A/Netherlands/369/02,A/Sendai/4952/02,320
+A/Austria/79807/03,A/Sendai/4952/02,*
+A/Rome/3/03,A/Sendai/4952/02,40
+A/Prague/34/03,A/Sendai/4952/02,<40
+A/Slovakia/252/03,A/Sendai/4952/02,*
+A/Latvia/1506/03,A/Sendai/4952/02,40
+A/Perugia/7/03,A/Sendai/4952/02,*
+A/Hannover/94/03,A/Sendai/4952/02,80
+A/Belgrade/1061/03,A/Sendai/4952/02,80
+A/Geneva/3340/03,A/Sendai/4952/02,80
+A/Greece/109/03,A/Sendai/4952/02,40
+A/Oslo/3391/03,A/Sendai/4952/02,*
+A/Dakar/11/02,A/Sendai/4952/02,160
+A/Lyon/476/03,A/Sendai/4952/02,160
+A/Netherlands/17/03,A/Sendai/4952/02,*
+A/Firenze/10/03,A/Sendai/4952/02,320
+A/Berlin/35/03,A/Sendai/4952/02,1280
+A/Parma/18/03,A/Sendai/4952/02,*
+A/Moscow/48/03,A/Sendai/4952/02,*
+A/Geneva/3767/03,A/Sendai/4952/02,*
+A/Dakar/10/03,A/Sendai/4952/02,640
+A/St. Petersburg/122/03,A/Sendai/4952/02,*
+A/Denmark/44/03,A/Sendai/4952/02,320
+A/Stockholm/10/03,A/Sendai/4952/02,*
+A/Iceland/22/03,A/Sendai/4952/02,*
+A/Finland/300/03,A/Sendai/4952/02,*
+A/Barcelona/364/03,A/Sendai/4952/02,*
+A/Madagascar/69863/03,A/Sendai/4952/02,*
+A/Israel/3650/03,A/Sendai/4952/02,*
+A/Johannesburg/28/03,A/Sendai/4952/02,*
+A/Hong Kong/1227/03,A/Sendai/4952/02,640
+A/Panama/2007/99,A/Finland/170/03,80
+A/New York/55/01,A/Finland/170/03,160
+A/Hong Kong/1550/02,A/Finland/170/03,80
+A/Egypt/130/02,A/Finland/170/03,160
+A/Fujian/411/02,A/Finland/170/03,320
+A/Sendai/4952/02,A/Finland/170/03,320
+A/Finland/170/03,A/Finland/170/03,320
+A/Netherlands/369/02,A/Finland/170/03,*
+A/Austria/79807/03,A/Finland/170/03,80
+A/Rome/3/03,A/Finland/170/03,*
+A/Prague/34/03,A/Finland/170/03,*
+A/Slovakia/252/03,A/Finland/170/03,*
+A/Latvia/1506/03,A/Finland/170/03,*
+A/Perugia/7/03,A/Finland/170/03,<40
+A/Hannover/94/03,A/Finland/170/03,*
+A/Belgrade/1061/03,A/Finland/170/03,80
+A/Geneva/3340/03,A/Finland/170/03,<40
+A/Greece/109/03,A/Finland/170/03,*
+A/Oslo/3391/03,A/Finland/170/03,40
+A/Dakar/11/02,A/Finland/170/03,<40
+A/Lyon/476/03,A/Finland/170/03,*
+A/Netherlands/17/03,A/Finland/170/03,640
+A/Firenze/10/03,A/Finland/170/03,*
+A/Berlin/35/03,A/Finland/170/03,*
+A/Parma/18/03,A/Finland/170/03,640
+A/Moscow/48/03,A/Finland/170/03,160
+A/Geneva/3767/03,A/Finland/170/03,320
+A/Dakar/10/03,A/Finland/170/03,160
+A/St. Petersburg/122/03,A/Finland/170/03,320
+A/Denmark/44/03,A/Finland/170/03,320
+A/Stockholm/10/03,A/Finland/170/03,640
+A/Iceland/22/03,A/Finland/170/03,320
+A/Finland/300/03,A/Finland/170/03,320
+A/Barcelona/364/03,A/Finland/170/03,320
+A/Madagascar/69863/03,A/Finland/170/03,80
+A/Israel/3650/03,A/Finland/170/03,320
+A/Johannesburg/28/03,A/Finland/170/03,160
+A/Hong Kong/1227/03,A/Finland/170/03,320
+A/Panama/2007/99,A/Panama/2007/99,5120
+A/New York/55/01,A/Panama/2007/99,5120
+A/Egypt/130/02,A/Panama/2007/99,1280
+A/Fujian/411/02,A/Panama/2007/99,80
+A/Finland/170/03,A/Panama/2007/99,160
+A/Wyoming/3/03,A/Panama/2007/99,1280
+A/UK/1861/03,A/Panama/2007/99,320
+A/Austria/77956/03,A/Panama/2007/99,1280
+A/Belgrade/1285/03,A/Panama/2007/99,640
+A/Goteborg/1/03,A/Panama/2007/99,2560
+A/Hannover/154/03,A/Panama/2007/99,1280
+A/Albania/20/03,A/Panama/2007/99,640
+A/Montpellier/1279/03,A/Panama/2007/99,2560
+A/Geneva/4841/03,A/Panama/2007/99,320
+A/Lyon/1331/03,A/Panama/2007/99,1280
+A/Netherlands/222/03,A/Panama/2007/99,320
+A/Shanghai/369/03,A/Panama/2007/99,320
+A/Oslo/2221/03,A/Panama/2007/99,640
+A/Singapore/55/03,A/Panama/2007/99,1280
+A/Stockholm/9/03,A/Panama/2007/99,320
+A/Indonesia/22/03,A/Panama/2007/99,160
+A/Geneva/4620/03,A/Panama/2007/99,320
+A/Lyon/1158/03,A/Panama/2007/99,320
+A/Auckland/6/03,A/Panama/2007/99,160
+A/Poitiers/1375/03,A/Panama/2007/99,320
+A/Johannesburg/36/03,A/Panama/2007/99,320
+A/Madagascar/70074/03,A/Panama/2007/99,160
+A/Hong Kong/1205/03,A/Panama/2007/99,320
+A/Dakar/19/03,A/Panama/2007/99,320
+A/Panama/2007/99,A/New York/55/01,1280
+A/New York/55/01,A/New York/55/01,2560
+A/Egypt/130/02,A/New York/55/01,640
+A/Fujian/411/02,A/New York/55/01,40
+A/Finland/170/03,A/New York/55/01,80
+A/Wyoming/3/03,A/New York/55/01,320
+A/UK/1861/03,A/New York/55/01,80
+A/Austria/77956/03,A/New York/55/01,2560
+A/Belgrade/1285/03,A/New York/55/01,1280
+A/Goteborg/1/03,A/New York/55/01,1280
+A/Hannover/154/03,A/New York/55/01,320
+A/Albania/20/03,A/New York/55/01,640
+A/Montpellier/1279/03,A/New York/55/01,2560
+A/Geneva/4841/03,A/New York/55/01,160
+A/Lyon/1331/03,A/New York/55/01,2560
+A/Netherlands/222/03,A/New York/55/01,80
+A/Shanghai/369/03,A/New York/55/01,80
+A/Oslo/2221/03,A/New York/55/01,320
+A/Singapore/55/03,A/New York/55/01,320
+A/Stockholm/9/03,A/New York/55/01,160
+A/Indonesia/22/03,A/New York/55/01,80
+A/Geneva/4620/03,A/New York/55/01,160
+A/Lyon/1158/03,A/New York/55/01,160
+A/Auckland/6/03,A/New York/55/01,80
+A/Poitiers/1375/03,A/New York/55/01,160
+A/Johannesburg/36/03,A/New York/55/01,160
+A/Madagascar/70074/03,A/New York/55/01,160
+A/Hong Kong/1205/03,A/New York/55/01,160
+A/Dakar/19/03,A/New York/55/01,80
+A/Panama/2007/99,A/Egypt/130/02,2560
+A/New York/55/01,A/Egypt/130/02,5120
+A/Egypt/130/02,A/Egypt/130/02,2560
+A/Fujian/411/02,A/Egypt/130/02,80
+A/Finland/170/03,A/Egypt/130/02,160
+A/Wyoming/3/03,A/Egypt/130/02,320
+A/UK/1861/03,A/Egypt/130/02,160
+A/Austria/77956/03,A/Egypt/130/02,5120
+A/Belgrade/1285/03,A/Egypt/130/02,2560
+A/Goteborg/1/03,A/Egypt/130/02,2560
+A/Hannover/154/03,A/Egypt/130/02,1280
+A/Albania/20/03,A/Egypt/130/02,2560
+A/Montpellier/1279/03,A/Egypt/130/02,5120
+A/Geneva/4841/03,A/Egypt/130/02,1280
+A/Lyon/1331/03,A/Egypt/130/02,2560
+A/Netherlands/222/03,A/Egypt/130/02,80
+A/Shanghai/369/03,A/Egypt/130/02,80
+A/Oslo/2221/03,A/Egypt/130/02,640
+A/Singapore/55/03,A/Egypt/130/02,320
+A/Stockholm/9/03,A/Egypt/130/02,320
+A/Indonesia/22/03,A/Egypt/130/02,80
+A/Geneva/4620/03,A/Egypt/130/02,320
+A/Lyon/1158/03,A/Egypt/130/02,160
+A/Auckland/6/03,A/Egypt/130/02,80
+A/Poitiers/1375/03,A/Egypt/130/02,160
+A/Johannesburg/36/03,A/Egypt/130/02,320
+A/Madagascar/70074/03,A/Egypt/130/02,320
+A/Hong Kong/1205/03,A/Egypt/130/02,160
+A/Dakar/19/03,A/Egypt/130/02,160
+A/Panama/2007/99,A/Fujian/411/02,80
+A/New York/55/01,A/Fujian/411/02,160
+A/Egypt/130/02,A/Fujian/411/02,160
+A/Fujian/411/02,A/Fujian/411/02,640
+A/Finland/170/03,A/Fujian/411/02,640
+A/Wyoming/3/03,A/Fujian/411/02,2560
+A/UK/1861/03,A/Fujian/411/02,160
+A/Austria/77956/03,A/Fujian/411/02,320
+A/Belgrade/1285/03,A/Fujian/411/02,80
+A/Goteborg/1/03,A/Fujian/411/02,80
+A/Hannover/154/03,A/Fujian/411/02,40
+A/Albania/20/03,A/Fujian/411/02,40
+A/Montpellier/1279/03,A/Fujian/411/02,160
+A/Geneva/4841/03,A/Fujian/411/02,<40
+A/Lyon/1331/03,A/Fujian/411/02,160
+A/Netherlands/222/03,A/Fujian/411/02,1280
+A/Shanghai/369/03,A/Fujian/411/02,160
+A/Oslo/2221/03,A/Fujian/411/02,1280
+A/Singapore/55/03,A/Fujian/411/02,160
+A/Stockholm/9/03,A/Fujian/411/02,640
+A/Indonesia/22/03,A/Fujian/411/02,160
+A/Geneva/4620/03,A/Fujian/411/02,320
+A/Lyon/1158/03,A/Fujian/411/02,320
+A/Auckland/6/03,A/Fujian/411/02,320
+A/Poitiers/1375/03,A/Fujian/411/02,320
+A/Johannesburg/36/03,A/Fujian/411/02,1280
+A/Madagascar/70074/03,A/Fujian/411/02,320
+A/Hong Kong/1205/03,A/Fujian/411/02,320
+A/Dakar/19/03,A/Fujian/411/02,640
+A/Panama/2007/99,A/Finland/170/03,80
+A/New York/55/01,A/Finland/170/03,160
+A/Egypt/130/02,A/Finland/170/03,160
+A/Fujian/411/02,A/Finland/170/03,320
+A/Finland/170/03,A/Finland/170/03,320
+A/Wyoming/3/03,A/Finland/170/03,1280
+A/UK/1861/03,A/Finland/170/03,80
+A/Austria/77956/03,A/Finland/170/03,80
+A/Belgrade/1285/03,A/Finland/170/03,80
+A/Goteborg/1/03,A/Finland/170/03,80
+A/Hannover/154/03,A/Finland/170/03,160
+A/Albania/20/03,A/Finland/170/03,40
+A/Montpellier/1279/03,A/Finland/170/03,160
+A/Geneva/4841/03,A/Finland/170/03,40
+A/Lyon/1331/03,A/Finland/170/03,320
+A/Netherlands/222/03,A/Finland/170/03,640
+A/Shanghai/369/03,A/Finland/170/03,320
+A/Oslo/2221/03,A/Finland/170/03,640
+A/Singapore/55/03,A/Finland/170/03,160
+A/Stockholm/9/03,A/Finland/170/03,320
+A/Indonesia/22/03,A/Finland/170/03,160
+A/Geneva/4620/03,A/Finland/170/03,320
+A/Lyon/1158/03,A/Finland/170/03,320
+A/Auckland/6/03,A/Finland/170/03,640
+A/Poitiers/1375/03,A/Finland/170/03,320
+A/Johannesburg/36/03,A/Finland/170/03,640
+A/Madagascar/70074/03,A/Finland/170/03,320
+A/Hong Kong/1205/03,A/Finland/170/03,320
+A/Dakar/19/03,A/Finland/170/03,160
+A/Panama/2007/99,A/Wyoming/3/03,640
+A/New York/55/01,A/Wyoming/3/03,640
+A/Egypt/130/02,A/Wyoming/3/03,320
+A/Fujian/411/02,A/Wyoming/3/03,1280
+A/Finland/170/03,A/Wyoming/3/03,1280
+A/Wyoming/3/03,A/Wyoming/3/03,5120
+A/UK/1861/03,A/Wyoming/3/03,640
+A/Austria/77956/03,A/Wyoming/3/03,320
+A/Belgrade/1285/03,A/Wyoming/3/03,320
+A/Goteborg/1/03,A/Wyoming/3/03,320
+A/Hannover/154/03,A/Wyoming/3/03,40
+A/Albania/20/03,A/Wyoming/3/03,40
+A/Montpellier/1279/03,A/Wyoming/3/03,640
+A/Geneva/4841/03,A/Wyoming/3/03,<40
+A/Lyon/1331/03,A/Wyoming/3/03,320
+A/Netherlands/222/03,A/Wyoming/3/03,5120
+A/Shanghai/369/03,A/Wyoming/3/03,1280
+A/Oslo/2221/03,A/Wyoming/3/03,2560
+A/Singapore/55/03,A/Wyoming/3/03,1280
+A/Stockholm/9/03,A/Wyoming/3/03,2560
+A/Indonesia/22/03,A/Wyoming/3/03,640
+A/Geneva/4620/03,A/Wyoming/3/03,640
+A/Lyon/1158/03,A/Wyoming/3/03,1280
+A/Auckland/6/03,A/Wyoming/3/03,1280
+A/Poitiers/1375/03,A/Wyoming/3/03,1280
+A/Johannesburg/36/03,A/Wyoming/3/03,2560
+A/Madagascar/70074/03,A/Wyoming/3/03,1280
+A/Hong Kong/1205/03,A/Wyoming/3/03,1280
+A/Dakar/19/03,A/Wyoming/3/03,2560
+A/Panama/2007/99,A/UK/1861/03,160
+A/New York/55/01,A/UK/1861/03,160
+A/Egypt/130/02,A/UK/1861/03,80
+A/Fujian/411/02,A/UK/1861/03,320
+A/Finland/170/03,A/UK/1861/03,320
+A/Wyoming/3/03,A/UK/1861/03,1280
+A/UK/1861/03,A/UK/1861/03,640
+A/Austria/77956/03,A/UK/1861/03,80
+A/Belgrade/1285/03,A/UK/1861/03,80
+A/Goteborg/1/03,A/UK/1861/03,80
+A/Hannover/154/03,A/UK/1861/03,*
+A/Albania/20/03,A/UK/1861/03,40
+A/Montpellier/1279/03,A/UK/1861/03,320
+A/Geneva/4841/03,A/UK/1861/03,*
+A/Lyon/1331/03,A/UK/1861/03,*
+A/Netherlands/222/03,A/UK/1861/03,640
+A/Shanghai/369/03,A/UK/1861/03,320
+A/Oslo/2221/03,A/UK/1861/03,640
+A/Singapore/55/03,A/UK/1861/03,320
+A/Stockholm/9/03,A/UK/1861/03,320
+A/Indonesia/22/03,A/UK/1861/03,320
+A/Geneva/4620/03,A/UK/1861/03,320
+A/Lyon/1158/03,A/UK/1861/03,640
+A/Auckland/6/03,A/UK/1861/03,320
+A/Poitiers/1375/03,A/UK/1861/03,640
+A/Johannesburg/36/03,A/UK/1861/03,640
+A/Madagascar/70074/03,A/UK/1861/03,320
+A/Hong Kong/1205/03,A/UK/1861/03,640
+A/Dakar/19/03,A/UK/1861/03,320

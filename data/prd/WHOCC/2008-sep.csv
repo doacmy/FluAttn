@@ -1,0 +1,837 @@
+Test Virus,Reference Virus,Titre
+A/Wisconsin/67/2005,A/Wisconsin/67/2005,5120
+A/Nepal/921/2006,A/Wisconsin/67/2005,5120
+A/Trieste/25c/2007,A/Wisconsin/67/2005,80
+A/Prague/3/2007,A/Wisconsin/67/2005,2560
+A/Trieste/25E/2007,A/Wisconsin/67/2005,2560
+A/Wisconsin/3/2007,A/Wisconsin/67/2005,5120
+A/Henan/Jinshui/147,A/Wisconsin/67/2005,2560
+A/Brisbane/10/2007,A/Wisconsin/67/2005,2560
+A/Uruguay/716/2007,A/Wisconsin/67/2005,2560
+A/Finland/9/2008,A/Wisconsin/67/2005,40
+A/Paris/2030/2008,A/Wisconsin/67/2005,80
+A/Lyon/669/08,A/Wisconsin/67/2005,40
+A/Netherlands/177/2008,A/Wisconsin/67/2005,160
+A/Berlin/50/2008,A/Wisconsin/67/2005,80
+A/Hong Kong/796/2008,A/Wisconsin/67/2005,320
+A/Khabarovsk/5/2008,A/Wisconsin/67/2005,160
+A/Denmark/190/2008,A/Wisconsin/67/2005,40
+A/Ulan-Ude/2/2008,A/Wisconsin/67/2005,80
+A/Iceland/82/2008,A/Wisconsin/67/2005,40
+A/Johannesburg/15/2008,A/Wisconsin/67/2005,160
+A/Wisconsin/67/2005,A/Nepal/921/2006,5120
+A/Nepal/921/2006,A/Nepal/921/2006,5120
+A/Trieste/25c/2007,A/Nepal/921/2006,80
+A/Prague/3/2007,A/Nepal/921/2006,5120
+A/Trieste/25E/2007,A/Nepal/921/2006,2560
+A/Wisconsin/3/2007,A/Nepal/921/2006,5120
+A/Henan/Jinshui/147,A/Nepal/921/2006,2560
+A/Brisbane/10/2007,A/Nepal/921/2006,2560
+A/Uruguay/716/2007,A/Nepal/921/2006,2560
+A/Finland/9/2008,A/Nepal/921/2006,80
+A/Paris/2030/2008,A/Nepal/921/2006,80
+A/Lyon/669/08,A/Nepal/921/2006,80
+A/Netherlands/177/2008,A/Nepal/921/2006,80
+A/Berlin/50/2008,A/Nepal/921/2006,80
+A/Hong Kong/796/2008,A/Nepal/921/2006,160
+A/Khabarovsk/5/2008,A/Nepal/921/2006,80
+A/Denmark/190/2008,A/Nepal/921/2006,80
+A/Ulan-Ude/2/2008,A/Nepal/921/2006,80
+A/Iceland/82/2008,A/Nepal/921/2006,40
+A/Johannesburg/15/2008,A/Nepal/921/2006,80
+A/Wisconsin/67/2005,A/Trieste/25c/2007,2560
+A/Nepal/921/2006,A/Trieste/25c/2007,5120
+A/Trieste/25c/2007,A/Trieste/25c/2007,80
+A/Prague/3/2007,A/Trieste/25c/2007,2560
+A/Trieste/25E/2007,A/Trieste/25c/2007,2560
+A/Wisconsin/3/2007,A/Trieste/25c/2007,5120
+A/Henan/Jinshui/147,A/Trieste/25c/2007,2560
+A/Brisbane/10/2007,A/Trieste/25c/2007,2560
+A/Uruguay/716/2007,A/Trieste/25c/2007,2560
+A/Finland/9/2008,A/Trieste/25c/2007,160
+A/Paris/2030/2008,A/Trieste/25c/2007,80
+A/Lyon/669/08,A/Trieste/25c/2007,80
+A/Netherlands/177/2008,A/Trieste/25c/2007,320
+A/Berlin/50/2008,A/Trieste/25c/2007,40
+A/Hong Kong/796/2008,A/Trieste/25c/2007,160
+A/Khabarovsk/5/2008,A/Trieste/25c/2007,80
+A/Denmark/190/2008,A/Trieste/25c/2007,80
+A/Ulan-Ude/2/2008,A/Trieste/25c/2007,80
+A/Iceland/82/2008,A/Trieste/25c/2007,80
+A/Johannesburg/15/2008,A/Trieste/25c/2007,320
+A/Wisconsin/67/2005,A/Prague/3/2007,640
+A/Nepal/921/2006,A/Prague/3/2007,1280
+A/Trieste/25c/2007,A/Prague/3/2007,<40
+A/Prague/3/2007,A/Prague/3/2007,1280
+A/Trieste/25E/2007,A/Prague/3/2007,640
+A/Wisconsin/3/2007,A/Prague/3/2007,1280
+A/Henan/Jinshui/147,A/Prague/3/2007,640
+A/Brisbane/10/2007,A/Prague/3/2007,640
+A/Uruguay/716/2007,A/Prague/3/2007,640
+A/Finland/9/2008,A/Prague/3/2007,40
+A/Paris/2030/2008,A/Prague/3/2007,<40
+A/Lyon/669/08,A/Prague/3/2007,40
+A/Netherlands/177/2008,A/Prague/3/2007,80
+A/Berlin/50/2008,A/Prague/3/2007,<40
+A/Hong Kong/796/2008,A/Prague/3/2007,40
+A/Khabarovsk/5/2008,A/Prague/3/2007,<40
+A/Denmark/190/2008,A/Prague/3/2007,<40
+A/Ulan-Ude/2/2008,A/Prague/3/2007,<40
+A/Iceland/82/2008,A/Prague/3/2007,<40
+A/Johannesburg/15/2008,A/Prague/3/2007,80
+A/Wisconsin/67/2005,A/Trieste/25E/2007,2560
+A/Nepal/921/2006,A/Trieste/25E/2007,2560
+A/Trieste/25c/2007,A/Trieste/25E/2007,160
+A/Prague/3/2007,A/Trieste/25E/2007,2560
+A/Trieste/25E/2007,A/Trieste/25E/2007,1280
+A/Wisconsin/3/2007,A/Trieste/25E/2007,2560
+A/Henan/Jinshui/147,A/Trieste/25E/2007,1280
+A/Brisbane/10/2007,A/Trieste/25E/2007,2560
+A/Uruguay/716/2007,A/Trieste/25E/2007,2560
+A/Finland/9/2008,A/Trieste/25E/2007,160
+A/Paris/2030/2008,A/Trieste/25E/2007,160
+A/Lyon/669/08,A/Trieste/25E/2007,80
+A/Netherlands/177/2008,A/Trieste/25E/2007,160
+A/Berlin/50/2008,A/Trieste/25E/2007,80
+A/Hong Kong/796/2008,A/Trieste/25E/2007,320
+A/Khabarovsk/5/2008,A/Trieste/25E/2007,80
+A/Denmark/190/2008,A/Trieste/25E/2007,160
+A/Ulan-Ude/2/2008,A/Trieste/25E/2007,80
+A/Iceland/82/2008,A/Trieste/25E/2007,80
+A/Johannesburg/15/2008,A/Trieste/25E/2007,160
+A/Wisconsin/67/2005,A/Wisconsin/3/2007,1280
+A/Nepal/921/2006,A/Wisconsin/3/2007,1280
+A/Trieste/25c/2007,A/Wisconsin/3/2007,160
+A/Prague/3/2007,A/Wisconsin/3/2007,640
+A/Trieste/25E/2007,A/Wisconsin/3/2007,640
+A/Wisconsin/3/2007,A/Wisconsin/3/2007,2560
+A/Henan/Jinshui/147,A/Wisconsin/3/2007,640
+A/Brisbane/10/2007,A/Wisconsin/3/2007,640
+A/Uruguay/716/2007,A/Wisconsin/3/2007,640
+A/Finland/9/2008,A/Wisconsin/3/2007,320
+A/Paris/2030/2008,A/Wisconsin/3/2007,160
+A/Lyon/669/08,A/Wisconsin/3/2007,80
+A/Netherlands/177/2008,A/Wisconsin/3/2007,320
+A/Berlin/50/2008,A/Wisconsin/3/2007,80
+A/Hong Kong/796/2008,A/Wisconsin/3/2007,320
+A/Khabarovsk/5/2008,A/Wisconsin/3/2007,160
+A/Denmark/190/2008,A/Wisconsin/3/2007,160
+A/Ulan-Ude/2/2008,A/Wisconsin/3/2007,160
+A/Iceland/82/2008,A/Wisconsin/3/2007,160
+A/Johannesburg/15/2008,A/Wisconsin/3/2007,320
+A/Wisconsin/67/2005,A/Henan/Jinshui/147/2007,5120
+A/Nepal/921/2006,A/Henan/Jinshui/147/2007,5120
+A/Trieste/25c/2007,A/Henan/Jinshui/147/2007,80
+A/Prague/3/2007,A/Henan/Jinshui/147/2007,5120
+A/Trieste/25E/2007,A/Henan/Jinshui/147/2007,5120
+A/Wisconsin/3/2007,A/Henan/Jinshui/147/2007,5120
+A/Henan/Jinshui/147,A/Henan/Jinshui/147/2007,5120
+A/Brisbane/10/2007,A/Henan/Jinshui/147/2007,5120
+A/Uruguay/716/2007,A/Henan/Jinshui/147/2007,5120
+A/Finland/9/2008,A/Henan/Jinshui/147/2007,160
+A/Paris/2030/2008,A/Henan/Jinshui/147/2007,80
+A/Lyon/669/08,A/Henan/Jinshui/147/2007,80
+A/Netherlands/177/2008,A/Henan/Jinshui/147/2007,320
+A/Berlin/50/2008,A/Henan/Jinshui/147/2007,80
+A/Hong Kong/796/2008,A/Henan/Jinshui/147/2007,640
+A/Khabarovsk/5/2008,A/Henan/Jinshui/147/2007,160
+A/Denmark/190/2008,A/Henan/Jinshui/147/2007,80
+A/Ulan-Ude/2/2008,A/Henan/Jinshui/147/2007,40
+A/Iceland/82/2008,A/Henan/Jinshui/147/2007,40
+A/Johannesburg/15/2008,A/Henan/Jinshui/147/2007,320
+A/Wisconsin/67/2005,A/Brisbane/10/2007,2560
+A/Nepal/921/2006,A/Brisbane/10/2007,1280
+A/Trieste/25c/2007,A/Brisbane/10/2007,160
+A/Prague/3/2007,A/Brisbane/10/2007,640
+A/Trieste/25E/2007,A/Brisbane/10/2007,1280
+A/Wisconsin/3/2007,A/Brisbane/10/2007,2560
+A/Henan/Jinshui/147,A/Brisbane/10/2007,1280
+A/Brisbane/10/2007,A/Brisbane/10/2007,1280
+A/Uruguay/716/2007,A/Brisbane/10/2007,1280
+A/Finland/9/2008,A/Brisbane/10/2007,320
+A/Paris/2030/2008,A/Brisbane/10/2007,320
+A/Lyon/669/08,A/Brisbane/10/2007,80
+A/Netherlands/177/2008,A/Brisbane/10/2007,640
+A/Berlin/50/2008,A/Brisbane/10/2007,160
+A/Hong Kong/796/2008,A/Brisbane/10/2007,640
+A/Khabarovsk/5/2008,A/Brisbane/10/2007,160
+A/Denmark/190/2008,A/Brisbane/10/2007,320
+A/Ulan-Ude/2/2008,A/Brisbane/10/2007,80
+A/Iceland/82/2008,A/Brisbane/10/2007,160
+A/Johannesburg/15/2008,A/Brisbane/10/2007,640
+A/Wisconsin/67/2005,A/Uruguay/716/2007,5120
+A/Nepal/921/2006,A/Uruguay/716/2007,5120
+A/Trieste/25c/2007,A/Uruguay/716/2007,160
+A/Prague/3/2007,A/Uruguay/716/2007,2560
+A/Trieste/25E/2007,A/Uruguay/716/2007,2560
+A/Wisconsin/3/2007,A/Uruguay/716/2007,5120
+A/Henan/Jinshui/147,A/Uruguay/716/2007,2560
+A/Brisbane/10/2007,A/Uruguay/716/2007,2560
+A/Uruguay/716/2007,A/Uruguay/716/2007,2560
+A/Finland/9/2008,A/Uruguay/716/2007,160
+A/Paris/2030/2008,A/Uruguay/716/2007,160
+A/Lyon/669/08,A/Uruguay/716/2007,80
+A/Netherlands/177/2008,A/Uruguay/716/2007,320
+A/Berlin/50/2008,A/Uruguay/716/2007,80
+A/Hong Kong/796/2008,A/Uruguay/716/2007,160
+A/Khabarovsk/5/2008,A/Uruguay/716/2007,160
+A/Denmark/190/2008,A/Uruguay/716/2007,160
+A/Ulan-Ude/2/2008,A/Uruguay/716/2007,80
+A/Iceland/82/2008,A/Uruguay/716/2007,160
+A/Johannesburg/15/2008,A/Uruguay/716/2007,160
+A/Wisconsin/67/2005,A/Finland/9/2008,2560
+A/Nepal/921/2006,A/Finland/9/2008,5120
+A/Trieste/25c/2007,A/Finland/9/2008,80
+A/Prague/3/2007,A/Finland/9/2008,2560
+A/Trieste/25E/2007,A/Finland/9/2008,2560
+A/Wisconsin/3/2007,A/Finland/9/2008,2560
+A/Henan/Jinshui/147,A/Finland/9/2008,2560
+A/Brisbane/10/2007,A/Finland/9/2008,2560
+A/Uruguay/716/2007,A/Finland/9/2008,2560
+A/Finland/9/2008,A/Finland/9/2008,320
+A/Paris/2030/2008,A/Finland/9/2008,80
+A/Lyon/669/08,A/Finland/9/2008,80
+A/Netherlands/177/2008,A/Finland/9/2008,640
+A/Berlin/50/2008,A/Finland/9/2008,*
+A/Hong Kong/796/2008,A/Finland/9/2008,320
+A/Khabarovsk/5/2008,A/Finland/9/2008,80
+A/Denmark/190/2008,A/Finland/9/2008,160
+A/Ulan-Ude/2/2008,A/Finland/9/2008,80
+A/Iceland/82/2008,A/Finland/9/2008,40
+A/Johannesburg/15/2008,A/Finland/9/2008,320
+A/Wisconsin/67/2005,A/Wisconsin/67/2005,5120
+A/Nepal/921/2006,A/Wisconsin/67/2005,1280
+A/Trieste/25c/2007,A/Wisconsin/67/2005,<40
+A/Prague/3/2007,A/Wisconsin/67/2005,1280
+A/Trieste/25E/2007,A/Wisconsin/67/2005,1280
+A/Wisconsin/3/2007,A/Wisconsin/67/2005,5120
+A/Henan/Jinshui/147,A/Wisconsin/67/2005,1280
+A/Brisbane/10/2007,A/Wisconsin/67/2005,1280
+A/Uruguay/716/2007,A/Wisconsin/67/2005,2560
+A/Finland/9/2008,A/Wisconsin/67/2005,<40
+A/Hong Kong/1050/08,A/Wisconsin/67/2005,<40
+A/Johannesburg/15/2008,A/Wisconsin/67/2005,<40
+A/Hong Kong/796/08,A/Wisconsin/67/2005,320
+A/Geneva/8428/09,A/Wisconsin/67/2005,40
+A/Mauritius/402/2008,A/Wisconsin/67/2005,<40
+A/Geneva/8417/2008,A/Wisconsin/67/2005,<40
+A/Lyon/762/08,A/Wisconsin/67/2005,40
+A/Toulouse/609/08,A/Wisconsin/67/2005,40
+A/Denmark/190/2008,A/Wisconsin/67/2005,<40
+A/Finland/149/2008,A/Wisconsin/67/2005,<40
+A/Denmark/183/2008,A/Wisconsin/67/2005,<40
+A/Denmark/185/2008,A/Wisconsin/67/2005,<40
+A/Finland/122/2008,A/Wisconsin/67/2005,<40
+A/Norway/848/2008,A/Wisconsin/67/2005,<40
+A/Norway/966/2008,A/Wisconsin/67/2005,<40
+A/Norway/1034/2008,A/Wisconsin/67/2005,40
+A/Hong Kong/1778/2008,A/Wisconsin/67/2005,160
+A/Hong Kong/1859/2008,A/Wisconsin/67/2005,40
+A/Ghana/11/2008,A/Wisconsin/67/2005,40
+A/Washington/42/2007,A/Wisconsin/67/2005,320
+A/Mississippi/4/2008,A/Wisconsin/67/2005,640
+A/Perth/201/08,A/Wisconsin/67/2005,640
+A/Brisbane/24/08,A/Wisconsin/67/2005,2560
+A/Wellington/2/08,A/Wisconsin/67/2005,2560
+A/Singapore/21/08,A/Wisconsin/67/2005,1280
+A/Ulaanbaatar/1600/2008,A/Wisconsin/67/2005,40
+A/Toyama/123/2008,A/Wisconsin/67/2005,40
+A/Saitama/27/2008,A/Wisconsin/67/2005,160
+A/Wisconsin/67/2005,A/Nepal/921/2006,5120
+A/Nepal/921/2006,A/Nepal/921/2006,5120
+A/Trieste/25c/2007,A/Nepal/921/2006,80
+A/Prague/3/2007,A/Nepal/921/2006,5120
+A/Trieste/25E/2007,A/Nepal/921/2006,2560
+A/Wisconsin/3/2007,A/Nepal/921/2006,5120
+A/Henan/Jinshui/147,A/Nepal/921/2006,2560
+A/Brisbane/10/2007,A/Nepal/921/2006,5120
+A/Uruguay/716/2007,A/Nepal/921/2006,5120
+A/Finland/9/2008,A/Nepal/921/2006,80
+A/Hong Kong/1050/08,A/Nepal/921/2006,160
+A/Johannesburg/15/2008,A/Nepal/921/2006,80
+A/Hong Kong/796/08,A/Nepal/921/2006,160
+A/Geneva/8428/09,A/Nepal/921/2006,80
+A/Mauritius/402/2008,A/Nepal/921/2006,80
+A/Geneva/8417/2008,A/Nepal/921/2006,80
+A/Lyon/762/08,A/Nepal/921/2006,80
+A/Toulouse/609/08,A/Nepal/921/2006,80
+A/Denmark/190/2008,A/Nepal/921/2006,80
+A/Finland/149/2008,A/Nepal/921/2006,80
+A/Denmark/183/2008,A/Nepal/921/2006,40
+A/Denmark/185/2008,A/Nepal/921/2006,40
+A/Finland/122/2008,A/Nepal/921/2006,40
+A/Norway/848/2008,A/Nepal/921/2006,80
+A/Norway/966/2008,A/Nepal/921/2006,40
+A/Norway/1034/2008,A/Nepal/921/2006,80
+A/Hong Kong/1778/2008,A/Nepal/921/2006,160
+A/Hong Kong/1859/2008,A/Nepal/921/2006,80
+A/Ghana/11/2008,A/Nepal/921/2006,80
+A/Washington/42/2007,A/Nepal/921/2006,80
+A/Mississippi/4/2008,A/Nepal/921/2006,320
+A/Perth/201/08,A/Nepal/921/2006,1280
+A/Brisbane/24/08,A/Nepal/921/2006,2560
+A/Wellington/2/08,A/Nepal/921/2006,1280
+A/Singapore/21/08,A/Nepal/921/2006,2560
+A/Ulaanbaatar/1600/2008,A/Nepal/921/2006,80
+A/Toyama/123/2008,A/Nepal/921/2006,80
+A/Saitama/27/2008,A/Nepal/921/2006,160
+A/Wisconsin/67/2005,A/Trieste/25c/2007,2560
+A/Nepal/921/2006,A/Trieste/25c/2007,2560
+A/Trieste/25c/2007,A/Trieste/25c/2007,80
+A/Prague/3/2007,A/Trieste/25c/2007,2560
+A/Trieste/25E/2007,A/Trieste/25c/2007,1280
+A/Wisconsin/3/2007,A/Trieste/25c/2007,5120
+A/Henan/Jinshui/147,A/Trieste/25c/2007,1280
+A/Brisbane/10/2007,A/Trieste/25c/2007,2560
+A/Uruguay/716/2007,A/Trieste/25c/2007,2560
+A/Finland/9/2008,A/Trieste/25c/2007,160
+A/Hong Kong/1050/08,A/Trieste/25c/2007,160
+A/Johannesburg/15/2008,A/Trieste/25c/2007,160
+A/Hong Kong/796/08,A/Trieste/25c/2007,160
+A/Geneva/8428/09,A/Trieste/25c/2007,40
+A/Mauritius/402/2008,A/Trieste/25c/2007,80
+A/Geneva/8417/2008,A/Trieste/25c/2007,80
+A/Lyon/762/08,A/Trieste/25c/2007,160
+A/Toulouse/609/08,A/Trieste/25c/2007,160
+A/Denmark/190/2008,A/Trieste/25c/2007,160
+A/Finland/149/2008,A/Trieste/25c/2007,160
+A/Denmark/183/2008,A/Trieste/25c/2007,40
+A/Denmark/185/2008,A/Trieste/25c/2007,40
+A/Finland/122/2008,A/Trieste/25c/2007,80
+A/Norway/848/2008,A/Trieste/25c/2007,80
+A/Norway/966/2008,A/Trieste/25c/2007,40
+A/Norway/1034/2008,A/Trieste/25c/2007,80
+A/Hong Kong/1778/2008,A/Trieste/25c/2007,320
+A/Hong Kong/1859/2008,A/Trieste/25c/2007,80
+A/Ghana/11/2008,A/Trieste/25c/2007,80
+A/Washington/42/2007,A/Trieste/25c/2007,320
+A/Mississippi/4/2008,A/Trieste/25c/2007,1280
+A/Perth/201/08,A/Trieste/25c/2007,1280
+A/Brisbane/24/08,A/Trieste/25c/2007,2560
+A/Wellington/2/08,A/Trieste/25c/2007,2560
+A/Singapore/21/08,A/Trieste/25c/2007,1280
+A/Ulaanbaatar/1600/2008,A/Trieste/25c/2007,160
+A/Toyama/123/2008,A/Trieste/25c/2007,160
+A/Saitama/27/2008,A/Trieste/25c/2007,160
+A/Wisconsin/67/2005,A/Prague/3/2007,640
+A/Nepal/921/2006,A/Prague/3/2007,1280
+A/Trieste/25c/2007,A/Prague/3/2007,<40
+A/Prague/3/2007,A/Prague/3/2007,1280
+A/Trieste/25E/2007,A/Prague/3/2007,320
+A/Wisconsin/3/2007,A/Prague/3/2007,1280
+A/Henan/Jinshui/147,A/Prague/3/2007,640
+A/Brisbane/10/2007,A/Prague/3/2007,1280
+A/Uruguay/716/2007,A/Prague/3/2007,640
+A/Finland/9/2008,A/Prague/3/2007,<40
+A/Hong Kong/1050/08,A/Prague/3/2007,<40
+A/Johannesburg/15/2008,A/Prague/3/2007,<40
+A/Hong Kong/796/08,A/Prague/3/2007,40
+A/Geneva/8428/09,A/Prague/3/2007,<40
+A/Mauritius/402/2008,A/Prague/3/2007,<40
+A/Geneva/8417/2008,A/Prague/3/2007,<40
+A/Lyon/762/08,A/Prague/3/2007,40
+A/Toulouse/609/08,A/Prague/3/2007,40
+A/Denmark/190/2008,A/Prague/3/2007,<40
+A/Finland/149/2008,A/Prague/3/2007,<40
+A/Denmark/183/2008,A/Prague/3/2007,<40
+A/Denmark/185/2008,A/Prague/3/2007,<40
+A/Finland/122/2008,A/Prague/3/2007,<40
+A/Norway/848/2008,A/Prague/3/2007,<40
+A/Norway/966/2008,A/Prague/3/2007,<40
+A/Norway/1034/2008,A/Prague/3/2007,<40
+A/Hong Kong/1778/2008,A/Prague/3/2007,80
+A/Hong Kong/1859/2008,A/Prague/3/2007,<40
+A/Ghana/11/2008,A/Prague/3/2007,<40
+A/Washington/42/2007,A/Prague/3/2007,40
+A/Mississippi/4/2008,A/Prague/3/2007,160
+A/Perth/201/08,A/Prague/3/2007,320
+A/Brisbane/24/08,A/Prague/3/2007,640
+A/Wellington/2/08,A/Prague/3/2007,640
+A/Singapore/21/08,A/Prague/3/2007,320
+A/Ulaanbaatar/1600/2008,A/Prague/3/2007,<40
+A/Toyama/123/2008,A/Prague/3/2007,40
+A/Saitama/27/2008,A/Prague/3/2007,<40
+A/Wisconsin/67/2005,A/Trieste/25E/2007,2560
+A/Nepal/921/2006,A/Trieste/25E/2007,2560
+A/Trieste/25c/2007,A/Trieste/25E/2007,160
+A/Prague/3/2007,A/Trieste/25E/2007,2560
+A/Trieste/25E/2007,A/Trieste/25E/2007,1280
+A/Wisconsin/3/2007,A/Trieste/25E/2007,2560
+A/Henan/Jinshui/147,A/Trieste/25E/2007,1280
+A/Brisbane/10/2007,A/Trieste/25E/2007,2560
+A/Uruguay/716/2007,A/Trieste/25E/2007,2560
+A/Finland/9/2008,A/Trieste/25E/2007,160
+A/Hong Kong/1050/08,A/Trieste/25E/2007,160
+A/Johannesburg/15/2008,A/Trieste/25E/2007,160
+A/Hong Kong/796/08,A/Trieste/25E/2007,320
+A/Geneva/8428/09,A/Trieste/25E/2007,80
+A/Mauritius/402/2008,A/Trieste/25E/2007,80
+A/Geneva/8417/2008,A/Trieste/25E/2007,80
+A/Lyon/762/08,A/Trieste/25E/2007,160
+A/Toulouse/609/08,A/Trieste/25E/2007,160
+A/Denmark/190/2008,A/Trieste/25E/2007,160
+A/Finland/149/2008,A/Trieste/25E/2007,160
+A/Denmark/183/2008,A/Trieste/25E/2007,80
+A/Denmark/185/2008,A/Trieste/25E/2007,80
+A/Finland/122/2008,A/Trieste/25E/2007,80
+A/Norway/848/2008,A/Trieste/25E/2007,80
+A/Norway/966/2008,A/Trieste/25E/2007,40
+A/Norway/1034/2008,A/Trieste/25E/2007,80
+A/Hong Kong/1778/2008,A/Trieste/25E/2007,160
+A/Hong Kong/1859/2008,A/Trieste/25E/2007,160
+A/Ghana/11/2008,A/Trieste/25E/2007,160
+A/Washington/42/2007,A/Trieste/25E/2007,80
+A/Mississippi/4/2008,A/Trieste/25E/2007,640
+A/Perth/201/08,A/Trieste/25E/2007,640
+A/Brisbane/24/08,A/Trieste/25E/2007,2560
+A/Wellington/2/08,A/Trieste/25E/2007,1280
+A/Singapore/21/08,A/Trieste/25E/2007,1280
+A/Ulaanbaatar/1600/2008,A/Trieste/25E/2007,160
+A/Toyama/123/2008,A/Trieste/25E/2007,160
+A/Saitama/27/2008,A/Trieste/25E/2007,160
+A/Wisconsin/67/2005,A/Wisconsin/3/2007,1280
+A/Nepal/921/2006,A/Wisconsin/3/2007,640
+A/Trieste/25c/2007,A/Wisconsin/3/2007,160
+A/Prague/3/2007,A/Wisconsin/3/2007,640
+A/Trieste/25E/2007,A/Wisconsin/3/2007,320
+A/Wisconsin/3/2007,A/Wisconsin/3/2007,2560
+A/Henan/Jinshui/147,A/Wisconsin/3/2007,320
+A/Brisbane/10/2007,A/Wisconsin/3/2007,1280
+A/Uruguay/716/2007,A/Wisconsin/3/2007,1280
+A/Finland/9/2008,A/Wisconsin/3/2007,160
+A/Hong Kong/1050/08,A/Wisconsin/3/2007,160
+A/Johannesburg/15/2008,A/Wisconsin/3/2007,160
+A/Hong Kong/796/08,A/Wisconsin/3/2007,320
+A/Geneva/8428/09,A/Wisconsin/3/2007,80
+A/Mauritius/402/2008,A/Wisconsin/3/2007,80
+A/Geneva/8417/2008,A/Wisconsin/3/2007,80
+A/Lyon/762/08,A/Wisconsin/3/2007,160
+A/Toulouse/609/08,A/Wisconsin/3/2007,160
+A/Denmark/190/2008,A/Wisconsin/3/2007,160
+A/Finland/149/2008,A/Wisconsin/3/2007,160
+A/Denmark/183/2008,A/Wisconsin/3/2007,80
+A/Denmark/185/2008,A/Wisconsin/3/2007,80
+A/Finland/122/2008,A/Wisconsin/3/2007,160
+A/Norway/848/2008,A/Wisconsin/3/2007,80
+A/Norway/966/2008,A/Wisconsin/3/2007,80
+A/Norway/1034/2008,A/Wisconsin/3/2007,160
+A/Hong Kong/1778/2008,A/Wisconsin/3/2007,320
+A/Hong Kong/1859/2008,A/Wisconsin/3/2007,160
+A/Ghana/11/2008,A/Wisconsin/3/2007,320
+A/Washington/42/2007,A/Wisconsin/3/2007,320
+A/Mississippi/4/2008,A/Wisconsin/3/2007,640
+A/Perth/201/08,A/Wisconsin/3/2007,320
+A/Brisbane/24/08,A/Wisconsin/3/2007,2560
+A/Wellington/2/08,A/Wisconsin/3/2007,2560
+A/Singapore/21/08,A/Wisconsin/3/2007,640
+A/Ulaanbaatar/1600/2008,A/Wisconsin/3/2007,80
+A/Toyama/123/2008,A/Wisconsin/3/2007,320
+A/Saitama/27/2008,A/Wisconsin/3/2007,160
+A/Wisconsin/67/2005,A/Henan/Jinshui/147/2007,5120
+A/Nepal/921/2006,A/Henan/Jinshui/147/2007,5120
+A/Trieste/25c/2007,A/Henan/Jinshui/147/2007,80
+A/Prague/3/2007,A/Henan/Jinshui/147/2007,5120
+A/Trieste/25E/2007,A/Henan/Jinshui/147/2007,5120
+A/Wisconsin/3/2007,A/Henan/Jinshui/147/2007,5120
+A/Henan/Jinshui/147,A/Henan/Jinshui/147/2007,5120
+A/Brisbane/10/2007,A/Henan/Jinshui/147/2007,5120
+A/Uruguay/716/2007,A/Henan/Jinshui/147/2007,5120
+A/Finland/9/2008,A/Henan/Jinshui/147/2007,160
+A/Hong Kong/1050/08,A/Henan/Jinshui/147/2007,80
+A/Johannesburg/15/2008,A/Henan/Jinshui/147/2007,160
+A/Hong Kong/796/08,A/Henan/Jinshui/147/2007,640
+A/Geneva/8428/09,A/Henan/Jinshui/147/2007,40
+A/Mauritius/402/2008,A/Henan/Jinshui/147/2007,40
+A/Geneva/8417/2008,A/Henan/Jinshui/147/2007,40
+A/Lyon/762/08,A/Henan/Jinshui/147/2007,160
+A/Toulouse/609/08,A/Henan/Jinshui/147/2007,160
+A/Denmark/190/2008,A/Henan/Jinshui/147/2007,80
+A/Finland/149/2008,A/Henan/Jinshui/147/2007,80
+A/Denmark/183/2008,A/Henan/Jinshui/147/2007,40
+A/Denmark/185/2008,A/Henan/Jinshui/147/2007,40
+A/Finland/122/2008,A/Henan/Jinshui/147/2007,80
+A/Norway/848/2008,A/Henan/Jinshui/147/2007,*
+A/Norway/966/2008,A/Henan/Jinshui/147/2007,*
+A/Norway/1034/2008,A/Henan/Jinshui/147/2007,*
+A/Hong Kong/1778/2008,A/Henan/Jinshui/147/2007,*
+A/Hong Kong/1859/2008,A/Henan/Jinshui/147/2007,*
+A/Ghana/11/2008,A/Henan/Jinshui/147/2007,*
+A/Washington/42/2007,A/Henan/Jinshui/147/2007,*
+A/Mississippi/4/2008,A/Henan/Jinshui/147/2007,*
+A/Perth/201/08,A/Henan/Jinshui/147/2007,*
+A/Brisbane/24/08,A/Henan/Jinshui/147/2007,*
+A/Wellington/2/08,A/Henan/Jinshui/147/2007,*
+A/Singapore/21/08,A/Henan/Jinshui/147/2007,*
+A/Ulaanbaatar/1600/2008,A/Henan/Jinshui/147/2007,*
+A/Toyama/123/2008,A/Henan/Jinshui/147/2007,*
+A/Saitama/27/2008,A/Henan/Jinshui/147/2007,*
+A/Wisconsin/67/2005,A/Brisbane/10/2007,2560
+A/Nepal/921/2006,A/Brisbane/10/2007,1280
+A/Trieste/25c/2007,A/Brisbane/10/2007,80
+A/Prague/3/2007,A/Brisbane/10/2007,640
+A/Trieste/25E/2007,A/Brisbane/10/2007,640
+A/Wisconsin/3/2007,A/Brisbane/10/2007,2560
+A/Henan/Jinshui/147,A/Brisbane/10/2007,640
+A/Brisbane/10/2007,A/Brisbane/10/2007,1280
+A/Uruguay/716/2007,A/Brisbane/10/2007,1280
+A/Finland/9/2008,A/Brisbane/10/2007,160
+A/Hong Kong/1050/08,A/Brisbane/10/2007,80
+A/Johannesburg/15/2008,A/Brisbane/10/2007,80
+A/Hong Kong/796/08,A/Brisbane/10/2007,640
+A/Geneva/8428/09,A/Brisbane/10/2007,160
+A/Mauritius/402/2008,A/Brisbane/10/2007,40
+A/Geneva/8417/2008,A/Brisbane/10/2007,40
+A/Lyon/762/08,A/Brisbane/10/2007,80
+A/Toulouse/609/08,A/Brisbane/10/2007,80
+A/Denmark/190/2008,A/Brisbane/10/2007,80
+A/Finland/149/2008,A/Brisbane/10/2007,80
+A/Denmark/183/2008,A/Brisbane/10/2007,40
+A/Denmark/185/2008,A/Brisbane/10/2007,40
+A/Finland/122/2008,A/Brisbane/10/2007,80
+A/Norway/848/2008,A/Brisbane/10/2007,80
+A/Norway/966/2008,A/Brisbane/10/2007,<40
+A/Norway/1034/2008,A/Brisbane/10/2007,80
+A/Hong Kong/1778/2008,A/Brisbane/10/2007,160
+A/Hong Kong/1859/2008,A/Brisbane/10/2007,80
+A/Ghana/11/2008,A/Brisbane/10/2007,160
+A/Washington/42/2007,A/Brisbane/10/2007,640
+A/Mississippi/4/2008,A/Brisbane/10/2007,1280
+A/Perth/201/08,A/Brisbane/10/2007,320
+A/Brisbane/24/08,A/Brisbane/10/2007,1280
+A/Wellington/2/08,A/Brisbane/10/2007,2560
+A/Singapore/21/08,A/Brisbane/10/2007,640
+A/Ulaanbaatar/1600/2008,A/Brisbane/10/2007,160
+A/Toyama/123/2008,A/Brisbane/10/2007,160
+A/Saitama/27/2008,A/Brisbane/10/2007,160
+A/Wisconsin/67/2005,A/Uruguay/716/2007,5120
+A/Nepal/921/2006,A/Uruguay/716/2007,2560
+A/Trieste/25c/2007,A/Uruguay/716/2007,80
+A/Prague/3/2007,A/Uruguay/716/2007,2560
+A/Trieste/25E/2007,A/Uruguay/716/2007,2560
+A/Wisconsin/3/2007,A/Uruguay/716/2007,5120
+A/Henan/Jinshui/147,A/Uruguay/716/2007,2560
+A/Brisbane/10/2007,A/Uruguay/716/2007,2560
+A/Uruguay/716/2007,A/Uruguay/716/2007,5120
+A/Finland/9/2008,A/Uruguay/716/2007,80
+A/Hong Kong/1050/08,A/Uruguay/716/2007,80
+A/Johannesburg/15/2008,A/Uruguay/716/2007,80
+A/Hong Kong/796/08,A/Uruguay/716/2007,160
+A/Geneva/8428/09,A/Uruguay/716/2007,80
+A/Mauritius/402/2008,A/Uruguay/716/2007,40
+A/Geneva/8417/2008,A/Uruguay/716/2007,40
+A/Lyon/762/08,A/Uruguay/716/2007,40
+A/Toulouse/609/08,A/Uruguay/716/2007,40
+A/Denmark/190/2008,A/Uruguay/716/2007,40
+A/Finland/149/2008,A/Uruguay/716/2007,40
+A/Denmark/183/2008,A/Uruguay/716/2007,40
+A/Denmark/185/2008,A/Uruguay/716/2007,40
+A/Finland/122/2008,A/Uruguay/716/2007,40
+A/Norway/848/2008,A/Uruguay/716/2007,80
+A/Norway/966/2008,A/Uruguay/716/2007,40
+A/Norway/1034/2008,A/Uruguay/716/2007,160
+A/Hong Kong/1778/2008,A/Uruguay/716/2007,320
+A/Hong Kong/1859/2008,A/Uruguay/716/2007,160
+A/Ghana/11/2008,A/Uruguay/716/2007,160
+A/Washington/42/2007,A/Uruguay/716/2007,320
+A/Mississippi/4/2008,A/Uruguay/716/2007,1280
+A/Perth/201/08,A/Uruguay/716/2007,1280
+A/Brisbane/24/08,A/Uruguay/716/2007,5120
+A/Wellington/2/08,A/Uruguay/716/2007,2560
+A/Singapore/21/08,A/Uruguay/716/2007,2560
+A/Ulaanbaatar/1600/2008,A/Uruguay/716/2007,80
+A/Toyama/123/2008,A/Uruguay/716/2007,160
+A/Saitama/27/2008,A/Uruguay/716/2007,160
+A/Wisconsin/67/2005,A/Finland/9/2008,2560
+A/Nepal/921/2006,A/Finland/9/2008,2560
+A/Trieste/25c/2007,A/Finland/9/2008,80
+A/Prague/3/2007,A/Finland/9/2008,2560
+A/Trieste/25E/2007,A/Finland/9/2008,1280
+A/Wisconsin/3/2007,A/Finland/9/2008,2560
+A/Henan/Jinshui/147,A/Finland/9/2008,1280
+A/Brisbane/10/2007,A/Finland/9/2008,2560
+A/Uruguay/716/2007,A/Finland/9/2008,2560
+A/Finland/9/2008,A/Finland/9/2008,320
+A/Hong Kong/1050/08,A/Finland/9/2008,80
+A/Johannesburg/15/2008,A/Finland/9/2008,160
+A/Hong Kong/796/08,A/Finland/9/2008,320
+A/Geneva/8428/09,A/Finland/9/2008,*
+A/Mauritius/402/2008,A/Finland/9/2008,40
+A/Geneva/8417/2008,A/Finland/9/2008,40
+A/Lyon/762/08,A/Finland/9/2008,80
+A/Toulouse/609/08,A/Finland/9/2008,80
+A/Denmark/190/2008,A/Finland/9/2008,160
+A/Finland/149/2008,A/Finland/9/2008,160
+A/Denmark/183/2008,A/Finland/9/2008,40
+A/Denmark/185/2008,A/Finland/9/2008,40
+A/Finland/122/2008,A/Finland/9/2008,160
+A/Norway/848/2008,A/Finland/9/2008,80
+A/Norway/966/2008,A/Finland/9/2008,40
+A/Norway/1034/2008,A/Finland/9/2008,80
+A/Hong Kong/1778/2008,A/Finland/9/2008,320
+A/Hong Kong/1859/2008,A/Finland/9/2008,80
+A/Ghana/11/2008,A/Finland/9/2008,160
+A/Washington/42/2007,A/Finland/9/2008,320
+A/Mississippi/4/2008,A/Finland/9/2008,640
+A/Perth/201/08,A/Finland/9/2008,640
+A/Brisbane/24/08,A/Finland/9/2008,2560
+A/Wellington/2/08,A/Finland/9/2008,1280
+A/Singapore/21/08,A/Finland/9/2008,1280
+A/Ulaanbaatar/1600/2008,A/Finland/9/2008,80
+A/Toyama/123/2008,A/Finland/9/2008,320
+A/Saitama/27/2008,A/Finland/9/2008,160
+A/Wisconsin/67/2005,A/Hong Kong/1050/08,2560
+A/Nepal/921/2006,A/Hong Kong/1050/08,2560
+A/Trieste/25c/2007,A/Hong Kong/1050/08,80
+A/Prague/3/2007,A/Hong Kong/1050/08,1280
+A/Trieste/25E/2007,A/Hong Kong/1050/08,1280
+A/Wisconsin/3/2007,A/Hong Kong/1050/08,5120
+A/Henan/Jinshui/147,A/Hong Kong/1050/08,1280
+A/Brisbane/10/2007,A/Hong Kong/1050/08,2560
+A/Uruguay/716/2007,A/Hong Kong/1050/08,2560
+A/Finland/9/2008,A/Hong Kong/1050/08,160
+A/Hong Kong/1050/08,A/Hong Kong/1050/08,160
+A/Johannesburg/15/2008,A/Hong Kong/1050/08,160
+A/Hong Kong/796/08,A/Hong Kong/1050/08,*
+A/Geneva/8428/09,A/Hong Kong/1050/08,*
+A/Mauritius/402/2008,A/Hong Kong/1050/08,80
+A/Geneva/8417/2008,A/Hong Kong/1050/08,80
+A/Lyon/762/08,A/Hong Kong/1050/08,160
+A/Toulouse/609/08,A/Hong Kong/1050/08,160
+A/Denmark/190/2008,A/Hong Kong/1050/08,160
+A/Finland/149/2008,A/Hong Kong/1050/08,160
+A/Denmark/183/2008,A/Hong Kong/1050/08,80
+A/Denmark/185/2008,A/Hong Kong/1050/08,80
+A/Finland/122/2008,A/Hong Kong/1050/08,160
+A/Norway/848/2008,A/Hong Kong/1050/08,*
+A/Norway/966/2008,A/Hong Kong/1050/08,*
+A/Norway/1034/2008,A/Hong Kong/1050/08,*
+A/Hong Kong/1778/2008,A/Hong Kong/1050/08,*
+A/Hong Kong/1859/2008,A/Hong Kong/1050/08,*
+A/Ghana/11/2008,A/Hong Kong/1050/08,*
+A/Washington/42/2007,A/Hong Kong/1050/08,*
+A/Mississippi/4/2008,A/Hong Kong/1050/08,*
+A/Perth/201/08,A/Hong Kong/1050/08,*
+A/Brisbane/24/08,A/Hong Kong/1050/08,*
+A/Wellington/2/08,A/Hong Kong/1050/08,*
+A/Singapore/21/08,A/Hong Kong/1050/08,*
+A/Ulaanbaatar/1600/2008,A/Hong Kong/1050/08,*
+A/Toyama/123/2008,A/Hong Kong/1050/08,*
+A/Saitama/27/2008,A/Hong Kong/1050/08,*
+A/Wisconsin/67/2005,A/Johannesburg/15/2008,2560
+A/Nepal/921/2006,A/Johannesburg/15/2008,5120
+A/Trieste/25c/2007,A/Johannesburg/15/2008,80
+A/Prague/3/2007,A/Johannesburg/15/2008,2560
+A/Trieste/25E/2007,A/Johannesburg/15/2008,640
+A/Wisconsin/3/2007,A/Johannesburg/15/2008,2560
+A/Henan/Jinshui/147,A/Johannesburg/15/2008,640
+A/Brisbane/10/2007,A/Johannesburg/15/2008,1280
+A/Uruguay/716/2007,A/Johannesburg/15/2008,1280
+A/Finland/9/2008,A/Johannesburg/15/2008,160
+A/Hong Kong/1050/08,A/Johannesburg/15/2008,80
+A/Johannesburg/15/2008,A/Johannesburg/15/2008,160
+A/Hong Kong/796/08,A/Johannesburg/15/2008,*
+A/Geneva/8428/09,A/Johannesburg/15/2008,*
+A/Mauritius/402/2008,A/Johannesburg/15/2008,40
+A/Geneva/8417/2008,A/Johannesburg/15/2008,40
+A/Lyon/762/08,A/Johannesburg/15/2008,80
+A/Toulouse/609/08,A/Johannesburg/15/2008,80
+A/Denmark/190/2008,A/Johannesburg/15/2008,80
+A/Finland/149/2008,A/Johannesburg/15/2008,80
+A/Denmark/183/2008,A/Johannesburg/15/2008,40
+A/Denmark/185/2008,A/Johannesburg/15/2008,40
+A/Finland/122/2008,A/Johannesburg/15/2008,80
+A/Norway/848/2008,A/Johannesburg/15/2008,80
+A/Norway/966/2008,A/Johannesburg/15/2008,40
+A/Norway/1034/2008,A/Johannesburg/15/2008,80
+A/Hong Kong/1778/2008,A/Johannesburg/15/2008,320
+A/Hong Kong/1859/2008,A/Johannesburg/15/2008,80
+A/Ghana/11/2008,A/Johannesburg/15/2008,160
+A/Washington/42/2007,A/Johannesburg/15/2008,320
+A/Mississippi/4/2008,A/Johannesburg/15/2008,1280
+A/Perth/201/08,A/Johannesburg/15/2008,320
+A/Brisbane/24/08,A/Johannesburg/15/2008,2560
+A/Wellington/2/08,A/Johannesburg/15/2008,2560
+A/Singapore/21/08,A/Johannesburg/15/2008,640
+A/Ulaanbaatar/1600/2008,A/Johannesburg/15/2008,160
+A/Toyama/123/2008,A/Johannesburg/15/2008,160
+A/Saitama/27/2008,A/Johannesburg/15/2008,80
+A/Panama/2007/99,A/Panama/2007/99,2560
+A/Fujian/411/02,A/Panama/2007/99,160
+A/Wellington/1/04,A/Panama/2007/99,320
+A/Wisconsin/67/05,A/Panama/2007/99,40
+A/Nepal/921/06,A/Panama/2007/99,<40
+A/Trieste/25c/07,A/Panama/2007/99,40
+A/Henan/147/07,A/Panama/2007/99,<40
+A/Brisbane/10/07,A/Panama/2007/99,<40
+A/Uruguay/716/07,A/Panama/2007/99,<40
+A/Finland/9/08,A/Panama/2007/99,40
+A/Hessen/6C/07,A/Panama/2007/99,40
+A/Lyon/1381/07,A/Panama/2007/99,40
+A/Berlin/20C/07,A/Panama/2007/99,<40
+A/Geneva/8428/08,A/Panama/2007/99,0
+A/Hong Kong/796/08,A/Panama/2007/99,80
+A/Hong Kong/1050/08,A/Panama/2007/99,80
+A/Johannesburg/15/08,A/Panama/2007/99,<40
+A/Mauritius/402/08,A/Panama/2007/99,<40
+A/Panama/2007/99,A/Fujian/411/02,160
+A/Fujian/411/02,A/Fujian/411/02,640
+A/Wellington/1/04,A/Fujian/411/02,160
+A/Wisconsin/67/05,A/Fujian/411/02,160
+A/Nepal/921/06,A/Fujian/411/02,160
+A/Trieste/25c/07,A/Fujian/411/02,160
+A/Henan/147/07,A/Fujian/411/02,160
+A/Brisbane/10/07,A/Fujian/411/02,80
+A/Uruguay/716/07,A/Fujian/411/02,40
+A/Finland/9/08,A/Fujian/411/02,80
+A/Hessen/6C/07,A/Fujian/411/02,160
+A/Lyon/1381/07,A/Fujian/411/02,80
+A/Berlin/20C/07,A/Fujian/411/02,80
+A/Geneva/8428/08,A/Fujian/411/02,80
+A/Hong Kong/796/08,A/Fujian/411/02,160
+A/Hong Kong/1050/08,A/Fujian/411/02,160
+A/Johannesburg/15/08,A/Fujian/411/02,160
+A/Mauritius/402/08,A/Fujian/411/02,80
+A/Panama/2007/99,A/Wellington/1/04,160
+A/Fujian/411/02,A/Wellington/1/04,80
+A/Wellington/1/04,A/Wellington/1/04,2560
+A/Wisconsin/67/05,A/Wellington/1/04,640
+A/Nepal/921/06,A/Wellington/1/04,320
+A/Trieste/25c/07,A/Wellington/1/04,320
+A/Henan/147/07,A/Wellington/1/04,320
+A/Brisbane/10/07,A/Wellington/1/04,640
+A/Uruguay/716/07,A/Wellington/1/04,80
+A/Finland/9/08,A/Wellington/1/04,160
+A/Hessen/6C/07,A/Wellington/1/04,640
+A/Lyon/1381/07,A/Wellington/1/04,80
+A/Berlin/20C/07,A/Wellington/1/04,160
+A/Geneva/8428/08,A/Wellington/1/04,80
+A/Hong Kong/796/08,A/Wellington/1/04,320
+A/Hong Kong/1050/08,A/Wellington/1/04,320
+A/Johannesburg/15/08,A/Wellington/1/04,160
+A/Mauritius/402/08,A/Wellington/1/04,160
+A/Panama/2007/99,A/Wisconsin/67/05,<40
+A/Fujian/411/02,A/Wisconsin/67/05,160
+A/Wellington/1/04,A/Wisconsin/67/05,320
+A/Wisconsin/67/05,A/Wisconsin/67/05,2560
+A/Nepal/921/06,A/Wisconsin/67/05,1280
+A/Trieste/25c/07,A/Wisconsin/67/05,1280
+A/Henan/147/07,A/Wisconsin/67/05,1280
+A/Brisbane/10/07,A/Wisconsin/67/05,2560
+A/Uruguay/716/07,A/Wisconsin/67/05,320
+A/Finland/9/08,A/Wisconsin/67/05,640
+A/Hessen/6C/07,A/Wisconsin/67/05,1280
+A/Lyon/1381/07,A/Wisconsin/67/05,320
+A/Berlin/20C/07,A/Wisconsin/67/05,640
+A/Geneva/8428/08,A/Wisconsin/67/05,320
+A/Hong Kong/796/08,A/Wisconsin/67/05,1280
+A/Hong Kong/1050/08,A/Wisconsin/67/05,1280
+A/Johannesburg/15/08,A/Wisconsin/67/05,640
+A/Mauritius/402/08,A/Wisconsin/67/05,1280
+A/Panama/2007/99,A/Nepal/921/06,<40
+A/Fujian/411/02,A/Nepal/921/06,160
+A/Wellington/1/04,A/Nepal/921/06,320
+A/Wisconsin/67/05,A/Nepal/921/06,2560
+A/Nepal/921/06,A/Nepal/921/06,5120
+A/Trieste/25c/07,A/Nepal/921/06,2560
+A/Henan/147/07,A/Nepal/921/06,1280
+A/Brisbane/10/07,A/Nepal/921/06,2560
+A/Uruguay/716/07,A/Nepal/921/06,320
+A/Finland/9/08,A/Nepal/921/06,1280
+A/Hessen/6C/07,A/Nepal/921/06,5120
+A/Lyon/1381/07,A/Nepal/921/06,160
+A/Berlin/20C/07,A/Nepal/921/06,1280
+A/Geneva/8428/08,A/Nepal/921/06,1280
+A/Hong Kong/796/08,A/Nepal/921/06,2560
+A/Hong Kong/1050/08,A/Nepal/921/06,2560
+A/Johannesburg/15/08,A/Nepal/921/06,2560
+A/Mauritius/402/08,A/Nepal/921/06,1280
+A/Panama/2007/99,A/Trieste/25c/07,<40
+A/Fujian/411/02,A/Trieste/25c/07,80
+A/Wellington/1/04,A/Trieste/25c/07,160
+A/Wisconsin/67/05,A/Trieste/25c/07,2560
+A/Nepal/921/06,A/Trieste/25c/07,1280
+A/Trieste/25c/07,A/Trieste/25c/07,2560
+A/Henan/147/07,A/Trieste/25c/07,640
+A/Brisbane/10/07,A/Trieste/25c/07,2560
+A/Uruguay/716/07,A/Trieste/25c/07,320
+A/Finland/9/08,A/Trieste/25c/07,1280
+A/Hessen/6C/07,A/Trieste/25c/07,2560
+A/Lyon/1381/07,A/Trieste/25c/07,640
+A/Berlin/20C/07,A/Trieste/25c/07,1280
+A/Geneva/8428/08,A/Trieste/25c/07,640
+A/Hong Kong/796/08,A/Trieste/25c/07,2560
+A/Hong Kong/1050/08,A/Trieste/25c/07,2560
+A/Johannesburg/15/08,A/Trieste/25c/07,2560
+A/Mauritius/402/08,A/Trieste/25c/07,2560
+A/Panama/2007/99,A/Henan/Jinshui/147/2007,<40
+A/Fujian/411/02,A/Henan/Jinshui/147/2007,160
+A/Wellington/1/04,A/Henan/Jinshui/147/2007,320
+A/Wisconsin/67/05,A/Henan/Jinshui/147/2007,2560
+A/Nepal/921/06,A/Henan/Jinshui/147/2007,5120
+A/Trieste/25c/07,A/Henan/Jinshui/147/2007,2560
+A/Henan/147/07,A/Henan/Jinshui/147/2007,2560
+A/Brisbane/10/07,A/Henan/Jinshui/147/2007,2560
+A/Uruguay/716/07,A/Henan/Jinshui/147/2007,1280
+A/Finland/9/08,A/Henan/Jinshui/147/2007,2560
+A/Hessen/6C/07,A/Henan/Jinshui/147/2007,5120
+A/Lyon/1381/07,A/Henan/Jinshui/147/2007,320
+A/Berlin/20C/07,A/Henan/Jinshui/147/2007,1280
+A/Geneva/8428/08,A/Henan/Jinshui/147/2007,1280
+A/Hong Kong/796/08,A/Henan/Jinshui/147/2007,2560
+A/Hong Kong/1050/08,A/Henan/Jinshui/147/2007,2560
+A/Johannesburg/15/08,A/Henan/Jinshui/147/2007,2560
+A/Mauritius/402/08,A/Henan/Jinshui/147/2007,1280
+A/Panama/2007/99,A/Brisbane/10/07,<40
+A/Fujian/411/02,A/Brisbane/10/07,160
+A/Wellington/1/04,A/Brisbane/10/07,320
+A/Wisconsin/67/05,A/Brisbane/10/07,2560
+A/Nepal/921/06,A/Brisbane/10/07,2560
+A/Trieste/25c/07,A/Brisbane/10/07,2560
+A/Henan/147/07,A/Brisbane/10/07,1280
+A/Brisbane/10/07,A/Brisbane/10/07,2560
+A/Uruguay/716/07,A/Brisbane/10/07,320
+A/Finland/9/08,A/Brisbane/10/07,1280
+A/Hessen/6C/07,A/Brisbane/10/07,2560
+A/Lyon/1381/07,A/Brisbane/10/07,640
+A/Berlin/20C/07,A/Brisbane/10/07,1280
+A/Geneva/8428/08,A/Brisbane/10/07,640
+A/Hong Kong/796/08,A/Brisbane/10/07,2560
+A/Hong Kong/1050/08,A/Brisbane/10/07,1280
+A/Johannesburg/15/08,A/Brisbane/10/07,1280
+A/Mauritius/402/08,A/Brisbane/10/07,1280
+A/Panama/2007/99,A/Uruguay/716/07,*
+A/Fujian/411/02,A/Uruguay/716/07,80
+A/Wellington/1/04,A/Uruguay/716/07,320
+A/Wisconsin/67/05,A/Uruguay/716/07,*
+A/Nepal/921/06,A/Uruguay/716/07,*
+A/Trieste/25c/07,A/Uruguay/716/07,*
+A/Henan/147/07,A/Uruguay/716/07,*
+A/Brisbane/10/07,A/Uruguay/716/07,*
+A/Uruguay/716/07,A/Uruguay/716/07,640
+A/Finland/9/08,A/Uruguay/716/07,2560
+A/Hessen/6C/07,A/Uruguay/716/07,2560
+A/Lyon/1381/07,A/Uruguay/716/07,640
+A/Berlin/20C/07,A/Uruguay/716/07,1280
+A/Geneva/8428/08,A/Uruguay/716/07,640
+A/Hong Kong/796/08,A/Uruguay/716/07,2560
+A/Hong Kong/1050/08,A/Uruguay/716/07,2560
+A/Johannesburg/15/08,A/Uruguay/716/07,2560
+A/Mauritius/402/08,A/Uruguay/716/07,2560
+A/Panama/2007/99,A/Finland/9/08,*
+A/Fujian/411/02,A/Finland/9/08,160
+A/Wellington/1/04,A/Finland/9/08,320
+A/Wisconsin/67/05,A/Finland/9/08,*
+A/Nepal/921/06,A/Finland/9/08,*
+A/Trieste/25c/07,A/Finland/9/08,*
+A/Henan/147/07,A/Finland/9/08,*
+A/Brisbane/10/07,A/Finland/9/08,*
+A/Uruguay/716/07,A/Finland/9/08,320
+A/Finland/9/08,A/Finland/9/08,2560
+A/Hessen/6C/07,A/Finland/9/08,*
+A/Lyon/1381/07,A/Finland/9/08,*
+A/Berlin/20C/07,A/Finland/9/08,640
+A/Geneva/8428/08,A/Finland/9/08,*
+A/Hong Kong/796/08,A/Finland/9/08,2560
+A/Hong Kong/1050/08,A/Finland/9/08,1280
+A/Johannesburg/15/08,A/Finland/9/08,1280
+A/Mauritius/402/08,A/Finland/9/08,1280

@@ -1,0 +1,1522 @@
+Test Virus,Reference Virus,Titre
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,160
+A/Bretagne/1413/2017,A/Stockholm/6/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Stockholm/6/2014,40
+A/Hong Kong/656/2018,A/Stockholm/6/2014,320
+A/Switzerland/8060/2017,A/Stockholm/6/2014,40
+A/Norway/2620/2018,A/Stockholm/6/2014,*
+A/England/538/2018,A/Stockholm/6/2014,40
+A/Beijing-Huairou/1557/2018,A/Stockholm/6/2014,80
+A/Guizhou-Nanming/1958/2018,A/Stockholm/6/2014,80
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,160
+A/Bretagne/1413/2017,A/Hong Kong/5738/2014,80
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/5738/2014,80
+A/Hong Kong/656/2018,A/Hong Kong/5738/2014,640
+A/Switzerland/8060/2017,A/Hong Kong/5738/2014,80
+A/Norway/2620/2018,A/Hong Kong/5738/2014,*
+A/England/538/2018,A/Hong Kong/5738/2014,40
+A/Beijing-Huairou/1557/2018,A/Hong Kong/5738/2014,40
+A/Guizhou-Nanming/1958/2018,A/Hong Kong/5738/2014,40
+A/Stockholm/6/2014,A/Bretagne/1413/2017,80
+A/Hong Kong/5738/2014,A/Bretagne/1413/2017,160
+A/Bretagne/1413/2017,A/Bretagne/1413/2017,1280
+A/Singapore/INFIMH-16-0019/2016,A/Bretagne/1413/2017,80
+A/Hong Kong/656/2018,A/Bretagne/1413/2017,1280
+A/Switzerland/8060/2017,A/Bretagne/1413/2017,1280
+A/Norway/2620/2018,A/Bretagne/1413/2017,*
+A/England/538/2018,A/Bretagne/1413/2017,80
+A/Beijing-Huairou/1557/2018,A/Bretagne/1413/2017,40
+A/Guizhou-Nanming/1958/2018,A/Bretagne/1413/2017,160
+A/Stockholm/6/2014,A/Norway/4436/2016,320
+A/Hong Kong/5738/2014,A/Norway/4436/2016,320
+A/Bretagne/1413/2017,A/Norway/4436/2016,320
+A/Singapore/INFIMH-16-0019/2016,A/Norway/4436/2016,160
+A/Hong Kong/656/2018,A/Norway/4436/2016,640
+A/Switzerland/8060/2017,A/Norway/4436/2016,160
+A/Norway/2620/2018,A/Norway/4436/2016,*
+A/England/538/2018,A/Norway/4436/2016,160
+A/Beijing-Huairou/1557/2018,A/Norway/4436/2016,80
+A/Guizhou-Nanming/1958/2018,A/Norway/4436/2016,160
+A/Stockholm/6/2014,A/Greece/4/2017,160
+A/Hong Kong/5738/2014,A/Greece/4/2017,320
+A/Bretagne/1413/2017,A/Greece/4/2017,160
+A/Singapore/INFIMH-16-0019/2016,A/Greece/4/2017,160
+A/Hong Kong/656/2018,A/Greece/4/2017,320
+A/Switzerland/8060/2017,A/Greece/4/2017,320
+A/Norway/2620/2018,A/Greece/4/2017,*
+A/England/538/2018,A/Greece/4/2017,80
+A/Beijing-Huairou/1557/2018,A/Greece/4/2017,160
+A/Guizhou-Nanming/1958/2018,A/Greece/4/2017,80
+A/Stockholm/6/2014,A/Singapore/INFIMH-16-0019/2016,160
+A/Hong Kong/5738/2014,A/Singapore/INFIMH-16-0019/2016,320
+A/Bretagne/1413/2017,A/Singapore/INFIMH-16-0019/2016,160
+A/Singapore/INFIMH-16-0019/2016,A/Singapore/INFIMH-16-0019/2016,640
+A/Hong Kong/656/2018,A/Singapore/INFIMH-16-0019/2016,320
+A/Switzerland/8060/2017,A/Singapore/INFIMH-16-0019/2016,640
+A/Norway/2620/2018,A/Singapore/INFIMH-16-0019/2016,320
+A/England/538/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/Beijing-Huairou/1557/2018,A/Singapore/INFIMH-16-0019/2016,80
+A/Guizhou-Nanming/1958/2018,A/Singapore/INFIMH-16-0019/2016,80
+A/Stockholm/6/2014,A/Hong Kong/656/2018,160
+A/Hong Kong/5738/2014,A/Hong Kong/656/2018,320
+A/Bretagne/1413/2017,A/Hong Kong/656/2018,1280
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/656/2018,80
+A/Hong Kong/656/2018,A/Hong Kong/656/2018,2560
+A/Switzerland/8060/2017,A/Hong Kong/656/2018,1280
+A/Norway/2620/2018,A/Hong Kong/656/2018,*
+A/England/538/2018,A/Hong Kong/656/2018,80
+A/Beijing-Huairou/1557/2018,A/Hong Kong/656/2018,40
+A/Guizhou-Nanming/1958/2018,A/Hong Kong/656/2018,160
+A/Stockholm/6/2014,A/La Rioja/2202/2018,160
+A/Hong Kong/5738/2014,A/La Rioja/2202/2018,160
+A/Bretagne/1413/2017,A/La Rioja/2202/2018,160
+A/Singapore/INFIMH-16-0019/2016,A/La Rioja/2202/2018,320
+A/Hong Kong/656/2018,A/La Rioja/2202/2018,640
+A/Switzerland/8060/2017,A/La Rioja/2202/2018,160
+A/Norway/2620/2018,A/La Rioja/2202/2018,*
+A/England/538/2018,A/La Rioja/2202/2018,<40
+A/Beijing-Huairou/1557/2018,A/La Rioja/2202/2018,160
+A/Guizhou-Nanming/1958/2018,A/La Rioja/2202/2018,80
+A/Stockholm/6/2014,A/Switzerland/8060/2017,320
+A/Hong Kong/5738/2014,A/Switzerland/8060/2017,320
+A/Bretagne/1413/2017,A/Switzerland/8060/2017,1280
+A/Singapore/INFIMH-16-0019/2016,A/Switzerland/8060/2017,160
+A/Hong Kong/656/2018,A/Switzerland/8060/2017,2560
+A/Switzerland/8060/2017,A/Switzerland/8060/2017,1280
+A/Norway/2620/2018,A/Switzerland/8060/2017,*
+A/England/538/2018,A/Switzerland/8060/2017,40
+A/Beijing-Huairou/1557/2018,A/Switzerland/8060/2017,80
+A/Guizhou-Nanming/1958/2018,A/Switzerland/8060/2017,160
+A/Stockholm/6/2014,A/Norway/2516/2018,160
+A/Hong Kong/5738/2014,A/Norway/2516/2018,160
+A/Bretagne/1413/2017,A/Norway/2516/2018,160
+A/Singapore/INFIMH-16-0019/2016,A/Norway/2516/2018,80
+A/Hong Kong/656/2018,A/Norway/2516/2018,320
+A/Switzerland/8060/2017,A/Norway/2516/2018,80
+A/Norway/2620/2018,A/Norway/2516/2018,*
+A/England/538/2018,A/Norway/2516/2018,160
+A/Beijing-Huairou/1557/2018,A/Norway/2516/2018,<40
+A/Guizhou-Nanming/1958/2018,A/Norway/2516/2018,40
+A/Stockholm/6/2014,A/Norway/2620/2018,160
+A/Hong Kong/5738/2014,A/Norway/2620/2018,80
+A/Bretagne/1413/2017,A/Norway/2620/2018,80
+A/Singapore/INFIMH-16-0019/2016,A/Norway/2620/2018,160
+A/Hong Kong/656/2018,A/Norway/2620/2018,160
+A/Switzerland/8060/2017,A/Norway/2620/2018,160
+A/Norway/2620/2018,A/Norway/2620/2018,320
+A/England/538/2018,A/Norway/2620/2018,80
+A/Beijing-Huairou/1557/2018,A/Norway/2620/2018,80
+A/Guizhou-Nanming/1958/2018,A/Norway/2620/2018,40
+A/Stockholm/6/2014,A/England/538/2018,160
+A/Hong Kong/5738/2014,A/England/538/2018,80
+A/Bretagne/1413/2017,A/England/538/2018,80
+A/Singapore/INFIMH-16-0019/2016,A/England/538/2018,160
+A/Hong Kong/656/2018,A/England/538/2018,320
+A/Switzerland/8060/2017,A/England/538/2018,160
+A/Norway/2620/2018,A/England/538/2018,*
+A/England/538/2018,A/England/538/2018,320
+A/Beijing-Huairou/1557/2018,A/England/538/2018,40
+A/Guizhou-Nanming/1958/2018,A/England/538/2018,40
+A/Stockholm/6/2014,A/Hong Kong/675/2018,160
+A/Hong Kong/5738/2014,A/Hong Kong/675/2018,160
+A/Bretagne/1413/2017,A/Hong Kong/675/2018,160
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/675/2018,160
+A/Hong Kong/656/2018,A/Hong Kong/675/2018,640
+A/Switzerland/8060/2017,A/Hong Kong/675/2018,160
+A/Norway/2620/2018,A/Hong Kong/675/2018,*
+A/England/538/2018,A/Hong Kong/675/2018,80
+A/Beijing-Huairou/1557/2018,A/Hong Kong/675/2018,40
+A/Guizhou-Nanming/1958/2018,A/Hong Kong/675/2018,40
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,40
+A/Bretagne/1413/2017,A/Stockholm/6/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Stockholm/6/2014,40
+A/Hong Kong/656/2018,A/Stockholm/6/2014,320
+A/Switzerland/8060/2017,A/Stockholm/6/2014,40
+A/Kanagawa/IC1618/2017,A/Stockholm/6/2014,<40
+A/Kanagawa/AC1624/2017,A/Stockholm/6/2014,160
+A/Brisbane/190/2017,A/Stockholm/6/2014,160
+A/Brisbane/01/2018,A/Stockholm/6/2014,40
+A/Singapore/GP0454/2018,A/Stockholm/6/2014,40
+A/Sydney/22/2018,A/Stockholm/6/2014,80
+A/Singapore/KK0259/2018,A/Stockholm/6/2014,<40
+A/Brisbane/34/2018,A/Stockholm/6/2014,40
+A/Brisbane/43/2018,A/Stockholm/6/2014,40
+A/Zaragoza/490/2018,A/Stockholm/6/2014,160
+A/Zaragoza/491/2018,A/Stockholm/6/2014,80
+A/Tyumen/RII-01/2018,A/Stockholm/6/2014,320
+A/Zaragoza/489/2018,A/Stockholm/6/2014,160
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,80
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,80
+A/Bretagne/1413/2017,A/Hong Kong/5738/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/5738/2014,80
+A/Hong Kong/656/2018,A/Hong Kong/5738/2014,320
+A/Switzerland/8060/2017,A/Hong Kong/5738/2014,160
+A/Kanagawa/IC1618/2017,A/Hong Kong/5738/2014,80
+A/Kanagawa/AC1624/2017,A/Hong Kong/5738/2014,320
+A/Brisbane/190/2017,A/Hong Kong/5738/2014,320
+A/Brisbane/01/2018,A/Hong Kong/5738/2014,160
+A/Singapore/GP0454/2018,A/Hong Kong/5738/2014,<40
+A/Sydney/22/2018,A/Hong Kong/5738/2014,80
+A/Singapore/KK0259/2018,A/Hong Kong/5738/2014,80
+A/Brisbane/34/2018,A/Hong Kong/5738/2014,<40
+A/Brisbane/43/2018,A/Hong Kong/5738/2014,160
+A/Zaragoza/490/2018,A/Hong Kong/5738/2014,160
+A/Zaragoza/491/2018,A/Hong Kong/5738/2014,80
+A/Tyumen/RII-01/2018,A/Hong Kong/5738/2014,320
+A/Zaragoza/489/2018,A/Hong Kong/5738/2014,80
+A/Stockholm/6/2014,A/Bretagne/1413/2017,160
+A/Hong Kong/5738/2014,A/Bretagne/1413/2017,160
+A/Bretagne/1413/2017,A/Bretagne/1413/2017,640
+A/Singapore/INFIMH-16-0019/2016,A/Bretagne/1413/2017,80
+A/Hong Kong/656/2018,A/Bretagne/1413/2017,640
+A/Switzerland/8060/2017,A/Bretagne/1413/2017,1280
+A/Kanagawa/IC1618/2017,A/Bretagne/1413/2017,1280
+A/Kanagawa/AC1624/2017,A/Bretagne/1413/2017,640
+A/Brisbane/190/2017,A/Bretagne/1413/2017,5120
+A/Brisbane/01/2018,A/Bretagne/1413/2017,1280
+A/Singapore/GP0454/2018,A/Bretagne/1413/2017,<40
+A/Sydney/22/2018,A/Bretagne/1413/2017,80
+A/Singapore/KK0259/2018,A/Bretagne/1413/2017,1280
+A/Brisbane/34/2018,A/Bretagne/1413/2017,<40
+A/Brisbane/43/2018,A/Bretagne/1413/2017,1280
+A/Zaragoza/490/2018,A/Bretagne/1413/2017,320
+A/Zaragoza/491/2018,A/Bretagne/1413/2017,160
+A/Tyumen/RII-01/2018,A/Bretagne/1413/2017,320
+A/Zaragoza/489/2018,A/Bretagne/1413/2017,160
+A/Stockholm/6/2014,A/Norway/4436/2016,320
+A/Hong Kong/5738/2014,A/Norway/4436/2016,160
+A/Bretagne/1413/2017,A/Norway/4436/2016,320
+A/Singapore/INFIMH-16-0019/2016,A/Norway/4436/2016,160
+A/Hong Kong/656/2018,A/Norway/4436/2016,320
+A/Switzerland/8060/2017,A/Norway/4436/2016,160
+A/Kanagawa/IC1618/2017,A/Norway/4436/2016,80
+A/Kanagawa/AC1624/2017,A/Norway/4436/2016,640
+A/Brisbane/190/2017,A/Norway/4436/2016,320
+A/Brisbane/01/2018,A/Norway/4436/2016,160
+A/Singapore/GP0454/2018,A/Norway/4436/2016,<40
+A/Sydney/22/2018,A/Norway/4436/2016,160
+A/Singapore/KK0259/2018,A/Norway/4436/2016,80
+A/Brisbane/34/2018,A/Norway/4436/2016,40
+A/Brisbane/43/2018,A/Norway/4436/2016,160
+A/Zaragoza/490/2018,A/Norway/4436/2016,320
+A/Zaragoza/491/2018,A/Norway/4436/2016,160
+A/Tyumen/RII-01/2018,A/Norway/4436/2016,320
+A/Zaragoza/489/2018,A/Norway/4436/2016,160
+A/Stockholm/6/2014,A/Greece/4/2017,320
+A/Hong Kong/5738/2014,A/Greece/4/2017,160
+A/Bretagne/1413/2017,A/Greece/4/2017,320
+A/Singapore/INFIMH-16-0019/2016,A/Greece/4/2017,320
+A/Hong Kong/656/2018,A/Greece/4/2017,320
+A/Switzerland/8060/2017,A/Greece/4/2017,320
+A/Kanagawa/IC1618/2017,A/Greece/4/2017,160
+A/Kanagawa/AC1624/2017,A/Greece/4/2017,320
+A/Brisbane/190/2017,A/Greece/4/2017,640
+A/Brisbane/01/2018,A/Greece/4/2017,320
+A/Singapore/GP0454/2018,A/Greece/4/2017,40
+A/Sydney/22/2018,A/Greece/4/2017,640
+A/Singapore/KK0259/2018,A/Greece/4/2017,160
+A/Brisbane/34/2018,A/Greece/4/2017,<40
+A/Brisbane/43/2018,A/Greece/4/2017,320
+A/Zaragoza/490/2018,A/Greece/4/2017,320
+A/Zaragoza/491/2018,A/Greece/4/2017,80
+A/Tyumen/RII-01/2018,A/Greece/4/2017,320
+A/Zaragoza/489/2018,A/Greece/4/2017,160
+A/Stockholm/6/2014,A/Singapore/INFIMH-16-0019/2016,160
+A/Hong Kong/5738/2014,A/Singapore/INFIMH-16-0019/2016,160
+A/Bretagne/1413/2017,A/Singapore/INFIMH-16-0019/2016,160
+A/Singapore/INFIMH-16-0019/2016,A/Singapore/INFIMH-16-0019/2016,1280
+A/Hong Kong/656/2018,A/Singapore/INFIMH-16-0019/2016,320
+A/Switzerland/8060/2017,A/Singapore/INFIMH-16-0019/2016,640
+A/Kanagawa/IC1618/2017,A/Singapore/INFIMH-16-0019/2016,320
+A/Kanagawa/AC1624/2017,A/Singapore/INFIMH-16-0019/2016,320
+A/Brisbane/190/2017,A/Singapore/INFIMH-16-0019/2016,1280
+A/Brisbane/01/2018,A/Singapore/INFIMH-16-0019/2016,640
+A/Singapore/GP0454/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/Sydney/22/2018,A/Singapore/INFIMH-16-0019/2016,1280
+A/Singapore/KK0259/2018,A/Singapore/INFIMH-16-0019/2016,320
+A/Brisbane/34/2018,A/Singapore/INFIMH-16-0019/2016,<40
+A/Brisbane/43/2018,A/Singapore/INFIMH-16-0019/2016,640
+A/Zaragoza/490/2018,A/Singapore/INFIMH-16-0019/2016,320
+A/Zaragoza/491/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Tyumen/RII-01/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Zaragoza/489/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Stockholm/6/2014,A/Hong Kong/656/2018,160
+A/Hong Kong/5738/2014,A/Hong Kong/656/2018,160
+A/Bretagne/1413/2017,A/Hong Kong/656/2018,1280
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/656/2018,160
+A/Hong Kong/656/2018,A/Hong Kong/656/2018,1280
+A/Switzerland/8060/2017,A/Hong Kong/656/2018,2560
+A/Kanagawa/IC1618/2017,A/Hong Kong/656/2018,1280
+A/Kanagawa/AC1624/2017,A/Hong Kong/656/2018,640
+A/Brisbane/190/2017,A/Hong Kong/656/2018,5120
+A/Brisbane/01/2018,A/Hong Kong/656/2018,1280
+A/Singapore/GP0454/2018,A/Hong Kong/656/2018,40
+A/Sydney/22/2018,A/Hong Kong/656/2018,160
+A/Singapore/KK0259/2018,A/Hong Kong/656/2018,2560
+A/Brisbane/34/2018,A/Hong Kong/656/2018,40
+A/Brisbane/43/2018,A/Hong Kong/656/2018,1280
+A/Zaragoza/490/2018,A/Hong Kong/656/2018,320
+A/Zaragoza/491/2018,A/Hong Kong/656/2018,160
+A/Tyumen/RII-01/2018,A/Hong Kong/656/2018,320
+A/Zaragoza/489/2018,A/Hong Kong/656/2018,160
+A/Stockholm/6/2014,A/La Rioja/2202/2018,160
+A/Hong Kong/5738/2014,A/La Rioja/2202/2018,80
+A/Bretagne/1413/2017,A/La Rioja/2202/2018,160
+A/Singapore/INFIMH-16-0019/2016,A/La Rioja/2202/2018,320
+A/Hong Kong/656/2018,A/La Rioja/2202/2018,160
+A/Switzerland/8060/2017,A/La Rioja/2202/2018,320
+A/Kanagawa/IC1618/2017,A/La Rioja/2202/2018,80
+A/Kanagawa/AC1624/2017,A/La Rioja/2202/2018,320
+A/Brisbane/190/2017,A/La Rioja/2202/2018,320
+A/Brisbane/01/2018,A/La Rioja/2202/2018,160
+A/Singapore/GP0454/2018,A/La Rioja/2202/2018,40
+A/Sydney/22/2018,A/La Rioja/2202/2018,320
+A/Singapore/KK0259/2018,A/La Rioja/2202/2018,160
+A/Brisbane/34/2018,A/La Rioja/2202/2018,<40
+A/Brisbane/43/2018,A/La Rioja/2202/2018,160
+A/Zaragoza/490/2018,A/La Rioja/2202/2018,160
+A/Zaragoza/491/2018,A/La Rioja/2202/2018,80
+A/Tyumen/RII-01/2018,A/La Rioja/2202/2018,160
+A/Zaragoza/489/2018,A/La Rioja/2202/2018,80
+A/Stockholm/6/2014,A/Switzerland/8060/2017,320
+A/Hong Kong/5738/2014,A/Switzerland/8060/2017,160
+A/Bretagne/1413/2017,A/Switzerland/8060/2017,1280
+A/Singapore/INFIMH-16-0019/2016,A/Switzerland/8060/2017,160
+A/Hong Kong/656/2018,A/Switzerland/8060/2017,1280
+A/Switzerland/8060/2017,A/Switzerland/8060/2017,2560
+A/Kanagawa/IC1618/2017,A/Switzerland/8060/2017,1280
+A/Kanagawa/AC1624/2017,A/Switzerland/8060/2017,640
+A/Brisbane/190/2017,A/Switzerland/8060/2017,5120
+A/Brisbane/01/2018,A/Switzerland/8060/2017,2560
+A/Singapore/GP0454/2018,A/Switzerland/8060/2017,80
+A/Sydney/22/2018,A/Switzerland/8060/2017,320
+A/Singapore/KK0259/2018,A/Switzerland/8060/2017,2560
+A/Brisbane/34/2018,A/Switzerland/8060/2017,<40
+A/Brisbane/43/2018,A/Switzerland/8060/2017,1280
+A/Zaragoza/490/2018,A/Switzerland/8060/2017,320
+A/Zaragoza/491/2018,A/Switzerland/8060/2017,160
+A/Tyumen/RII-01/2018,A/Switzerland/8060/2017,320
+A/Zaragoza/489/2018,A/Switzerland/8060/2017,320
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,160
+A/Bretagne/1413/2017,A/Stockholm/6/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Stockholm/6/2014,40
+A/Hong Kong/656/2018,A/Stockholm/6/2014,160
+A/Switzerland/8060/2017,A/Stockholm/6/2014,40
+A/Zaragoza/1476697/2018,A/Stockholm/6/2014,160
+A/Zaragoza/1485189/2018,A/Stockholm/6/2014,80
+A/Zaragoza/1496248/2018,A/Stockholm/6/2014,320
+A/Zaragoza/490/2018,A/Stockholm/6/2014,160
+A/Zaragoza/491/2018,A/Stockholm/6/2014,80
+A/Zaragoza/1512154/2018,A/Stockholm/6/2014,80
+A/Zaragoza/492/2018,A/Stockholm/6/2014,160
+A/Zaragoza/489/2018,A/Stockholm/6/2014,160
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,160
+A/Bretagne/1413/2017,A/Hong Kong/5738/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/5738/2014,80
+A/Hong Kong/656/2018,A/Hong Kong/5738/2014,320
+A/Switzerland/8060/2017,A/Hong Kong/5738/2014,160
+A/Zaragoza/1476697/2018,A/Hong Kong/5738/2014,160
+A/Zaragoza/1485189/2018,A/Hong Kong/5738/2014,160
+A/Zaragoza/1496248/2018,A/Hong Kong/5738/2014,320
+A/Zaragoza/490/2018,A/Hong Kong/5738/2014,160
+A/Zaragoza/491/2018,A/Hong Kong/5738/2014,80
+A/Zaragoza/1512154/2018,A/Hong Kong/5738/2014,160
+A/Zaragoza/492/2018,A/Hong Kong/5738/2014,320
+A/Zaragoza/489/2018,A/Hong Kong/5738/2014,160
+A/Stockholm/6/2014,A/Bretagne/1413/2017,160
+A/Hong Kong/5738/2014,A/Bretagne/1413/2017,160
+A/Bretagne/1413/2017,A/Bretagne/1413/2017,1280
+A/Singapore/INFIMH-16-0019/2016,A/Bretagne/1413/2017,80
+A/Hong Kong/656/2018,A/Bretagne/1413/2017,640
+A/Switzerland/8060/2017,A/Bretagne/1413/2017,1280
+A/Zaragoza/1476697/2018,A/Bretagne/1413/2017,160
+A/Zaragoza/1485189/2018,A/Bretagne/1413/2017,160
+A/Zaragoza/1496248/2018,A/Bretagne/1413/2017,320
+A/Zaragoza/490/2018,A/Bretagne/1413/2017,320
+A/Zaragoza/491/2018,A/Bretagne/1413/2017,160
+A/Zaragoza/1512154/2018,A/Bretagne/1413/2017,160
+A/Zaragoza/492/2018,A/Bretagne/1413/2017,320
+A/Zaragoza/489/2018,A/Bretagne/1413/2017,320
+A/Stockholm/6/2014,A/Norway/4436/2016,160
+A/Hong Kong/5738/2014,A/Norway/4436/2016,160
+A/Bretagne/1413/2017,A/Norway/4436/2016,320
+A/Singapore/INFIMH-16-0019/2016,A/Norway/4436/2016,160
+A/Hong Kong/656/2018,A/Norway/4436/2016,320
+A/Switzerland/8060/2017,A/Norway/4436/2016,160
+A/Zaragoza/1476697/2018,A/Norway/4436/2016,320
+A/Zaragoza/1485189/2018,A/Norway/4436/2016,320
+A/Zaragoza/1496248/2018,A/Norway/4436/2016,640
+A/Zaragoza/490/2018,A/Norway/4436/2016,320
+A/Zaragoza/491/2018,A/Norway/4436/2016,320
+A/Zaragoza/1512154/2018,A/Norway/4436/2016,320
+A/Zaragoza/492/2018,A/Norway/4436/2016,640
+A/Zaragoza/489/2018,A/Norway/4436/2016,320
+A/Stockholm/6/2014,A/Greece/4/2017,160
+A/Hong Kong/5738/2014,A/Greece/4/2017,160
+A/Bretagne/1413/2017,A/Greece/4/2017,320
+A/Singapore/INFIMH-16-0019/2016,A/Greece/4/2017,160
+A/Hong Kong/656/2018,A/Greece/4/2017,320
+A/Switzerland/8060/2017,A/Greece/4/2017,320
+A/Zaragoza/1476697/2018,A/Greece/4/2017,160
+A/Zaragoza/1485189/2018,A/Greece/4/2017,160
+A/Zaragoza/1496248/2018,A/Greece/4/2017,320
+A/Zaragoza/490/2018,A/Greece/4/2017,160
+A/Zaragoza/491/2018,A/Greece/4/2017,160
+A/Zaragoza/1512154/2018,A/Greece/4/2017,160
+A/Zaragoza/492/2018,A/Greece/4/2017,320
+A/Zaragoza/489/2018,A/Greece/4/2017,160
+A/Stockholm/6/2014,A/Singapore/INFIMH-16-0019/2016,160
+A/Hong Kong/5738/2014,A/Singapore/INFIMH-16-0019/2016,160
+A/Bretagne/1413/2017,A/Singapore/INFIMH-16-0019/2016,160
+A/Singapore/INFIMH-16-0019/2016,A/Singapore/INFIMH-16-0019/2016,640
+A/Hong Kong/656/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Switzerland/8060/2017,A/Singapore/INFIMH-16-0019/2016,640
+A/Zaragoza/1476697/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Zaragoza/1485189/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Zaragoza/1496248/2018,A/Singapore/INFIMH-16-0019/2016,320
+A/Zaragoza/490/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Zaragoza/491/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Zaragoza/1512154/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Zaragoza/492/2018,A/Singapore/INFIMH-16-0019/2016,320
+A/Zaragoza/489/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Stockholm/6/2014,A/Hong Kong/656/2018,160
+A/Hong Kong/5738/2014,A/Hong Kong/656/2018,160
+A/Bretagne/1413/2017,A/Hong Kong/656/2018,1280
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/656/2018,80
+A/Hong Kong/656/2018,A/Hong Kong/656/2018,1280
+A/Switzerland/8060/2017,A/Hong Kong/656/2018,2560
+A/Zaragoza/1476697/2018,A/Hong Kong/656/2018,80
+A/Zaragoza/1485189/2018,A/Hong Kong/656/2018,160
+A/Zaragoza/1496248/2018,A/Hong Kong/656/2018,320
+A/Zaragoza/490/2018,A/Hong Kong/656/2018,160
+A/Zaragoza/491/2018,A/Hong Kong/656/2018,80
+A/Zaragoza/1512154/2018,A/Hong Kong/656/2018,160
+A/Zaragoza/492/2018,A/Hong Kong/656/2018,320
+A/Zaragoza/489/2018,A/Hong Kong/656/2018,160
+A/Stockholm/6/2014,A/La Rioja/2202/2018,160
+A/Hong Kong/5738/2014,A/La Rioja/2202/2018,160
+A/Bretagne/1413/2017,A/La Rioja/2202/2018,160
+A/Singapore/INFIMH-16-0019/2016,A/La Rioja/2202/2018,320
+A/Hong Kong/656/2018,A/La Rioja/2202/2018,160
+A/Switzerland/8060/2017,A/La Rioja/2202/2018,320
+A/Zaragoza/1476697/2018,A/La Rioja/2202/2018,80
+A/Zaragoza/1485189/2018,A/La Rioja/2202/2018,80
+A/Zaragoza/1496248/2018,A/La Rioja/2202/2018,160
+A/Zaragoza/490/2018,A/La Rioja/2202/2018,80
+A/Zaragoza/491/2018,A/La Rioja/2202/2018,80
+A/Zaragoza/1512154/2018,A/La Rioja/2202/2018,80
+A/Zaragoza/492/2018,A/La Rioja/2202/2018,160
+A/Zaragoza/489/2018,A/La Rioja/2202/2018,80
+A/Stockholm/6/2014,A/Switzerland/8060/2017,320
+A/Hong Kong/5738/2014,A/Switzerland/8060/2017,320
+A/Bretagne/1413/2017,A/Switzerland/8060/2017,1280
+A/Singapore/INFIMH-16-0019/2016,A/Switzerland/8060/2017,160
+A/Hong Kong/656/2018,A/Switzerland/8060/2017,640
+A/Switzerland/8060/2017,A/Switzerland/8060/2017,2560
+A/Zaragoza/1476697/2018,A/Switzerland/8060/2017,160
+A/Zaragoza/1485189/2018,A/Switzerland/8060/2017,160
+A/Zaragoza/1496248/2018,A/Switzerland/8060/2017,640
+A/Zaragoza/490/2018,A/Switzerland/8060/2017,320
+A/Zaragoza/491/2018,A/Switzerland/8060/2017,320
+A/Zaragoza/1512154/2018,A/Switzerland/8060/2017,320
+A/Zaragoza/492/2018,A/Switzerland/8060/2017,640
+A/Zaragoza/489/2018,A/Switzerland/8060/2017,320
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,160
+A/Bretagne/1413/2017,A/Stockholm/6/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Stockholm/6/2014,40
+A/Hong Kong/656/2018,A/Stockholm/6/2014,160
+A/Switzerland/8060/2017,A/Stockholm/6/2014,40
+A/Zaragoza/1528894/2018,A/Stockholm/6/2014,80
+A/Zaragoza/493/2018,A/Stockholm/6/2014,40
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,80
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,160
+A/Bretagne/1413/2017,A/Hong Kong/5738/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/5738/2014,40
+A/Hong Kong/656/2018,A/Hong Kong/5738/2014,320
+A/Switzerland/8060/2017,A/Hong Kong/5738/2014,160
+A/Zaragoza/1528894/2018,A/Hong Kong/5738/2014,80
+A/Zaragoza/493/2018,A/Hong Kong/5738/2014,80
+A/Stockholm/6/2014,A/Bretagne/1413/2017,80
+A/Hong Kong/5738/2014,A/Bretagne/1413/2017,160
+A/Bretagne/1413/2017,A/Bretagne/1413/2017,2560
+A/Singapore/INFIMH-16-0019/2016,A/Bretagne/1413/2017,80
+A/Hong Kong/656/2018,A/Bretagne/1413/2017,2560
+A/Switzerland/8060/2017,A/Bretagne/1413/2017,2560
+A/Zaragoza/1528894/2018,A/Bretagne/1413/2017,160
+A/Zaragoza/493/2018,A/Bretagne/1413/2017,160
+A/Stockholm/6/2014,A/Norway/4436/2016,160
+A/Hong Kong/5738/2014,A/Norway/4436/2016,320
+A/Bretagne/1413/2017,A/Norway/4436/2016,160
+A/Singapore/INFIMH-16-0019/2016,A/Norway/4436/2016,80
+A/Hong Kong/656/2018,A/Norway/4436/2016,320
+A/Switzerland/8060/2017,A/Norway/4436/2016,80
+A/Zaragoza/1528894/2018,A/Norway/4436/2016,160
+A/Zaragoza/493/2018,A/Norway/4436/2016,160
+A/Stockholm/6/2014,A/Greece/4/2017,160
+A/Hong Kong/5738/2014,A/Greece/4/2017,160
+A/Bretagne/1413/2017,A/Greece/4/2017,160
+A/Singapore/INFIMH-16-0019/2016,A/Greece/4/2017,160
+A/Hong Kong/656/2018,A/Greece/4/2017,320
+A/Switzerland/8060/2017,A/Greece/4/2017,320
+A/Zaragoza/1528894/2018,A/Greece/4/2017,80
+A/Zaragoza/493/2018,A/Greece/4/2017,80
+A/Stockholm/6/2014,A/Singapore/INFIMH-16-0019/2016,160
+A/Hong Kong/5738/2014,A/Singapore/INFIMH-16-0019/2016,160
+A/Bretagne/1413/2017,A/Singapore/INFIMH-16-0019/2016,160
+A/Singapore/INFIMH-16-0019/2016,A/Singapore/INFIMH-16-0019/2016,640
+A/Hong Kong/656/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Switzerland/8060/2017,A/Singapore/INFIMH-16-0019/2016,640
+A/Zaragoza/1528894/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Zaragoza/493/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Stockholm/6/2014,A/Hong Kong/656/2018,80
+A/Hong Kong/5738/2014,A/Hong Kong/656/2018,160
+A/Bretagne/1413/2017,A/Hong Kong/656/2018,1280
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/656/2018,80
+A/Hong Kong/656/2018,A/Hong Kong/656/2018,1280
+A/Switzerland/8060/2017,A/Hong Kong/656/2018,1280
+A/Zaragoza/1528894/2018,A/Hong Kong/656/2018,160
+A/Zaragoza/493/2018,A/Hong Kong/656/2018,160
+A/Stockholm/6/2014,A/La Rioja/2202/2018,80
+A/Hong Kong/5738/2014,A/La Rioja/2202/2018,160
+A/Bretagne/1413/2017,A/La Rioja/2202/2018,160
+A/Singapore/INFIMH-16-0019/2016,A/La Rioja/2202/2018,320
+A/Hong Kong/656/2018,A/La Rioja/2202/2018,160
+A/Switzerland/8060/2017,A/La Rioja/2202/2018,160
+A/Zaragoza/1528894/2018,A/La Rioja/2202/2018,80
+A/Zaragoza/493/2018,A/La Rioja/2202/2018,40
+A/Stockholm/6/2014,A/Switzerland/8060/2017,160
+A/Hong Kong/5738/2014,A/Switzerland/8060/2017,160
+A/Bretagne/1413/2017,A/Switzerland/8060/2017,1280
+A/Singapore/INFIMH-16-0019/2016,A/Switzerland/8060/2017,160
+A/Hong Kong/656/2018,A/Switzerland/8060/2017,1280
+A/Switzerland/8060/2017,A/Switzerland/8060/2017,1280
+A/Zaragoza/1528894/2018,A/Switzerland/8060/2017,160
+A/Zaragoza/493/2018,A/Switzerland/8060/2017,160
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,160
+A/Bretagne/1413/2017,A/Stockholm/6/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Stockholm/6/2014,40
+A/Hong Kong/656/2018,A/Stockholm/6/2014,320
+A/Switzerland/8060/2017,A/Stockholm/6/2014,40
+A/Oman/3542/2018,A/Stockholm/6/2014,160
+A/Oman/3329/2018,A/Stockholm/6/2014,80
+A/Oman/3356/2018,A/Stockholm/6/2014,160
+A/Oman/3340/2018,A/Stockholm/6/2014,160
+A/Oman/3372/2018,A/Stockholm/6/2014,80
+A/Oman/3407/2018,A/Stockholm/6/2014,40
+A/Oman/3577/2018,A/Stockholm/6/2014,160
+A/Oman/3610/2018,A/Stockholm/6/2014,80
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,160
+A/Bretagne/1413/2017,A/Hong Kong/5738/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/5738/2014,40
+A/Hong Kong/656/2018,A/Hong Kong/5738/2014,320
+A/Switzerland/8060/2017,A/Hong Kong/5738/2014,160
+A/Oman/3542/2018,A/Hong Kong/5738/2014,80
+A/Oman/3329/2018,A/Hong Kong/5738/2014,80
+A/Oman/3356/2018,A/Hong Kong/5738/2014,80
+A/Oman/3340/2018,A/Hong Kong/5738/2014,80
+A/Oman/3372/2018,A/Hong Kong/5738/2014,80
+A/Oman/3407/2018,A/Hong Kong/5738/2014,80
+A/Oman/3577/2018,A/Hong Kong/5738/2014,80
+A/Oman/3610/2018,A/Hong Kong/5738/2014,80
+A/Stockholm/6/2014,A/Bretagne/1413/2017,160
+A/Hong Kong/5738/2014,A/Bretagne/1413/2017,320
+A/Bretagne/1413/2017,A/Bretagne/1413/2017,1280
+A/Singapore/INFIMH-16-0019/2016,A/Bretagne/1413/2017,40
+A/Hong Kong/656/2018,A/Bretagne/1413/2017,640
+A/Switzerland/8060/2017,A/Bretagne/1413/2017,1280
+A/Oman/3542/2018,A/Bretagne/1413/2017,80
+A/Oman/3329/2018,A/Bretagne/1413/2017,<40
+A/Oman/3356/2018,A/Bretagne/1413/2017,40
+A/Oman/3340/2018,A/Bretagne/1413/2017,40
+A/Oman/3372/2018,A/Bretagne/1413/2017,<40
+A/Oman/3407/2018,A/Bretagne/1413/2017,<40
+A/Oman/3577/2018,A/Bretagne/1413/2017,40
+A/Oman/3610/2018,A/Bretagne/1413/2017,40
+A/Stockholm/6/2014,A/Norway/4436/2016,320
+A/Hong Kong/5738/2014,A/Norway/4436/2016,320
+A/Bretagne/1413/2017,A/Norway/4436/2016,320
+A/Singapore/INFIMH-16-0019/2016,A/Norway/4436/2016,160
+A/Hong Kong/656/2018,A/Norway/4436/2016,320
+A/Switzerland/8060/2017,A/Norway/4436/2016,160
+A/Oman/3542/2018,A/Norway/4436/2016,160
+A/Oman/3329/2018,A/Norway/4436/2016,80
+A/Oman/3356/2018,A/Norway/4436/2016,160
+A/Oman/3340/2018,A/Norway/4436/2016,160
+A/Oman/3372/2018,A/Norway/4436/2016,80
+A/Oman/3407/2018,A/Norway/4436/2016,80
+A/Oman/3577/2018,A/Norway/4436/2016,160
+A/Oman/3610/2018,A/Norway/4436/2016,160
+A/Stockholm/6/2014,A/Greece/4/2017,320
+A/Hong Kong/5738/2014,A/Greece/4/2017,320
+A/Bretagne/1413/2017,A/Greece/4/2017,320
+A/Singapore/INFIMH-16-0019/2016,A/Greece/4/2017,160
+A/Hong Kong/656/2018,A/Greece/4/2017,320
+A/Switzerland/8060/2017,A/Greece/4/2017,320
+A/Oman/3542/2018,A/Greece/4/2017,320
+A/Oman/3329/2018,A/Greece/4/2017,160
+A/Oman/3356/2018,A/Greece/4/2017,160
+A/Oman/3340/2018,A/Greece/4/2017,320
+A/Oman/3372/2018,A/Greece/4/2017,160
+A/Oman/3407/2018,A/Greece/4/2017,320
+A/Oman/3577/2018,A/Greece/4/2017,320
+A/Oman/3610/2018,A/Greece/4/2017,160
+A/Stockholm/6/2014,A/Singapore/INFIMH-16-0019/2016,160
+A/Hong Kong/5738/2014,A/Singapore/INFIMH-16-0019/2016,320
+A/Bretagne/1413/2017,A/Singapore/INFIMH-16-0019/2016,160
+A/Singapore/INFIMH-16-0019/2016,A/Singapore/INFIMH-16-0019/2016,640
+A/Hong Kong/656/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Switzerland/8060/2017,A/Singapore/INFIMH-16-0019/2016,320
+A/Oman/3542/2018,A/Singapore/INFIMH-16-0019/2016,80
+A/Oman/3329/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/Oman/3356/2018,A/Singapore/INFIMH-16-0019/2016,80
+A/Oman/3340/2018,A/Singapore/INFIMH-16-0019/2016,80
+A/Oman/3372/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/Oman/3407/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/Oman/3577/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/Oman/3610/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/Stockholm/6/2014,A/Hong Kong/656/2018,160
+A/Hong Kong/5738/2014,A/Hong Kong/656/2018,320
+A/Bretagne/1413/2017,A/Hong Kong/656/2018,640
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/656/2018,80
+A/Hong Kong/656/2018,A/Hong Kong/656/2018,1280
+A/Switzerland/8060/2017,A/Hong Kong/656/2018,1280
+A/Oman/3542/2018,A/Hong Kong/656/2018,80
+A/Oman/3329/2018,A/Hong Kong/656/2018,<40
+A/Oman/3356/2018,A/Hong Kong/656/2018,40
+A/Oman/3340/2018,A/Hong Kong/656/2018,40
+A/Oman/3372/2018,A/Hong Kong/656/2018,<40
+A/Oman/3407/2018,A/Hong Kong/656/2018,<40
+A/Oman/3577/2018,A/Hong Kong/656/2018,80
+A/Oman/3610/2018,A/Hong Kong/656/2018,40
+A/Stockholm/6/2014,A/La Rioja/2202/2018,160
+A/Hong Kong/5738/2014,A/La Rioja/2202/2018,160
+A/Bretagne/1413/2017,A/La Rioja/2202/2018,160
+A/Singapore/INFIMH-16-0019/2016,A/La Rioja/2202/2018,160
+A/Hong Kong/656/2018,A/La Rioja/2202/2018,160
+A/Switzerland/8060/2017,A/La Rioja/2202/2018,160
+A/Oman/3542/2018,A/La Rioja/2202/2018,320
+A/Oman/3329/2018,A/La Rioja/2202/2018,160
+A/Oman/3356/2018,A/La Rioja/2202/2018,160
+A/Oman/3340/2018,A/La Rioja/2202/2018,320
+A/Oman/3372/2018,A/La Rioja/2202/2018,160
+A/Oman/3407/2018,A/La Rioja/2202/2018,160
+A/Oman/3577/2018,A/La Rioja/2202/2018,160
+A/Oman/3610/2018,A/La Rioja/2202/2018,160
+A/Stockholm/6/2014,A/Switzerland/8060/2017,320
+A/Hong Kong/5738/2014,A/Switzerland/8060/2017,320
+A/Bretagne/1413/2017,A/Switzerland/8060/2017,1280
+A/Singapore/INFIMH-16-0019/2016,A/Switzerland/8060/2017,160
+A/Hong Kong/656/2018,A/Switzerland/8060/2017,640
+A/Switzerland/8060/2017,A/Switzerland/8060/2017,2560
+A/Oman/3542/2018,A/Switzerland/8060/2017,80
+A/Oman/3329/2018,A/Switzerland/8060/2017,40
+A/Oman/3356/2018,A/Switzerland/8060/2017,80
+A/Oman/3340/2018,A/Switzerland/8060/2017,80
+A/Oman/3372/2018,A/Switzerland/8060/2017,80
+A/Oman/3407/2018,A/Switzerland/8060/2017,40
+A/Oman/3577/2018,A/Switzerland/8060/2017,80
+A/Oman/3610/2018,A/Switzerland/8060/2017,80
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,80
+A/Bretagne/1413/2017,A/Stockholm/6/2014,80
+A/Singapore/INFIMH-16-0019/2016,A/Stockholm/6/2014,<40
+A/Hong Kong/656/2018,A/Stockholm/6/2014,160
+A/Switzerland/8060/2017,A/Stockholm/6/2014,<40
+A/Mauritius/I-906/2018,A/Stockholm/6/2014,160
+A/Mauritius/I-925/2018,A/Stockholm/6/2014,40
+A/Mauritius/I-967/2018,A/Stockholm/6/2014,40
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,80
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,160
+A/Bretagne/1413/2017,A/Hong Kong/5738/2014,80
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/5738/2014,40
+A/Hong Kong/656/2018,A/Hong Kong/5738/2014,160
+A/Switzerland/8060/2017,A/Hong Kong/5738/2014,160
+A/Mauritius/I-906/2018,A/Hong Kong/5738/2014,160
+A/Mauritius/I-925/2018,A/Hong Kong/5738/2014,<40
+A/Mauritius/I-967/2018,A/Hong Kong/5738/2014,40
+A/Stockholm/6/2014,A/Bretagne/1413/2017,80
+A/Hong Kong/5738/2014,A/Bretagne/1413/2017,160
+A/Bretagne/1413/2017,A/Bretagne/1413/2017,640
+A/Singapore/INFIMH-16-0019/2016,A/Bretagne/1413/2017,40
+A/Hong Kong/656/2018,A/Bretagne/1413/2017,1280
+A/Switzerland/8060/2017,A/Bretagne/1413/2017,2560
+A/Mauritius/I-906/2018,A/Bretagne/1413/2017,40
+A/Mauritius/I-925/2018,A/Bretagne/1413/2017,<40
+A/Mauritius/I-967/2018,A/Bretagne/1413/2017,40
+A/Stockholm/6/2014,A/Norway/4436/2016,160
+A/Hong Kong/5738/2014,A/Norway/4436/2016,160
+A/Bretagne/1413/2017,A/Norway/4436/2016,160
+A/Singapore/INFIMH-16-0019/2016,A/Norway/4436/2016,80
+A/Hong Kong/656/2018,A/Norway/4436/2016,320
+A/Switzerland/8060/2017,A/Norway/4436/2016,160
+A/Mauritius/I-906/2018,A/Norway/4436/2016,160
+A/Mauritius/I-925/2018,A/Norway/4436/2016,40
+A/Mauritius/I-967/2018,A/Norway/4436/2016,80
+A/Stockholm/6/2014,A/Greece/4/2017,320
+A/Hong Kong/5738/2014,A/Greece/4/2017,160
+A/Bretagne/1413/2017,A/Greece/4/2017,160
+A/Singapore/INFIMH-16-0019/2016,A/Greece/4/2017,160
+A/Hong Kong/656/2018,A/Greece/4/2017,320
+A/Switzerland/8060/2017,A/Greece/4/2017,320
+A/Mauritius/I-906/2018,A/Greece/4/2017,320
+A/Mauritius/I-925/2018,A/Greece/4/2017,80
+A/Mauritius/I-967/2018,A/Greece/4/2017,160
+A/Stockholm/6/2014,A/Singapore/INFIMH-16-0019/2016,160
+A/Hong Kong/5738/2014,A/Singapore/INFIMH-16-0019/2016,160
+A/Bretagne/1413/2017,A/Singapore/INFIMH-16-0019/2016,160
+A/Singapore/INFIMH-16-0019/2016,A/Singapore/INFIMH-16-0019/2016,640
+A/Hong Kong/656/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Switzerland/8060/2017,A/Singapore/INFIMH-16-0019/2016,640
+A/Mauritius/I-906/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Mauritius/I-925/2018,A/Singapore/INFIMH-16-0019/2016,80
+A/Mauritius/I-967/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Stockholm/6/2014,A/Hong Kong/656/2018,80
+A/Hong Kong/5738/2014,A/Hong Kong/656/2018,160
+A/Bretagne/1413/2017,A/Hong Kong/656/2018,640
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/656/2018,80
+A/Hong Kong/656/2018,A/Hong Kong/656/2018,1280
+A/Switzerland/8060/2017,A/Hong Kong/656/2018,2560
+A/Mauritius/I-906/2018,A/Hong Kong/656/2018,40
+A/Mauritius/I-925/2018,A/Hong Kong/656/2018,<40
+A/Mauritius/I-967/2018,A/Hong Kong/656/2018,<40
+A/Stockholm/6/2014,A/La Rioja/2202/2018,80
+A/Hong Kong/5738/2014,A/La Rioja/2202/2018,80
+A/Bretagne/1413/2017,A/La Rioja/2202/2018,80
+A/Singapore/INFIMH-16-0019/2016,A/La Rioja/2202/2018,160
+A/Hong Kong/656/2018,A/La Rioja/2202/2018,80
+A/Switzerland/8060/2017,A/La Rioja/2202/2018,80
+A/Mauritius/I-906/2018,A/La Rioja/2202/2018,320
+A/Mauritius/I-925/2018,A/La Rioja/2202/2018,80
+A/Mauritius/I-967/2018,A/La Rioja/2202/2018,160
+A/Stockholm/6/2014,A/Switzerland/8060/2017,320
+A/Hong Kong/5738/2014,A/Switzerland/8060/2017,160
+A/Bretagne/1413/2017,A/Switzerland/8060/2017,640
+A/Singapore/INFIMH-16-0019/2016,A/Switzerland/8060/2017,80
+A/Hong Kong/656/2018,A/Switzerland/8060/2017,640
+A/Switzerland/8060/2017,A/Switzerland/8060/2017,1280
+A/Mauritius/I-906/2018,A/Switzerland/8060/2017,80
+A/Mauritius/I-925/2018,A/Switzerland/8060/2017,<40
+A/Mauritius/I-967/2018,A/Switzerland/8060/2017,40
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,160
+A/Bretagne/1413/2017,A/Stockholm/6/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Stockholm/6/2014,<40
+A/Hong Kong/656/2018,A/Stockholm/6/2014,160
+A/Switzerland/8060/2017,A/Stockholm/6/2014,40
+A/Latvia/11-019324/2018,A/Stockholm/6/2014,160
+A/Clermont-Ferrand/2062/2018,A/Stockholm/6/2014,160
+A/Iceland/108/2018,A/Stockholm/6/2014,40
+A/Austria/1102969/2018,A/Stockholm/6/2014,160
+A/Lyon/2106/2018,A/Stockholm/6/2014,160
+A/Paris/2511/2018,A/Stockholm/6/2014,80
+A/Latvia/12-005233/2018,A/Stockholm/6/2014,160
+A/Paris/2538/2018,A/Stockholm/6/2014,80
+A/Paris/2544/2018,A/Stockholm/6/2014,80
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,160
+A/Bretagne/1413/2017,A/Hong Kong/5738/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/5738/2014,40
+A/Hong Kong/656/2018,A/Hong Kong/5738/2014,160
+A/Switzerland/8060/2017,A/Hong Kong/5738/2014,160
+A/Latvia/11-019324/2018,A/Hong Kong/5738/2014,160
+A/Clermont-Ferrand/2062/2018,A/Hong Kong/5738/2014,160
+A/Iceland/108/2018,A/Hong Kong/5738/2014,40
+A/Austria/1102969/2018,A/Hong Kong/5738/2014,80
+A/Lyon/2106/2018,A/Hong Kong/5738/2014,80
+A/Paris/2511/2018,A/Hong Kong/5738/2014,80
+A/Latvia/12-005233/2018,A/Hong Kong/5738/2014,160
+A/Paris/2538/2018,A/Hong Kong/5738/2014,80
+A/Paris/2544/2018,A/Hong Kong/5738/2014,80
+A/Stockholm/6/2014,A/Bretagne/1413/2017,160
+A/Hong Kong/5738/2014,A/Bretagne/1413/2017,160
+A/Bretagne/1413/2017,A/Bretagne/1413/2017,1280
+A/Singapore/INFIMH-16-0019/2016,A/Bretagne/1413/2017,40
+A/Hong Kong/656/2018,A/Bretagne/1413/2017,640
+A/Switzerland/8060/2017,A/Bretagne/1413/2017,2560
+A/Latvia/11-019324/2018,A/Bretagne/1413/2017,640
+A/Clermont-Ferrand/2062/2018,A/Bretagne/1413/2017,80
+A/Iceland/108/2018,A/Bretagne/1413/2017,<40
+A/Austria/1102969/2018,A/Bretagne/1413/2017,40
+A/Lyon/2106/2018,A/Bretagne/1413/2017,80
+A/Paris/2511/2018,A/Bretagne/1413/2017,80
+A/Latvia/12-005233/2018,A/Bretagne/1413/2017,640
+A/Paris/2538/2018,A/Bretagne/1413/2017,80
+A/Paris/2544/2018,A/Bretagne/1413/2017,80
+A/Stockholm/6/2014,A/Norway/4436/2016,320
+A/Hong Kong/5738/2014,A/Norway/4436/2016,320
+A/Bretagne/1413/2017,A/Norway/4436/2016,320
+A/Singapore/INFIMH-16-0019/2016,A/Norway/4436/2016,160
+A/Hong Kong/656/2018,A/Norway/4436/2016,320
+A/Switzerland/8060/2017,A/Norway/4436/2016,320
+A/Latvia/11-019324/2018,A/Norway/4436/2016,320
+A/Clermont-Ferrand/2062/2018,A/Norway/4436/2016,320
+A/Iceland/108/2018,A/Norway/4436/2016,80
+A/Austria/1102969/2018,A/Norway/4436/2016,320
+A/Lyon/2106/2018,A/Norway/4436/2016,160
+A/Paris/2511/2018,A/Norway/4436/2016,320
+A/Latvia/12-005233/2018,A/Norway/4436/2016,320
+A/Paris/2538/2018,A/Norway/4436/2016,320
+A/Paris/2544/2018,A/Norway/4436/2016,320
+A/Stockholm/6/2014,A/Greece/4/2017,320
+A/Hong Kong/5738/2014,A/Greece/4/2017,320
+A/Bretagne/1413/2017,A/Greece/4/2017,320
+A/Singapore/INFIMH-16-0019/2016,A/Greece/4/2017,160
+A/Hong Kong/656/2018,A/Greece/4/2017,320
+A/Switzerland/8060/2017,A/Greece/4/2017,160
+A/Latvia/11-019324/2018,A/Greece/4/2017,160
+A/Clermont-Ferrand/2062/2018,A/Greece/4/2017,320
+A/Iceland/108/2018,A/Greece/4/2017,160
+A/Austria/1102969/2018,A/Greece/4/2017,320
+A/Lyon/2106/2018,A/Greece/4/2017,160
+A/Paris/2511/2018,A/Greece/4/2017,160
+A/Latvia/12-005233/2018,A/Greece/4/2017,320
+A/Paris/2538/2018,A/Greece/4/2017,160
+A/Paris/2544/2018,A/Greece/4/2017,160
+A/Stockholm/6/2014,A/Singapore/INFIMH-16-0019/2016,320
+A/Hong Kong/5738/2014,A/Singapore/INFIMH-16-0019/2016,320
+A/Bretagne/1413/2017,A/Singapore/INFIMH-16-0019/2016,320
+A/Singapore/INFIMH-16-0019/2016,A/Singapore/INFIMH-16-0019/2016,640
+A/Hong Kong/656/2018,A/Singapore/INFIMH-16-0019/2016,320
+A/Switzerland/8060/2017,A/Singapore/INFIMH-16-0019/2016,640
+A/Latvia/11-019324/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Clermont-Ferrand/2062/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Iceland/108/2018,A/Singapore/INFIMH-16-0019/2016,80
+A/Austria/1102969/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Lyon/2106/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Paris/2511/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Latvia/12-005233/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Paris/2538/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Paris/2544/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Stockholm/6/2014,A/Hong Kong/656/2018,160
+A/Hong Kong/5738/2014,A/Hong Kong/656/2018,320
+A/Bretagne/1413/2017,A/Hong Kong/656/2018,1280
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/656/2018,40
+A/Hong Kong/656/2018,A/Hong Kong/656/2018,1280
+A/Switzerland/8060/2017,A/Hong Kong/656/2018,2560
+A/Latvia/11-019324/2018,A/Hong Kong/656/2018,640
+A/Clermont-Ferrand/2062/2018,A/Hong Kong/656/2018,80
+A/Iceland/108/2018,A/Hong Kong/656/2018,<40
+A/Austria/1102969/2018,A/Hong Kong/656/2018,40
+A/Lyon/2106/2018,A/Hong Kong/656/2018,40
+A/Paris/2511/2018,A/Hong Kong/656/2018,80
+A/Latvia/12-005233/2018,A/Hong Kong/656/2018,640
+A/Paris/2538/2018,A/Hong Kong/656/2018,160
+A/Paris/2544/2018,A/Hong Kong/656/2018,80
+A/Stockholm/6/2014,A/La Rioja/2202/2018,160
+A/Hong Kong/5738/2014,A/La Rioja/2202/2018,160
+A/Bretagne/1413/2017,A/La Rioja/2202/2018,160
+A/Singapore/INFIMH-16-0019/2016,A/La Rioja/2202/2018,160
+A/Hong Kong/656/2018,A/La Rioja/2202/2018,80
+A/Switzerland/8060/2017,A/La Rioja/2202/2018,160
+A/Latvia/11-019324/2018,A/La Rioja/2202/2018,80
+A/Clermont-Ferrand/2062/2018,A/La Rioja/2202/2018,160
+A/Iceland/108/2018,A/La Rioja/2202/2018,160
+A/Austria/1102969/2018,A/La Rioja/2202/2018,320
+A/Lyon/2106/2018,A/La Rioja/2202/2018,320
+A/Paris/2511/2018,A/La Rioja/2202/2018,40
+A/Latvia/12-005233/2018,A/La Rioja/2202/2018,160
+A/Paris/2538/2018,A/La Rioja/2202/2018,40
+A/Paris/2544/2018,A/La Rioja/2202/2018,80
+A/Stockholm/6/2014,A/Switzerland/8060/2017,320
+A/Hong Kong/5738/2014,A/Switzerland/8060/2017,320
+A/Bretagne/1413/2017,A/Switzerland/8060/2017,1280
+A/Singapore/INFIMH-16-0019/2016,A/Switzerland/8060/2017,80
+A/Hong Kong/656/2018,A/Switzerland/8060/2017,640
+A/Switzerland/8060/2017,A/Switzerland/8060/2017,2560
+A/Latvia/11-019324/2018,A/Switzerland/8060/2017,640
+A/Clermont-Ferrand/2062/2018,A/Switzerland/8060/2017,160
+A/Iceland/108/2018,A/Switzerland/8060/2017,40
+A/Austria/1102969/2018,A/Switzerland/8060/2017,80
+A/Lyon/2106/2018,A/Switzerland/8060/2017,80
+A/Paris/2511/2018,A/Switzerland/8060/2017,160
+A/Latvia/12-005233/2018,A/Switzerland/8060/2017,320
+A/Paris/2538/2018,A/Switzerland/8060/2017,80
+A/Paris/2544/2018,A/Switzerland/8060/2017,160
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,160
+A/Bretagne/1413/2017,A/Stockholm/6/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Stockholm/6/2014,<40
+A/Hong Kong/656/2018,A/Stockholm/6/2014,320
+A/Switzerland/8060/2017,A/Stockholm/6/2014,40
+A/Saint-Etienne/1912/2018,A/Stockholm/6/2014,80
+A/La Reunion/1970/2018,A/Stockholm/6/2014,80
+A/La Reunion/1967/2018,A/Stockholm/6/2014,80
+A/Poitiers/1978/2018,A/Stockholm/6/2014,40
+A/Poitiers/1976/2018,A/Stockholm/6/2014,40
+A/Poitiers/2003/2018,A/Stockholm/6/2014,40
+A/Lorraine/2365/2018,A/Stockholm/6/2014,<40
+A/Iceland/101/2018,A/Stockholm/6/2014,<40
+A/Iceland/100/2018,A/Stockholm/6/2014,40
+A/Iceland/102/2018,A/Stockholm/6/2014,40
+A/Iceland/103/2018,A/Stockholm/6/2014,40
+A/Iceland/104/2018,A/Stockholm/6/2014,<40
+A/Iceland/107/2018,A/Stockholm/6/2014,40
+A/Norway/3668/2018,A/Stockholm/6/2014,80
+A/Norway/3735/2018,A/Stockholm/6/2014,160
+A/Paris/2572/2018,A/Stockholm/6/2014,80
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,160
+A/Bretagne/1413/2017,A/Hong Kong/5738/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/5738/2014,40
+A/Hong Kong/656/2018,A/Hong Kong/5738/2014,320
+A/Switzerland/8060/2017,A/Hong Kong/5738/2014,160
+A/Saint-Etienne/1912/2018,A/Hong Kong/5738/2014,40
+A/La Reunion/1970/2018,A/Hong Kong/5738/2014,80
+A/La Reunion/1967/2018,A/Hong Kong/5738/2014,40
+A/Poitiers/1978/2018,A/Hong Kong/5738/2014,40
+A/Poitiers/1976/2018,A/Hong Kong/5738/2014,40
+A/Poitiers/2003/2018,A/Hong Kong/5738/2014,80
+A/Lorraine/2365/2018,A/Hong Kong/5738/2014,40
+A/Iceland/101/2018,A/Hong Kong/5738/2014,40
+A/Iceland/100/2018,A/Hong Kong/5738/2014,80
+A/Iceland/102/2018,A/Hong Kong/5738/2014,40
+A/Iceland/103/2018,A/Hong Kong/5738/2014,40
+A/Iceland/104/2018,A/Hong Kong/5738/2014,40
+A/Iceland/107/2018,A/Hong Kong/5738/2014,40
+A/Norway/3668/2018,A/Hong Kong/5738/2014,80
+A/Norway/3735/2018,A/Hong Kong/5738/2014,80
+A/Paris/2572/2018,A/Hong Kong/5738/2014,40
+A/Stockholm/6/2014,A/Bretagne/1413/2017,160
+A/Hong Kong/5738/2014,A/Bretagne/1413/2017,160
+A/Bretagne/1413/2017,A/Bretagne/1413/2017,640
+A/Singapore/INFIMH-16-0019/2016,A/Bretagne/1413/2017,40
+A/Hong Kong/656/2018,A/Bretagne/1413/2017,640
+A/Switzerland/8060/2017,A/Bretagne/1413/2017,1280
+A/Saint-Etienne/1912/2018,A/Bretagne/1413/2017,40
+A/La Reunion/1970/2018,A/Bretagne/1413/2017,40
+A/La Reunion/1967/2018,A/Bretagne/1413/2017,40
+A/Poitiers/1978/2018,A/Bretagne/1413/2017,<40
+A/Poitiers/1976/2018,A/Bretagne/1413/2017,<40
+A/Poitiers/2003/2018,A/Bretagne/1413/2017,40
+A/Lorraine/2365/2018,A/Bretagne/1413/2017,<40
+A/Iceland/101/2018,A/Bretagne/1413/2017,<40
+A/Iceland/100/2018,A/Bretagne/1413/2017,<40
+A/Iceland/102/2018,A/Bretagne/1413/2017,<40
+A/Iceland/103/2018,A/Bretagne/1413/2017,<40
+A/Iceland/104/2018,A/Bretagne/1413/2017,<40
+A/Iceland/107/2018,A/Bretagne/1413/2017,<40
+A/Norway/3668/2018,A/Bretagne/1413/2017,80
+A/Norway/3735/2018,A/Bretagne/1413/2017,320
+A/Paris/2572/2018,A/Bretagne/1413/2017,<40
+A/Stockholm/6/2014,A/Norway/4436/2016,320
+A/Hong Kong/5738/2014,A/Norway/4436/2016,320
+A/Bretagne/1413/2017,A/Norway/4436/2016,320
+A/Singapore/INFIMH-16-0019/2016,A/Norway/4436/2016,80
+A/Hong Kong/656/2018,A/Norway/4436/2016,320
+A/Switzerland/8060/2017,A/Norway/4436/2016,160
+A/Saint-Etienne/1912/2018,A/Norway/4436/2016,160
+A/La Reunion/1970/2018,A/Norway/4436/2016,80
+A/La Reunion/1967/2018,A/Norway/4436/2016,80
+A/Poitiers/1978/2018,A/Norway/4436/2016,80
+A/Poitiers/1976/2018,A/Norway/4436/2016,80
+A/Poitiers/2003/2018,A/Norway/4436/2016,80
+A/Lorraine/2365/2018,A/Norway/4436/2016,40
+A/Iceland/101/2018,A/Norway/4436/2016,40
+A/Iceland/100/2018,A/Norway/4436/2016,40
+A/Iceland/102/2018,A/Norway/4436/2016,40
+A/Iceland/103/2018,A/Norway/4436/2016,80
+A/Iceland/104/2018,A/Norway/4436/2016,40
+A/Iceland/107/2018,A/Norway/4436/2016,80
+A/Norway/3668/2018,A/Norway/4436/2016,80
+A/Norway/3735/2018,A/Norway/4436/2016,320
+A/Paris/2572/2018,A/Norway/4436/2016,160
+A/Stockholm/6/2014,A/Greece/4/2017,160
+A/Hong Kong/5738/2014,A/Greece/4/2017,160
+A/Bretagne/1413/2017,A/Greece/4/2017,160
+A/Singapore/INFIMH-16-0019/2016,A/Greece/4/2017,80
+A/Hong Kong/656/2018,A/Greece/4/2017,320
+A/Switzerland/8060/2017,A/Greece/4/2017,160
+A/Saint-Etienne/1912/2018,A/Greece/4/2017,80
+A/La Reunion/1970/2018,A/Greece/4/2017,80
+A/La Reunion/1967/2018,A/Greece/4/2017,80
+A/Poitiers/1978/2018,A/Greece/4/2017,80
+A/Poitiers/1976/2018,A/Greece/4/2017,80
+A/Poitiers/2003/2018,A/Greece/4/2017,80
+A/Lorraine/2365/2018,A/Greece/4/2017,80
+A/Iceland/101/2018,A/Greece/4/2017,40
+A/Iceland/100/2018,A/Greece/4/2017,80
+A/Iceland/102/2018,A/Greece/4/2017,40
+A/Iceland/103/2018,A/Greece/4/2017,80
+A/Iceland/104/2018,A/Greece/4/2017,80
+A/Iceland/107/2018,A/Greece/4/2017,80
+A/Norway/3668/2018,A/Greece/4/2017,160
+A/Norway/3735/2018,A/Greece/4/2017,160
+A/Paris/2572/2018,A/Greece/4/2017,40
+A/Stockholm/6/2014,A/Singapore/INFIMH-16-0019/2016,160
+A/Hong Kong/5738/2014,A/Singapore/INFIMH-16-0019/2016,160
+A/Bretagne/1413/2017,A/Singapore/INFIMH-16-0019/2016,160
+A/Singapore/INFIMH-16-0019/2016,A/Singapore/INFIMH-16-0019/2016,160
+A/Hong Kong/656/2018,A/Singapore/INFIMH-16-0019/2016,320
+A/Switzerland/8060/2017,A/Singapore/INFIMH-16-0019/2016,160
+A/Saint-Etienne/1912/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/La Reunion/1970/2018,A/Singapore/INFIMH-16-0019/2016,80
+A/La Reunion/1967/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/Poitiers/1978/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/Poitiers/1976/2018,A/Singapore/INFIMH-16-0019/2016,<40
+A/Poitiers/2003/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/Lorraine/2365/2018,A/Singapore/INFIMH-16-0019/2016,<40
+A/Iceland/101/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/Iceland/100/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/Iceland/102/2018,A/Singapore/INFIMH-16-0019/2016,80
+A/Iceland/103/2018,A/Singapore/INFIMH-16-0019/2016,80
+A/Iceland/104/2018,A/Singapore/INFIMH-16-0019/2016,80
+A/Iceland/107/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/Norway/3668/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Norway/3735/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Paris/2572/2018,A/Singapore/INFIMH-16-0019/2016,80
+A/Stockholm/6/2014,A/Hong Kong/656/2018,160
+A/Hong Kong/5738/2014,A/Hong Kong/656/2018,160
+A/Bretagne/1413/2017,A/Hong Kong/656/2018,640
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/656/2018,40
+A/Hong Kong/656/2018,A/Hong Kong/656/2018,1280
+A/Switzerland/8060/2017,A/Hong Kong/656/2018,1280
+A/Saint-Etienne/1912/2018,A/Hong Kong/656/2018,<40
+A/La Reunion/1970/2018,A/Hong Kong/656/2018,80
+A/La Reunion/1967/2018,A/Hong Kong/656/2018,40
+A/Poitiers/1978/2018,A/Hong Kong/656/2018,<40
+A/Poitiers/1976/2018,A/Hong Kong/656/2018,<40
+A/Poitiers/2003/2018,A/Hong Kong/656/2018,160
+A/Lorraine/2365/2018,A/Hong Kong/656/2018,<40
+A/Iceland/101/2018,A/Hong Kong/656/2018,<40
+A/Iceland/100/2018,A/Hong Kong/656/2018,160
+A/Iceland/102/2018,A/Hong Kong/656/2018,<40
+A/Iceland/103/2018,A/Hong Kong/656/2018,<40
+A/Iceland/104/2018,A/Hong Kong/656/2018,<40
+A/Iceland/107/2018,A/Hong Kong/656/2018,<40
+A/Norway/3668/2018,A/Hong Kong/656/2018,40
+A/Norway/3735/2018,A/Hong Kong/656/2018,80
+A/Paris/2572/2018,A/Hong Kong/656/2018,80
+A/Stockholm/6/2014,A/La Rioja/2202/2018,160
+A/Hong Kong/5738/2014,A/La Rioja/2202/2018,160
+A/Bretagne/1413/2017,A/La Rioja/2202/2018,160
+A/Singapore/INFIMH-16-0019/2016,A/La Rioja/2202/2018,160
+A/Hong Kong/656/2018,A/La Rioja/2202/2018,160
+A/Switzerland/8060/2017,A/La Rioja/2202/2018,160
+A/Saint-Etienne/1912/2018,A/La Rioja/2202/2018,320
+A/La Reunion/1970/2018,A/La Rioja/2202/2018,320
+A/La Reunion/1967/2018,A/La Rioja/2202/2018,320
+A/Poitiers/1978/2018,A/La Rioja/2202/2018,160
+A/Poitiers/1976/2018,A/La Rioja/2202/2018,160
+A/Poitiers/2003/2018,A/La Rioja/2202/2018,320
+A/Lorraine/2365/2018,A/La Rioja/2202/2018,80
+A/Iceland/101/2018,A/La Rioja/2202/2018,80
+A/Iceland/100/2018,A/La Rioja/2202/2018,160
+A/Iceland/102/2018,A/La Rioja/2202/2018,160
+A/Iceland/103/2018,A/La Rioja/2202/2018,160
+A/Iceland/104/2018,A/La Rioja/2202/2018,160
+A/Iceland/107/2018,A/La Rioja/2202/2018,160
+A/Norway/3668/2018,A/La Rioja/2202/2018,320
+A/Norway/3735/2018,A/La Rioja/2202/2018,320
+A/Paris/2572/2018,A/La Rioja/2202/2018,40
+A/Stockholm/6/2014,A/Switzerland/8060/2017,160
+A/Hong Kong/5738/2014,A/Switzerland/8060/2017,160
+A/Bretagne/1413/2017,A/Switzerland/8060/2017,640
+A/Singapore/INFIMH-16-0019/2016,A/Switzerland/8060/2017,80
+A/Hong Kong/656/2018,A/Switzerland/8060/2017,640
+A/Switzerland/8060/2017,A/Switzerland/8060/2017,1280
+A/Saint-Etienne/1912/2018,A/Switzerland/8060/2017,40
+A/La Reunion/1970/2018,A/Switzerland/8060/2017,80
+A/La Reunion/1967/2018,A/Switzerland/8060/2017,80
+A/Poitiers/1978/2018,A/Switzerland/8060/2017,40
+A/Poitiers/1976/2018,A/Switzerland/8060/2017,40
+A/Poitiers/2003/2018,A/Switzerland/8060/2017,40
+A/Lorraine/2365/2018,A/Switzerland/8060/2017,<40
+A/Iceland/101/2018,A/Switzerland/8060/2017,<40
+A/Iceland/100/2018,A/Switzerland/8060/2017,40
+A/Iceland/102/2018,A/Switzerland/8060/2017,<40
+A/Iceland/103/2018,A/Switzerland/8060/2017,<40
+A/Iceland/104/2018,A/Switzerland/8060/2017,<40
+A/Iceland/107/2018,A/Switzerland/8060/2017,<40
+A/Norway/3668/2018,A/Switzerland/8060/2017,80
+A/Norway/3735/2018,A/Switzerland/8060/2017,160
+A/Paris/2572/2018,A/Switzerland/8060/2017,80
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,320
+A/Bretagne/1413/2017,A/Stockholm/6/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Stockholm/6/2014,<40
+A/Hong Kong/656/2018,A/Stockholm/6/2014,160
+A/Switzerland/8060/2017,A/Stockholm/6/2014,<40
+A/Trollhattan/3/2018,A/Stockholm/6/2014,40
+A/Paris/2671/2018,A/Stockholm/6/2014,80
+A/Bretagne/026/2019,A/Stockholm/6/2014,80
+A/Paris/029/2019,A/Stockholm/6/2014,80
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,80
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,160
+A/Bretagne/1413/2017,A/Hong Kong/5738/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/5738/2014,40
+A/Hong Kong/656/2018,A/Hong Kong/5738/2014,320
+A/Switzerland/8060/2017,A/Hong Kong/5738/2014,160
+A/Trollhattan/3/2018,A/Hong Kong/5738/2014,40
+A/Paris/2671/2018,A/Hong Kong/5738/2014,40
+A/Bretagne/026/2019,A/Hong Kong/5738/2014,80
+A/Paris/029/2019,A/Hong Kong/5738/2014,80
+A/Stockholm/6/2014,A/Bretagne/1413/2017,80
+A/Hong Kong/5738/2014,A/Bretagne/1413/2017,160
+A/Bretagne/1413/2017,A/Bretagne/1413/2017,1280
+A/Singapore/INFIMH-16-0019/2016,A/Bretagne/1413/2017,40
+A/Hong Kong/656/2018,A/Bretagne/1413/2017,640
+A/Switzerland/8060/2017,A/Bretagne/1413/2017,1280
+A/Trollhattan/3/2018,A/Bretagne/1413/2017,40
+A/Paris/2671/2018,A/Bretagne/1413/2017,40
+A/Bretagne/026/2019,A/Bretagne/1413/2017,40
+A/Paris/029/2019,A/Bretagne/1413/2017,40
+A/Stockholm/6/2014,A/Norway/4436/2016,320
+A/Hong Kong/5738/2014,A/Norway/4436/2016,320
+A/Bretagne/1413/2017,A/Norway/4436/2016,320
+A/Singapore/INFIMH-16-0019/2016,A/Norway/4436/2016,80
+A/Hong Kong/656/2018,A/Norway/4436/2016,320
+A/Switzerland/8060/2017,A/Norway/4436/2016,160
+A/Trollhattan/3/2018,A/Norway/4436/2016,80
+A/Paris/2671/2018,A/Norway/4436/2016,160
+A/Bretagne/026/2019,A/Norway/4436/2016,160
+A/Paris/029/2019,A/Norway/4436/2016,160
+A/Stockholm/6/2014,A/Greece/4/2017,160
+A/Hong Kong/5738/2014,A/Greece/4/2017,160
+A/Bretagne/1413/2017,A/Greece/4/2017,160
+A/Singapore/INFIMH-16-0019/2016,A/Greece/4/2017,40
+A/Hong Kong/656/2018,A/Greece/4/2017,160
+A/Switzerland/8060/2017,A/Greece/4/2017,80
+A/Trollhattan/3/2018,A/Greece/4/2017,80
+A/Paris/2671/2018,A/Greece/4/2017,40
+A/Bretagne/026/2019,A/Greece/4/2017,80
+A/Paris/029/2019,A/Greece/4/2017,40
+A/Stockholm/6/2014,A/Singapore/INFIMH-16-0019/2016,320
+A/Hong Kong/5738/2014,A/Singapore/INFIMH-16-0019/2016,640
+A/Bretagne/1413/2017,A/Singapore/INFIMH-16-0019/2016,160
+A/Singapore/INFIMH-16-0019/2016,A/Singapore/INFIMH-16-0019/2016,640
+A/Hong Kong/656/2018,A/Singapore/INFIMH-16-0019/2016,320
+A/Switzerland/8060/2017,A/Singapore/INFIMH-16-0019/2016,640
+A/Trollhattan/3/2018,A/Singapore/INFIMH-16-0019/2016,80
+A/Paris/2671/2018,A/Singapore/INFIMH-16-0019/2016,80
+A/Bretagne/026/2019,A/Singapore/INFIMH-16-0019/2016,80
+A/Paris/029/2019,A/Singapore/INFIMH-16-0019/2016,80
+A/Stockholm/6/2014,A/Hong Kong/656/2018,80
+A/Hong Kong/5738/2014,A/Hong Kong/656/2018,160
+A/Bretagne/1413/2017,A/Hong Kong/656/2018,640
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/656/2018,40
+A/Hong Kong/656/2018,A/Hong Kong/656/2018,1280
+A/Switzerland/8060/2017,A/Hong Kong/656/2018,1280
+A/Trollhattan/3/2018,A/Hong Kong/656/2018,40
+A/Paris/2671/2018,A/Hong Kong/656/2018,40
+A/Bretagne/026/2019,A/Hong Kong/656/2018,40
+A/Paris/029/2019,A/Hong Kong/656/2018,80
+A/Stockholm/6/2014,A/La Rioja/2202/2018,80
+A/Hong Kong/5738/2014,A/La Rioja/2202/2018,160
+A/Bretagne/1413/2017,A/La Rioja/2202/2018,80
+A/Singapore/INFIMH-16-0019/2016,A/La Rioja/2202/2018,160
+A/Hong Kong/656/2018,A/La Rioja/2202/2018,160
+A/Switzerland/8060/2017,A/La Rioja/2202/2018,80
+A/Trollhattan/3/2018,A/La Rioja/2202/2018,160
+A/Paris/2671/2018,A/La Rioja/2202/2018,<40
+A/Bretagne/026/2019,A/La Rioja/2202/2018,40
+A/Paris/029/2019,A/La Rioja/2202/2018,40
+A/Stockholm/6/2014,A/Switzerland/8060/2017,160
+A/Hong Kong/5738/2014,A/Switzerland/8060/2017,320
+A/Bretagne/1413/2017,A/Switzerland/8060/2017,640
+A/Singapore/INFIMH-16-0019/2016,A/Switzerland/8060/2017,80
+A/Hong Kong/656/2018,A/Switzerland/8060/2017,640
+A/Switzerland/8060/2017,A/Switzerland/8060/2017,1280
+A/Trollhattan/3/2018,A/Switzerland/8060/2017,40
+A/Paris/2671/2018,A/Switzerland/8060/2017,40
+A/Bretagne/026/2019,A/Switzerland/8060/2017,80
+A/Paris/029/2019,A/Switzerland/8060/2017,80
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Stockholm/6/2014,40
+A/Switzerland/8060/2017,A/Stockholm/6/2014,40
+A/England/538/2018,A/Stockholm/6/2014,80
+A/Netherlands/10260/2018,A/Stockholm/6/2014,40
+A/Sundsvall/2/2018,A/Stockholm/6/2014,40
+A/Sundsvall/1/2018,A/Stockholm/6/2014,40
+A/Israel/10464/2018,A/Stockholm/6/2014,80
+A/Israel/603/2018,A/Stockholm/6/2014,160
+A/Kyiv/532/2018,A/Stockholm/6/2014,<40
+A/Israel/604/2018,A/Stockholm/6/2014,80
+A/Ukraine/8106/2018,A/Stockholm/6/2014,<40
+A/Ukraine/8103/2019,A/Stockholm/6/2014,80
+A/Portugal/139/2019,A/Stockholm/6/2014,160
+A/Portugal/151/2019,A/Stockholm/6/2014,160
+A/Portugal/146/2019,A/Stockholm/6/2014,80
+A/Avila/32/2019,A/Stockholm/6/2014,<40
+A/Burgos/31/2019,A/Stockholm/6/2014,160
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,40
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,80
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/5738/2014,40
+A/Switzerland/8060/2017,A/Hong Kong/5738/2014,80
+A/England/538/2018,A/Hong Kong/5738/2014,*
+A/Netherlands/10260/2018,A/Hong Kong/5738/2014,40
+A/Sundsvall/2/2018,A/Hong Kong/5738/2014,<40
+A/Sundsvall/1/2018,A/Hong Kong/5738/2014,<40
+A/Israel/10464/2018,A/Hong Kong/5738/2014,<40
+A/Israel/603/2018,A/Hong Kong/5738/2014,<40
+A/Kyiv/532/2018,A/Hong Kong/5738/2014,40
+A/Israel/604/2018,A/Hong Kong/5738/2014,<40
+A/Ukraine/8106/2018,A/Hong Kong/5738/2014,40
+A/Ukraine/8103/2019,A/Hong Kong/5738/2014,40
+A/Portugal/139/2019,A/Hong Kong/5738/2014,<40
+A/Portugal/151/2019,A/Hong Kong/5738/2014,80
+A/Portugal/146/2019,A/Hong Kong/5738/2014,40
+A/Avila/32/2019,A/Hong Kong/5738/2014,<40
+A/Burgos/31/2019,A/Hong Kong/5738/2014,<40
+A/Stockholm/6/2014,A/Singapore/INFIMH-16-0019/2016,160
+A/Hong Kong/5738/2014,A/Singapore/INFIMH-16-0019/2016,320
+A/Singapore/INFIMH-16-0019/2016,A/Singapore/INFIMH-16-0019/2016,640
+A/Switzerland/8060/2017,A/Singapore/INFIMH-16-0019/2016,640
+A/England/538/2018,A/Singapore/INFIMH-16-0019/2016,*
+A/Netherlands/10260/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Sundsvall/2/2018,A/Singapore/INFIMH-16-0019/2016,<40
+A/Sundsvall/1/2018,A/Singapore/INFIMH-16-0019/2016,<40
+A/Israel/10464/2018,A/Singapore/INFIMH-16-0019/2016,80
+A/Israel/603/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Kyiv/532/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/Israel/604/2018,A/Singapore/INFIMH-16-0019/2016,80
+A/Ukraine/8106/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/Ukraine/8103/2019,A/Singapore/INFIMH-16-0019/2016,80
+A/Portugal/139/2019,A/Singapore/INFIMH-16-0019/2016,80
+A/Portugal/151/2019,A/Singapore/INFIMH-16-0019/2016,160
+A/Portugal/146/2019,A/Singapore/INFIMH-16-0019/2016,40
+A/Avila/32/2019,A/Singapore/INFIMH-16-0019/2016,<40
+A/Burgos/31/2019,A/Singapore/INFIMH-16-0019/2016,80
+A/Stockholm/6/2014,A/La Rioja/2202/2018,80
+A/Hong Kong/5738/2014,A/La Rioja/2202/2018,160
+A/Singapore/INFIMH-16-0019/2016,A/La Rioja/2202/2018,160
+A/Switzerland/8060/2017,A/La Rioja/2202/2018,160
+A/England/538/2018,A/La Rioja/2202/2018,*
+A/Netherlands/10260/2018,A/La Rioja/2202/2018,320
+A/Sundsvall/2/2018,A/La Rioja/2202/2018,<40
+A/Sundsvall/1/2018,A/La Rioja/2202/2018,<40
+A/Israel/10464/2018,A/La Rioja/2202/2018,40
+A/Israel/603/2018,A/La Rioja/2202/2018,160
+A/Kyiv/532/2018,A/La Rioja/2202/2018,160
+A/Israel/604/2018,A/La Rioja/2202/2018,40
+A/Ukraine/8106/2018,A/La Rioja/2202/2018,160
+A/Ukraine/8103/2019,A/La Rioja/2202/2018,320
+A/Portugal/139/2019,A/La Rioja/2202/2018,80
+A/Portugal/151/2019,A/La Rioja/2202/2018,320
+A/Portugal/146/2019,A/La Rioja/2202/2018,160
+A/Avila/32/2019,A/La Rioja/2202/2018,<40
+A/Burgos/31/2019,A/La Rioja/2202/2018,40
+A/Stockholm/6/2014,A/Switzerland/8060/2017,160
+A/Hong Kong/5738/2014,A/Switzerland/8060/2017,320
+A/Singapore/INFIMH-16-0019/2016,A/Switzerland/8060/2017,80
+A/Switzerland/8060/2017,A/Switzerland/8060/2017,1280
+A/England/538/2018,A/Switzerland/8060/2017,40
+A/Netherlands/10260/2018,A/Switzerland/8060/2017,80
+A/Sundsvall/2/2018,A/Switzerland/8060/2017,<40
+A/Sundsvall/1/2018,A/Switzerland/8060/2017,<40
+A/Israel/10464/2018,A/Switzerland/8060/2017,40
+A/Israel/603/2018,A/Switzerland/8060/2017,160
+A/Kyiv/532/2018,A/Switzerland/8060/2017,<40
+A/Israel/604/2018,A/Switzerland/8060/2017,80
+A/Ukraine/8106/2018,A/Switzerland/8060/2017,<40
+A/Ukraine/8103/2019,A/Switzerland/8060/2017,40
+A/Portugal/139/2019,A/Switzerland/8060/2017,80
+A/Portugal/151/2019,A/Switzerland/8060/2017,80
+A/Portugal/146/2019,A/Switzerland/8060/2017,40
+A/Avila/32/2019,A/Switzerland/8060/2017,<40
+A/Burgos/31/2019,A/Switzerland/8060/2017,80
+A/Stockholm/6/2014,A/England/538/2018,320
+A/Hong Kong/5738/2014,A/England/538/2018,320
+A/Singapore/INFIMH-16-0019/2016,A/England/538/2018,80
+A/Switzerland/8060/2017,A/England/538/2018,160
+A/England/538/2018,A/England/538/2018,1280
+A/Netherlands/10260/2018,A/England/538/2018,80
+A/Sundsvall/2/2018,A/England/538/2018,320
+A/Sundsvall/1/2018,A/England/538/2018,320
+A/Israel/10464/2018,A/England/538/2018,640
+A/Israel/603/2018,A/England/538/2018,640
+A/Kyiv/532/2018,A/England/538/2018,40
+A/Israel/604/2018,A/England/538/2018,320
+A/Ukraine/8106/2018,A/England/538/2018,40
+A/Ukraine/8103/2019,A/England/538/2018,40
+A/Portugal/139/2019,A/England/538/2018,160
+A/Portugal/151/2019,A/England/538/2018,160
+A/Portugal/146/2019,A/England/538/2018,40
+A/Avila/32/2019,A/England/538/2018,40
+A/Burgos/31/2019,A/England/538/2018,640
+A/Stockholm/6/2014,A/Netherlands/10260/2018,<40
+A/Hong Kong/5738/2014,A/Netherlands/10260/2018,40
+A/Singapore/INFIMH-16-0019/2016,A/Netherlands/10260/2018,40
+A/Switzerland/8060/2017,A/Netherlands/10260/2018,40
+A/England/538/2018,A/Netherlands/10260/2018,*
+A/Netherlands/10260/2018,A/Netherlands/10260/2018,2560
+A/Sundsvall/2/2018,A/Netherlands/10260/2018,*
+A/Sundsvall/1/2018,A/Netherlands/10260/2018,*
+A/Israel/10464/2018,A/Netherlands/10260/2018,<40
+A/Israel/603/2018,A/Netherlands/10260/2018,<40
+A/Kyiv/532/2018,A/Netherlands/10260/2018,<40
+A/Israel/604/2018,A/Netherlands/10260/2018,<40
+A/Ukraine/8106/2018,A/Netherlands/10260/2018,<40
+A/Ukraine/8103/2019,A/Netherlands/10260/2018,<40
+A/Portugal/139/2019,A/Netherlands/10260/2018,<40
+A/Portugal/151/2019,A/Netherlands/10260/2018,<40
+A/Portugal/146/2019,A/Netherlands/10260/2018,<40
+A/Avila/32/2019,A/Netherlands/10260/2018,<40
+A/Burgos/31/2019,A/Netherlands/10260/2018,<40
+A/Stockholm/6/2014,A/Norway/3275/18,80
+A/Hong Kong/5738/2014,A/Norway/3275/18,320
+A/Singapore/INFIMH-16-0019/2016,A/Norway/3275/18,40
+A/Switzerland/8060/2017,A/Norway/3275/18,80
+A/England/538/2018,A/Norway/3275/18,*
+A/Netherlands/10260/2018,A/Norway/3275/18,160
+A/Sundsvall/2/2018,A/Norway/3275/18,*
+A/Sundsvall/1/2018,A/Norway/3275/18,*
+A/Israel/10464/2018,A/Norway/3275/18,40
+A/Israel/603/2018,A/Norway/3275/18,40
+A/Kyiv/532/2018,A/Norway/3275/18,160
+A/Israel/604/2018,A/Norway/3275/18,40
+A/Ukraine/8106/2018,A/Norway/3275/18,160
+A/Ukraine/8103/2019,A/Norway/3275/18,160
+A/Portugal/139/2019,A/Norway/3275/18,80
+A/Portugal/151/2019,A/Norway/3275/18,320
+A/Portugal/146/2019,A/Norway/3275/18,160
+A/Avila/32/2019,A/Norway/3275/18,<40
+A/Burgos/31/2019,A/Norway/3275/18,<40
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,160
+A/Bretagne/1413/2017,A/Stockholm/6/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Stockholm/6/2014,40
+A/Switzerland/8060/2017,A/Stockholm/6/2014,80
+A/England/538/2018,A/Stockholm/6/2014,160
+A/Netherlands/10260/2018,A/Stockholm/6/2014,40
+A/Switzerland/293/2018,A/Stockholm/6/2014,160
+A/Nizhny Novgorod/14645V/2018,A/Stockholm/6/2014,<40
+A/Hungary/5/2019,A/Stockholm/6/2014,160
+A/Hungary/28/2019,A/Stockholm/6/2014,80
+A/Hungary/26/2019,A/Stockholm/6/2014,160
+A/Netherlands/10002/2019,A/Stockholm/6/2014,80
+A/Armenia/91/2019,A/Stockholm/6/2014,160
+A/Neth/10006/2019,A/Stockholm/6/2014,40
+A/Albania/9142/2019,A/Stockholm/6/2014,80
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,40
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,80
+A/Bretagne/1413/2017,A/Hong Kong/5738/2014,40
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/5738/2014,<40
+A/Switzerland/8060/2017,A/Hong Kong/5738/2014,80
+A/England/538/2018,A/Hong Kong/5738/2014,640
+A/Netherlands/10260/2018,A/Hong Kong/5738/2014,<40
+A/Switzerland/293/2018,A/Hong Kong/5738/2014,40
+A/Nizhny Novgorod/14645V/2018,A/Hong Kong/5738/2014,<40
+A/Hungary/5/2019,A/Hong Kong/5738/2014,<40
+A/Hungary/28/2019,A/Hong Kong/5738/2014,<40
+A/Hungary/26/2019,A/Hong Kong/5738/2014,40
+A/Netherlands/10002/2019,A/Hong Kong/5738/2014,<40
+A/Armenia/91/2019,A/Hong Kong/5738/2014,<40
+A/Neth/10006/2019,A/Hong Kong/5738/2014,<40
+A/Albania/9142/2019,A/Hong Kong/5738/2014,<40
+A/Stockholm/6/2014,A/Bretagne/1413/2017,80
+A/Hong Kong/5738/2014,A/Bretagne/1413/2017,160
+A/Bretagne/1413/2017,A/Bretagne/1413/2017,640
+A/Singapore/INFIMH-16-0019/2016,A/Bretagne/1413/2017,40
+A/Switzerland/8060/2017,A/Bretagne/1413/2017,2560
+A/England/538/2018,A/Bretagne/1413/2017,80
+A/Netherlands/10260/2018,A/Bretagne/1413/2017,80
+A/Switzerland/293/2018,A/Bretagne/1413/2017,80
+A/Nizhny Novgorod/14645V/2018,A/Bretagne/1413/2017,<40
+A/Hungary/5/2019,A/Bretagne/1413/2017,<40
+A/Hungary/28/2019,A/Bretagne/1413/2017,<40
+A/Hungary/26/2019,A/Bretagne/1413/2017,40
+A/Netherlands/10002/2019,A/Bretagne/1413/2017,40
+A/Armenia/91/2019,A/Bretagne/1413/2017,40
+A/Neth/10006/2019,A/Bretagne/1413/2017,40
+A/Albania/9142/2019,A/Bretagne/1413/2017,<40
+A/Stockholm/6/2014,A/Singapore/INFIMH-16-0019/2016,320
+A/Hong Kong/5738/2014,A/Singapore/INFIMH-16-0019/2016,320
+A/Bretagne/1413/2017,A/Singapore/INFIMH-16-0019/2016,320
+A/Singapore/INFIMH-16-0019/2016,A/Singapore/INFIMH-16-0019/2016,640
+A/Switzerland/8060/2017,A/Singapore/INFIMH-16-0019/2016,1280
+A/England/538/2018,A/Singapore/INFIMH-16-0019/2016,320
+A/Netherlands/10260/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Switzerland/293/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Nizhny Novgorod/14645V/2018,A/Singapore/INFIMH-16-0019/2016,40
+A/Hungary/5/2019,A/Singapore/INFIMH-16-0019/2016,80
+A/Hungary/28/2019,A/Singapore/INFIMH-16-0019/2016,80
+A/Hungary/26/2019,A/Singapore/INFIMH-16-0019/2016,80
+A/Netherlands/10002/2019,A/Singapore/INFIMH-16-0019/2016,40
+A/Armenia/91/2019,A/Singapore/INFIMH-16-0019/2016,160
+A/Neth/10006/2019,A/Singapore/INFIMH-16-0019/2016,40
+A/Albania/9142/2019,A/Singapore/INFIMH-16-0019/2016,80
+A/Stockholm/6/2014,A/La Rioja/2202/2018,80
+A/Hong Kong/5738/2014,A/La Rioja/2202/2018,160
+A/Bretagne/1413/2017,A/La Rioja/2202/2018,80
+A/Singapore/INFIMH-16-0019/2016,A/La Rioja/2202/2018,160
+A/Switzerland/8060/2017,A/La Rioja/2202/2018,160
+A/England/538/2018,A/La Rioja/2202/2018,40
+A/Netherlands/10260/2018,A/La Rioja/2202/2018,320
+A/Switzerland/293/2018,A/La Rioja/2202/2018,160
+A/Nizhny Novgorod/14645V/2018,A/La Rioja/2202/2018,80
+A/Hungary/5/2019,A/La Rioja/2202/2018,160
+A/Hungary/28/2019,A/La Rioja/2202/2018,80
+A/Hungary/26/2019,A/La Rioja/2202/2018,320
+A/Netherlands/10002/2019,A/La Rioja/2202/2018,<40
+A/Armenia/91/2019,A/La Rioja/2202/2018,160
+A/Neth/10006/2019,A/La Rioja/2202/2018,<40
+A/Albania/9142/2019,A/La Rioja/2202/2018,80
+A/Stockholm/6/2014,A/Switzerland/8060/2017,160
+A/Hong Kong/5738/2014,A/Switzerland/8060/2017,160
+A/Bretagne/1413/2017,A/Switzerland/8060/2017,640
+A/Singapore/INFIMH-16-0019/2016,A/Switzerland/8060/2017,80
+A/Switzerland/8060/2017,A/Switzerland/8060/2017,1280
+A/England/538/2018,A/Switzerland/8060/2017,80
+A/Netherlands/10260/2018,A/Switzerland/8060/2017,160
+A/Switzerland/293/2018,A/Switzerland/8060/2017,160
+A/Nizhny Novgorod/14645V/2018,A/Switzerland/8060/2017,<40
+A/Hungary/5/2019,A/Switzerland/8060/2017,<40
+A/Hungary/28/2019,A/Switzerland/8060/2017,<40
+A/Hungary/26/2019,A/Switzerland/8060/2017,80
+A/Netherlands/10002/2019,A/Switzerland/8060/2017,<40
+A/Armenia/91/2019,A/Switzerland/8060/2017,40
+A/Neth/10006/2019,A/Switzerland/8060/2017,<40
+A/Albania/9142/2019,A/Switzerland/8060/2017,40
+A/Stockholm/6/2014,A/England/538/2018,320
+A/Hong Kong/5738/2014,A/England/538/2018,160
+A/Bretagne/1413/2017,A/England/538/2018,160
+A/Singapore/INFIMH-16-0019/2016,A/England/538/2018,80
+A/Switzerland/8060/2017,A/England/538/2018,160
+A/England/538/2018,A/England/538/2018,1280
+A/Netherlands/10260/2018,A/England/538/2018,80
+A/Switzerland/293/2018,A/England/538/2018,160
+A/Nizhny Novgorod/14645V/2018,A/England/538/2018,40
+A/Hungary/5/2019,A/England/538/2018,40
+A/Hungary/28/2019,A/England/538/2018,40
+A/Hungary/26/2019,A/England/538/2018,80
+A/Netherlands/10002/2019,A/England/538/2018,640
+A/Armenia/91/2019,A/England/538/2018,80
+A/Neth/10006/2019,A/England/538/2018,640
+A/Albania/9142/2019,A/England/538/2018,40
+A/Stockholm/6/2014,A/Netherlands/10260/2018,<40
+A/Hong Kong/5738/2014,A/Netherlands/10260/2018,40
+A/Bretagne/1413/2017,A/Netherlands/10260/2018,40
+A/Singapore/INFIMH-16-0019/2016,A/Netherlands/10260/2018,<40
+A/Switzerland/8060/2017,A/Netherlands/10260/2018,40
+A/England/538/2018,A/Netherlands/10260/2018,<40
+A/Netherlands/10260/2018,A/Netherlands/10260/2018,1280
+A/Switzerland/293/2018,A/Netherlands/10260/2018,<40
+A/Nizhny Novgorod/14645V/2018,A/Netherlands/10260/2018,<40
+A/Hungary/5/2019,A/Netherlands/10260/2018,<40
+A/Hungary/28/2019,A/Netherlands/10260/2018,<40
+A/Hungary/26/2019,A/Netherlands/10260/2018,40
+A/Netherlands/10002/2019,A/Netherlands/10260/2018,<40
+A/Armenia/91/2019,A/Netherlands/10260/2018,<40
+A/Neth/10006/2019,A/Netherlands/10260/2018,<40
+A/Albania/9142/2019,A/Netherlands/10260/2018,<40
+A/Stockholm/6/2014,A/Norway/3275/18,80
+A/Hong Kong/5738/2014,A/Norway/3275/18,160
+A/Bretagne/1413/2017,A/Norway/3275/18,160
+A/Singapore/INFIMH-16-0019/2016,A/Norway/3275/18,40
+A/Switzerland/8060/2017,A/Norway/3275/18,160
+A/England/538/2018,A/Norway/3275/18,40
+A/Netherlands/10260/2018,A/Norway/3275/18,160
+A/Switzerland/293/2018,A/Norway/3275/18,320
+A/Nizhny Novgorod/14645V/2018,A/Norway/3275/18,40
+A/Hungary/5/2019,A/Norway/3275/18,160
+A/Hungary/28/2019,A/Norway/3275/18,80
+A/Hungary/26/2019,A/Norway/3275/18,80
+A/Netherlands/10002/2019,A/Norway/3275/18,<40
+A/Armenia/91/2019,A/Norway/3275/18,80
+A/Neth/10006/2019,A/Norway/3275/18,<40
+A/Albania/9142/2019,A/Norway/3275/18,40
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,320
+A/Bretagne/1413/2017,A/Stockholm/6/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Stockholm/6/2014,<40
+A/Hong Kong/656/2018,A/Stockholm/6/2014,160
+A/Switzerland/8060/2017,A/Stockholm/6/2014,<40
+A/England/538/2018,A/Stockholm/6/2014,80
+A/Netherlands/10260/2018,A/Stockholm/6/2014,40
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,80
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,160
+A/Bretagne/1413/2017,A/Hong Kong/5738/2014,160
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/5738/2014,40
+A/Hong Kong/656/2018,A/Hong Kong/5738/2014,320
+A/Switzerland/8060/2017,A/Hong Kong/5738/2014,160
+A/England/538/2018,A/Hong Kong/5738/2014,*
+A/Netherlands/10260/2018,A/Hong Kong/5738/2014,40
+A/Stockholm/6/2014,A/Bretagne/1413/2017,80
+A/Hong Kong/5738/2014,A/Bretagne/1413/2017,160
+A/Bretagne/1413/2017,A/Bretagne/1413/2017,1280
+A/Singapore/INFIMH-16-0019/2016,A/Bretagne/1413/2017,40
+A/Hong Kong/656/2018,A/Bretagne/1413/2017,640
+A/Switzerland/8060/2017,A/Bretagne/1413/2017,1280
+A/England/538/2018,A/Bretagne/1413/2017,*
+A/Netherlands/10260/2018,A/Bretagne/1413/2017,*
+A/Stockholm/6/2014,A/Norway/4436/2016,320
+A/Hong Kong/5738/2014,A/Norway/4436/2016,320
+A/Bretagne/1413/2017,A/Norway/4436/2016,320
+A/Singapore/INFIMH-16-0019/2016,A/Norway/4436/2016,80
+A/Hong Kong/656/2018,A/Norway/4436/2016,320
+A/Switzerland/8060/2017,A/Norway/4436/2016,160
+A/England/538/2018,A/Norway/4436/2016,*
+A/Netherlands/10260/2018,A/Norway/4436/2016,*
+A/Stockholm/6/2014,A/Greece/4/2017,160
+A/Hong Kong/5738/2014,A/Greece/4/2017,160
+A/Bretagne/1413/2017,A/Greece/4/2017,160
+A/Singapore/INFIMH-16-0019/2016,A/Greece/4/2017,40
+A/Hong Kong/656/2018,A/Greece/4/2017,160
+A/Switzerland/8060/2017,A/Greece/4/2017,80
+A/England/538/2018,A/Greece/4/2017,*
+A/Netherlands/10260/2018,A/Greece/4/2017,*
+A/Stockholm/6/2014,A/Singapore/INFIMH-16-0019/2016,320
+A/Hong Kong/5738/2014,A/Singapore/INFIMH-16-0019/2016,640
+A/Bretagne/1413/2017,A/Singapore/INFIMH-16-0019/2016,160
+A/Singapore/INFIMH-16-0019/2016,A/Singapore/INFIMH-16-0019/2016,640
+A/Hong Kong/656/2018,A/Singapore/INFIMH-16-0019/2016,320
+A/Switzerland/8060/2017,A/Singapore/INFIMH-16-0019/2016,640
+A/England/538/2018,A/Singapore/INFIMH-16-0019/2016,*
+A/Netherlands/10260/2018,A/Singapore/INFIMH-16-0019/2016,160
+A/Stockholm/6/2014,A/Hong Kong/656/2018,80
+A/Hong Kong/5738/2014,A/Hong Kong/656/2018,160
+A/Bretagne/1413/2017,A/Hong Kong/656/2018,640
+A/Singapore/INFIMH-16-0019/2016,A/Hong Kong/656/2018,40
+A/Hong Kong/656/2018,A/Hong Kong/656/2018,1280
+A/Switzerland/8060/2017,A/Hong Kong/656/2018,1280
+A/England/538/2018,A/Hong Kong/656/2018,*
+A/Netherlands/10260/2018,A/Hong Kong/656/2018,*
+A/Stockholm/6/2014,A/La Rioja/2202/2018,80
+A/Hong Kong/5738/2014,A/La Rioja/2202/2018,160
+A/Bretagne/1413/2017,A/La Rioja/2202/2018,80
+A/Singapore/INFIMH-16-0019/2016,A/La Rioja/2202/2018,160
+A/Hong Kong/656/2018,A/La Rioja/2202/2018,160
+A/Switzerland/8060/2017,A/La Rioja/2202/2018,80
+A/England/538/2018,A/La Rioja/2202/2018,*
+A/Netherlands/10260/2018,A/La Rioja/2202/2018,320
+A/Stockholm/6/2014,A/Switzerland/8060/2017,160
+A/Hong Kong/5738/2014,A/Switzerland/8060/2017,320
+A/Bretagne/1413/2017,A/Switzerland/8060/2017,640
+A/Singapore/INFIMH-16-0019/2016,A/Switzerland/8060/2017,80
+A/Hong Kong/656/2018,A/Switzerland/8060/2017,640
+A/Switzerland/8060/2017,A/Switzerland/8060/2017,1280
+A/England/538/2018,A/Switzerland/8060/2017,40
+A/Netherlands/10260/2018,A/Switzerland/8060/2017,80
+A/Stockholm/6/2014,A/England/538/2018,320
+A/Hong Kong/5738/2014,A/England/538/2018,320
+A/Bretagne/1413/2017,A/England/538/2018,*
+A/Singapore/INFIMH-16-0019/2016,A/England/538/2018,80
+A/Hong Kong/656/2018,A/England/538/2018,*
+A/Switzerland/8060/2017,A/England/538/2018,160
+A/England/538/2018,A/England/538/2018,1280
+A/Netherlands/10260/2018,A/England/538/2018,80
+A/Stockholm/6/2014,A/Netherlands/10260/2018,<40
+A/Hong Kong/5738/2014,A/Netherlands/10260/2018,40
+A/Bretagne/1413/2017,A/Netherlands/10260/2018,*
+A/Singapore/INFIMH-16-0019/2016,A/Netherlands/10260/2018,40
+A/Hong Kong/656/2018,A/Netherlands/10260/2018,*
+A/Switzerland/8060/2017,A/Netherlands/10260/2018,40
+A/England/538/2018,A/Netherlands/10260/2018,*
+A/Netherlands/10260/2018,A/Netherlands/10260/2018,2560
+A/Stockholm/6/2014,A/Norway/3275/18,80
+A/Hong Kong/5738/2014,A/Norway/3275/18,320
+A/Bretagne/1413/2017,A/Norway/3275/18,*
+A/Singapore/INFIMH-16-0019/2016,A/Norway/3275/18,40
+A/Hong Kong/656/2018,A/Norway/3275/18,*
+A/Switzerland/8060/2017,A/Norway/3275/18,80
+A/England/538/2018,A/Norway/3275/18,*
+A/Netherlands/10260/2018,A/Norway/3275/18,160
