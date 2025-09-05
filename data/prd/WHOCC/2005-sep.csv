@@ -1,0 +1,581 @@
+Test Virus,Reference Virus,Titre
+A/Panama/2007/1999,A/Panama/2007/1999,2560
+A/Wyoming/3/2003,A/Panama/2007/1999,1280
+A/Wellington/1/2004,A/Panama/2007/1999,320
+A/Shantou/1219/2004,A/Panama/2007/1999,160
+A/Finland/486/05,A/Panama/2007/1999,160
+A/California/7/2004,A/Panama/2007/1999,160
+A/Singapore/37/2004,A/Panama/2007/1999,160
+A/New York/55/05,A/Panama/2007/1999,160
+A/Iran/294/2005,A/Panama/2007/1999,40
+A/Agadir/422/2005,A/Panama/2007/1999,160
+A/Slovenia/146/2005,A/Panama/2007/1999,40
+A/Bratislava/84/2005,A/Panama/2007/1999,320
+A/Israel/64/2005,A/Panama/2007/1999,80
+A/Paris/1734/2005,A/Panama/2007/1999,160
+A/Parma/84/2005,A/Panama/2007/1999,80
+A/Rome/2/2005,A/Panama/2007/1999,40
+A/Trieste/31/2005,A/Panama/2007/1999,80
+A/Hong Kong/91/2005,A/Panama/2007/1999,160
+A/Austria/207265/2005,A/Panama/2007/1999,80
+A/Poland/WAW/17,A/Panama/2007/1999,40
+A/Salamanca/26/2005,A/Panama/2007/1999,160
+A/San Sebastian/RR1823/2005,A/Panama/2007/1999,80
+A/Prague/34/05,A/Panama/2007/1999,80
+A/Lisbon/87/2005,A/Panama/2007/1999,80
+A/Denmark/55/2005,A/Panama/2007/1999,160
+A/Algeria/G04/2005,A/Panama/2007/1999,80
+A/Belgium/739/2005,A/Panama/2007/1999,80
+A/Saudi Arabia/384/2005,A/Panama/2007/1999,80
+A/Finland/603/2005,A/Panama/2007/1999,160
+A/Geneva/8379/2005,A/Panama/2007/1999,80
+A/Norway/855/2005,A/Panama/2007/1999,160
+A/Latvia/3010/2005,A/Panama/2007/1999,80
+A/Lyon/CHU/1105,A/Panama/2007/1999,80
+A/Berlin/94/05,A/Panama/2007/1999,160
+A/Romania/810/2005,A/Panama/2007/1999,80
+A/Iceland/111/2005,A/Panama/2007/1999,80
+A/Slovakia/44/2005,A/Panama/2007/1999,40
+A/Stockholm/19/2005,A/Panama/2007/1999,80
+A/St Petersburg/8/2005,A/Panama/2007/1999,40
+A/Hong Kong/2782/2005,A/Panama/2007/1999,<40
+A/Johannesburg/122/2005,A/Panama/2007/1999,40
+A/Stockholm/20/2005,A/Panama/2007/1999,40
+A/Johannesburg/391/2005,A/Panama/2007/1999,40
+A/Hong Kong/4443/2005,A/Panama/2007/1999,<40
+A/Annecy/1140/2005,A/Panama/2007/1999,<40
+A/Panama/2007/1999,A/Wyoming/3/2003,640
+A/Wyoming/3/2003,A/Wyoming/3/2003,5120
+A/Wellington/1/2004,A/Wyoming/3/2003,1280
+A/Shantou/1219/2004,A/Wyoming/3/2003,640
+A/Finland/486/05,A/Wyoming/3/2003,640
+A/California/7/2004,A/Wyoming/3/2003,1280
+A/Singapore/37/2004,A/Wyoming/3/2003,320
+A/New York/55/05,A/Wyoming/3/2003,1280
+A/Iran/294/2005,A/Wyoming/3/2003,320
+A/Agadir/422/2005,A/Wyoming/3/2003,1280
+A/Slovenia/146/2005,A/Wyoming/3/2003,320
+A/Bratislava/84/2005,A/Wyoming/3/2003,320
+A/Israel/64/2005,A/Wyoming/3/2003,640
+A/Paris/1734/2005,A/Wyoming/3/2003,640
+A/Parma/84/2005,A/Wyoming/3/2003,320
+A/Rome/2/2005,A/Wyoming/3/2003,320
+A/Trieste/31/2005,A/Wyoming/3/2003,640
+A/Hong Kong/91/2005,A/Wyoming/3/2003,640
+A/Austria/207265/2005,A/Wyoming/3/2003,1280
+A/Poland/WAW/17,A/Wyoming/3/2003,320
+A/Salamanca/26/2005,A/Wyoming/3/2003,2560
+A/San Sebastian/RR1823/2005,A/Wyoming/3/2003,640
+A/Prague/34/05,A/Wyoming/3/2003,320
+A/Lisbon/87/2005,A/Wyoming/3/2003,320
+A/Denmark/55/2005,A/Wyoming/3/2003,1280
+A/Algeria/G04/2005,A/Wyoming/3/2003,1280
+A/Belgium/739/2005,A/Wyoming/3/2003,320
+A/Saudi Arabia/384/2005,A/Wyoming/3/2003,640
+A/Finland/603/2005,A/Wyoming/3/2003,640
+A/Geneva/8379/2005,A/Wyoming/3/2003,320
+A/Norway/855/2005,A/Wyoming/3/2003,640
+A/Latvia/3010/2005,A/Wyoming/3/2003,640
+A/Lyon/CHU/1105,A/Wyoming/3/2003,640
+A/Berlin/94/05,A/Wyoming/3/2003,320
+A/Romania/810/2005,A/Wyoming/3/2003,1280
+A/Iceland/111/2005,A/Wyoming/3/2003,320
+A/Slovakia/44/2005,A/Wyoming/3/2003,320
+A/Stockholm/19/2005,A/Wyoming/3/2003,1280
+A/St Petersburg/8/2005,A/Wyoming/3/2003,160
+A/Hong Kong/2782/2005,A/Wyoming/3/2003,80
+A/Johannesburg/122/2005,A/Wyoming/3/2003,80
+A/Stockholm/20/2005,A/Wyoming/3/2003,80
+A/Johannesburg/391/2005,A/Wyoming/3/2003,160
+A/Hong Kong/4443/2005,A/Wyoming/3/2003,80
+A/Annecy/1140/2005,A/Wyoming/3/2003,80
+A/Panama/2007/1999,A/Wellington/1/2004,160
+A/Wyoming/3/2003,A/Wellington/1/2004,640
+A/Wellington/1/2004,A/Wellington/1/2004,1280
+A/Shantou/1219/2004,A/Wellington/1/2004,320
+A/Finland/486/05,A/Wellington/1/2004,160
+A/California/7/2004,A/Wellington/1/2004,320
+A/Singapore/37/2004,A/Wellington/1/2004,320
+A/New York/55/05,A/Wellington/1/2004,320
+A/Iran/294/2005,A/Wellington/1/2004,*
+A/Agadir/422/2005,A/Wellington/1/2004,320
+A/Slovenia/146/2005,A/Wellington/1/2004,80
+A/Bratislava/84/2005,A/Wellington/1/2004,160
+A/Israel/64/2005,A/Wellington/1/2004,160
+A/Paris/1734/2005,A/Wellington/1/2004,640
+A/Parma/84/2005,A/Wellington/1/2004,160
+A/Rome/2/2005,A/Wellington/1/2004,160
+A/Trieste/31/2005,A/Wellington/1/2004,160
+A/Hong Kong/91/2005,A/Wellington/1/2004,320
+A/Austria/207265/2005,A/Wellington/1/2004,160
+A/Poland/WAW/17,A/Wellington/1/2004,80
+A/Salamanca/26/2005,A/Wellington/1/2004,320
+A/San Sebastian/RR1823/2005,A/Wellington/1/2004,160
+A/Prague/34/05,A/Wellington/1/2004,80
+A/Lisbon/87/2005,A/Wellington/1/2004,80
+A/Denmark/55/2005,A/Wellington/1/2004,640
+A/Algeria/G04/2005,A/Wellington/1/2004,320
+A/Belgium/739/2005,A/Wellington/1/2004,80
+A/Saudi Arabia/384/2005,A/Wellington/1/2004,160
+A/Finland/603/2005,A/Wellington/1/2004,320
+A/Geneva/8379/2005,A/Wellington/1/2004,320
+A/Norway/855/2005,A/Wellington/1/2004,320
+A/Latvia/3010/2005,A/Wellington/1/2004,160
+A/Lyon/CHU/1105,A/Wellington/1/2004,160
+A/Berlin/94/05,A/Wellington/1/2004,*
+A/Romania/810/2005,A/Wellington/1/2004,640
+A/Iceland/111/2005,A/Wellington/1/2004,160
+A/Slovakia/44/2005,A/Wellington/1/2004,160
+A/Stockholm/19/2005,A/Wellington/1/2004,320
+A/St Petersburg/8/2005,A/Wellington/1/2004,80
+A/Hong Kong/2782/2005,A/Wellington/1/2004,80
+A/Johannesburg/122/2005,A/Wellington/1/2004,80
+A/Stockholm/20/2005,A/Wellington/1/2004,80
+A/Johannesburg/391/2005,A/Wellington/1/2004,80
+A/Hong Kong/4443/2005,A/Wellington/1/2004,80
+A/Annecy/1140/2005,A/Wellington/1/2004,80
+A/Panama/2007/1999,A/Shantou/1219/2004,160
+A/Wyoming/3/2003,A/Shantou/1219/2004,1280
+A/Wellington/1/2004,A/Shantou/1219/2004,1280
+A/Shantou/1219/2004,A/Shantou/1219/2004,640
+A/Finland/486/05,A/Shantou/1219/2004,640
+A/California/7/2004,A/Shantou/1219/2004,2560
+A/Singapore/37/2004,A/Shantou/1219/2004,2560
+A/New York/55/05,A/Shantou/1219/2004,1280
+A/Iran/294/2005,A/Shantou/1219/2004,*
+A/Agadir/422/2005,A/Shantou/1219/2004,1280
+A/Slovenia/146/2005,A/Shantou/1219/2004,320
+A/Bratislava/84/2005,A/Shantou/1219/2004,640
+A/Israel/64/2005,A/Shantou/1219/2004,1280
+A/Paris/1734/2005,A/Shantou/1219/2004,1280
+A/Parma/84/2005,A/Shantou/1219/2004,320
+A/Rome/2/2005,A/Shantou/1219/2004,320
+A/Trieste/31/2005,A/Shantou/1219/2004,640
+A/Hong Kong/91/2005,A/Shantou/1219/2004,1280
+A/Austria/207265/2005,A/Shantou/1219/2004,1280
+A/Poland/WAW/17,A/Shantou/1219/2004,*
+A/Salamanca/26/2005,A/Shantou/1219/2004,2560
+A/San Sebastian/RR1823/2005,A/Shantou/1219/2004,640
+A/Prague/34/05,A/Shantou/1219/2004,640
+A/Lisbon/87/2005,A/Shantou/1219/2004,640
+A/Denmark/55/2005,A/Shantou/1219/2004,1280
+A/Algeria/G04/2005,A/Shantou/1219/2004,1280
+A/Belgium/739/2005,A/Shantou/1219/2004,640
+A/Saudi Arabia/384/2005,A/Shantou/1219/2004,640
+A/Finland/603/2005,A/Shantou/1219/2004,1280
+A/Geneva/8379/2005,A/Shantou/1219/2004,*
+A/Norway/855/2005,A/Shantou/1219/2004,*
+A/Latvia/3010/2005,A/Shantou/1219/2004,640
+A/Lyon/CHU/1105,A/Shantou/1219/2004,1280
+A/Berlin/94/05,A/Shantou/1219/2004,1280
+A/Romania/810/2005,A/Shantou/1219/2004,640
+A/Iceland/111/2005,A/Shantou/1219/2004,640
+A/Slovakia/44/2005,A/Shantou/1219/2004,640
+A/Stockholm/19/2005,A/Shantou/1219/2004,1280
+A/St Petersburg/8/2005,A/Shantou/1219/2004,160
+A/Hong Kong/2782/2005,A/Shantou/1219/2004,80
+A/Johannesburg/122/2005,A/Shantou/1219/2004,80
+A/Stockholm/20/2005,A/Shantou/1219/2004,160
+A/Johannesburg/391/2005,A/Shantou/1219/2004,160
+A/Hong Kong/4443/2005,A/Shantou/1219/2004,80
+A/Annecy/1140/2005,A/Shantou/1219/2004,160
+A/Panama/2007/1999,A/Finland/486/05,160
+A/Wyoming/3/2003,A/Finland/486/05,1280
+A/Wellington/1/2004,A/Finland/486/05,1280
+A/Shantou/1219/2004,A/Finland/486/05,320
+A/Finland/486/05,A/Finland/486/05,640
+A/California/7/2004,A/Finland/486/05,1280
+A/Singapore/37/2004,A/Finland/486/05,1280
+A/New York/55/05,A/Finland/486/05,1280
+A/Iran/294/2005,A/Finland/486/05,320
+A/Agadir/422/2005,A/Finland/486/05,1280
+A/Slovenia/146/2005,A/Finland/486/05,320
+A/Bratislava/84/2005,A/Finland/486/05,640
+A/Israel/64/2005,A/Finland/486/05,640
+A/Paris/1734/2005,A/Finland/486/05,640
+A/Parma/84/2005,A/Finland/486/05,640
+A/Rome/2/2005,A/Finland/486/05,*
+A/Trieste/31/2005,A/Finland/486/05,640
+A/Hong Kong/91/2005,A/Finland/486/05,1280
+A/Austria/207265/2005,A/Finland/486/05,1280
+A/Poland/WAW/17,A/Finland/486/05,320
+A/Salamanca/26/2005,A/Finland/486/05,*
+A/San Sebastian/RR1823/2005,A/Finland/486/05,1280
+A/Prague/34/05,A/Finland/486/05,*
+A/Lisbon/87/2005,A/Finland/486/05,*
+A/Denmark/55/2005,A/Finland/486/05,1280
+A/Algeria/G04/2005,A/Finland/486/05,*
+A/Belgium/739/2005,A/Finland/486/05,*
+A/Saudi Arabia/384/2005,A/Finland/486/05,1280
+A/Finland/603/2005,A/Finland/486/05,1280
+A/Geneva/8379/2005,A/Finland/486/05,640
+A/Norway/855/2005,A/Finland/486/05,640
+A/Latvia/3010/2005,A/Finland/486/05,*
+A/Lyon/CHU/1105,A/Finland/486/05,*
+A/Berlin/94/05,A/Finland/486/05,1280
+A/Romania/810/2005,A/Finland/486/05,640
+A/Iceland/111/2005,A/Finland/486/05,*
+A/Slovakia/44/2005,A/Finland/486/05,*
+A/Stockholm/19/2005,A/Finland/486/05,640
+A/St Petersburg/8/2005,A/Finland/486/05,320
+A/Hong Kong/2782/2005,A/Finland/486/05,*
+A/Johannesburg/122/2005,A/Finland/486/05,80
+A/Stockholm/20/2005,A/Finland/486/05,160
+A/Johannesburg/391/2005,A/Finland/486/05,160
+A/Hong Kong/4443/2005,A/Finland/486/05,80
+A/Annecy/1140/2005,A/Finland/486/05,*
+A/Panama/2007/1999,A/California/7/2004,160
+A/Wyoming/3/2003,A/California/7/2004,2560
+A/Wellington/1/2004,A/California/7/2004,2560
+A/Shantou/1219/2004,A/California/7/2004,640
+A/Finland/486/05,A/California/7/2004,640
+A/California/7/2004,A/California/7/2004,2560
+A/Singapore/37/2004,A/California/7/2004,2560
+A/New York/55/05,A/California/7/2004,2560
+A/Iran/294/2005,A/California/7/2004,640
+A/Agadir/422/2005,A/California/7/2004,1280
+A/Slovenia/146/2005,A/California/7/2004,640
+A/Bratislava/84/2005,A/California/7/2004,1280
+A/Israel/64/2005,A/California/7/2004,2560
+A/Paris/1734/2005,A/California/7/2004,1280
+A/Parma/84/2005,A/California/7/2004,640
+A/Rome/2/2005,A/California/7/2004,320
+A/Trieste/31/2005,A/California/7/2004,1280
+A/Hong Kong/91/2005,A/California/7/2004,2560
+A/Austria/207265/2005,A/California/7/2004,5120
+A/Poland/WAW/17,A/California/7/2004,640
+A/Salamanca/26/2005,A/California/7/2004,2560
+A/San Sebastian/RR1823/2005,A/California/7/2004,1280
+A/Prague/34/05,A/California/7/2004,640
+A/Lisbon/87/2005,A/California/7/2004,640
+A/Denmark/55/2005,A/California/7/2004,2560
+A/Algeria/G04/2005,A/California/7/2004,1280
+A/Belgium/739/2005,A/California/7/2004,1280
+A/Saudi Arabia/384/2005,A/California/7/2004,1280
+A/Finland/603/2005,A/California/7/2004,2560
+A/Geneva/8379/2005,A/California/7/2004,1280
+A/Norway/855/2005,A/California/7/2004,2560
+A/Latvia/3010/2005,A/California/7/2004,1280
+A/Lyon/CHU/1105,A/California/7/2004,1280
+A/Berlin/94/05,A/California/7/2004,1280
+A/Romania/810/2005,A/California/7/2004,1280
+A/Iceland/111/2005,A/California/7/2004,640
+A/Slovakia/44/2005,A/California/7/2004,640
+A/Stockholm/19/2005,A/California/7/2004,2560
+A/St Petersburg/8/2005,A/California/7/2004,640
+A/Hong Kong/2782/2005,A/California/7/2004,160
+A/Johannesburg/122/2005,A/California/7/2004,160
+A/Stockholm/20/2005,A/California/7/2004,160
+A/Johannesburg/391/2005,A/California/7/2004,320
+A/Hong Kong/4443/2005,A/California/7/2004,160
+A/Annecy/1140/2005,A/California/7/2004,320
+A/Panama/2007/1999,A/Singapore/37/2004,80
+A/Wyoming/3/2003,A/Singapore/37/2004,640
+A/Wellington/1/2004,A/Singapore/37/2004,1280
+A/Shantou/1219/2004,A/Singapore/37/2004,640
+A/Finland/486/05,A/Singapore/37/2004,320
+A/California/7/2004,A/Singapore/37/2004,1280
+A/Singapore/37/2004,A/Singapore/37/2004,2560
+A/New York/55/05,A/Singapore/37/2004,1280
+A/Iran/294/2005,A/Singapore/37/2004,320
+A/Agadir/422/2005,A/Singapore/37/2004,640
+A/Slovenia/146/2005,A/Singapore/37/2004,320
+A/Bratislava/84/2005,A/Singapore/37/2004,1280
+A/Israel/64/2005,A/Singapore/37/2004,640
+A/Paris/1734/2005,A/Singapore/37/2004,*
+A/Parma/84/2005,A/Singapore/37/2004,320
+A/Rome/2/2005,A/Singapore/37/2004,160
+A/Trieste/31/2005,A/Singapore/37/2004,320
+A/Hong Kong/91/2005,A/Singapore/37/2004,*
+A/Austria/207265/2005,A/Singapore/37/2004,640
+A/Poland/WAW/17,A/Singapore/37/2004,320
+A/Salamanca/26/2005,A/Singapore/37/2004,2560
+A/San Sebastian/RR1823/2005,A/Singapore/37/2004,*
+A/Prague/34/05,A/Singapore/37/2004,640
+A/Lisbon/87/2005,A/Singapore/37/2004,160
+A/Denmark/55/2005,A/Singapore/37/2004,1280
+A/Algeria/G04/2005,A/Singapore/37/2004,640
+A/Belgium/739/2005,A/Singapore/37/2004,320
+A/Saudi Arabia/384/2005,A/Singapore/37/2004,*
+A/Finland/603/2005,A/Singapore/37/2004,*
+A/Geneva/8379/2005,A/Singapore/37/2004,640
+A/Norway/855/2005,A/Singapore/37/2004,640
+A/Latvia/3010/2005,A/Singapore/37/2004,640
+A/Lyon/CHU/1105,A/Singapore/37/2004,640
+A/Berlin/94/05,A/Singapore/37/2004,640
+A/Romania/810/2005,A/Singapore/37/2004,640
+A/Iceland/111/2005,A/Singapore/37/2004,640
+A/Slovakia/44/2005,A/Singapore/37/2004,320
+A/Stockholm/19/2005,A/Singapore/37/2004,*
+A/St Petersburg/8/2005,A/Singapore/37/2004,*
+A/Hong Kong/2782/2005,A/Singapore/37/2004,160
+A/Johannesburg/122/2005,A/Singapore/37/2004,*
+A/Stockholm/20/2005,A/Singapore/37/2004,*
+A/Johannesburg/391/2005,A/Singapore/37/2004,*
+A/Hong Kong/4443/2005,A/Singapore/37/2004,*
+A/Annecy/1140/2005,A/Singapore/37/2004,*
+A/Panama/2007/1999,A/New York/55/05,80
+A/Wyoming/3/2003,A/New York/55/05,640
+A/Wellington/1/2004,A/New York/55/05,640
+A/Shantou/1219/2004,A/New York/55/05,320
+A/Finland/486/05,A/New York/55/05,640
+A/California/7/2004,A/New York/55/05,2560
+A/Singapore/37/2004,A/New York/55/05,2560
+A/New York/55/05,A/New York/55/05,2560
+A/Iran/294/2005,A/New York/55/05,*
+A/Agadir/422/2005,A/New York/55/05,*
+A/Slovenia/146/2005,A/New York/55/05,640
+A/Bratislava/84/2005,A/New York/55/05,*
+A/Israel/64/2005,A/New York/55/05,2560
+A/Paris/1734/2005,A/New York/55/05,1280
+A/Parma/84/2005,A/New York/55/05,640
+A/Rome/2/2005,A/New York/55/05,320
+A/Trieste/31/2005,A/New York/55/05,640
+A/Hong Kong/91/2005,A/New York/55/05,1280
+A/Austria/207265/2005,A/New York/55/05,2560
+A/Poland/WAW/17,A/New York/55/05,*
+A/Salamanca/26/2005,A/New York/55/05,*
+A/San Sebastian/RR1823/2005,A/New York/55/05,640
+A/Prague/34/05,A/New York/55/05,*
+A/Lisbon/87/2005,A/New York/55/05,640
+A/Denmark/55/2005,A/New York/55/05,2560
+A/Algeria/G04/2005,A/New York/55/05,2560
+A/Belgium/739/2005,A/New York/55/05,1280
+A/Saudi Arabia/384/2005,A/New York/55/05,1280
+A/Finland/603/2005,A/New York/55/05,2560
+A/Geneva/8379/2005,A/New York/55/05,640
+A/Norway/855/2005,A/New York/55/05,640
+A/Latvia/3010/2005,A/New York/55/05,640
+A/Lyon/CHU/1105,A/New York/55/05,*
+A/Berlin/94/05,A/New York/55/05,1280
+A/Romania/810/2005,A/New York/55/05,1280
+A/Iceland/111/2005,A/New York/55/05,320
+A/Slovakia/44/2005,A/New York/55/05,*
+A/Stockholm/19/2005,A/New York/55/05,1280
+A/St Petersburg/8/2005,A/New York/55/05,640
+A/Hong Kong/2782/2005,A/New York/55/05,160
+A/Johannesburg/122/2005,A/New York/55/05,160
+A/Stockholm/20/2005,A/New York/55/05,160
+A/Johannesburg/391/2005,A/New York/55/05,320
+A/Hong Kong/4443/2005,A/New York/55/05,160
+A/Annecy/1140/2005,A/New York/55/05,160
+A/Panama/2007/1999,A/Panama/2007/1999,2560
+A/Wyoming/3/2003,A/Panama/2007/1999,640
+A/Shantou/1219/2004,A/Panama/2007/1999,160
+A/Finland/486/2004,A/Panama/2007/1999,40
+A/California/7/2004,A/Panama/2007/1999,80
+A/New York/55/2004,A/Panama/2007/1999,40
+A/Baden-Wurttemburg/38/2005,A/Panama/2007/1999,40
+A/New Hampshire/14/2005,A/Panama/2007/1999,80
+A/Brisbane/3/2005,A/Panama/2007/1999,80
+A/Hong Kong/4355/2005,A/Panama/2007/1999,40
+A/Gunma/16/2005,A/Panama/2007/1999,160
+A/Victoria/503/2005,A/Panama/2007/1999,40
+A/Brisbane/23/2005,A/Panama/2007/1999,<40
+A/Christchurch/64/2005,A/Panama/2007/1999,80
+A/Macau/557/2005,A/Panama/2007/1999,<40
+A/Yaroslavl/13/2005,A/Panama/2007/1999,40
+A/Moscow/9/2005,A/Panama/2007/1999,<40
+A/Saudi Arabia/569/2005,A/Panama/2007/1999,80
+A/Saudi Arabia/50/2005,A/Panama/2007/1999,40
+A/Saudi Arabia/521/2005,A/Panama/2007/1999,<40
+A/Saudi Arabia/340/2005,A/Panama/2007/1999,40
+A/Saudi Arabia/441/2005,A/Panama/2007/1999,<40
+A/Panama/2007/1999,A/Wyoming/3/2003,320
+A/Wyoming/3/2003,A/Wyoming/3/2003,5120
+A/Shantou/1219/2004,A/Wyoming/3/2003,640
+A/Finland/486/2004,A/Wyoming/3/2003,320
+A/California/7/2004,A/Wyoming/3/2003,1280
+A/New York/55/2004,A/Wyoming/3/2003,320
+A/Baden-Wurttemburg/38/2005,A/Wyoming/3/2003,320
+A/New Hampshire/14/2005,A/Wyoming/3/2003,640
+A/Brisbane/3/2005,A/Wyoming/3/2003,320
+A/Hong Kong/4355/2005,A/Wyoming/3/2003,80
+A/Gunma/16/2005,A/Wyoming/3/2003,320
+A/Victoria/503/2005,A/Wyoming/3/2003,640
+A/Brisbane/23/2005,A/Wyoming/3/2003,320
+A/Christchurch/64/2005,A/Wyoming/3/2003,160
+A/Macau/557/2005,A/Wyoming/3/2003,40
+A/Yaroslavl/13/2005,A/Wyoming/3/2003,80
+A/Moscow/9/2005,A/Wyoming/3/2003,80
+A/Saudi Arabia/569/2005,A/Wyoming/3/2003,640
+A/Saudi Arabia/50/2005,A/Wyoming/3/2003,80
+A/Saudi Arabia/521/2005,A/Wyoming/3/2003,80
+A/Saudi Arabia/340/2005,A/Wyoming/3/2003,160
+A/Saudi Arabia/441/2005,A/Wyoming/3/2003,80
+A/Panama/2007/1999,A/Shantou/1219/2004,80
+A/Wyoming/3/2003,A/Shantou/1219/2004,640
+A/Shantou/1219/2004,A/Shantou/1219/2004,640
+A/Finland/486/2004,A/Shantou/1219/2004,640
+A/California/7/2004,A/Shantou/1219/2004,1280
+A/New York/55/2004,A/Shantou/1219/2004,1280
+A/Baden-Wurttemburg/38/2005,A/Shantou/1219/2004,640
+A/New Hampshire/14/2005,A/Shantou/1219/2004,1280
+A/Brisbane/3/2005,A/Shantou/1219/2004,2560
+A/Hong Kong/4355/2005,A/Shantou/1219/2004,80
+A/Gunma/16/2005,A/Shantou/1219/2004,320
+A/Victoria/503/2005,A/Shantou/1219/2004,1280
+A/Brisbane/23/2005,A/Shantou/1219/2004,640
+A/Christchurch/64/2005,A/Shantou/1219/2004,320
+A/Macau/557/2005,A/Shantou/1219/2004,40
+A/Yaroslavl/13/2005,A/Shantou/1219/2004,320
+A/Moscow/9/2005,A/Shantou/1219/2004,160
+A/Saudi Arabia/569/2005,A/Shantou/1219/2004,1280
+A/Saudi Arabia/50/2005,A/Shantou/1219/2004,320
+A/Saudi Arabia/521/2005,A/Shantou/1219/2004,160
+A/Saudi Arabia/340/2005,A/Shantou/1219/2004,640
+A/Saudi Arabia/441/2005,A/Shantou/1219/2004,320
+A/Panama/2007/1999,A/Finland/486/2004,80
+A/Wyoming/3/2003,A/Finland/486/2004,1280
+A/Shantou/1219/2004,A/Finland/486/2004,640
+A/Finland/486/2004,A/Finland/486/2004,640
+A/California/7/2004,A/Finland/486/2004,1280
+A/New York/55/2004,A/Finland/486/2004,640
+A/Baden-Wurttemburg/38/2005,A/Finland/486/2004,640
+A/New Hampshire/14/2005,A/Finland/486/2004,1280
+A/Brisbane/3/2005,A/Finland/486/2004,1280
+A/Hong Kong/4355/2005,A/Finland/486/2004,160
+A/Gunma/16/2005,A/Finland/486/2004,160
+A/Victoria/503/2005,A/Finland/486/2004,1280
+A/Brisbane/23/2005,A/Finland/486/2004,640
+A/Christchurch/64/2005,A/Finland/486/2004,160
+A/Macau/557/2005,A/Finland/486/2004,80
+A/Yaroslavl/13/2005,A/Finland/486/2004,320
+A/Moscow/9/2005,A/Finland/486/2004,160
+A/Saudi Arabia/569/2005,A/Finland/486/2004,2560
+A/Saudi Arabia/50/2005,A/Finland/486/2004,320
+A/Saudi Arabia/521/2005,A/Finland/486/2004,160
+A/Saudi Arabia/340/2005,A/Finland/486/2004,320
+A/Saudi Arabia/441/2005,A/Finland/486/2004,320
+A/Panama/2007/1999,A/California/7/2004,80
+A/Wyoming/3/2003,A/California/7/2004,2560
+A/Shantou/1219/2004,A/California/7/2004,640
+A/Finland/486/2004,A/California/7/2004,1280
+A/California/7/2004,A/California/7/2004,2560
+A/New York/55/2004,A/California/7/2004,1280
+A/Baden-Wurttemburg/38/2005,A/California/7/2004,640
+A/New Hampshire/14/2005,A/California/7/2004,2560
+A/Brisbane/3/2005,A/California/7/2004,2560
+A/Hong Kong/4355/2005,A/California/7/2004,320
+A/Gunma/16/2005,A/California/7/2004,160
+A/Victoria/503/2005,A/California/7/2004,1280
+A/Brisbane/23/2005,A/California/7/2004,640
+A/Christchurch/64/2005,A/California/7/2004,160
+A/Macau/557/2005,A/California/7/2004,80
+A/Yaroslavl/13/2005,A/California/7/2004,320
+A/Moscow/9/2005,A/California/7/2004,320
+A/Saudi Arabia/569/2005,A/California/7/2004,2560
+A/Saudi Arabia/50/2005,A/California/7/2004,320
+A/Saudi Arabia/521/2005,A/California/7/2004,320
+A/Saudi Arabia/340/2005,A/California/7/2004,640
+A/Saudi Arabia/441/2005,A/California/7/2004,640
+A/Panama/2007/1999,A/New York/55/2004,40
+A/Wyoming/3/2003,A/New York/55/2004,640
+A/Shantou/1219/2004,A/New York/55/2004,640
+A/Finland/486/2004,A/New York/55/2004,640
+A/California/7/2004,A/New York/55/2004,1280
+A/New York/55/2004,A/New York/55/2004,1280
+A/Baden-Wurttemburg/38/2005,A/New York/55/2004,640
+A/New Hampshire/14/2005,A/New York/55/2004,1280
+A/Brisbane/3/2005,A/New York/55/2004,1280
+A/Hong Kong/4355/2005,A/New York/55/2004,160
+A/Gunma/16/2005,A/New York/55/2004,160
+A/Victoria/503/2005,A/New York/55/2004,1280
+A/Brisbane/23/2005,A/New York/55/2004,640
+A/Christchurch/64/2005,A/New York/55/2004,80
+A/Macau/557/2005,A/New York/55/2004,80
+A/Yaroslavl/13/2005,A/New York/55/2004,320
+A/Moscow/9/2005,A/New York/55/2004,160
+A/Saudi Arabia/569/2005,A/New York/55/2004,1280
+A/Saudi Arabia/50/2005,A/New York/55/2004,160
+A/Saudi Arabia/521/2005,A/New York/55/2004,320
+A/Saudi Arabia/340/2005,A/New York/55/2004,640
+A/Saudi Arabia/441/2005,A/New York/55/2004,640
+A/Panama/2007/1999,A/Baden-Wurttemburg/38/2005,80
+A/Wyoming/3/2003,A/Baden-Wurttemburg/38/2005,320
+A/Shantou/1219/2004,A/Baden-Wurttemburg/38/2005,320
+A/Finland/486/2004,A/Baden-Wurttemburg/38/2005,320
+A/California/7/2004,A/Baden-Wurttemburg/38/2005,1280
+A/New York/55/2004,A/Baden-Wurttemburg/38/2005,1280
+A/Baden-Wurttemburg/38/2005,A/Baden-Wurttemburg/38/2005,640
+A/New Hampshire/14/2005,A/Baden-Wurttemburg/38/2005,640
+A/Brisbane/3/2005,A/Baden-Wurttemburg/38/2005,640
+A/Hong Kong/4355/2005,A/Baden-Wurttemburg/38/2005,40
+A/Gunma/16/2005,A/Baden-Wurttemburg/38/2005,320
+A/Victoria/503/2005,A/Baden-Wurttemburg/38/2005,640
+A/Brisbane/23/2005,A/Baden-Wurttemburg/38/2005,320
+A/Christchurch/64/2005,A/Baden-Wurttemburg/38/2005,160
+A/Macau/557/2005,A/Baden-Wurttemburg/38/2005,<40
+A/Yaroslavl/13/2005,A/Baden-Wurttemburg/38/2005,80
+A/Moscow/9/2005,A/Baden-Wurttemburg/38/2005,40
+A/Saudi Arabia/569/2005,A/Baden-Wurttemburg/38/2005,1280
+A/Saudi Arabia/50/2005,A/Baden-Wurttemburg/38/2005,80
+A/Saudi Arabia/521/2005,A/Baden-Wurttemburg/38/2005,80
+A/Saudi Arabia/340/2005,A/Baden-Wurttemburg/38/2005,160
+A/Saudi Arabia/441/2005,A/Baden-Wurttemburg/38/2005,80
+A/Panama/2007/1999,A/New Hampshire/14/2005,40
+A/Wyoming/3/2003,A/New Hampshire/14/2005,1280
+A/Shantou/1219/2004,A/New Hampshire/14/2005,640
+A/Finland/486/2004,A/New Hampshire/14/2005,640
+A/California/7/2004,A/New Hampshire/14/2005,1280
+A/New York/55/2004,A/New Hampshire/14/2005,1280
+A/Baden-Wurttemburg/38/2005,A/New Hampshire/14/2005,640
+A/New Hampshire/14/2005,A/New Hampshire/14/2005,1280
+A/Brisbane/3/2005,A/New Hampshire/14/2005,1280
+A/Hong Kong/4355/2005,A/New Hampshire/14/2005,160
+A/Gunma/16/2005,A/New Hampshire/14/2005,160
+A/Victoria/503/2005,A/New Hampshire/14/2005,1280
+A/Brisbane/23/2005,A/New Hampshire/14/2005,640
+A/Christchurch/64/2005,A/New Hampshire/14/2005,160
+A/Macau/557/2005,A/New Hampshire/14/2005,40
+A/Yaroslavl/13/2005,A/New Hampshire/14/2005,160
+A/Moscow/9/2005,A/New Hampshire/14/2005,160
+A/Saudi Arabia/569/2005,A/New Hampshire/14/2005,2560
+A/Saudi Arabia/50/2005,A/New Hampshire/14/2005,160
+A/Saudi Arabia/521/2005,A/New Hampshire/14/2005,320
+A/Saudi Arabia/340/2005,A/New Hampshire/14/2005,320
+A/Saudi Arabia/441/2005,A/New Hampshire/14/2005,320
+A/Panama/2007/1999,A/Brisbane/3/2005,40
+A/Wyoming/3/2003,A/Brisbane/3/2005,160
+A/Shantou/1219/2004,A/Brisbane/3/2005,320
+A/Finland/486/2004,A/Brisbane/3/2005,160
+A/California/7/2004,A/Brisbane/3/2005,320
+A/New York/55/2004,A/Brisbane/3/2005,320
+A/Baden-Wurttemburg/38/2005,A/Brisbane/3/2005,160
+A/New Hampshire/14/2005,A/Brisbane/3/2005,640
+A/Brisbane/3/2005,A/Brisbane/3/2005,1280
+A/Hong Kong/4355/2005,A/Brisbane/3/2005,160
+A/Gunma/16/2005,A/Brisbane/3/2005,80
+A/Victoria/503/2005,A/Brisbane/3/2005,640
+A/Brisbane/23/2005,A/Brisbane/3/2005,640
+A/Christchurch/64/2005,A/Brisbane/3/2005,80
+A/Macau/557/2005,A/Brisbane/3/2005,40
+A/Yaroslavl/13/2005,A/Brisbane/3/2005,80
+A/Moscow/9/2005,A/Brisbane/3/2005,80
+A/Saudi Arabia/569/2005,A/Brisbane/3/2005,640
+A/Saudi Arabia/50/2005,A/Brisbane/3/2005,320
+A/Saudi Arabia/521/2005,A/Brisbane/3/2005,160
+A/Saudi Arabia/340/2005,A/Brisbane/3/2005,160
+A/Saudi Arabia/441/2005,A/Brisbane/3/2005,160
+A/Panama/2007/1999,A/Hong Kong/4355/2005,80
+A/Wyoming/3/2003,A/Hong Kong/4355/2005,640
+A/Shantou/1219/2004,A/Hong Kong/4355/2005,640
+A/Finland/486/2004,A/Hong Kong/4355/2005,640
+A/California/7/2004,A/Hong Kong/4355/2005,1280
+A/New York/55/2004,A/Hong Kong/4355/2005,640
+A/Baden-Wurttemburg/38/2005,A/Hong Kong/4355/2005,320
+A/New Hampshire/14/2005,A/Hong Kong/4355/2005,320
+A/Brisbane/3/2005,A/Hong Kong/4355/2005,640
+A/Hong Kong/4355/2005,A/Hong Kong/4355/2005,640
+A/Gunma/16/2005,A/Hong Kong/4355/2005,*
+A/Victoria/503/2005,A/Hong Kong/4355/2005,*
+A/Brisbane/23/2005,A/Hong Kong/4355/2005,*
+A/Christchurch/64/2005,A/Hong Kong/4355/2005,160
+A/Macau/557/2005,A/Hong Kong/4355/2005,<40
+A/Yaroslavl/13/2005,A/Hong Kong/4355/2005,320
+A/Moscow/9/2005,A/Hong Kong/4355/2005,320
+A/Saudi Arabia/569/2005,A/Hong Kong/4355/2005,640
+A/Saudi Arabia/50/2005,A/Hong Kong/4355/2005,160
+A/Saudi Arabia/521/2005,A/Hong Kong/4355/2005,160
+A/Saudi Arabia/340/2005,A/Hong Kong/4355/2005,160
+A/Saudi Arabia/441/2005,A/Hong Kong/4355/2005,160

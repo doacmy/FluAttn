@@ -1,0 +1,209 @@
+Test Virus,Reference Virus,Titre
+A/Panama/2007/1999,A/Panama/2007/1999,5120
+A/Wyoming/3/2003,A/Panama/2007/1999,1280
+A/Shantou/1219/2004,A/Panama/2007/1999,320
+A/California/7/2004,A/Panama/2007/1999,160
+A/New York/55/2004,A/Panama/2007/1999,<40
+A/Annecy/1138/2005,A/Panama/2007/1999,<40
+A/Hong Kong/4443/2005,A/Panama/2007/1999,<40
+A/Wisconsin/67/2005,A/Panama/2007/1999,80
+A/Hiroshima/52/2005,A/Panama/2007/1999,<40
+A/Umea/9/2005,A/Panama/2007/1999,<40
+A/Madagascar/2102/2005,A/Panama/2007/1999,<40
+A/Ireland/12182/05,A/Panama/2007/1999,<40
+A/Hong Kong/4920/2005,A/Panama/2007/1999,<40
+A/Norway/28/2006,A/Panama/2007/1999,<40
+A/Stockholm/1/2006,A/Panama/2007/1999,40
+A/Netherlands/548/2005,A/Panama/2007/1999,<40
+A/Denmark/112/2005,A/Panama/2007/1999,<40
+A/Latvia/222/2006,A/Panama/2007/1999,<40
+A/Lyon/21/06,A/Panama/2007/1999,<40
+A/Finland/634/2006,A/Panama/2007/1999,<40
+A/England/4/2006,A/Panama/2007/1999,<40
+A/Iceland/2/2006,A/Panama/2007/1999,<40
+A/Stockholm/6/2006,A/Panama/2007/1999,<40
+A/Norway/143/2006,A/Panama/2007/1999,<40
+A/Slovakia/134/2006,A/Panama/2007/1999,<40
+A/Latvia/2047/2006,A/Panama/2007/1999,<40
+A/Panama/2007/1999,A/Wyoming/3/2003,1280
+A/Wyoming/3/2003,A/Wyoming/3/2003,2560
+A/Shantou/1219/2004,A/Wyoming/3/2003,160
+A/California/7/2004,A/Wyoming/3/2003,640
+A/New York/55/2004,A/Wyoming/3/2003,320
+A/Annecy/1138/2005,A/Wyoming/3/2003,40
+A/Hong Kong/4443/2005,A/Wyoming/3/2003,80
+A/Wisconsin/67/2005,A/Wyoming/3/2003,160
+A/Hiroshima/52/2005,A/Wyoming/3/2003,<40
+A/Umea/9/2005,A/Wyoming/3/2003,80
+A/Madagascar/2102/2005,A/Wyoming/3/2003,640
+A/Ireland/12182/05,A/Wyoming/3/2003,80
+A/Hong Kong/4920/2005,A/Wyoming/3/2003,<40
+A/Norway/28/2006,A/Wyoming/3/2003,<40
+A/Stockholm/1/2006,A/Wyoming/3/2003,80
+A/Netherlands/548/2005,A/Wyoming/3/2003,80
+A/Denmark/112/2005,A/Wyoming/3/2003,<40
+A/Latvia/222/2006,A/Wyoming/3/2003,40
+A/Lyon/21/06,A/Wyoming/3/2003,<40
+A/Finland/634/2006,A/Wyoming/3/2003,40
+A/England/4/2006,A/Wyoming/3/2003,40
+A/Iceland/2/2006,A/Wyoming/3/2003,<40
+A/Stockholm/6/2006,A/Wyoming/3/2003,40
+A/Norway/143/2006,A/Wyoming/3/2003,40
+A/Slovakia/134/2006,A/Wyoming/3/2003,40
+A/Latvia/2047/2006,A/Wyoming/3/2003,<40
+A/Panama/2007/1999,A/Shantou/1219/2004,320
+A/Wyoming/3/2003,A/Shantou/1219/2004,1280
+A/Shantou/1219/2004,A/Shantou/1219/2004,1280
+A/California/7/2004,A/Shantou/1219/2004,2560
+A/New York/55/2004,A/Shantou/1219/2004,1280
+A/Annecy/1138/2005,A/Shantou/1219/2004,320
+A/Hong Kong/4443/2005,A/Shantou/1219/2004,160
+A/Wisconsin/67/2005,A/Shantou/1219/2004,1280
+A/Hiroshima/52/2005,A/Shantou/1219/2004,640
+A/Umea/9/2005,A/Shantou/1219/2004,160
+A/Madagascar/2102/2005,A/Shantou/1219/2004,1280
+A/Ireland/12182/05,A/Shantou/1219/2004,160
+A/Hong Kong/4920/2005,A/Shantou/1219/2004,80
+A/Norway/28/2006,A/Shantou/1219/2004,160
+A/Stockholm/1/2006,A/Shantou/1219/2004,320
+A/Netherlands/548/2005,A/Shantou/1219/2004,320
+A/Denmark/112/2005,A/Shantou/1219/2004,<40
+A/Latvia/222/2006,A/Shantou/1219/2004,160
+A/Lyon/21/06,A/Shantou/1219/2004,160
+A/Finland/634/2006,A/Shantou/1219/2004,160
+A/England/4/2006,A/Shantou/1219/2004,160
+A/Iceland/2/2006,A/Shantou/1219/2004,80
+A/Stockholm/6/2006,A/Shantou/1219/2004,80
+A/Norway/143/2006,A/Shantou/1219/2004,<40
+A/Slovakia/134/2006,A/Shantou/1219/2004,160
+A/Latvia/2047/2006,A/Shantou/1219/2004,80
+A/Panama/2007/1999,A/California/7/2004,40
+A/Wyoming/3/2003,A/California/7/2004,640
+A/Shantou/1219/2004,A/California/7/2004,640
+A/California/7/2004,A/California/7/2004,2560
+A/New York/55/2004,A/California/7/2004,1280
+A/Annecy/1138/2005,A/California/7/2004,160
+A/Hong Kong/4443/2005,A/California/7/2004,160
+A/Wisconsin/67/2005,A/California/7/2004,640
+A/Hiroshima/52/2005,A/California/7/2004,640
+A/Umea/9/2005,A/California/7/2004,160
+A/Madagascar/2102/2005,A/California/7/2004,320
+A/Ireland/12182/05,A/California/7/2004,320
+A/Hong Kong/4920/2005,A/California/7/2004,160
+A/Norway/28/2006,A/California/7/2004,80
+A/Stockholm/1/2006,A/California/7/2004,320
+A/Netherlands/548/2005,A/California/7/2004,320
+A/Denmark/112/2005,A/California/7/2004,40
+A/Latvia/222/2006,A/California/7/2004,160
+A/Lyon/21/06,A/California/7/2004,160
+A/Finland/634/2006,A/California/7/2004,160
+A/England/4/2006,A/California/7/2004,320
+A/Iceland/2/2006,A/California/7/2004,160
+A/Stockholm/6/2006,A/California/7/2004,160
+A/Norway/143/2006,A/California/7/2004,320
+A/Slovakia/134/2006,A/California/7/2004,320
+A/Latvia/2047/2006,A/California/7/2004,160
+A/Panama/2007/1999,A/New York/55/2004,<40
+A/Wyoming/3/2003,A/New York/55/2004,1280
+A/Shantou/1219/2004,A/New York/55/2004,1280
+A/California/7/2004,A/New York/55/2004,2560
+A/New York/55/2004,A/New York/55/2004,1280
+A/Annecy/1138/2005,A/New York/55/2004,320
+A/Hong Kong/4443/2005,A/New York/55/2004,320
+A/Wisconsin/67/2005,A/New York/55/2004,1280
+A/Hiroshima/52/2005,A/New York/55/2004,1280
+A/Umea/9/2005,A/New York/55/2004,40
+A/Madagascar/2102/2005,A/New York/55/2004,320
+A/Ireland/12182/05,A/New York/55/2004,80
+A/Hong Kong/4920/2005,A/New York/55/2004,<40
+A/Norway/28/2006,A/New York/55/2004,160
+A/Stockholm/1/2006,A/New York/55/2004,160
+A/Netherlands/548/2005,A/New York/55/2004,320
+A/Denmark/112/2005,A/New York/55/2004,40
+A/Latvia/222/2006,A/New York/55/2004,320
+A/Lyon/21/06,A/New York/55/2004,320
+A/Finland/634/2006,A/New York/55/2004,320
+A/England/4/2006,A/New York/55/2004,160
+A/Iceland/2/2006,A/New York/55/2004,<40
+A/Stockholm/6/2006,A/New York/55/2004,80
+A/Norway/143/2006,A/New York/55/2004,320
+A/Slovakia/134/2006,A/New York/55/2004,160
+A/Latvia/2047/2006,A/New York/55/2004,160
+A/Panama/2007/1999,A/Annecy/1138/2005,<40
+A/Wyoming/3/2003,A/Annecy/1138/2005,160
+A/Shantou/1219/2004,A/Annecy/1138/2005,160
+A/California/7/2004,A/Annecy/1138/2005,320
+A/New York/55/2004,A/Annecy/1138/2005,320
+A/Annecy/1138/2005,A/Annecy/1138/2005,320
+A/Hong Kong/4443/2005,A/Annecy/1138/2005,320
+A/Wisconsin/67/2005,A/Annecy/1138/2005,1280
+A/Hiroshima/52/2005,A/Annecy/1138/2005,320
+A/Umea/9/2005,A/Annecy/1138/2005,40
+A/Madagascar/2102/2005,A/Annecy/1138/2005,640
+A/Ireland/12182/05,A/Annecy/1138/2005,80
+A/Hong Kong/4920/2005,A/Annecy/1138/2005,160
+A/Norway/28/2006,A/Annecy/1138/2005,160
+A/Stockholm/1/2006,A/Annecy/1138/2005,160
+A/Netherlands/548/2005,A/Annecy/1138/2005,640
+A/Denmark/112/2005,A/Annecy/1138/2005,80
+A/Latvia/222/2006,A/Annecy/1138/2005,320
+A/Lyon/21/06,A/Annecy/1138/2005,160
+A/Finland/634/2006,A/Annecy/1138/2005,80
+A/England/4/2006,A/Annecy/1138/2005,160
+A/Iceland/2/2006,A/Annecy/1138/2005,160
+A/Stockholm/6/2006,A/Annecy/1138/2005,160
+A/Norway/143/2006,A/Annecy/1138/2005,320
+A/Slovakia/134/2006,A/Annecy/1138/2005,160
+A/Latvia/2047/2006,A/Annecy/1138/2005,160
+A/Panama/2007/1999,A/Hong Kong/4443/2005,40
+A/Wyoming/3/2003,A/Hong Kong/4443/2005,160
+A/Shantou/1219/2004,A/Hong Kong/4443/2005,320
+A/California/7/2004,A/Hong Kong/4443/2005,640
+A/New York/55/2004,A/Hong Kong/4443/2005,320
+A/Annecy/1138/2005,A/Hong Kong/4443/2005,320
+A/Hong Kong/4443/2005,A/Hong Kong/4443/2005,320
+A/Wisconsin/67/2005,A/Hong Kong/4443/2005,2560
+A/Hiroshima/52/2005,A/Hong Kong/4443/2005,640
+A/Umea/9/2005,A/Hong Kong/4443/2005,320
+A/Madagascar/2102/2005,A/Hong Kong/4443/2005,160
+A/Ireland/12182/05,A/Hong Kong/4443/2005,320
+A/Hong Kong/4920/2005,A/Hong Kong/4443/2005,160
+A/Norway/28/2006,A/Hong Kong/4443/2005,160
+A/Stockholm/1/2006,A/Hong Kong/4443/2005,320
+A/Netherlands/548/2005,A/Hong Kong/4443/2005,640
+A/Denmark/112/2005,A/Hong Kong/4443/2005,80
+A/Latvia/222/2006,A/Hong Kong/4443/2005,320
+A/Lyon/21/06,A/Hong Kong/4443/2005,160
+A/Finland/634/2006,A/Hong Kong/4443/2005,160
+A/England/4/2006,A/Hong Kong/4443/2005,160
+A/Iceland/2/2006,A/Hong Kong/4443/2005,80
+A/Stockholm/6/2006,A/Hong Kong/4443/2005,160
+A/Norway/143/2006,A/Hong Kong/4443/2005,320
+A/Slovakia/134/2006,A/Hong Kong/4443/2005,320
+A/Latvia/2047/2006,A/Hong Kong/4443/2005,160
+A/Panama/2007/1999,A/Wisconsin/67/2005,<40
+A/Wyoming/3/2003,A/Wisconsin/67/2005,640
+A/Shantou/1219/2004,A/Wisconsin/67/2005,320
+A/California/7/2004,A/Wisconsin/67/2005,1280
+A/New York/55/2004,A/Wisconsin/67/2005,1280
+A/Annecy/1138/2005,A/Wisconsin/67/2005,160
+A/Hong Kong/4443/2005,A/Wisconsin/67/2005,160
+A/Wisconsin/67/2005,A/Wisconsin/67/2005,2560
+A/Hiroshima/52/2005,A/Wisconsin/67/2005,*
+A/Umea/9/2005,A/Wisconsin/67/2005,160
+A/Madagascar/2102/2005,A/Wisconsin/67/2005,*
+A/Ireland/12182/05,A/Wisconsin/67/2005,160
+A/Hong Kong/4920/2005,A/Wisconsin/67/2005,80
+A/Norway/28/2006,A/Wisconsin/67/2005,80
+A/Stockholm/1/2006,A/Wisconsin/67/2005,160
+A/Netherlands/548/2005,A/Wisconsin/67/2005,640
+A/Denmark/112/2005,A/Wisconsin/67/2005,80
+A/Latvia/222/2006,A/Wisconsin/67/2005,160
+A/Lyon/21/06,A/Wisconsin/67/2005,80
+A/Finland/634/2006,A/Wisconsin/67/2005,160
+A/England/4/2006,A/Wisconsin/67/2005,80
+A/Iceland/2/2006,A/Wisconsin/67/2005,80
+A/Stockholm/6/2006,A/Wisconsin/67/2005,160
+A/Norway/143/2006,A/Wisconsin/67/2005,320
+A/Slovakia/134/2006,A/Wisconsin/67/2005,640
+A/Latvia/2047/2006,A/Wisconsin/67/2005,80

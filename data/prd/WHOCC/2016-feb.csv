@@ -1,0 +1,2173 @@
+Test Virus,Reference Virus,Titre
+A/Perth/16/2009,A/Perth/16/2009,640
+A/Texas/50/2012,A/Perth/16/2009,320
+A/Samara/73/2013,A/Perth/16/2009,160
+A/Stockholm/6/2014,A/Perth/16/2009,<40
+A/Stockholm/6/2014,A/Perth/16/2009,80
+A/Switzerland/9715293/2013,A/Perth/16/2009,<40
+A/Switzerland/9715293/2013,A/Perth/16/2009,40
+A/Netherlands/525/2014,A/Perth/16/2009,160
+A/Hong Kong/146/2013,A/Perth/16/2009,640
+A/Hong Kong/5738/2014,A/Perth/16/2009,<40
+A/Hong Kong/4801/2014,A/Perth/16/2009,40
+A/Georgia/532/2015,A/Perth/16/2009,20
+A/Guyane/1742/2015,A/Perth/16/2009,<40
+A/Dijon/1484/2015,A/Perth/16/2009,80
+A/South Australia/21/2015,A/Perth/16/2009,<40
+A/Bretagne/1564/2015,A/Perth/16/2009,80
+A/Guyane/1749/2015,A/Perth/16/2009,40
+A/Alsace/1571/2015,A/Perth/16/2009,80
+A/Guyane/1750/2015,A/Perth/16/2009,<40
+A/Lorraine/1641/2015,A/Perth/16/2009,160
+A/Bretagne/1661/2015,A/Perth/16/2009,80
+A/Brisbane/82/2015,A/Perth/16/2009,<40
+A/Norway/2326/2015,A/Perth/16/2009,40
+A/Victoria/511/2015,A/Perth/16/2009,80
+A/Victoria/511/2015,A/Perth/16/2009,160
+A/Norway/2506/2015,A/Perth/16/2009,<40
+A/Norway/2504/2015,A/Perth/16/2009,40
+A/Norway/2475/2015,A/Perth/16/2009,<40
+A/Perth/16/2009,A/Texas/50/2012,320
+A/Texas/50/2012,A/Texas/50/2012,5120
+A/Samara/73/2013,A/Texas/50/2012,1280
+A/Stockholm/6/2014,A/Texas/50/2012,160
+A/Stockholm/6/2014,A/Texas/50/2012,640
+A/Switzerland/9715293/2013,A/Texas/50/2012,80
+A/Switzerland/9715293/2013,A/Texas/50/2012,640
+A/Netherlands/525/2014,A/Texas/50/2012,640
+A/Hong Kong/146/2013,A/Texas/50/2012,2560
+A/Hong Kong/5738/2014,A/Texas/50/2012,160
+A/Hong Kong/4801/2014,A/Texas/50/2012,80
+A/Georgia/532/2015,A/Texas/50/2012,<40
+A/Guyane/1742/2015,A/Texas/50/2012,80
+A/Dijon/1484/2015,A/Texas/50/2012,320
+A/South Australia/21/2015,A/Texas/50/2012,40
+A/Bretagne/1564/2015,A/Texas/50/2012,320
+A/Guyane/1749/2015,A/Texas/50/2012,320
+A/Alsace/1571/2015,A/Texas/50/2012,640
+A/Guyane/1750/2015,A/Texas/50/2012,80
+A/Lorraine/1641/2015,A/Texas/50/2012,320
+A/Bretagne/1661/2015,A/Texas/50/2012,320
+A/Brisbane/82/2015,A/Texas/50/2012,80
+A/Norway/2326/2015,A/Texas/50/2012,320
+A/Victoria/511/2015,A/Texas/50/2012,320
+A/Victoria/511/2015,A/Texas/50/2012,5120
+A/Norway/2506/2015,A/Texas/50/2012,80
+A/Norway/2504/2015,A/Texas/50/2012,320
+A/Norway/2475/2015,A/Texas/50/2012,80
+A/Perth/16/2009,A/Samara/73/2013,160
+A/Texas/50/2012,A/Samara/73/2013,640
+A/Samara/73/2013,A/Samara/73/2013,640
+A/Stockholm/6/2014,A/Samara/73/2013,320
+A/Stockholm/6/2014,A/Samara/73/2013,80
+A/Switzerland/9715293/2013,A/Samara/73/2013,160
+A/Switzerland/9715293/2013,A/Samara/73/2013,160
+A/Netherlands/525/2014,A/Samara/73/2013,320
+A/Hong Kong/146/2013,A/Samara/73/2013,640
+A/Hong Kong/5738/2014,A/Samara/73/2013,160
+A/Hong Kong/4801/2014,A/Samara/73/2013,160
+A/Georgia/532/2015,A/Samara/73/2013,160
+A/Guyane/1742/2015,A/Samara/73/2013,160
+A/Dijon/1484/2015,A/Samara/73/2013,320
+A/South Australia/21/2015,A/Samara/73/2013,80
+A/Bretagne/1564/2015,A/Samara/73/2013,320
+A/Guyane/1749/2015,A/Samara/73/2013,80
+A/Alsace/1571/2015,A/Samara/73/2013,320
+A/Guyane/1750/2015,A/Samara/73/2013,80
+A/Lorraine/1641/2015,A/Samara/73/2013,160
+A/Bretagne/1661/2015,A/Samara/73/2013,160
+A/Brisbane/82/2015,A/Samara/73/2013,80
+A/Norway/2326/2015,A/Samara/73/2013,160
+A/Victoria/511/2015,A/Samara/73/2013,160
+A/Victoria/511/2015,A/Samara/73/2013,320
+A/Norway/2506/2015,A/Samara/73/2013,80
+A/Norway/2504/2015,A/Samara/73/2013,160
+A/Norway/2475/2015,A/Samara/73/2013,80
+A/Perth/16/2009,A/Stockholm/6/2014,40
+A/Texas/50/2012,A/Stockholm/6/2014,160
+A/Samara/73/2013,A/Stockholm/6/2014,320
+A/Stockholm/6/2014,A/Stockholm/6/2014,640
+A/Stockholm/6/2014,A/Stockholm/6/2014,160
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,640
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,160
+A/Netherlands/525/2014,A/Stockholm/6/2014,320
+A/Hong Kong/146/2013,A/Stockholm/6/2014,160
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,320
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,160
+A/Georgia/532/2015,A/Stockholm/6/2014,160
+A/Guyane/1742/2015,A/Stockholm/6/2014,320
+A/Dijon/1484/2015,A/Stockholm/6/2014,320
+A/South Australia/21/2015,A/Stockholm/6/2014,160
+A/Bretagne/1564/2015,A/Stockholm/6/2014,160
+A/Guyane/1749/2015,A/Stockholm/6/2014,160
+A/Alsace/1571/2015,A/Stockholm/6/2014,320
+A/Guyane/1750/2015,A/Stockholm/6/2014,160
+A/Lorraine/1641/2015,A/Stockholm/6/2014,320
+A/Bretagne/1661/2015,A/Stockholm/6/2014,320
+A/Brisbane/82/2015,A/Stockholm/6/2014,80
+A/Norway/2326/2015,A/Stockholm/6/2014,320
+A/Victoria/511/2015,A/Stockholm/6/2014,320
+A/Victoria/511/2015,A/Stockholm/6/2014,160
+A/Norway/2506/2015,A/Stockholm/6/2014,160
+A/Norway/2504/2015,A/Stockholm/6/2014,320
+A/Norway/2475/2015,A/Stockholm/6/2014,160
+A/Perth/16/2009,A/Stockholm/6/2014,160
+A/Texas/50/2012,A/Stockholm/6/2014,640
+A/Samara/73/2013,A/Stockholm/6/2014,640
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,160
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,320
+A/Netherlands/525/2014,A/Stockholm/6/2014,160
+A/Hong Kong/146/2013,A/Stockholm/6/2014,640
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,160
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,160
+A/Georgia/532/2015,A/Stockholm/6/2014,160
+A/Guyane/1742/2015,A/Stockholm/6/2014,160
+A/Dijon/1484/2015,A/Stockholm/6/2014,160
+A/South Australia/21/2015,A/Stockholm/6/2014,80
+A/Bretagne/1564/2015,A/Stockholm/6/2014,80
+A/Guyane/1749/2015,A/Stockholm/6/2014,80
+A/Alsace/1571/2015,A/Stockholm/6/2014,320
+A/Guyane/1750/2015,A/Stockholm/6/2014,80
+A/Lorraine/1641/2015,A/Stockholm/6/2014,160
+A/Bretagne/1661/2015,A/Stockholm/6/2014,160
+A/Brisbane/82/2015,A/Stockholm/6/2014,80
+A/Norway/2326/2015,A/Stockholm/6/2014,160
+A/Victoria/511/2015,A/Stockholm/6/2014,80
+A/Victoria/511/2015,A/Stockholm/6/2014,640
+A/Norway/2506/2015,A/Stockholm/6/2014,80
+A/Norway/2504/2015,A/Stockholm/6/2014,160
+A/Norway/2475/2015,A/Stockholm/6/2014,80
+A/Perth/16/2009,A/Switzerland/9715293/2013,<40
+A/Texas/50/2012,A/Switzerland/9715293/2013,80
+A/Samara/73/2013,A/Switzerland/9715293/2013,160
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,320
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,160
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Netherlands/525/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/146/2013,A/Switzerland/9715293/2013,80
+A/Hong Kong/5738/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,40
+A/Georgia/532/2015,A/Switzerland/9715293/2013,160
+A/Guyane/1742/2015,A/Switzerland/9715293/2013,<40
+A/Dijon/1484/2015,A/Switzerland/9715293/2013,40
+A/South Australia/21/2015,A/Switzerland/9715293/2013,40
+A/Bretagne/1564/2015,A/Switzerland/9715293/2013,40
+A/Guyane/1749/2015,A/Switzerland/9715293/2013,<40
+A/Alsace/1571/2015,A/Switzerland/9715293/2013,40
+A/Guyane/1750/2015,A/Switzerland/9715293/2013,<40
+A/Lorraine/1641/2015,A/Switzerland/9715293/2013,40
+A/Bretagne/1661/2015,A/Switzerland/9715293/2013,40
+A/Brisbane/82/2015,A/Switzerland/9715293/2013,40
+A/Norway/2326/2015,A/Switzerland/9715293/2013,40
+A/Victoria/511/2015,A/Switzerland/9715293/2013,40
+A/Victoria/511/2015,A/Switzerland/9715293/2013,80
+A/Norway/2506/2015,A/Switzerland/9715293/2013,<40
+A/Norway/2504/2015,A/Switzerland/9715293/2013,40
+A/Norway/2475/2015,A/Switzerland/9715293/2013,<40
+A/Perth/16/2009,A/Switzerland/9715293/2013,80
+A/Texas/50/2012,A/Switzerland/9715293/2013,640
+A/Samara/73/2013,A/Switzerland/9715293/2013,320
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,160
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,640
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,160
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,640
+A/Netherlands/525/2014,A/Switzerland/9715293/2013,160
+A/Hong Kong/146/2013,A/Switzerland/9715293/2013,640
+A/Hong Kong/5738/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,40
+A/Georgia/532/2015,A/Switzerland/9715293/2013,<40
+A/Guyane/1742/2015,A/Switzerland/9715293/2013,80
+A/Dijon/1484/2015,A/Switzerland/9715293/2013,80
+A/South Australia/21/2015,A/Switzerland/9715293/2013,40
+A/Bretagne/1564/2015,A/Switzerland/9715293/2013,80
+A/Guyane/1749/2015,A/Switzerland/9715293/2013,40
+A/Alsace/1571/2015,A/Switzerland/9715293/2013,160
+A/Guyane/1750/2015,A/Switzerland/9715293/2013,40
+A/Lorraine/1641/2015,A/Switzerland/9715293/2013,80
+A/Bretagne/1661/2015,A/Switzerland/9715293/2013,80
+A/Brisbane/82/2015,A/Switzerland/9715293/2013,<40
+A/Norway/2326/2015,A/Switzerland/9715293/2013,40
+A/Victoria/511/2015,A/Switzerland/9715293/2013,80
+A/Victoria/511/2015,A/Switzerland/9715293/2013,320
+A/Norway/2506/2015,A/Switzerland/9715293/2013,40
+A/Norway/2504/2015,A/Switzerland/9715293/2013,80
+A/Norway/2475/2015,A/Switzerland/9715293/2013,80
+A/Perth/16/2009,A/Netherlands/525/2014,80
+A/Texas/50/2012,A/Netherlands/525/2014,320
+A/Samara/73/2013,A/Netherlands/525/2014,320
+A/Stockholm/6/2014,A/Netherlands/525/2014,80
+A/Stockholm/6/2014,A/Netherlands/525/2014,80
+A/Switzerland/9715293/2013,A/Netherlands/525/2014,40
+A/Switzerland/9715293/2013,A/Netherlands/525/2014,40
+A/Netherlands/525/2014,A/Netherlands/525/2014,1280
+A/Hong Kong/146/2013,A/Netherlands/525/2014,320
+A/Hong Kong/5738/2014,A/Netherlands/525/2014,40
+A/Hong Kong/4801/2014,A/Netherlands/525/2014,80
+A/Georgia/532/2015,A/Netherlands/525/2014,40
+A/Guyane/1742/2015,A/Netherlands/525/2014,<40
+A/Dijon/1484/2015,A/Netherlands/525/2014,640
+A/South Australia/21/2015,A/Netherlands/525/2014,40
+A/Bretagne/1564/2015,A/Netherlands/525/2014,640
+A/Guyane/1749/2015,A/Netherlands/525/2014,640
+A/Alsace/1571/2015,A/Netherlands/525/2014,1280
+A/Guyane/1750/2015,A/Netherlands/525/2014,<40
+A/Lorraine/1641/2015,A/Netherlands/525/2014,640
+A/Bretagne/1661/2015,A/Netherlands/525/2014,640
+A/Brisbane/82/2015,A/Netherlands/525/2014,40
+A/Norway/2326/2015,A/Netherlands/525/2014,320
+A/Victoria/511/2015,A/Netherlands/525/2014,640
+A/Victoria/511/2015,A/Netherlands/525/2014,1280
+A/Norway/2506/2015,A/Netherlands/525/2014,<40
+A/Norway/2504/2015,A/Netherlands/525/2014,640
+A/Norway/2475/2015,A/Netherlands/525/2014,<40
+A/Perth/16/2009,A/Hong Kong/146/2013,80
+A/Texas/50/2012,A/Hong Kong/146/2013,320
+A/Samara/73/2013,A/Hong Kong/146/2013,640
+A/Stockholm/6/2014,A/Hong Kong/146/2013,160
+A/Stockholm/6/2014,A/Hong Kong/146/2013,80
+A/Switzerland/9715293/2013,A/Hong Kong/146/2013,40
+A/Switzerland/9715293/2013,A/Hong Kong/146/2013,80
+A/Netherlands/525/2014,A/Hong Kong/146/2013,160
+A/Hong Kong/146/2013,A/Hong Kong/146/2013,1280
+A/Hong Kong/5738/2014,A/Hong Kong/146/2013,80
+A/Hong Kong/4801/2014,A/Hong Kong/146/2013,40
+A/Georgia/532/2015,A/Hong Kong/146/2013,40
+A/Guyane/1742/2015,A/Hong Kong/146/2013,40
+A/Dijon/1484/2015,A/Hong Kong/146/2013,80
+A/South Australia/21/2015,A/Hong Kong/146/2013,40
+A/Bretagne/1564/2015,A/Hong Kong/146/2013,80
+A/Guyane/1749/2015,A/Hong Kong/146/2013,40
+A/Alsace/1571/2015,A/Hong Kong/146/2013,80
+A/Guyane/1750/2015,A/Hong Kong/146/2013,<40
+A/Lorraine/1641/2015,A/Hong Kong/146/2013,80
+A/Bretagne/1661/2015,A/Hong Kong/146/2013,80
+A/Brisbane/82/2015,A/Hong Kong/146/2013,<40
+A/Norway/2326/2015,A/Hong Kong/146/2013,80
+A/Victoria/511/2015,A/Hong Kong/146/2013,80
+A/Victoria/511/2015,A/Hong Kong/146/2013,160
+A/Norway/2506/2015,A/Hong Kong/146/2013,40
+A/Norway/2504/2015,A/Hong Kong/146/2013,80
+A/Norway/2475/2015,A/Hong Kong/146/2013,<40
+A/Perth/16/2009,A/Hong Kong/5738/2014,<40
+A/Texas/50/2012,A/Hong Kong/5738/2014,160
+A/Samara/73/2013,A/Hong Kong/5738/2014,320
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Switzerland/9715293/2013,A/Hong Kong/5738/2014,160
+A/Switzerland/9715293/2013,A/Hong Kong/5738/2014,160
+A/Netherlands/525/2014,A/Hong Kong/5738/2014,80
+A/Hong Kong/146/2013,A/Hong Kong/5738/2014,320
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/5738/2014,320
+A/Georgia/532/2015,A/Hong Kong/5738/2014,40
+A/Guyane/1742/2015,A/Hong Kong/5738/2014,160
+A/Dijon/1484/2015,A/Hong Kong/5738/2014,80
+A/South Australia/21/2015,A/Hong Kong/5738/2014,160
+A/Bretagne/1564/2015,A/Hong Kong/5738/2014,80
+A/Guyane/1749/2015,A/Hong Kong/5738/2014,40
+A/Alsace/1571/2015,A/Hong Kong/5738/2014,80
+A/Guyane/1750/2015,A/Hong Kong/5738/2014,80
+A/Lorraine/1641/2015,A/Hong Kong/5738/2014,80
+A/Bretagne/1661/2015,A/Hong Kong/5738/2014,80
+A/Brisbane/82/2015,A/Hong Kong/5738/2014,160
+A/Norway/2326/2015,A/Hong Kong/5738/2014,80
+A/Victoria/511/2015,A/Hong Kong/5738/2014,80
+A/Victoria/511/2015,A/Hong Kong/5738/2014,160
+A/Norway/2506/2015,A/Hong Kong/5738/2014,80
+A/Norway/2504/2015,A/Hong Kong/5738/2014,80
+A/Norway/2475/2015,A/Hong Kong/5738/2014,80
+A/Perth/16/2009,A/Hong Kong/4801/2014,40
+A/Texas/50/2012,A/Hong Kong/4801/2014,80
+A/Samara/73/2013,A/Hong Kong/4801/2014,160
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,160
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,40
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,80
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,80
+A/Netherlands/525/2014,A/Hong Kong/4801/2014,80
+A/Hong Kong/146/2013,A/Hong Kong/4801/2014,160
+A/Hong Kong/5738/2014,A/Hong Kong/4801/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,320
+A/Georgia/532/2015,A/Hong Kong/4801/2014,160
+A/Guyane/1742/2015,A/Hong Kong/4801/2014,160
+A/Dijon/1484/2015,A/Hong Kong/4801/2014,80
+A/South Australia/21/2015,A/Hong Kong/4801/2014,320
+A/Bretagne/1564/2015,A/Hong Kong/4801/2014,80
+A/Guyane/1749/2015,A/Hong Kong/4801/2014,80
+A/Alsace/1571/2015,A/Hong Kong/4801/2014,160
+A/Guyane/1750/2015,A/Hong Kong/4801/2014,160
+A/Lorraine/1641/2015,A/Hong Kong/4801/2014,80
+A/Bretagne/1661/2015,A/Hong Kong/4801/2014,80
+A/Brisbane/82/2015,A/Hong Kong/4801/2014,160
+A/Norway/2326/2015,A/Hong Kong/4801/2014,40
+A/Victoria/511/2015,A/Hong Kong/4801/2014,80
+A/Victoria/511/2015,A/Hong Kong/4801/2014,40
+A/Norway/2506/2015,A/Hong Kong/4801/2014,80
+A/Norway/2504/2015,A/Hong Kong/4801/2014,80
+A/Norway/2475/2015,A/Hong Kong/4801/2014,80
+A/Perth/16/2009,A/Georgia/532/2015,<40
+A/Texas/50/2012,A/Georgia/532/2015,160
+A/Samara/73/2013,A/Georgia/532/2015,320
+A/Stockholm/6/2014,A/Georgia/532/2015,160
+A/Stockholm/6/2014,A/Georgia/532/2015,80
+A/Switzerland/9715293/2013,A/Georgia/532/2015,80
+A/Switzerland/9715293/2013,A/Georgia/532/2015,160
+A/Netherlands/525/2014,A/Georgia/532/2015,160
+A/Hong Kong/146/2013,A/Georgia/532/2015,320
+A/Hong Kong/5738/2014,A/Georgia/532/2015,320
+A/Hong Kong/4801/2014,A/Georgia/532/2015,320
+A/Georgia/532/2015,A/Georgia/532/2015,160
+A/Guyane/1742/2015,A/Georgia/532/2015,80
+A/Dijon/1484/2015,A/Georgia/532/2015,80
+A/South Australia/21/2015,A/Georgia/532/2015,160
+A/Bretagne/1564/2015,A/Georgia/532/2015,80
+A/Guyane/1749/2015,A/Georgia/532/2015,<40
+A/Alsace/1571/2015,A/Georgia/532/2015,80
+A/Guyane/1750/2015,A/Georgia/532/2015,80
+A/Lorraine/1641/2015,A/Georgia/532/2015,80
+A/Bretagne/1661/2015,A/Georgia/532/2015,80
+A/Brisbane/82/2015,A/Georgia/532/2015,1280
+A/Norway/2326/2015,A/Georgia/532/2015,40
+A/Victoria/511/2015,A/Georgia/532/2015,80
+A/Victoria/511/2015,A/Georgia/532/2015,160
+A/Norway/2506/2015,A/Georgia/532/2015,40
+A/Norway/2504/2015,A/Georgia/532/2015,80
+A/Norway/2475/2015,A/Georgia/532/2015,80
+A/Texas/50/2012,A/Texas/50/2012,5120
+A/Samara/73/2013,A/Texas/50/2012,1280
+A/Stockholm/6/2014,A/Texas/50/2012,160
+A/Stockholm/6/2014,A/Texas/50/2012,640
+A/Switzerland/9715293/2013,A/Texas/50/2012,40
+A/Switzerland/9715293/2013,A/Texas/50/2012,640
+A/Netherlands/525/2014,A/Texas/50/2012,640
+A/Hong Kong/146/2013,A/Texas/50/2012,2560
+A/Hong Kong/5738/2014,A/Texas/50/2012,80
+A/Hong Kong/4801/2014,A/Texas/50/2012,80
+A/Georgia/532/2015,A/Texas/50/2012,20
+A/Gifu/46/2014,A/Texas/50/2012,80
+A/Chiba/61/2014,A/Texas/50/2012,40
+A/Hyogo/4001/2014,A/Texas/50/2012,40
+A/Pennsylvania/09/2015,A/Texas/50/2012,320
+A/Zambia/04-00021/2015,A/Texas/50/2012,640
+A/Mozambique/IR424/2015,A/Texas/50/2012,160
+A/Mozambique/IR436/2015,A/Texas/50/2012,80
+A/Iceland/32/2015,A/Texas/50/2012,1280
+A/Mozambique/IR451/2015,A/Texas/50/2012,80
+A/Hungary/423/2015,A/Texas/50/2012,80
+A/Hungary/438/2015,A/Texas/50/2012,160
+A/Hungary/436/2015,A/Texas/50/2012,160
+A/Hokkaido/6/2015,A/Texas/50/2012,80
+A/Iceland/34/2015,A/Texas/50/2012,1280
+A/Iceland/35/2015,A/Texas/50/2012,40
+A/Mozambique/IR493/2015,A/Texas/50/2012,80
+A/Iceland/37/2015,A/Texas/50/2012,1280
+A/Iceland/38/2015,A/Texas/50/2012,320
+A/Wisconsin/20/2015,A/Texas/50/2012,80
+A/Iceland/41/2015,A/Texas/50/2012,640
+A/Fukui/78/2015,A/Texas/50/2012,40
+A/Iceland/43/2015,A/Texas/50/2012,1280
+A/Iceland/45/2015,A/Texas/50/2012,1280
+A/Zambia/02-00106/2015,A/Texas/50/2012,640
+A/Jordan/30226/2015,A/Texas/50/2012,40
+A/Fukushima/69/2015,A/Texas/50/2012,40
+A/Mozambique/IR803/2015,A/Texas/50/2012,40
+A/Norway/2319/2015,A/Texas/50/2012,320
+A/Iceland/6879/2015,A/Texas/50/2012,160
+A/Iceland/7018/2015,A/Texas/50/2012,320
+A/Norway/2501/2015,A/Texas/50/2012,320
+A/Texas/50/2012,A/Samara/73/2013,640
+A/Samara/73/2013,A/Samara/73/2013,640
+A/Stockholm/6/2014,A/Samara/73/2013,320
+A/Stockholm/6/2014,A/Samara/73/2013,80
+A/Switzerland/9715293/2013,A/Samara/73/2013,80
+A/Switzerland/9715293/2013,A/Samara/73/2013,160
+A/Netherlands/525/2014,A/Samara/73/2013,320
+A/Hong Kong/146/2013,A/Samara/73/2013,640
+A/Hong Kong/5738/2014,A/Samara/73/2013,160
+A/Hong Kong/4801/2014,A/Samara/73/2013,160
+A/Georgia/532/2015,A/Samara/73/2013,160
+A/Gifu/46/2014,A/Samara/73/2013,160
+A/Chiba/61/2014,A/Samara/73/2013,40
+A/Hyogo/4001/2014,A/Samara/73/2013,80
+A/Pennsylvania/09/2015,A/Samara/73/2013,160
+A/Zambia/04-00021/2015,A/Samara/73/2013,320
+A/Mozambique/IR424/2015,A/Samara/73/2013,160
+A/Mozambique/IR436/2015,A/Samara/73/2013,80
+A/Iceland/32/2015,A/Samara/73/2013,320
+A/Mozambique/IR451/2015,A/Samara/73/2013,80
+A/Hungary/423/2015,A/Samara/73/2013,160
+A/Hungary/438/2015,A/Samara/73/2013,160
+A/Hungary/436/2015,A/Samara/73/2013,80
+A/Hokkaido/6/2015,A/Samara/73/2013,80
+A/Iceland/34/2015,A/Samara/73/2013,320
+A/Iceland/35/2015,A/Samara/73/2013,80
+A/Mozambique/IR493/2015,A/Samara/73/2013,80
+A/Iceland/37/2015,A/Samara/73/2013,640
+A/Iceland/38/2015,A/Samara/73/2013,160
+A/Wisconsin/20/2015,A/Samara/73/2013,160
+A/Iceland/41/2015,A/Samara/73/2013,320
+A/Fukui/78/2015,A/Samara/73/2013,80
+A/Iceland/43/2015,A/Samara/73/2013,640
+A/Iceland/45/2015,A/Samara/73/2013,640
+A/Zambia/02-00106/2015,A/Samara/73/2013,320
+A/Jordan/30226/2015,A/Samara/73/2013,40
+A/Fukushima/69/2015,A/Samara/73/2013,80
+A/Mozambique/IR803/2015,A/Samara/73/2013,80
+A/Norway/2319/2015,A/Samara/73/2013,160
+A/Iceland/6879/2015,A/Samara/73/2013,80
+A/Iceland/7018/2015,A/Samara/73/2013,320
+A/Norway/2501/2015,A/Samara/73/2013,320
+A/Texas/50/2012,A/Stockholm/6/2014,160
+A/Samara/73/2013,A/Stockholm/6/2014,320
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Stockholm/6/2014,A/Stockholm/6/2014,160
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,320
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,320
+A/Netherlands/525/2014,A/Stockholm/6/2014,320
+A/Hong Kong/146/2013,A/Stockholm/6/2014,80
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,320
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,160
+A/Georgia/532/2015,A/Stockholm/6/2014,320
+A/Gifu/46/2014,A/Stockholm/6/2014,320
+A/Chiba/61/2014,A/Stockholm/6/2014,320
+A/Hyogo/4001/2014,A/Stockholm/6/2014,80
+A/Pennsylvania/09/2015,A/Stockholm/6/2014,160
+A/Zambia/04-00021/2015,A/Stockholm/6/2014,320
+A/Mozambique/IR424/2015,A/Stockholm/6/2014,160
+A/Mozambique/IR436/2015,A/Stockholm/6/2014,160
+A/Iceland/32/2015,A/Stockholm/6/2014,160
+A/Mozambique/IR451/2015,A/Stockholm/6/2014,160
+A/Hungary/423/2015,A/Stockholm/6/2014,160
+A/Hungary/438/2015,A/Stockholm/6/2014,160
+A/Hungary/436/2015,A/Stockholm/6/2014,160
+A/Hokkaido/6/2015,A/Stockholm/6/2014,320
+A/Iceland/34/2015,A/Stockholm/6/2014,160
+A/Iceland/35/2015,A/Stockholm/6/2014,160
+A/Mozambique/IR493/2015,A/Stockholm/6/2014,160
+A/Iceland/37/2015,A/Stockholm/6/2014,320
+A/Iceland/38/2015,A/Stockholm/6/2014,160
+A/Wisconsin/20/2015,A/Stockholm/6/2014,160
+A/Iceland/41/2015,A/Stockholm/6/2014,320
+A/Fukui/78/2015,A/Stockholm/6/2014,320
+A/Iceland/43/2015,A/Stockholm/6/2014,320
+A/Iceland/45/2015,A/Stockholm/6/2014,320
+A/Zambia/02-00106/2015,A/Stockholm/6/2014,320
+A/Jordan/30226/2015,A/Stockholm/6/2014,160
+A/Fukushima/69/2015,A/Stockholm/6/2014,160
+A/Mozambique/IR803/2015,A/Stockholm/6/2014,160
+A/Norway/2319/2015,A/Stockholm/6/2014,160
+A/Iceland/6879/2015,A/Stockholm/6/2014,80
+A/Iceland/7018/2015,A/Stockholm/6/2014,160
+A/Norway/2501/2015,A/Stockholm/6/2014,320
+A/Texas/50/2012,A/Stockholm/6/2014,640
+A/Samara/73/2013,A/Stockholm/6/2014,320
+A/Stockholm/6/2014,A/Stockholm/6/2014,160
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,160
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,320
+A/Netherlands/525/2014,A/Stockholm/6/2014,160
+A/Hong Kong/146/2013,A/Stockholm/6/2014,640
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,160
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,160
+A/Georgia/532/2015,A/Stockholm/6/2014,320
+A/Gifu/46/2014,A/Stockholm/6/2014,80
+A/Chiba/61/2014,A/Stockholm/6/2014,80
+A/Hyogo/4001/2014,A/Stockholm/6/2014,40
+A/Pennsylvania/09/2015,A/Stockholm/6/2014,80
+A/Zambia/04-00021/2015,A/Stockholm/6/2014,160
+A/Mozambique/IR424/2015,A/Stockholm/6/2014,160
+A/Mozambique/IR436/2015,A/Stockholm/6/2014,160
+A/Iceland/32/2015,A/Stockholm/6/2014,160
+A/Mozambique/IR451/2015,A/Stockholm/6/2014,80
+A/Hungary/423/2015,A/Stockholm/6/2014,80
+A/Hungary/438/2015,A/Stockholm/6/2014,80
+A/Hungary/436/2015,A/Stockholm/6/2014,40
+A/Hokkaido/6/2015,A/Stockholm/6/2014,80
+A/Iceland/34/2015,A/Stockholm/6/2014,160
+A/Iceland/35/2015,A/Stockholm/6/2014,40
+A/Mozambique/IR493/2015,A/Stockholm/6/2014,80
+A/Iceland/37/2015,A/Stockholm/6/2014,160
+A/Iceland/38/2015,A/Stockholm/6/2014,160
+A/Wisconsin/20/2015,A/Stockholm/6/2014,80
+A/Iceland/41/2015,A/Stockholm/6/2014,160
+A/Fukui/78/2015,A/Stockholm/6/2014,160
+A/Iceland/43/2015,A/Stockholm/6/2014,160
+A/Iceland/45/2015,A/Stockholm/6/2014,320
+A/Zambia/02-00106/2015,A/Stockholm/6/2014,160
+A/Jordan/30226/2015,A/Stockholm/6/2014,<40
+A/Fukushima/69/2015,A/Stockholm/6/2014,80
+A/Mozambique/IR803/2015,A/Stockholm/6/2014,40
+A/Norway/2319/2015,A/Stockholm/6/2014,80
+A/Iceland/6879/2015,A/Stockholm/6/2014,80
+A/Iceland/7018/2015,A/Stockholm/6/2014,80
+A/Norway/2501/2015,A/Stockholm/6/2014,80
+A/Texas/50/2012,A/Switzerland/9715293/2013,40
+A/Samara/73/2013,A/Switzerland/9715293/2013,80
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,160
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Netherlands/525/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/146/2013,A/Switzerland/9715293/2013,40
+A/Hong Kong/5738/2014,A/Switzerland/9715293/2013,40
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,40
+A/Georgia/532/2015,A/Switzerland/9715293/2013,160
+A/Gifu/46/2014,A/Switzerland/9715293/2013,<40
+A/Chiba/61/2014,A/Switzerland/9715293/2013,40
+A/Hyogo/4001/2014,A/Switzerland/9715293/2013,<40
+A/Pennsylvania/09/2015,A/Switzerland/9715293/2013,<40
+A/Zambia/04-00021/2015,A/Switzerland/9715293/2013,40
+A/Mozambique/IR424/2015,A/Switzerland/9715293/2013,40
+A/Mozambique/IR436/2015,A/Switzerland/9715293/2013,<40
+A/Iceland/32/2015,A/Switzerland/9715293/2013,40
+A/Mozambique/IR451/2015,A/Switzerland/9715293/2013,<40
+A/Hungary/423/2015,A/Switzerland/9715293/2013,<40
+A/Hungary/438/2015,A/Switzerland/9715293/2013,<40
+A/Hungary/436/2015,A/Switzerland/9715293/2013,<40
+A/Hokkaido/6/2015,A/Switzerland/9715293/2013,40
+A/Iceland/34/2015,A/Switzerland/9715293/2013,40
+A/Iceland/35/2015,A/Switzerland/9715293/2013,<40
+A/Mozambique/IR493/2015,A/Switzerland/9715293/2013,<40
+A/Iceland/37/2015,A/Switzerland/9715293/2013,40
+A/Iceland/38/2015,A/Switzerland/9715293/2013,<40
+A/Wisconsin/20/2015,A/Switzerland/9715293/2013,<40
+A/Iceland/41/2015,A/Switzerland/9715293/2013,40
+A/Fukui/78/2015,A/Switzerland/9715293/2013,40
+A/Iceland/43/2015,A/Switzerland/9715293/2013,40
+A/Iceland/45/2015,A/Switzerland/9715293/2013,40
+A/Zambia/02-00106/2015,A/Switzerland/9715293/2013,40
+A/Jordan/30226/2015,A/Switzerland/9715293/2013,<40
+A/Fukushima/69/2015,A/Switzerland/9715293/2013,<40
+A/Mozambique/IR803/2015,A/Switzerland/9715293/2013,<40
+A/Norway/2319/2015,A/Switzerland/9715293/2013,40
+A/Iceland/6879/2015,A/Switzerland/9715293/2013,<40
+A/Iceland/7018/2015,A/Switzerland/9715293/2013,40
+A/Norway/2501/2015,A/Switzerland/9715293/2013,40
+A/Texas/50/2012,A/Switzerland/9715293/2013,640
+A/Samara/73/2013,A/Switzerland/9715293/2013,320
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,160
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,640
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,640
+A/Netherlands/525/2014,A/Switzerland/9715293/2013,160
+A/Hong Kong/146/2013,A/Switzerland/9715293/2013,640
+A/Hong Kong/5738/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,40
+A/Georgia/532/2015,A/Switzerland/9715293/2013,40
+A/Gifu/46/2014,A/Switzerland/9715293/2013,40
+A/Chiba/61/2014,A/Switzerland/9715293/2013,40
+A/Hyogo/4001/2014,A/Switzerland/9715293/2013,<40
+A/Pennsylvania/09/2015,A/Switzerland/9715293/2013,80
+A/Zambia/04-00021/2015,A/Switzerland/9715293/2013,160
+A/Mozambique/IR424/2015,A/Switzerland/9715293/2013,80
+A/Mozambique/IR436/2015,A/Switzerland/9715293/2013,40
+A/Iceland/32/2015,A/Switzerland/9715293/2013,160
+A/Mozambique/IR451/2015,A/Switzerland/9715293/2013,40
+A/Hungary/423/2015,A/Switzerland/9715293/2013,40
+A/Hungary/438/2015,A/Switzerland/9715293/2013,40
+A/Hungary/436/2015,A/Switzerland/9715293/2013,40
+A/Hokkaido/6/2015,A/Switzerland/9715293/2013,80
+A/Iceland/34/2015,A/Switzerland/9715293/2013,320
+A/Iceland/35/2015,A/Switzerland/9715293/2013,40
+A/Mozambique/IR493/2015,A/Switzerland/9715293/2013,40
+A/Iceland/37/2015,A/Switzerland/9715293/2013,320
+A/Iceland/38/2015,A/Switzerland/9715293/2013,80
+A/Wisconsin/20/2015,A/Switzerland/9715293/2013,40
+A/Iceland/41/2015,A/Switzerland/9715293/2013,80
+A/Fukui/78/2015,A/Switzerland/9715293/2013,80
+A/Iceland/43/2015,A/Switzerland/9715293/2013,160
+A/Iceland/45/2015,A/Switzerland/9715293/2013,320
+A/Zambia/02-00106/2015,A/Switzerland/9715293/2013,160
+A/Jordan/30226/2015,A/Switzerland/9715293/2013,<40
+A/Fukushima/69/2015,A/Switzerland/9715293/2013,40
+A/Mozambique/IR803/2015,A/Switzerland/9715293/2013,40
+A/Norway/2319/2015,A/Switzerland/9715293/2013,40
+A/Iceland/6879/2015,A/Switzerland/9715293/2013,40
+A/Iceland/7018/2015,A/Switzerland/9715293/2013,80
+A/Norway/2501/2015,A/Switzerland/9715293/2013,80
+A/Texas/50/2012,A/Netherlands/525/2014,320
+A/Samara/73/2013,A/Netherlands/525/2014,320
+A/Stockholm/6/2014,A/Netherlands/525/2014,40
+A/Stockholm/6/2014,A/Netherlands/525/2014,40
+A/Switzerland/9715293/2013,A/Netherlands/525/2014,<40
+A/Switzerland/9715293/2013,A/Netherlands/525/2014,40
+A/Netherlands/525/2014,A/Netherlands/525/2014,1280
+A/Hong Kong/146/2013,A/Netherlands/525/2014,320
+A/Hong Kong/5738/2014,A/Netherlands/525/2014,40
+A/Hong Kong/4801/2014,A/Netherlands/525/2014,80
+A/Georgia/532/2015,A/Netherlands/525/2014,80
+A/Gifu/46/2014,A/Netherlands/525/2014,<40
+A/Chiba/61/2014,A/Netherlands/525/2014,40
+A/Hyogo/4001/2014,A/Netherlands/525/2014,<40
+A/Pennsylvania/09/2015,A/Netherlands/525/2014,640
+A/Zambia/04-00021/2015,A/Netherlands/525/2014,160
+A/Mozambique/IR424/2015,A/Netherlands/525/2014,40
+A/Mozambique/IR436/2015,A/Netherlands/525/2014,<40
+A/Iceland/32/2015,A/Netherlands/525/2014,1280
+A/Mozambique/IR451/2015,A/Netherlands/525/2014,<40
+A/Hungary/423/2015,A/Netherlands/525/2014,<40
+A/Hungary/438/2015,A/Netherlands/525/2014,320
+A/Hungary/436/2015,A/Netherlands/525/2014,640
+A/Hokkaido/6/2015,A/Netherlands/525/2014,40
+A/Iceland/34/2015,A/Netherlands/525/2014,1280
+A/Iceland/35/2015,A/Netherlands/525/2014,<40
+A/Mozambique/IR493/2015,A/Netherlands/525/2014,<40
+A/Iceland/37/2015,A/Netherlands/525/2014,1280
+A/Iceland/38/2015,A/Netherlands/525/2014,640
+A/Wisconsin/20/2015,A/Netherlands/525/2014,<40
+A/Iceland/41/2015,A/Netherlands/525/2014,1280
+A/Fukui/78/2015,A/Netherlands/525/2014,<40
+A/Iceland/43/2015,A/Netherlands/525/2014,2560
+A/Iceland/45/2015,A/Netherlands/525/2014,1280
+A/Zambia/02-00106/2015,A/Netherlands/525/2014,160
+A/Jordan/30226/2015,A/Netherlands/525/2014,<40
+A/Fukushima/69/2015,A/Netherlands/525/2014,<40
+A/Mozambique/IR803/2015,A/Netherlands/525/2014,<40
+A/Norway/2319/2015,A/Netherlands/525/2014,640
+A/Iceland/6879/2015,A/Netherlands/525/2014,320
+A/Iceland/7018/2015,A/Netherlands/525/2014,640
+A/Norway/2501/2015,A/Netherlands/525/2014,640
+A/Texas/50/2012,A/Hong Kong/146/2013,320
+A/Samara/73/2013,A/Hong Kong/146/2013,320
+A/Stockholm/6/2014,A/Hong Kong/146/2013,80
+A/Stockholm/6/2014,A/Hong Kong/146/2013,80
+A/Switzerland/9715293/2013,A/Hong Kong/146/2013,<40
+A/Switzerland/9715293/2013,A/Hong Kong/146/2013,80
+A/Netherlands/525/2014,A/Hong Kong/146/2013,160
+A/Hong Kong/146/2013,A/Hong Kong/146/2013,640
+A/Hong Kong/5738/2014,A/Hong Kong/146/2013,80
+A/Hong Kong/4801/2014,A/Hong Kong/146/2013,40
+A/Georgia/532/2015,A/Hong Kong/146/2013,80
+A/Gifu/46/2014,A/Hong Kong/146/2013,40
+A/Chiba/61/2014,A/Hong Kong/146/2013,<40
+A/Hyogo/4001/2014,A/Hong Kong/146/2013,<40
+A/Pennsylvania/09/2015,A/Hong Kong/146/2013,80
+A/Zambia/04-00021/2015,A/Hong Kong/146/2013,160
+A/Mozambique/IR424/2015,A/Hong Kong/146/2013,80
+A/Mozambique/IR436/2015,A/Hong Kong/146/2013,40
+A/Iceland/32/2015,A/Hong Kong/146/2013,160
+A/Mozambique/IR451/2015,A/Hong Kong/146/2013,40
+A/Hungary/423/2015,A/Hong Kong/146/2013,40
+A/Hungary/438/2015,A/Hong Kong/146/2013,40
+A/Hungary/436/2015,A/Hong Kong/146/2013,<40
+A/Hokkaido/6/2015,A/Hong Kong/146/2013,<40
+A/Iceland/34/2015,A/Hong Kong/146/2013,160
+A/Iceland/35/2015,A/Hong Kong/146/2013,40
+A/Mozambique/IR493/2015,A/Hong Kong/146/2013,40
+A/Iceland/37/2015,A/Hong Kong/146/2013,160
+A/Iceland/38/2015,A/Hong Kong/146/2013,80
+A/Wisconsin/20/2015,A/Hong Kong/146/2013,40
+A/Iceland/41/2015,A/Hong Kong/146/2013,80
+A/Fukui/78/2015,A/Hong Kong/146/2013,40
+A/Iceland/43/2015,A/Hong Kong/146/2013,320
+A/Iceland/45/2015,A/Hong Kong/146/2013,320
+A/Zambia/02-00106/2015,A/Hong Kong/146/2013,160
+A/Jordan/30226/2015,A/Hong Kong/146/2013,<40
+A/Fukushima/69/2015,A/Hong Kong/146/2013,40
+A/Mozambique/IR803/2015,A/Hong Kong/146/2013,40
+A/Norway/2319/2015,A/Hong Kong/146/2013,80
+A/Iceland/6879/2015,A/Hong Kong/146/2013,40
+A/Iceland/7018/2015,A/Hong Kong/146/2013,80
+A/Norway/2501/2015,A/Hong Kong/146/2013,80
+A/Texas/50/2012,A/Hong Kong/5738/2014,160
+A/Samara/73/2013,A/Hong Kong/5738/2014,320
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,80
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Switzerland/9715293/2013,A/Hong Kong/5738/2014,80
+A/Switzerland/9715293/2013,A/Hong Kong/5738/2014,160
+A/Netherlands/525/2014,A/Hong Kong/5738/2014,80
+A/Hong Kong/146/2013,A/Hong Kong/5738/2014,320
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/5738/2014,320
+A/Georgia/532/2015,A/Hong Kong/5738/2014,80
+A/Gifu/46/2014,A/Hong Kong/5738/2014,160
+A/Chiba/61/2014,A/Hong Kong/5738/2014,40
+A/Hyogo/4001/2014,A/Hong Kong/5738/2014,80
+A/Pennsylvania/09/2015,A/Hong Kong/5738/2014,40
+A/Zambia/04-00021/2015,A/Hong Kong/5738/2014,160
+A/Mozambique/IR424/2015,A/Hong Kong/5738/2014,160
+A/Mozambique/IR436/2015,A/Hong Kong/5738/2014,160
+A/Iceland/32/2015,A/Hong Kong/5738/2014,160
+A/Mozambique/IR451/2015,A/Hong Kong/5738/2014,160
+A/Hungary/423/2015,A/Hong Kong/5738/2014,160
+A/Hungary/438/2015,A/Hong Kong/5738/2014,40
+A/Hungary/436/2015,A/Hong Kong/5738/2014,40
+A/Hokkaido/6/2015,A/Hong Kong/5738/2014,40
+A/Iceland/34/2015,A/Hong Kong/5738/2014,160
+A/Iceland/35/2015,A/Hong Kong/5738/2014,160
+A/Mozambique/IR493/2015,A/Hong Kong/5738/2014,80
+A/Iceland/37/2015,A/Hong Kong/5738/2014,160
+A/Iceland/38/2015,A/Hong Kong/5738/2014,40
+A/Wisconsin/20/2015,A/Hong Kong/5738/2014,160
+A/Iceland/41/2015,A/Hong Kong/5738/2014,80
+A/Fukui/78/2015,A/Hong Kong/5738/2014,80
+A/Iceland/43/2015,A/Hong Kong/5738/2014,160
+A/Iceland/45/2015,A/Hong Kong/5738/2014,160
+A/Zambia/02-00106/2015,A/Hong Kong/5738/2014,160
+A/Jordan/30226/2015,A/Hong Kong/5738/2014,80
+A/Fukushima/69/2015,A/Hong Kong/5738/2014,80
+A/Mozambique/IR803/2015,A/Hong Kong/5738/2014,80
+A/Norway/2319/2015,A/Hong Kong/5738/2014,40
+A/Iceland/6879/2015,A/Hong Kong/5738/2014,<40
+A/Iceland/7018/2015,A/Hong Kong/5738/2014,80
+A/Norway/2501/2015,A/Hong Kong/5738/2014,80
+A/Texas/50/2012,A/Hong Kong/4801/2014,80
+A/Samara/73/2013,A/Hong Kong/4801/2014,160
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,80
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,40
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,40
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,80
+A/Netherlands/525/2014,A/Hong Kong/4801/2014,160
+A/Hong Kong/146/2013,A/Hong Kong/4801/2014,160
+A/Hong Kong/5738/2014,A/Hong Kong/4801/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,320
+A/Georgia/532/2015,A/Hong Kong/4801/2014,160
+A/Gifu/46/2014,A/Hong Kong/4801/2014,80
+A/Chiba/61/2014,A/Hong Kong/4801/2014,40
+A/Hyogo/4001/2014,A/Hong Kong/4801/2014,40
+A/Pennsylvania/09/2015,A/Hong Kong/4801/2014,40
+A/Zambia/04-00021/2015,A/Hong Kong/4801/2014,80
+A/Mozambique/IR424/2015,A/Hong Kong/4801/2014,160
+A/Mozambique/IR436/2015,A/Hong Kong/4801/2014,160
+A/Iceland/32/2015,A/Hong Kong/4801/2014,80
+A/Mozambique/IR451/2015,A/Hong Kong/4801/2014,80
+A/Hungary/423/2015,A/Hong Kong/4801/2014,80
+A/Hungary/438/2015,A/Hong Kong/4801/2014,40
+A/Hungary/436/2015,A/Hong Kong/4801/2014,40
+A/Hokkaido/6/2015,A/Hong Kong/4801/2014,40
+A/Iceland/34/2015,A/Hong Kong/4801/2014,80
+A/Iceland/35/2015,A/Hong Kong/4801/2014,80
+A/Mozambique/IR493/2015,A/Hong Kong/4801/2014,80
+A/Iceland/37/2015,A/Hong Kong/4801/2014,80
+A/Iceland/38/2015,A/Hong Kong/4801/2014,40
+A/Wisconsin/20/2015,A/Hong Kong/4801/2014,80
+A/Iceland/41/2015,A/Hong Kong/4801/2014,80
+A/Fukui/78/2015,A/Hong Kong/4801/2014,80
+A/Iceland/43/2015,A/Hong Kong/4801/2014,160
+A/Iceland/45/2015,A/Hong Kong/4801/2014,160
+A/Zambia/02-00106/2015,A/Hong Kong/4801/2014,80
+A/Jordan/30226/2015,A/Hong Kong/4801/2014,40
+A/Fukushima/69/2015,A/Hong Kong/4801/2014,80
+A/Mozambique/IR803/2015,A/Hong Kong/4801/2014,40
+A/Norway/2319/2015,A/Hong Kong/4801/2014,80
+A/Iceland/6879/2015,A/Hong Kong/4801/2014,<40
+A/Iceland/7018/2015,A/Hong Kong/4801/2014,40
+A/Norway/2501/2015,A/Hong Kong/4801/2014,80
+A/Texas/50/2012,A/Georgia/532/2015,160
+A/Samara/73/2013,A/Georgia/532/2015,320
+A/Stockholm/6/2014,A/Georgia/532/2015,80
+A/Stockholm/6/2014,A/Georgia/532/2015,80
+A/Switzerland/9715293/2013,A/Georgia/532/2015,40
+A/Switzerland/9715293/2013,A/Georgia/532/2015,160
+A/Netherlands/525/2014,A/Georgia/532/2015,160
+A/Hong Kong/146/2013,A/Georgia/532/2015,320
+A/Hong Kong/5738/2014,A/Georgia/532/2015,160
+A/Hong Kong/4801/2014,A/Georgia/532/2015,320
+A/Georgia/532/2015,A/Georgia/532/2015,160
+A/Gifu/46/2014,A/Georgia/532/2015,160
+A/Chiba/61/2014,A/Georgia/532/2015,<40
+A/Hyogo/4001/2014,A/Georgia/532/2015,40
+A/Pennsylvania/09/2015,A/Georgia/532/2015,40
+A/Zambia/04-00021/2015,A/Georgia/532/2015,80
+A/Mozambique/IR424/2015,A/Georgia/532/2015,160
+A/Mozambique/IR436/2015,A/Georgia/532/2015,80
+A/Iceland/32/2015,A/Georgia/532/2015,160
+A/Mozambique/IR451/2015,A/Georgia/532/2015,80
+A/Hungary/423/2015,A/Georgia/532/2015,160
+A/Hungary/438/2015,A/Georgia/532/2015,40
+A/Hungary/436/2015,A/Georgia/532/2015,<40
+A/Hokkaido/6/2015,A/Georgia/532/2015,40
+A/Iceland/34/2015,A/Georgia/532/2015,160
+A/Iceland/35/2015,A/Georgia/532/2015,320
+A/Mozambique/IR493/2015,A/Georgia/532/2015,40
+A/Iceland/37/2015,A/Georgia/532/2015,160
+A/Iceland/38/2015,A/Georgia/532/2015,40
+A/Wisconsin/20/2015,A/Georgia/532/2015,320
+A/Iceland/41/2015,A/Georgia/532/2015,80
+A/Fukui/78/2015,A/Georgia/532/2015,40
+A/Iceland/43/2015,A/Georgia/532/2015,160
+A/Iceland/45/2015,A/Georgia/532/2015,160
+A/Zambia/02-00106/2015,A/Georgia/532/2015,80
+A/Jordan/30226/2015,A/Georgia/532/2015,<40
+A/Fukushima/69/2015,A/Georgia/532/2015,80
+A/Mozambique/IR803/2015,A/Georgia/532/2015,40
+A/Norway/2319/2015,A/Georgia/532/2015,80
+A/Iceland/6879/2015,A/Georgia/532/2015,<40
+A/Iceland/7018/2015,A/Georgia/532/2015,80
+A/Norway/2501/2015,A/Georgia/532/2015,40
+A/Texas/50/2012,A/Texas/50/2012,5120
+A/Samara/73/2013,A/Texas/50/2012,2560
+A/Stockholm/6/2014,A/Texas/50/2012,160
+A/Stockholm/6/2014,A/Texas/50/2012,640
+A/Switzerland/9715293/2013,A/Texas/50/2012,80
+A/Switzerland/9715293/2013,A/Texas/50/2012,640
+A/Netherlands/525/2014,A/Texas/50/2012,640
+A/Hong Kong/146/2013,A/Texas/50/2012,2560
+A/Hong Kong/5738/2014,A/Texas/50/2012,160
+A/Hong Kong/4801/2014,A/Texas/50/2012,80
+A/Georgia/532/2015,A/Texas/50/2012,20
+A/Serbia/361/2015,A/Texas/50/2012,160
+A/Jiangxi-Donghu/1218/2015,A/Texas/50/2012,160
+A/Jilin-Yanji/1179/2015,A/Texas/50/2012,80
+A/Hubei-Dongbao/1205/2015,A/Texas/50/2012,80
+A/Jiangsu-Qingpu/1660/2015,A/Texas/50/2012,640
+A/Liaoning-Baita/1293/2015,A/Texas/50/2012,80
+A/Hunan-Wuling/11088/2015,A/Texas/50/2012,160
+A/England/333/2015,A/Texas/50/2012,<40
+A/England/334/2015,A/Texas/50/2012,40
+A/England/335/2015,A/Texas/50/2012,<40
+A/Texas/50/2012,A/Samara/73/2013,640
+A/Samara/73/2013,A/Samara/73/2013,1280
+A/Stockholm/6/2014,A/Samara/73/2013,160
+A/Stockholm/6/2014,A/Samara/73/2013,80
+A/Switzerland/9715293/2013,A/Samara/73/2013,160
+A/Switzerland/9715293/2013,A/Samara/73/2013,160
+A/Netherlands/525/2014,A/Samara/73/2013,320
+A/Hong Kong/146/2013,A/Samara/73/2013,640
+A/Hong Kong/5738/2014,A/Samara/73/2013,160
+A/Hong Kong/4801/2014,A/Samara/73/2013,160
+A/Georgia/532/2015,A/Samara/73/2013,320
+A/Serbia/361/2015,A/Samara/73/2013,160
+A/Jiangxi-Donghu/1218/2015,A/Samara/73/2013,320
+A/Jilin-Yanji/1179/2015,A/Samara/73/2013,160
+A/Hubei-Dongbao/1205/2015,A/Samara/73/2013,160
+A/Jiangsu-Qingpu/1660/2015,A/Samara/73/2013,160
+A/Liaoning-Baita/1293/2015,A/Samara/73/2013,160
+A/Hunan-Wuling/11088/2015,A/Samara/73/2013,320
+A/England/333/2015,A/Samara/73/2013,40
+A/England/334/2015,A/Samara/73/2013,80
+A/England/335/2015,A/Samara/73/2013,40
+A/Texas/50/2012,A/Stockholm/6/2014,160
+A/Samara/73/2013,A/Stockholm/6/2014,640
+A/Stockholm/6/2014,A/Stockholm/6/2014,640
+A/Stockholm/6/2014,A/Stockholm/6/2014,160
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,640
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,320
+A/Netherlands/525/2014,A/Stockholm/6/2014,320
+A/Hong Kong/146/2013,A/Stockholm/6/2014,80
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,320
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,160
+A/Georgia/532/2015,A/Stockholm/6/2014,320
+A/Serbia/361/2015,A/Stockholm/6/2014,320
+A/Jiangxi-Donghu/1218/2015,A/Stockholm/6/2014,320
+A/Jilin-Yanji/1179/2015,A/Stockholm/6/2014,320
+A/Hubei-Dongbao/1205/2015,A/Stockholm/6/2014,160
+A/Jiangsu-Qingpu/1660/2015,A/Stockholm/6/2014,320
+A/Liaoning-Baita/1293/2015,A/Stockholm/6/2014,160
+A/Hunan-Wuling/11088/2015,A/Stockholm/6/2014,320
+A/England/333/2015,A/Stockholm/6/2014,40
+A/England/334/2015,A/Stockholm/6/2014,80
+A/England/335/2015,A/Stockholm/6/2014,80
+A/Texas/50/2012,A/Stockholm/6/2014,640
+A/Samara/73/2013,A/Stockholm/6/2014,640
+A/Stockholm/6/2014,A/Stockholm/6/2014,160
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,160
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,320
+A/Netherlands/525/2014,A/Stockholm/6/2014,160
+A/Hong Kong/146/2013,A/Stockholm/6/2014,640
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,160
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,80
+A/Georgia/532/2015,A/Stockholm/6/2014,320
+A/Serbia/361/2015,A/Stockholm/6/2014,80
+A/Jiangxi-Donghu/1218/2015,A/Stockholm/6/2014,160
+A/Jilin-Yanji/1179/2015,A/Stockholm/6/2014,160
+A/Hubei-Dongbao/1205/2015,A/Stockholm/6/2014,80
+A/Jiangsu-Qingpu/1660/2015,A/Stockholm/6/2014,1280
+A/Liaoning-Baita/1293/2015,A/Stockholm/6/2014,80
+A/Hunan-Wuling/11088/2015,A/Stockholm/6/2014,160
+A/England/333/2015,A/Stockholm/6/2014,40
+A/England/334/2015,A/Stockholm/6/2014,80
+A/England/335/2015,A/Stockholm/6/2014,80
+A/Texas/50/2012,A/Switzerland/9715293/2013,40
+A/Samara/73/2013,A/Switzerland/9715293/2013,160
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,80
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Netherlands/525/2014,A/Switzerland/9715293/2013,40
+A/Hong Kong/146/2013,A/Switzerland/9715293/2013,40
+A/Hong Kong/5738/2014,A/Switzerland/9715293/2013,40
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,40
+A/Georgia/532/2015,A/Switzerland/9715293/2013,160
+A/Serbia/361/2015,A/Switzerland/9715293/2013,<40
+A/Jiangxi-Donghu/1218/2015,A/Switzerland/9715293/2013,80
+A/Jilin-Yanji/1179/2015,A/Switzerland/9715293/2013,80
+A/Hubei-Dongbao/1205/2015,A/Switzerland/9715293/2013,<40
+A/Jiangsu-Qingpu/1660/2015,A/Switzerland/9715293/2013,80
+A/Liaoning-Baita/1293/2015,A/Switzerland/9715293/2013,<40
+A/Hunan-Wuling/11088/2015,A/Switzerland/9715293/2013,40
+A/England/333/2015,A/Switzerland/9715293/2013,<40
+A/England/334/2015,A/Switzerland/9715293/2013,40
+A/England/335/2015,A/Switzerland/9715293/2013,<40
+A/Texas/50/2012,A/Switzerland/9715293/2013,640
+A/Samara/73/2013,A/Switzerland/9715293/2013,640
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,160
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,640
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,1280
+A/Netherlands/525/2014,A/Switzerland/9715293/2013,160
+A/Hong Kong/146/2013,A/Switzerland/9715293/2013,640
+A/Hong Kong/5738/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,40
+A/Georgia/532/2015,A/Switzerland/9715293/2013,40
+A/Serbia/361/2015,A/Switzerland/9715293/2013,40
+A/Jiangxi-Donghu/1218/2015,A/Switzerland/9715293/2013,160
+A/Jilin-Yanji/1179/2015,A/Switzerland/9715293/2013,80
+A/Hubei-Dongbao/1205/2015,A/Switzerland/9715293/2013,40
+A/Jiangsu-Qingpu/1660/2015,A/Switzerland/9715293/2013,1280
+A/Liaoning-Baita/1293/2015,A/Switzerland/9715293/2013,40
+A/Hunan-Wuling/11088/2015,A/Switzerland/9715293/2013,80
+A/England/333/2015,A/Switzerland/9715293/2013,<40
+A/England/334/2015,A/Switzerland/9715293/2013,40
+A/England/335/2015,A/Switzerland/9715293/2013,<40
+A/Texas/50/2012,A/Netherlands/525/2014,320
+A/Samara/73/2013,A/Netherlands/525/2014,640
+A/Stockholm/6/2014,A/Netherlands/525/2014,40
+A/Stockholm/6/2014,A/Netherlands/525/2014,80
+A/Switzerland/9715293/2013,A/Netherlands/525/2014,40
+A/Switzerland/9715293/2013,A/Netherlands/525/2014,40
+A/Netherlands/525/2014,A/Netherlands/525/2014,640
+A/Hong Kong/146/2013,A/Netherlands/525/2014,320
+A/Hong Kong/5738/2014,A/Netherlands/525/2014,40
+A/Hong Kong/4801/2014,A/Netherlands/525/2014,80
+A/Georgia/532/2015,A/Netherlands/525/2014,80
+A/Serbia/361/2015,A/Netherlands/525/2014,<40
+A/Jiangxi-Donghu/1218/2015,A/Netherlands/525/2014,80
+A/Jilin-Yanji/1179/2015,A/Netherlands/525/2014,40
+A/Hubei-Dongbao/1205/2015,A/Netherlands/525/2014,<40
+A/Jiangsu-Qingpu/1660/2015,A/Netherlands/525/2014,160
+A/Liaoning-Baita/1293/2015,A/Netherlands/525/2014,<40
+A/Hunan-Wuling/11088/2015,A/Netherlands/525/2014,40
+A/England/333/2015,A/Netherlands/525/2014,<40
+A/England/334/2015,A/Netherlands/525/2014,<40
+A/England/335/2015,A/Netherlands/525/2014,<40
+A/Texas/50/2012,A/Hong Kong/146/2013,320
+A/Samara/73/2013,A/Hong Kong/146/2013,640
+A/Stockholm/6/2014,A/Hong Kong/146/2013,80
+A/Stockholm/6/2014,A/Hong Kong/146/2013,80
+A/Switzerland/9715293/2013,A/Hong Kong/146/2013,40
+A/Switzerland/9715293/2013,A/Hong Kong/146/2013,80
+A/Netherlands/525/2014,A/Hong Kong/146/2013,160
+A/Hong Kong/146/2013,A/Hong Kong/146/2013,640
+A/Hong Kong/5738/2014,A/Hong Kong/146/2013,80
+A/Hong Kong/4801/2014,A/Hong Kong/146/2013,40
+A/Georgia/532/2015,A/Hong Kong/146/2013,40
+A/Serbia/361/2015,A/Hong Kong/146/2013,80
+A/Jiangxi-Donghu/1218/2015,A/Hong Kong/146/2013,160
+A/Jilin-Yanji/1179/2015,A/Hong Kong/146/2013,80
+A/Hubei-Dongbao/1205/2015,A/Hong Kong/146/2013,40
+A/Jiangsu-Qingpu/1660/2015,A/Hong Kong/146/2013,160
+A/Liaoning-Baita/1293/2015,A/Hong Kong/146/2013,40
+A/Hunan-Wuling/11088/2015,A/Hong Kong/146/2013,80
+A/England/333/2015,A/Hong Kong/146/2013,<40
+A/England/334/2015,A/Hong Kong/146/2013,40
+A/England/335/2015,A/Hong Kong/146/2013,<40
+A/Texas/50/2012,A/Hong Kong/5738/2014,160
+A/Samara/73/2013,A/Hong Kong/5738/2014,640
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Switzerland/9715293/2013,A/Hong Kong/5738/2014,80
+A/Switzerland/9715293/2013,A/Hong Kong/5738/2014,160
+A/Netherlands/525/2014,A/Hong Kong/5738/2014,80
+A/Hong Kong/146/2013,A/Hong Kong/5738/2014,320
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/5738/2014,320
+A/Georgia/532/2015,A/Hong Kong/5738/2014,160
+A/Serbia/361/2015,A/Hong Kong/5738/2014,160
+A/Jiangxi-Donghu/1218/2015,A/Hong Kong/5738/2014,160
+A/Jilin-Yanji/1179/2015,A/Hong Kong/5738/2014,80
+A/Hubei-Dongbao/1205/2015,A/Hong Kong/5738/2014,80
+A/Jiangsu-Qingpu/1660/2015,A/Hong Kong/5738/2014,160
+A/Liaoning-Baita/1293/2015,A/Hong Kong/5738/2014,80
+A/Hunan-Wuling/11088/2015,A/Hong Kong/5738/2014,160
+A/England/333/2015,A/Hong Kong/5738/2014,40
+A/England/334/2015,A/Hong Kong/5738/2014,80
+A/England/335/2015,A/Hong Kong/5738/2014,40
+A/Texas/50/2012,A/Hong Kong/4801/2014,80
+A/Samara/73/2013,A/Hong Kong/4801/2014,320
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,160
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,40
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,80
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,80
+A/Netherlands/525/2014,A/Hong Kong/4801/2014,80
+A/Hong Kong/146/2013,A/Hong Kong/4801/2014,160
+A/Hong Kong/5738/2014,A/Hong Kong/4801/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,640
+A/Georgia/532/2015,A/Hong Kong/4801/2014,160
+A/Serbia/361/2015,A/Hong Kong/4801/2014,80
+A/Jiangxi-Donghu/1218/2015,A/Hong Kong/4801/2014,160
+A/Jilin-Yanji/1179/2015,A/Hong Kong/4801/2014,80
+A/Hubei-Dongbao/1205/2015,A/Hong Kong/4801/2014,80
+A/Jiangsu-Qingpu/1660/2015,A/Hong Kong/4801/2014,80
+A/Liaoning-Baita/1293/2015,A/Hong Kong/4801/2014,80
+A/Hunan-Wuling/11088/2015,A/Hong Kong/4801/2014,160
+A/England/333/2015,A/Hong Kong/4801/2014,40
+A/England/334/2015,A/Hong Kong/4801/2014,80
+A/England/335/2015,A/Hong Kong/4801/2014,40
+A/Texas/50/2012,A/Georgia/532/2015,160
+A/Samara/73/2013,A/Georgia/532/2015,320
+A/Stockholm/6/2014,A/Georgia/532/2015,80
+A/Stockholm/6/2014,A/Georgia/532/2015,80
+A/Switzerland/9715293/2013,A/Georgia/532/2015,80
+A/Switzerland/9715293/2013,A/Georgia/532/2015,160
+A/Netherlands/525/2014,A/Georgia/532/2015,80
+A/Hong Kong/146/2013,A/Georgia/532/2015,320
+A/Hong Kong/5738/2014,A/Georgia/532/2015,160
+A/Hong Kong/4801/2014,A/Georgia/532/2015,640
+A/Georgia/532/2015,A/Georgia/532/2015,160
+A/Serbia/361/2015,A/Georgia/532/2015,160
+A/Jiangxi-Donghu/1218/2015,A/Georgia/532/2015,320
+A/Jilin-Yanji/1179/2015,A/Georgia/532/2015,80
+A/Hubei-Dongbao/1205/2015,A/Georgia/532/2015,40
+A/Jiangsu-Qingpu/1660/2015,A/Georgia/532/2015,80
+A/Liaoning-Baita/1293/2015,A/Georgia/532/2015,80
+A/Hunan-Wuling/11088/2015,A/Georgia/532/2015,160
+A/England/333/2015,A/Georgia/532/2015,<40
+A/England/334/2015,A/Georgia/532/2015,40
+A/England/335/2015,A/Georgia/532/2015,40
+A/Texas/50/2012,A/Texas/50/2012,5120
+A/Samara/73/2013,A/Texas/50/2012,2560
+A/Stockholm/6/2014,A/Texas/50/2012,160
+A/Stockholm/6/2014,A/Texas/50/2012,640
+A/Switzerland/9715293/2013,A/Texas/50/2012,80
+A/Switzerland/9715293/2013,A/Texas/50/2012,640
+A/Netherlands/525/2014,A/Texas/50/2012,1280
+A/Hong Kong/146/2013,A/Texas/50/2012,2560
+A/Hong Kong/5738/2014,A/Texas/50/2012,160
+A/Hong Kong/4801/2014,A/Texas/50/2012,160
+A/Hong Kong/4801/2014,A/Texas/50/2012,80
+A/Novosibirsk/40/2015,A/Texas/50/2012,40
+A/Omsk/26/2015,A/Texas/50/2012,80
+A/St Petersburg/207/2015,A/Texas/50/2012,160
+A/Novosibirsk/13/2015,A/Texas/50/2012,160
+A/St Petersburg/299/2015,A/Texas/50/2012,160
+A/Norway/2587/2015,A/Texas/50/2012,40
+A/Saudi Arabia/78572/2015,A/Texas/50/2012,80
+A/Saudi Arabia/78603/2015,A/Texas/50/2012,40
+A/Norway/2605/2015,A/Texas/50/2012,320
+A/Norway/2629/2015,A/Texas/50/2012,40
+A/Texas/50/2012,A/Samara/73/2013,640
+A/Samara/73/2013,A/Samara/73/2013,1280
+A/Stockholm/6/2014,A/Samara/73/2013,160
+A/Stockholm/6/2014,A/Samara/73/2013,80
+A/Switzerland/9715293/2013,A/Samara/73/2013,160
+A/Switzerland/9715293/2013,A/Samara/73/2013,160
+A/Netherlands/525/2014,A/Samara/73/2013,320
+A/Hong Kong/146/2013,A/Samara/73/2013,640
+A/Hong Kong/5738/2014,A/Samara/73/2013,160
+A/Hong Kong/4801/2014,A/Samara/73/2013,160
+A/Hong Kong/4801/2014,A/Samara/73/2013,160
+A/Novosibirsk/40/2015,A/Samara/73/2013,80
+A/Omsk/26/2015,A/Samara/73/2013,160
+A/St Petersburg/207/2015,A/Samara/73/2013,160
+A/Novosibirsk/13/2015,A/Samara/73/2013,320
+A/St Petersburg/299/2015,A/Samara/73/2013,160
+A/Norway/2587/2015,A/Samara/73/2013,40
+A/Saudi Arabia/78572/2015,A/Samara/73/2013,<40
+A/Saudi Arabia/78603/2015,A/Samara/73/2013,<40
+A/Norway/2605/2015,A/Samara/73/2013,80
+A/Norway/2629/2015,A/Samara/73/2013,<40
+A/Texas/50/2012,A/Stockholm/6/2014,160
+A/Samara/73/2013,A/Stockholm/6/2014,640
+A/Stockholm/6/2014,A/Stockholm/6/2014,640
+A/Stockholm/6/2014,A/Stockholm/6/2014,160
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,640
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,320
+A/Netherlands/525/2014,A/Stockholm/6/2014,320
+A/Hong Kong/146/2013,A/Stockholm/6/2014,80
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,320
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,320
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,160
+A/Novosibirsk/40/2015,A/Stockholm/6/2014,160
+A/Omsk/26/2015,A/Stockholm/6/2014,320
+A/St Petersburg/207/2015,A/Stockholm/6/2014,640
+A/Novosibirsk/13/2015,A/Stockholm/6/2014,640
+A/St Petersburg/299/2015,A/Stockholm/6/2014,160
+A/Norway/2587/2015,A/Stockholm/6/2014,80
+A/Saudi Arabia/78572/2015,A/Stockholm/6/2014,160
+A/Saudi Arabia/78603/2015,A/Stockholm/6/2014,80
+A/Norway/2605/2015,A/Stockholm/6/2014,160
+A/Norway/2629/2015,A/Stockholm/6/2014,80
+A/Texas/50/2012,A/Stockholm/6/2014,640
+A/Samara/73/2013,A/Stockholm/6/2014,640
+A/Stockholm/6/2014,A/Stockholm/6/2014,160
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,160
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,320
+A/Netherlands/525/2014,A/Stockholm/6/2014,160
+A/Hong Kong/146/2013,A/Stockholm/6/2014,640
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,160
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,160
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,80
+A/Novosibirsk/40/2015,A/Stockholm/6/2014,40
+A/Omsk/26/2015,A/Stockholm/6/2014,160
+A/St Petersburg/207/2015,A/Stockholm/6/2014,320
+A/Novosibirsk/13/2015,A/Stockholm/6/2014,320
+A/St Petersburg/299/2015,A/Stockholm/6/2014,80
+A/Norway/2587/2015,A/Stockholm/6/2014,80
+A/Saudi Arabia/78572/2015,A/Stockholm/6/2014,80
+A/Saudi Arabia/78603/2015,A/Stockholm/6/2014,40
+A/Norway/2605/2015,A/Stockholm/6/2014,80
+A/Norway/2629/2015,A/Stockholm/6/2014,40
+A/Texas/50/2012,A/Switzerland/9715293/2013,40
+A/Samara/73/2013,A/Switzerland/9715293/2013,160
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,80
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Netherlands/525/2014,A/Switzerland/9715293/2013,40
+A/Hong Kong/146/2013,A/Switzerland/9715293/2013,40
+A/Hong Kong/5738/2014,A/Switzerland/9715293/2013,40
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,80
+A/Novosibirsk/40/2015,A/Switzerland/9715293/2013,<40
+A/Omsk/26/2015,A/Switzerland/9715293/2013,80
+A/St Petersburg/207/2015,A/Switzerland/9715293/2013,80
+A/Novosibirsk/13/2015,A/Switzerland/9715293/2013,160
+A/St Petersburg/299/2015,A/Switzerland/9715293/2013,40
+A/Norway/2587/2015,A/Switzerland/9715293/2013,<40
+A/Saudi Arabia/78572/2015,A/Switzerland/9715293/2013,<40
+A/Saudi Arabia/78603/2015,A/Switzerland/9715293/2013,<40
+A/Norway/2605/2015,A/Switzerland/9715293/2013,<40
+A/Norway/2629/2015,A/Switzerland/9715293/2013,40
+A/Texas/50/2012,A/Switzerland/9715293/2013,640
+A/Samara/73/2013,A/Switzerland/9715293/2013,640
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,160
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,640
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,1280
+A/Netherlands/525/2014,A/Switzerland/9715293/2013,160
+A/Hong Kong/146/2013,A/Switzerland/9715293/2013,640
+A/Hong Kong/5738/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,40
+A/Novosibirsk/40/2015,A/Switzerland/9715293/2013,<40
+A/Omsk/26/2015,A/Switzerland/9715293/2013,80
+A/St Petersburg/207/2015,A/Switzerland/9715293/2013,160
+A/Novosibirsk/13/2015,A/Switzerland/9715293/2013,160
+A/St Petersburg/299/2015,A/Switzerland/9715293/2013,40
+A/Norway/2587/2015,A/Switzerland/9715293/2013,40
+A/Saudi Arabia/78572/2015,A/Switzerland/9715293/2013,40
+A/Saudi Arabia/78603/2015,A/Switzerland/9715293/2013,<40
+A/Norway/2605/2015,A/Switzerland/9715293/2013,40
+A/Norway/2629/2015,A/Switzerland/9715293/2013,40
+A/Texas/50/2012,A/Netherlands/525/2014,320
+A/Samara/73/2013,A/Netherlands/525/2014,640
+A/Stockholm/6/2014,A/Netherlands/525/2014,40
+A/Stockholm/6/2014,A/Netherlands/525/2014,80
+A/Switzerland/9715293/2013,A/Netherlands/525/2014,40
+A/Switzerland/9715293/2013,A/Netherlands/525/2014,40
+A/Netherlands/525/2014,A/Netherlands/525/2014,1280
+A/Hong Kong/146/2013,A/Netherlands/525/2014,320
+A/Hong Kong/5738/2014,A/Netherlands/525/2014,40
+A/Hong Kong/4801/2014,A/Netherlands/525/2014,40
+A/Hong Kong/4801/2014,A/Netherlands/525/2014,80
+A/Novosibirsk/40/2015,A/Netherlands/525/2014,<40
+A/Omsk/26/2015,A/Netherlands/525/2014,40
+A/St Petersburg/207/2015,A/Netherlands/525/2014,40
+A/Novosibirsk/13/2015,A/Netherlands/525/2014,40
+A/St Petersburg/299/2015,A/Netherlands/525/2014,<40
+A/Norway/2587/2015,A/Netherlands/525/2014,<40
+A/Saudi Arabia/78572/2015,A/Netherlands/525/2014,<40
+A/Saudi Arabia/78603/2015,A/Netherlands/525/2014,<40
+A/Norway/2605/2015,A/Netherlands/525/2014,320
+A/Norway/2629/2015,A/Netherlands/525/2014,<40
+A/Texas/50/2012,A/Hong Kong/146/2013,320
+A/Samara/73/2013,A/Hong Kong/146/2013,640
+A/Stockholm/6/2014,A/Hong Kong/146/2013,80
+A/Stockholm/6/2014,A/Hong Kong/146/2013,80
+A/Switzerland/9715293/2013,A/Hong Kong/146/2013,40
+A/Switzerland/9715293/2013,A/Hong Kong/146/2013,80
+A/Netherlands/525/2014,A/Hong Kong/146/2013,160
+A/Hong Kong/146/2013,A/Hong Kong/146/2013,640
+A/Hong Kong/5738/2014,A/Hong Kong/146/2013,80
+A/Hong Kong/4801/2014,A/Hong Kong/146/2013,80
+A/Hong Kong/4801/2014,A/Hong Kong/146/2013,40
+A/Novosibirsk/40/2015,A/Hong Kong/146/2013,40
+A/Omsk/26/2015,A/Hong Kong/146/2013,80
+A/St Petersburg/207/2015,A/Hong Kong/146/2013,80
+A/Novosibirsk/13/2015,A/Hong Kong/146/2013,80
+A/St Petersburg/299/2015,A/Hong Kong/146/2013,80
+A/Norway/2587/2015,A/Hong Kong/146/2013,40
+A/Saudi Arabia/78572/2015,A/Hong Kong/146/2013,40
+A/Saudi Arabia/78603/2015,A/Hong Kong/146/2013,40
+A/Norway/2605/2015,A/Hong Kong/146/2013,40
+A/Norway/2629/2015,A/Hong Kong/146/2013,40
+A/Texas/50/2012,A/Hong Kong/5738/2014,160
+A/Samara/73/2013,A/Hong Kong/5738/2014,640
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Switzerland/9715293/2013,A/Hong Kong/5738/2014,80
+A/Switzerland/9715293/2013,A/Hong Kong/5738/2014,160
+A/Netherlands/525/2014,A/Hong Kong/5738/2014,80
+A/Hong Kong/146/2013,A/Hong Kong/5738/2014,320
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/5738/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/5738/2014,320
+A/Novosibirsk/40/2015,A/Hong Kong/5738/2014,80
+A/Omsk/26/2015,A/Hong Kong/5738/2014,80
+A/St Petersburg/207/2015,A/Hong Kong/5738/2014,160
+A/Novosibirsk/13/2015,A/Hong Kong/5738/2014,160
+A/St Petersburg/299/2015,A/Hong Kong/5738/2014,80
+A/Norway/2587/2015,A/Hong Kong/5738/2014,40
+A/Saudi Arabia/78572/2015,A/Hong Kong/5738/2014,80
+A/Saudi Arabia/78603/2015,A/Hong Kong/5738/2014,40
+A/Norway/2605/2015,A/Hong Kong/5738/2014,40
+A/Norway/2629/2015,A/Hong Kong/5738/2014,40
+A/Texas/50/2012,A/Hong Kong/4801/2014,320
+A/Samara/73/2013,A/Hong Kong/4801/2014,640
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,160
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,320
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,40
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,160
+A/Netherlands/525/2014,A/Hong Kong/4801/2014,160
+A/Hong Kong/146/2013,A/Hong Kong/4801/2014,640
+A/Hong Kong/5738/2014,A/Hong Kong/4801/2014,320
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,320
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,640
+A/Novosibirsk/40/2015,A/Hong Kong/4801/2014,80
+A/Omsk/26/2015,A/Hong Kong/4801/2014,160
+A/St Petersburg/207/2015,A/Hong Kong/4801/2014,160
+A/Novosibirsk/13/2015,A/Hong Kong/4801/2014,160
+A/St Petersburg/299/2015,A/Hong Kong/4801/2014,160
+A/Norway/2587/2015,A/Hong Kong/4801/2014,40
+A/Saudi Arabia/78572/2015,A/Hong Kong/4801/2014,40
+A/Saudi Arabia/78603/2015,A/Hong Kong/4801/2014,40
+A/Norway/2605/2015,A/Hong Kong/4801/2014,40
+A/Norway/2629/2015,A/Hong Kong/4801/2014,40
+A/Texas/50/2012,A/Hong Kong/4801/2014,80
+A/Samara/73/2013,A/Hong Kong/4801/2014,320
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,160
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,40
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,80
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,80
+A/Netherlands/525/2014,A/Hong Kong/4801/2014,160
+A/Hong Kong/146/2013,A/Hong Kong/4801/2014,160
+A/Hong Kong/5738/2014,A/Hong Kong/4801/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,640
+A/Novosibirsk/40/2015,A/Hong Kong/4801/2014,40
+A/Omsk/26/2015,A/Hong Kong/4801/2014,80
+A/St Petersburg/207/2015,A/Hong Kong/4801/2014,160
+A/Novosibirsk/13/2015,A/Hong Kong/4801/2014,160
+A/St Petersburg/299/2015,A/Hong Kong/4801/2014,80
+A/Norway/2587/2015,A/Hong Kong/4801/2014,80
+A/Saudi Arabia/78572/2015,A/Hong Kong/4801/2014,80
+A/Saudi Arabia/78603/2015,A/Hong Kong/4801/2014,40
+A/Norway/2605/2015,A/Hong Kong/4801/2014,40
+A/Norway/2629/2015,A/Hong Kong/4801/2014,40
+A/Texas/50/2012,A/Texas/50/2012,2560
+A/Samara/73/2013,A/Texas/50/2012,1280
+A/Stockholm/6/2014,A/Texas/50/2012,160
+A/Stockholm/6/2014,A/Texas/50/2012,640
+A/Switzerland/9715293/2013,A/Texas/50/2012,40
+A/Switzerland/9715293/2013,A/Texas/50/2012,640
+A/Netherlands/525/2014,A/Texas/50/2012,320
+A/Hong Kong/146/2013,A/Texas/50/2012,2560
+A/Hong Kong/5738/2014,A/Texas/50/2012,80
+A/Hong Kong/4801/2014,A/Texas/50/2012,80
+A/Hong Kong/4801/2014,A/Texas/50/2012,40
+A/Georgia/532/2015,A/Texas/50/2012,20
+A/Iran/115843/2015,A/Texas/50/2012,80
+A/Liaoning-Shuangta/1505/2015,A/Texas/50/2012,80
+A/Austria/890287/2015,A/Texas/50/2012,80
+A/Aix-en-Provence/2474/2015,A/Texas/50/2012,40
+A/Austria/890744/2015,A/Texas/50/2012,80
+A/Austria/891959/2015,A/Texas/50/2012,40
+A/Austria/892085/2015,A/Texas/50/2012,160
+A/Finland/547/2015,A/Texas/50/2012,80
+A/Finland/547/2015,A/Texas/50/2012,80
+A/Nordrhein-Westfalen/104/2015,A/Texas/50/2012,160
+A/Finland/552/2015,A/Texas/50/2012,40
+A/Austria/893502/2015,A/Texas/50/2012,40
+A/Berlin/173/2015,A/Texas/50/2012,40
+A/Austria/893755/2015,A/Texas/50/2012,40
+A/Lyon/2608/2015,A/Texas/50/2012,40
+A/Texas/50/2012,A/Samara/73/2013,1280
+A/Samara/73/2013,A/Samara/73/2013,640
+A/Stockholm/6/2014,A/Samara/73/2013,80
+A/Stockholm/6/2014,A/Samara/73/2013,80
+A/Switzerland/9715293/2013,A/Samara/73/2013,40
+A/Switzerland/9715293/2013,A/Samara/73/2013,160
+A/Netherlands/525/2014,A/Samara/73/2013,160
+A/Hong Kong/146/2013,A/Samara/73/2013,640
+A/Hong Kong/5738/2014,A/Samara/73/2013,40
+A/Hong Kong/4801/2014,A/Samara/73/2013,40
+A/Hong Kong/4801/2014,A/Samara/73/2013,80
+A/Georgia/532/2015,A/Samara/73/2013,160
+A/Iran/115843/2015,A/Samara/73/2013,40
+A/Liaoning-Shuangta/1505/2015,A/Samara/73/2013,<40
+A/Austria/890287/2015,A/Samara/73/2013,40
+A/Aix-en-Provence/2474/2015,A/Samara/73/2013,<40
+A/Austria/890744/2015,A/Samara/73/2013,40
+A/Austria/891959/2015,A/Samara/73/2013,<40
+A/Austria/892085/2015,A/Samara/73/2013,80
+A/Finland/547/2015,A/Samara/73/2013,40
+A/Finland/547/2015,A/Samara/73/2013,40
+A/Nordrhein-Westfalen/104/2015,A/Samara/73/2013,40
+A/Finland/552/2015,A/Samara/73/2013,<40
+A/Austria/893502/2015,A/Samara/73/2013,<40
+A/Berlin/173/2015,A/Samara/73/2013,<40
+A/Austria/893755/2015,A/Samara/73/2013,<40
+A/Lyon/2608/2015,A/Samara/73/2013,<40
+A/Texas/50/2012,A/Stockholm/6/2014,160
+A/Samara/73/2013,A/Stockholm/6/2014,640
+A/Stockholm/6/2014,A/Stockholm/6/2014,640
+A/Stockholm/6/2014,A/Stockholm/6/2014,160
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,320
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,160
+A/Netherlands/525/2014,A/Stockholm/6/2014,160
+A/Hong Kong/146/2013,A/Stockholm/6/2014,80
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,320
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,320
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,80
+A/Georgia/532/2015,A/Stockholm/6/2014,80
+A/Iran/115843/2015,A/Stockholm/6/2014,640
+A/Liaoning-Shuangta/1505/2015,A/Stockholm/6/2014,320
+A/Austria/890287/2015,A/Stockholm/6/2014,320
+A/Aix-en-Provence/2474/2015,A/Stockholm/6/2014,80
+A/Austria/890744/2015,A/Stockholm/6/2014,320
+A/Austria/891959/2015,A/Stockholm/6/2014,160
+A/Austria/892085/2015,A/Stockholm/6/2014,640
+A/Finland/547/2015,A/Stockholm/6/2014,320
+A/Finland/547/2015,A/Stockholm/6/2014,320
+A/Nordrhein-Westfalen/104/2015,A/Stockholm/6/2014,320
+A/Finland/552/2015,A/Stockholm/6/2014,80
+A/Austria/893502/2015,A/Stockholm/6/2014,160
+A/Berlin/173/2015,A/Stockholm/6/2014,160
+A/Austria/893755/2015,A/Stockholm/6/2014,160
+A/Lyon/2608/2015,A/Stockholm/6/2014,80
+A/Texas/50/2012,A/Stockholm/6/2014,640
+A/Samara/73/2013,A/Stockholm/6/2014,640
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,160
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,320
+A/Netherlands/525/2014,A/Stockholm/6/2014,160
+A/Hong Kong/146/2013,A/Stockholm/6/2014,640
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,160
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,160
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,40
+A/Georgia/532/2015,A/Stockholm/6/2014,320
+A/Iran/115843/2015,A/Stockholm/6/2014,160
+A/Liaoning-Shuangta/1505/2015,A/Stockholm/6/2014,80
+A/Austria/890287/2015,A/Stockholm/6/2014,160
+A/Aix-en-Provence/2474/2015,A/Stockholm/6/2014,40
+A/Austria/890744/2015,A/Stockholm/6/2014,160
+A/Austria/891959/2015,A/Stockholm/6/2014,80
+A/Austria/892085/2015,A/Stockholm/6/2014,320
+A/Finland/547/2015,A/Stockholm/6/2014,160
+A/Finland/547/2015,A/Stockholm/6/2014,160
+A/Nordrhein-Westfalen/104/2015,A/Stockholm/6/2014,160
+A/Finland/552/2015,A/Stockholm/6/2014,40
+A/Austria/893502/2015,A/Stockholm/6/2014,80
+A/Berlin/173/2015,A/Stockholm/6/2014,80
+A/Austria/893755/2015,A/Stockholm/6/2014,80
+A/Lyon/2608/2015,A/Stockholm/6/2014,40
+A/Texas/50/2012,A/Switzerland/9715293/2013,80
+A/Samara/73/2013,A/Switzerland/9715293/2013,80
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,160
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,40
+A/Netherlands/525/2014,A/Switzerland/9715293/2013,40
+A/Hong Kong/146/2013,A/Switzerland/9715293/2013,40
+A/Hong Kong/5738/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,40
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,40
+A/Georgia/532/2015,A/Switzerland/9715293/2013,160
+A/Iran/115843/2015,A/Switzerland/9715293/2013,80
+A/Liaoning-Shuangta/1505/2015,A/Switzerland/9715293/2013,<40
+A/Austria/890287/2015,A/Switzerland/9715293/2013,80
+A/Aix-en-Provence/2474/2015,A/Switzerland/9715293/2013,<40
+A/Austria/890744/2015,A/Switzerland/9715293/2013,80
+A/Austria/891959/2015,A/Switzerland/9715293/2013,<40
+A/Austria/892085/2015,A/Switzerland/9715293/2013,160
+A/Finland/547/2015,A/Switzerland/9715293/2013,40
+A/Finland/547/2015,A/Switzerland/9715293/2013,80
+A/Nordrhein-Westfalen/104/2015,A/Switzerland/9715293/2013,80
+A/Finland/552/2015,A/Switzerland/9715293/2013,<40
+A/Austria/893502/2015,A/Switzerland/9715293/2013,<40
+A/Berlin/173/2015,A/Switzerland/9715293/2013,<40
+A/Austria/893755/2015,A/Switzerland/9715293/2013,<40
+A/Lyon/2608/2015,A/Switzerland/9715293/2013,40
+A/Texas/50/2012,A/Switzerland/9715293/2013,640
+A/Samara/73/2013,A/Switzerland/9715293/2013,320
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,160
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,640
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,640
+A/Netherlands/525/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/146/2013,A/Switzerland/9715293/2013,320
+A/Hong Kong/5738/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,40
+A/Georgia/532/2015,A/Switzerland/9715293/2013,40
+A/Iran/115843/2015,A/Switzerland/9715293/2013,80
+A/Liaoning-Shuangta/1505/2015,A/Switzerland/9715293/2013,40
+A/Austria/890287/2015,A/Switzerland/9715293/2013,80
+A/Aix-en-Provence/2474/2015,A/Switzerland/9715293/2013,<40
+A/Austria/890744/2015,A/Switzerland/9715293/2013,80
+A/Austria/891959/2015,A/Switzerland/9715293/2013,40
+A/Austria/892085/2015,A/Switzerland/9715293/2013,160
+A/Finland/547/2015,A/Switzerland/9715293/2013,80
+A/Finland/547/2015,A/Switzerland/9715293/2013,80
+A/Nordrhein-Westfalen/104/2015,A/Switzerland/9715293/2013,80
+A/Finland/552/2015,A/Switzerland/9715293/2013,<40
+A/Austria/893502/2015,A/Switzerland/9715293/2013,40
+A/Berlin/173/2015,A/Switzerland/9715293/2013,<40
+A/Austria/893755/2015,A/Switzerland/9715293/2013,40
+A/Lyon/2608/2015,A/Switzerland/9715293/2013,<40
+A/Texas/50/2012,A/Netherlands/525/2014,320
+A/Samara/73/2013,A/Netherlands/525/2014,320
+A/Stockholm/6/2014,A/Netherlands/525/2014,80
+A/Stockholm/6/2014,A/Netherlands/525/2014,80
+A/Switzerland/9715293/2013,A/Netherlands/525/2014,40
+A/Switzerland/9715293/2013,A/Netherlands/525/2014,40
+A/Netherlands/525/2014,A/Netherlands/525/2014,640
+A/Hong Kong/146/2013,A/Netherlands/525/2014,160
+A/Hong Kong/5738/2014,A/Netherlands/525/2014,40
+A/Hong Kong/4801/2014,A/Netherlands/525/2014,40
+A/Hong Kong/4801/2014,A/Netherlands/525/2014,40
+A/Georgia/532/2015,A/Netherlands/525/2014,40
+A/Iran/115843/2015,A/Netherlands/525/2014,40
+A/Liaoning-Shuangta/1505/2015,A/Netherlands/525/2014,<40
+A/Austria/890287/2015,A/Netherlands/525/2014,40
+A/Aix-en-Provence/2474/2015,A/Netherlands/525/2014,<40
+A/Austria/890744/2015,A/Netherlands/525/2014,40
+A/Austria/891959/2015,A/Netherlands/525/2014,<40
+A/Austria/892085/2015,A/Netherlands/525/2014,80
+A/Finland/547/2015,A/Netherlands/525/2014,40
+A/Finland/547/2015,A/Netherlands/525/2014,40
+A/Nordrhein-Westfalen/104/2015,A/Netherlands/525/2014,40
+A/Finland/552/2015,A/Netherlands/525/2014,<40
+A/Austria/893502/2015,A/Netherlands/525/2014,<40
+A/Berlin/173/2015,A/Netherlands/525/2014,<40
+A/Austria/893755/2015,A/Netherlands/525/2014,<40
+A/Lyon/2608/2015,A/Netherlands/525/2014,<40
+A/Texas/50/2012,A/Hong Kong/146/2013,320
+A/Samara/73/2013,A/Hong Kong/146/2013,320
+A/Stockholm/6/2014,A/Hong Kong/146/2013,160
+A/Stockholm/6/2014,A/Hong Kong/146/2013,40
+A/Switzerland/9715293/2013,A/Hong Kong/146/2013,40
+A/Switzerland/9715293/2013,A/Hong Kong/146/2013,80
+A/Netherlands/525/2014,A/Hong Kong/146/2013,80
+A/Hong Kong/146/2013,A/Hong Kong/146/2013,640
+A/Hong Kong/5738/2014,A/Hong Kong/146/2013,80
+A/Hong Kong/4801/2014,A/Hong Kong/146/2013,80
+A/Hong Kong/4801/2014,A/Hong Kong/146/2013,<40
+A/Georgia/532/2015,A/Hong Kong/146/2013,40
+A/Iran/115843/2015,A/Hong Kong/146/2013,80
+A/Liaoning-Shuangta/1505/2015,A/Hong Kong/146/2013,<40
+A/Austria/890287/2015,A/Hong Kong/146/2013,80
+A/Aix-en-Provence/2474/2015,A/Hong Kong/146/2013,<40
+A/Austria/890744/2015,A/Hong Kong/146/2013,80
+A/Austria/891959/2015,A/Hong Kong/146/2013,<40
+A/Austria/892085/2015,A/Hong Kong/146/2013,160
+A/Finland/547/2015,A/Hong Kong/146/2013,40
+A/Finland/547/2015,A/Hong Kong/146/2013,80
+A/Nordrhein-Westfalen/104/2015,A/Hong Kong/146/2013,80
+A/Finland/552/2015,A/Hong Kong/146/2013,40
+A/Austria/893502/2015,A/Hong Kong/146/2013,<40
+A/Berlin/173/2015,A/Hong Kong/146/2013,<40
+A/Austria/893755/2015,A/Hong Kong/146/2013,<40
+A/Lyon/2608/2015,A/Hong Kong/146/2013,40
+A/Texas/50/2012,A/Hong Kong/5738/2014,160
+A/Samara/73/2013,A/Hong Kong/5738/2014,320
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Switzerland/9715293/2013,A/Hong Kong/5738/2014,80
+A/Switzerland/9715293/2013,A/Hong Kong/5738/2014,160
+A/Netherlands/525/2014,A/Hong Kong/5738/2014,80
+A/Hong Kong/146/2013,A/Hong Kong/5738/2014,160
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/5738/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/5738/2014,160
+A/Georgia/532/2015,A/Hong Kong/5738/2014,80
+A/Iran/115843/2015,A/Hong Kong/5738/2014,160
+A/Liaoning-Shuangta/1505/2015,A/Hong Kong/5738/2014,40
+A/Austria/890287/2015,A/Hong Kong/5738/2014,160
+A/Aix-en-Provence/2474/2015,A/Hong Kong/5738/2014,40
+A/Austria/890744/2015,A/Hong Kong/5738/2014,80
+A/Austria/891959/2015,A/Hong Kong/5738/2014,40
+A/Austria/892085/2015,A/Hong Kong/5738/2014,160
+A/Finland/547/2015,A/Hong Kong/5738/2014,160
+A/Finland/547/2015,A/Hong Kong/5738/2014,80
+A/Nordrhein-Westfalen/104/2015,A/Hong Kong/5738/2014,160
+A/Finland/552/2015,A/Hong Kong/5738/2014,40
+A/Austria/893502/2015,A/Hong Kong/5738/2014,40
+A/Berlin/173/2015,A/Hong Kong/5738/2014,40
+A/Austria/893755/2015,A/Hong Kong/5738/2014,40
+A/Lyon/2608/2015,A/Hong Kong/5738/2014,80
+A/Texas/50/2012,A/Hong Kong/4801/2014,320
+A/Samara/73/2013,A/Hong Kong/4801/2014,640
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,160
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,320
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,80
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,320
+A/Netherlands/525/2014,A/Hong Kong/4801/2014,80
+A/Hong Kong/146/2013,A/Hong Kong/4801/2014,320
+A/Hong Kong/5738/2014,A/Hong Kong/4801/2014,320
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,320
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,640
+A/Georgia/532/2015,A/Hong Kong/4801/2014,160
+A/Iran/115843/2015,A/Hong Kong/4801/2014,80
+A/Liaoning-Shuangta/1505/2015,A/Hong Kong/4801/2014,80
+A/Austria/890287/2015,A/Hong Kong/4801/2014,160
+A/Aix-en-Provence/2474/2015,A/Hong Kong/4801/2014,80
+A/Austria/890744/2015,A/Hong Kong/4801/2014,80
+A/Austria/891959/2015,A/Hong Kong/4801/2014,40
+A/Austria/892085/2015,A/Hong Kong/4801/2014,160
+A/Finland/547/2015,A/Hong Kong/4801/2014,80
+A/Finland/547/2015,A/Hong Kong/4801/2014,160
+A/Nordrhein-Westfalen/104/2015,A/Hong Kong/4801/2014,160
+A/Finland/552/2015,A/Hong Kong/4801/2014,80
+A/Austria/893502/2015,A/Hong Kong/4801/2014,40
+A/Berlin/173/2015,A/Hong Kong/4801/2014,40
+A/Austria/893755/2015,A/Hong Kong/4801/2014,40
+A/Lyon/2608/2015,A/Hong Kong/4801/2014,80
+A/Texas/50/2012,A/Hong Kong/4801/2014,80
+A/Samara/73/2013,A/Hong Kong/4801/2014,160
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,160
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,40
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,40
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,80
+A/Netherlands/525/2014,A/Hong Kong/4801/2014,80
+A/Hong Kong/146/2013,A/Hong Kong/4801/2014,80
+A/Hong Kong/5738/2014,A/Hong Kong/4801/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,320
+A/Georgia/532/2015,A/Hong Kong/4801/2014,320
+A/Iran/115843/2015,A/Hong Kong/4801/2014,160
+A/Liaoning-Shuangta/1505/2015,A/Hong Kong/4801/2014,40
+A/Austria/890287/2015,A/Hong Kong/4801/2014,160
+A/Aix-en-Provence/2474/2015,A/Hong Kong/4801/2014,40
+A/Austria/890744/2015,A/Hong Kong/4801/2014,80
+A/Austria/891959/2015,A/Hong Kong/4801/2014,40
+A/Austria/892085/2015,A/Hong Kong/4801/2014,160
+A/Finland/547/2015,A/Hong Kong/4801/2014,160
+A/Finland/547/2015,A/Hong Kong/4801/2014,80
+A/Nordrhein-Westfalen/104/2015,A/Hong Kong/4801/2014,160
+A/Finland/552/2015,A/Hong Kong/4801/2014,40
+A/Austria/893502/2015,A/Hong Kong/4801/2014,40
+A/Berlin/173/2015,A/Hong Kong/4801/2014,40
+A/Austria/893755/2015,A/Hong Kong/4801/2014,40
+A/Lyon/2608/2015,A/Hong Kong/4801/2014,80
+A/Texas/50/2012,A/Georgia/532/2015,160
+A/Samara/73/2013,A/Georgia/532/2015,320
+A/Stockholm/6/2014,A/Georgia/532/2015,160
+A/Stockholm/6/2014,A/Georgia/532/2015,80
+A/Switzerland/9715293/2013,A/Georgia/532/2015,40
+A/Switzerland/9715293/2013,A/Georgia/532/2015,160
+A/Netherlands/525/2014,A/Georgia/532/2015,80
+A/Hong Kong/146/2013,A/Georgia/532/2015,320
+A/Hong Kong/5738/2014,A/Georgia/532/2015,160
+A/Hong Kong/4801/2014,A/Georgia/532/2015,160
+A/Hong Kong/4801/2014,A/Georgia/532/2015,320
+A/Georgia/532/2015,A/Georgia/532/2015,160
+A/Iran/115843/2015,A/Georgia/532/2015,40
+A/Liaoning-Shuangta/1505/2015,A/Georgia/532/2015,<40
+A/Austria/890287/2015,A/Georgia/532/2015,80
+A/Aix-en-Provence/2474/2015,A/Georgia/532/2015,40
+A/Austria/890744/2015,A/Georgia/532/2015,80
+A/Austria/891959/2015,A/Georgia/532/2015,<40
+A/Austria/892085/2015,A/Georgia/532/2015,160
+A/Finland/547/2015,A/Georgia/532/2015,40
+A/Finland/547/2015,A/Georgia/532/2015,80
+A/Nordrhein-Westfalen/104/2015,A/Georgia/532/2015,40
+A/Finland/552/2015,A/Georgia/532/2015,<40
+A/Austria/893502/2015,A/Georgia/532/2015,<40
+A/Berlin/173/2015,A/Georgia/532/2015,<40
+A/Austria/893755/2015,A/Georgia/532/2015,<40
+A/Lyon/2608/2015,A/Georgia/532/2015,80
+A/Texas/50/2012,A/Texas/50/2012,2560
+A/Samara/73/2013,A/Texas/50/2012,1280
+A/Stockholm/6/2014,A/Texas/50/2012,160
+A/Stockholm/6/2014,A/Texas/50/2012,640
+A/Switzerland/9715293/2013,A/Texas/50/2012,80
+A/Switzerland/9715293/2013,A/Texas/50/2012,640
+A/Netherlands/525/2014,A/Texas/50/2012,640
+A/Hong Kong/146/2013,A/Texas/50/2012,2560
+A/Hong Kong/5738/2014,A/Texas/50/2012,160
+A/Hong Kong/4801/2014,A/Texas/50/2012,80
+A/Hong Kong/4801/2014,A/Texas/50/2012,80
+A/Georgia/532/2015,A/Texas/50/2012,20
+A/Yunnan-Hongta/11097/2015,A/Texas/50/2012,640
+A/Norway/2665/2015,A/Texas/50/2012,80
+A/Yunnan-Wenshan/1893/2015,A/Texas/50/2012,160
+A/Liaoning-Shuangta/1491/2015,A/Texas/50/2012,80
+A/Stockholm/58/2015,A/Texas/50/2012,80
+A/Stockholm/65/2015,A/Texas/50/2012,160
+A/Stockholm/63/2015,A/Texas/50/2012,80
+A/Stockholm/61/2015,A/Texas/50/2012,160
+A/Thuringen/102/2015,A/Texas/50/2012,80
+A/Norway/2877/2015,A/Texas/50/2012,80
+A/Nord Pas de Calais/2518/2015,A/Texas/50/2012,80
+A/Lisboa/75/2015,A/Texas/50/2012,40
+A/Lisboa/76/2015,A/Texas/50/2012,40
+A/Padova/1/2015,A/Texas/50/2012,<40
+A/Slovenia/3203/2015,A/Texas/50/2012,40
+A/Roma/29/2015,A/Texas/50/2012,40
+A/Switzerland/16094175/2016,A/Texas/50/2012,80
+A/Texas/50/2012,A/Samara/73/2013,640
+A/Samara/73/2013,A/Samara/73/2013,640
+A/Stockholm/6/2014,A/Samara/73/2013,80
+A/Stockholm/6/2014,A/Samara/73/2013,80
+A/Switzerland/9715293/2013,A/Samara/73/2013,40
+A/Switzerland/9715293/2013,A/Samara/73/2013,160
+A/Netherlands/525/2014,A/Samara/73/2013,160
+A/Hong Kong/146/2013,A/Samara/73/2013,640
+A/Hong Kong/5738/2014,A/Samara/73/2013,40
+A/Hong Kong/4801/2014,A/Samara/73/2013,40
+A/Hong Kong/4801/2014,A/Samara/73/2013,80
+A/Georgia/532/2015,A/Samara/73/2013,160
+A/Yunnan-Hongta/11097/2015,A/Samara/73/2013,160
+A/Norway/2665/2015,A/Samara/73/2013,80
+A/Yunnan-Wenshan/1893/2015,A/Samara/73/2013,160
+A/Liaoning-Shuangta/1491/2015,A/Samara/73/2013,40
+A/Stockholm/58/2015,A/Samara/73/2013,40
+A/Stockholm/65/2015,A/Samara/73/2013,80
+A/Stockholm/63/2015,A/Samara/73/2013,40
+A/Stockholm/61/2015,A/Samara/73/2013,80
+A/Thuringen/102/2015,A/Samara/73/2013,40
+A/Norway/2877/2015,A/Samara/73/2013,<40
+A/Nord Pas de Calais/2518/2015,A/Samara/73/2013,40
+A/Lisboa/75/2015,A/Samara/73/2013,<40
+A/Lisboa/76/2015,A/Samara/73/2013,<40
+A/Padova/1/2015,A/Samara/73/2013,<40
+A/Slovenia/3203/2015,A/Samara/73/2013,<40
+A/Roma/29/2015,A/Samara/73/2013,<40
+A/Switzerland/16094175/2016,A/Samara/73/2013,40
+A/Texas/50/2012,A/Stockholm/6/2014,160
+A/Samara/73/2013,A/Stockholm/6/2014,640
+A/Stockholm/6/2014,A/Stockholm/6/2014,640
+A/Stockholm/6/2014,A/Stockholm/6/2014,160
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,320
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,160
+A/Netherlands/525/2014,A/Stockholm/6/2014,320
+A/Hong Kong/146/2013,A/Stockholm/6/2014,80
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,320
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,160
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,80
+A/Georgia/532/2015,A/Stockholm/6/2014,80
+A/Yunnan-Hongta/11097/2015,A/Stockholm/6/2014,160
+A/Norway/2665/2015,A/Stockholm/6/2014,640
+A/Yunnan-Wenshan/1893/2015,A/Stockholm/6/2014,320
+A/Liaoning-Shuangta/1491/2015,A/Stockholm/6/2014,320
+A/Stockholm/58/2015,A/Stockholm/6/2014,320
+A/Stockholm/65/2015,A/Stockholm/6/2014,640
+A/Stockholm/63/2015,A/Stockholm/6/2014,160
+A/Stockholm/61/2015,A/Stockholm/6/2014,640
+A/Thuringen/102/2015,A/Stockholm/6/2014,320
+A/Norway/2877/2015,A/Stockholm/6/2014,320
+A/Nord Pas de Calais/2518/2015,A/Stockholm/6/2014,320
+A/Lisboa/75/2015,A/Stockholm/6/2014,320
+A/Lisboa/76/2015,A/Stockholm/6/2014,160
+A/Padova/1/2015,A/Stockholm/6/2014,<40
+A/Slovenia/3203/2015,A/Stockholm/6/2014,160
+A/Roma/29/2015,A/Stockholm/6/2014,160
+A/Switzerland/16094175/2016,A/Stockholm/6/2014,640
+A/Texas/50/2012,A/Stockholm/6/2014,640
+A/Samara/73/2013,A/Stockholm/6/2014,320
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,160
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,320
+A/Netherlands/525/2014,A/Stockholm/6/2014,160
+A/Hong Kong/146/2013,A/Stockholm/6/2014,640
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,160
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,80
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,80
+A/Georgia/532/2015,A/Stockholm/6/2014,160
+A/Yunnan-Hongta/11097/2015,A/Stockholm/6/2014,160
+A/Norway/2665/2015,A/Stockholm/6/2014,320
+A/Yunnan-Wenshan/1893/2015,A/Stockholm/6/2014,160
+A/Liaoning-Shuangta/1491/2015,A/Stockholm/6/2014,160
+A/Stockholm/58/2015,A/Stockholm/6/2014,320
+A/Stockholm/65/2015,A/Stockholm/6/2014,320
+A/Stockholm/63/2015,A/Stockholm/6/2014,80
+A/Stockholm/61/2015,A/Stockholm/6/2014,320
+A/Thuringen/102/2015,A/Stockholm/6/2014,320
+A/Norway/2877/2015,A/Stockholm/6/2014,160
+A/Nord Pas de Calais/2518/2015,A/Stockholm/6/2014,320
+A/Lisboa/75/2015,A/Stockholm/6/2014,160
+A/Lisboa/76/2015,A/Stockholm/6/2014,80
+A/Padova/1/2015,A/Stockholm/6/2014,<40
+A/Slovenia/3203/2015,A/Stockholm/6/2014,80
+A/Roma/29/2015,A/Stockholm/6/2014,40
+A/Switzerland/16094175/2016,A/Stockholm/6/2014,320
+A/Texas/50/2012,A/Switzerland/9715293/2013,40
+A/Samara/73/2013,A/Switzerland/9715293/2013,160
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,160
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Netherlands/525/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/146/2013,A/Switzerland/9715293/2013,40
+A/Hong Kong/5738/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,40
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,80
+A/Georgia/532/2015,A/Switzerland/9715293/2013,160
+A/Yunnan-Hongta/11097/2015,A/Switzerland/9715293/2013,40
+A/Norway/2665/2015,A/Switzerland/9715293/2013,80
+A/Yunnan-Wenshan/1893/2015,A/Switzerland/9715293/2013,160
+A/Liaoning-Shuangta/1491/2015,A/Switzerland/9715293/2013,80
+A/Stockholm/58/2015,A/Switzerland/9715293/2013,80
+A/Stockholm/65/2015,A/Switzerland/9715293/2013,160
+A/Stockholm/63/2015,A/Switzerland/9715293/2013,40
+A/Stockholm/61/2015,A/Switzerland/9715293/2013,160
+A/Thuringen/102/2015,A/Switzerland/9715293/2013,80
+A/Norway/2877/2015,A/Switzerland/9715293/2013,80
+A/Nord Pas de Calais/2518/2015,A/Switzerland/9715293/2013,80
+A/Lisboa/75/2015,A/Switzerland/9715293/2013,40
+A/Lisboa/76/2015,A/Switzerland/9715293/2013,<40
+A/Padova/1/2015,A/Switzerland/9715293/2013,640
+A/Slovenia/3203/2015,A/Switzerland/9715293/2013,<40
+A/Roma/29/2015,A/Switzerland/9715293/2013,40
+A/Switzerland/16094175/2016,A/Switzerland/9715293/2013,80
+A/Texas/50/2012,A/Switzerland/9715293/2013,640
+A/Samara/73/2013,A/Switzerland/9715293/2013,320
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,160
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,640
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,640
+A/Netherlands/525/2014,A/Switzerland/9715293/2013,160
+A/Hong Kong/146/2013,A/Switzerland/9715293/2013,640
+A/Hong Kong/5738/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,40
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,40
+A/Georgia/532/2015,A/Switzerland/9715293/2013,40
+A/Yunnan-Hongta/11097/2015,A/Switzerland/9715293/2013,80
+A/Norway/2665/2015,A/Switzerland/9715293/2013,80
+A/Yunnan-Wenshan/1893/2015,A/Switzerland/9715293/2013,160
+A/Liaoning-Shuangta/1491/2015,A/Switzerland/9715293/2013,80
+A/Stockholm/58/2015,A/Switzerland/9715293/2013,160
+A/Stockholm/65/2015,A/Switzerland/9715293/2013,160
+A/Stockholm/63/2015,A/Switzerland/9715293/2013,40
+A/Stockholm/61/2015,A/Switzerland/9715293/2013,160
+A/Thuringen/102/2015,A/Switzerland/9715293/2013,80
+A/Norway/2877/2015,A/Switzerland/9715293/2013,40
+A/Nord Pas de Calais/2518/2015,A/Switzerland/9715293/2013,80
+A/Lisboa/75/2015,A/Switzerland/9715293/2013,80
+A/Lisboa/76/2015,A/Switzerland/9715293/2013,40
+A/Padova/1/2015,A/Switzerland/9715293/2013,<40
+A/Slovenia/3203/2015,A/Switzerland/9715293/2013,40
+A/Roma/29/2015,A/Switzerland/9715293/2013,<40
+A/Switzerland/16094175/2016,A/Switzerland/9715293/2013,80
+A/Texas/50/2012,A/Netherlands/525/2014,320
+A/Samara/73/2013,A/Netherlands/525/2014,320
+A/Stockholm/6/2014,A/Netherlands/525/2014,80
+A/Stockholm/6/2014,A/Netherlands/525/2014,80
+A/Switzerland/9715293/2013,A/Netherlands/525/2014,40
+A/Switzerland/9715293/2013,A/Netherlands/525/2014,80
+A/Netherlands/525/2014,A/Netherlands/525/2014,640
+A/Hong Kong/146/2013,A/Netherlands/525/2014,320
+A/Hong Kong/5738/2014,A/Netherlands/525/2014,40
+A/Hong Kong/4801/2014,A/Netherlands/525/2014,40
+A/Hong Kong/4801/2014,A/Netherlands/525/2014,80
+A/Georgia/532/2015,A/Netherlands/525/2014,80
+A/Yunnan-Hongta/11097/2015,A/Netherlands/525/2014,640
+A/Norway/2665/2015,A/Netherlands/525/2014,40
+A/Yunnan-Wenshan/1893/2015,A/Netherlands/525/2014,40
+A/Liaoning-Shuangta/1491/2015,A/Netherlands/525/2014,40
+A/Stockholm/58/2015,A/Netherlands/525/2014,40
+A/Stockholm/65/2015,A/Netherlands/525/2014,80
+A/Stockholm/63/2015,A/Netherlands/525/2014,<40
+A/Stockholm/61/2015,A/Netherlands/525/2014,80
+A/Thuringen/102/2015,A/Netherlands/525/2014,40
+A/Norway/2877/2015,A/Netherlands/525/2014,40
+A/Nord Pas de Calais/2518/2015,A/Netherlands/525/2014,40
+A/Lisboa/75/2015,A/Netherlands/525/2014,40
+A/Lisboa/76/2015,A/Netherlands/525/2014,<40
+A/Padova/1/2015,A/Netherlands/525/2014,<40
+A/Slovenia/3203/2015,A/Netherlands/525/2014,40
+A/Roma/29/2015,A/Netherlands/525/2014,<40
+A/Switzerland/16094175/2016,A/Netherlands/525/2014,40
+A/Texas/50/2012,A/Hong Kong/146/2013,320
+A/Samara/73/2013,A/Hong Kong/146/2013,320
+A/Stockholm/6/2014,A/Hong Kong/146/2013,160
+A/Stockholm/6/2014,A/Hong Kong/146/2013,80
+A/Switzerland/9715293/2013,A/Hong Kong/146/2013,40
+A/Switzerland/9715293/2013,A/Hong Kong/146/2013,80
+A/Netherlands/525/2014,A/Hong Kong/146/2013,160
+A/Hong Kong/146/2013,A/Hong Kong/146/2013,640
+A/Hong Kong/5738/2014,A/Hong Kong/146/2013,80
+A/Hong Kong/4801/2014,A/Hong Kong/146/2013,80
+A/Hong Kong/4801/2014,A/Hong Kong/146/2013,40
+A/Georgia/532/2015,A/Hong Kong/146/2013,40
+A/Yunnan-Hongta/11097/2015,A/Hong Kong/146/2013,80
+A/Norway/2665/2015,A/Hong Kong/146/2013,80
+A/Yunnan-Wenshan/1893/2015,A/Hong Kong/146/2013,160
+A/Liaoning-Shuangta/1491/2015,A/Hong Kong/146/2013,40
+A/Stockholm/58/2015,A/Hong Kong/146/2013,80
+A/Stockholm/65/2015,A/Hong Kong/146/2013,160
+A/Stockholm/63/2015,A/Hong Kong/146/2013,80
+A/Stockholm/61/2015,A/Hong Kong/146/2013,160
+A/Thuringen/102/2015,A/Hong Kong/146/2013,80
+A/Norway/2877/2015,A/Hong Kong/146/2013,40
+A/Nord Pas de Calais/2518/2015,A/Hong Kong/146/2013,80
+A/Lisboa/75/2015,A/Hong Kong/146/2013,<40
+A/Lisboa/76/2015,A/Hong Kong/146/2013,<40
+A/Padova/1/2015,A/Hong Kong/146/2013,<40
+A/Slovenia/3203/2015,A/Hong Kong/146/2013,<40
+A/Roma/29/2015,A/Hong Kong/146/2013,40
+A/Switzerland/16094175/2016,A/Hong Kong/146/2013,80
+A/Texas/50/2012,A/Hong Kong/5738/2014,160
+A/Samara/73/2013,A/Hong Kong/5738/2014,320
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Switzerland/9715293/2013,A/Hong Kong/5738/2014,160
+A/Switzerland/9715293/2013,A/Hong Kong/5738/2014,320
+A/Netherlands/525/2014,A/Hong Kong/5738/2014,80
+A/Hong Kong/146/2013,A/Hong Kong/5738/2014,320
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/5738/2014,80
+A/Hong Kong/4801/2014,A/Hong Kong/5738/2014,320
+A/Georgia/532/2015,A/Hong Kong/5738/2014,80
+A/Yunnan-Hongta/11097/2015,A/Hong Kong/5738/2014,80
+A/Norway/2665/2015,A/Hong Kong/5738/2014,160
+A/Yunnan-Wenshan/1893/2015,A/Hong Kong/5738/2014,160
+A/Liaoning-Shuangta/1491/2015,A/Hong Kong/5738/2014,80
+A/Stockholm/58/2015,A/Hong Kong/5738/2014,160
+A/Stockholm/65/2015,A/Hong Kong/5738/2014,160
+A/Stockholm/63/2015,A/Hong Kong/5738/2014,80
+A/Stockholm/61/2015,A/Hong Kong/5738/2014,160
+A/Thuringen/102/2015,A/Hong Kong/5738/2014,160
+A/Norway/2877/2015,A/Hong Kong/5738/2014,80
+A/Nord Pas de Calais/2518/2015,A/Hong Kong/5738/2014,160
+A/Lisboa/75/2015,A/Hong Kong/5738/2014,80
+A/Lisboa/76/2015,A/Hong Kong/5738/2014,40
+A/Padova/1/2015,A/Hong Kong/5738/2014,<40
+A/Slovenia/3203/2015,A/Hong Kong/5738/2014,40
+A/Roma/29/2015,A/Hong Kong/5738/2014,80
+A/Switzerland/16094175/2016,A/Hong Kong/5738/2014,160
+A/Texas/50/2012,A/Hong Kong/4801/2014,320
+A/Samara/73/2013,A/Hong Kong/4801/2014,640
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,320
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,320
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,160
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,320
+A/Netherlands/525/2014,A/Hong Kong/4801/2014,160
+A/Hong Kong/146/2013,A/Hong Kong/4801/2014,640
+A/Hong Kong/5738/2014,A/Hong Kong/4801/2014,320
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,320
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,640
+A/Georgia/532/2015,A/Hong Kong/4801/2014,160
+A/Yunnan-Hongta/11097/2015,A/Hong Kong/4801/2014,160
+A/Norway/2665/2015,A/Hong Kong/4801/2014,160
+A/Yunnan-Wenshan/1893/2015,A/Hong Kong/4801/2014,640
+A/Liaoning-Shuangta/1491/2015,A/Hong Kong/4801/2014,80
+A/Stockholm/58/2015,A/Hong Kong/4801/2014,160
+A/Stockholm/65/2015,A/Hong Kong/4801/2014,320
+A/Stockholm/63/2015,A/Hong Kong/4801/2014,160
+A/Stockholm/61/2015,A/Hong Kong/4801/2014,640
+A/Thuringen/102/2015,A/Hong Kong/4801/2014,160
+A/Norway/2877/2015,A/Hong Kong/4801/2014,80
+A/Nord Pas de Calais/2518/2015,A/Hong Kong/4801/2014,160
+A/Lisboa/75/2015,A/Hong Kong/4801/2014,80
+A/Lisboa/76/2015,A/Hong Kong/4801/2014,40
+A/Padova/1/2015,A/Hong Kong/4801/2014,<40
+A/Slovenia/3203/2015,A/Hong Kong/4801/2014,40
+A/Roma/29/2015,A/Hong Kong/4801/2014,80
+A/Switzerland/16094175/2016,A/Hong Kong/4801/2014,160
+A/Texas/50/2012,A/Hong Kong/4801/2014,80
+A/Samara/73/2013,A/Hong Kong/4801/2014,160
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,160
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,40
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,80
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,80
+A/Netherlands/525/2014,A/Hong Kong/4801/2014,80
+A/Hong Kong/146/2013,A/Hong Kong/4801/2014,160
+A/Hong Kong/5738/2014,A/Hong Kong/4801/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,80
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,320
+A/Georgia/532/2015,A/Hong Kong/4801/2014,320
+A/Yunnan-Hongta/11097/2015,A/Hong Kong/4801/2014,80
+A/Norway/2665/2015,A/Hong Kong/4801/2014,160
+A/Yunnan-Wenshan/1893/2015,A/Hong Kong/4801/2014,160
+A/Liaoning-Shuangta/1491/2015,A/Hong Kong/4801/2014,80
+A/Stockholm/58/2015,A/Hong Kong/4801/2014,160
+A/Stockholm/65/2015,A/Hong Kong/4801/2014,160
+A/Stockholm/63/2015,A/Hong Kong/4801/2014,80
+A/Stockholm/61/2015,A/Hong Kong/4801/2014,160
+A/Thuringen/102/2015,A/Hong Kong/4801/2014,160
+A/Norway/2877/2015,A/Hong Kong/4801/2014,80
+A/Nord Pas de Calais/2518/2015,A/Hong Kong/4801/2014,160
+A/Lisboa/75/2015,A/Hong Kong/4801/2014,80
+A/Lisboa/76/2015,A/Hong Kong/4801/2014,40
+A/Padova/1/2015,A/Hong Kong/4801/2014,<40
+A/Slovenia/3203/2015,A/Hong Kong/4801/2014,80
+A/Roma/29/2015,A/Hong Kong/4801/2014,40
+A/Switzerland/16094175/2016,A/Hong Kong/4801/2014,160
+A/Texas/50/2012,A/Georgia/532/2015,160
+A/Samara/73/2013,A/Georgia/532/2015,320
+A/Stockholm/6/2014,A/Georgia/532/2015,160
+A/Stockholm/6/2014,A/Georgia/532/2015,80
+A/Switzerland/9715293/2013,A/Georgia/532/2015,80
+A/Switzerland/9715293/2013,A/Georgia/532/2015,160
+A/Netherlands/525/2014,A/Georgia/532/2015,80
+A/Hong Kong/146/2013,A/Georgia/532/2015,320
+A/Hong Kong/5738/2014,A/Georgia/532/2015,160
+A/Hong Kong/4801/2014,A/Georgia/532/2015,80
+A/Hong Kong/4801/2014,A/Georgia/532/2015,320
+A/Georgia/532/2015,A/Georgia/532/2015,160
+A/Yunnan-Hongta/11097/2015,A/Georgia/532/2015,80
+A/Norway/2665/2015,A/Georgia/532/2015,80
+A/Yunnan-Wenshan/1893/2015,A/Georgia/532/2015,160
+A/Liaoning-Shuangta/1491/2015,A/Georgia/532/2015,80
+A/Stockholm/58/2015,A/Georgia/532/2015,80
+A/Stockholm/65/2015,A/Georgia/532/2015,160
+A/Stockholm/63/2015,A/Georgia/532/2015,160
+A/Stockholm/61/2015,A/Georgia/532/2015,80
+A/Thuringen/102/2015,A/Georgia/532/2015,80
+A/Norway/2877/2015,A/Georgia/532/2015,80
+A/Nord Pas de Calais/2518/2015,A/Georgia/532/2015,80
+A/Lisboa/75/2015,A/Georgia/532/2015,40
+A/Lisboa/76/2015,A/Georgia/532/2015,<40
+A/Padova/1/2015,A/Georgia/532/2015,<40
+A/Slovenia/3203/2015,A/Georgia/532/2015,40
+A/Roma/29/2015,A/Georgia/532/2015,160
+A/Switzerland/16094175/2016,A/Georgia/532/2015,80
+A/Texas/50/2012,A/Texas/50/2012,5120
+A/Samara/73/2013,A/Texas/50/2012,2560
+A/Stockholm/6/2014,A/Texas/50/2012,80
+A/Stockholm/6/2014,A/Texas/50/2012,640
+A/Switzerland/9715293/2013,A/Texas/50/2012,80
+A/Switzerland/9715293/2013,A/Texas/50/2012,640
+A/Netherlands/525/2014,A/Texas/50/2012,320
+A/Hong Kong/146/2013,A/Texas/50/2012,2560
+A/Hong Kong/5738/2014,A/Texas/50/2012,80
+A/Hong Kong/4801/2014,A/Texas/50/2012,160
+A/Hong Kong/4801/2014,A/Texas/50/2012,80
+A/Georgia/532/2015,A/Texas/50/2012,20
+A/Zambia/04-00420/2015,A/Texas/50/2012,<40
+A/Zambia/04-00313/2015,A/Texas/50/2012,<40
+A/Zambia/09-00003/2015,A/Texas/50/2012,<40
+A/Zambia/09-00006/2015,A/Texas/50/2012,<40
+A/Antalya/5181/2015,A/Texas/50/2012,160
+A/Cankiri/2395/2015,A/Texas/50/2012,80
+A/Ankara/2396/2015,A/Texas/50/2012,160
+A/Turkey/TR-31/2016,A/Texas/50/2012,160
+A/Texas/50/2012,A/Samara/73/2013,640
+A/Samara/73/2013,A/Samara/73/2013,640
+A/Stockholm/6/2014,A/Samara/73/2013,40
+A/Stockholm/6/2014,A/Samara/73/2013,80
+A/Switzerland/9715293/2013,A/Samara/73/2013,40
+A/Switzerland/9715293/2013,A/Samara/73/2013,160
+A/Netherlands/525/2014,A/Samara/73/2013,160
+A/Hong Kong/146/2013,A/Samara/73/2013,640
+A/Hong Kong/5738/2014,A/Samara/73/2013,40
+A/Hong Kong/4801/2014,A/Samara/73/2013,80
+A/Hong Kong/4801/2014,A/Samara/73/2013,80
+A/Georgia/532/2015,A/Samara/73/2013,160
+A/Zambia/04-00420/2015,A/Samara/73/2013,<40
+A/Zambia/04-00313/2015,A/Samara/73/2013,<40
+A/Zambia/09-00003/2015,A/Samara/73/2013,<40
+A/Zambia/09-00006/2015,A/Samara/73/2013,<40
+A/Antalya/5181/2015,A/Samara/73/2013,40
+A/Cankiri/2395/2015,A/Samara/73/2013,40
+A/Ankara/2396/2015,A/Samara/73/2013,80
+A/Turkey/TR-31/2016,A/Samara/73/2013,40
+A/Texas/50/2012,A/Stockholm/6/2014,80
+A/Samara/73/2013,A/Stockholm/6/2014,640
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Stockholm/6/2014,A/Stockholm/6/2014,160
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,320
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,160
+A/Netherlands/525/2014,A/Stockholm/6/2014,320
+A/Hong Kong/146/2013,A/Stockholm/6/2014,80
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,160
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,320
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,80
+A/Georgia/532/2015,A/Stockholm/6/2014,80
+A/Zambia/04-00420/2015,A/Stockholm/6/2014,<40
+A/Zambia/04-00313/2015,A/Stockholm/6/2014,<40
+A/Zambia/09-00003/2015,A/Stockholm/6/2014,<40
+A/Zambia/09-00006/2015,A/Stockholm/6/2014,<40
+A/Antalya/5181/2015,A/Stockholm/6/2014,320
+A/Cankiri/2395/2015,A/Stockholm/6/2014,320
+A/Ankara/2396/2015,A/Stockholm/6/2014,640
+A/Turkey/TR-31/2016,A/Stockholm/6/2014,320
+A/Texas/50/2012,A/Stockholm/6/2014,640
+A/Samara/73/2013,A/Stockholm/6/2014,640
+A/Stockholm/6/2014,A/Stockholm/6/2014,160
+A/Stockholm/6/2014,A/Stockholm/6/2014,320
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,160
+A/Switzerland/9715293/2013,A/Stockholm/6/2014,320
+A/Netherlands/525/2014,A/Stockholm/6/2014,160
+A/Hong Kong/146/2013,A/Stockholm/6/2014,640
+A/Hong Kong/5738/2014,A/Stockholm/6/2014,160
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,160
+A/Hong Kong/4801/2014,A/Stockholm/6/2014,80
+A/Georgia/532/2015,A/Stockholm/6/2014,160
+A/Zambia/04-00420/2015,A/Stockholm/6/2014,<40
+A/Zambia/04-00313/2015,A/Stockholm/6/2014,<40
+A/Zambia/09-00003/2015,A/Stockholm/6/2014,<40
+A/Zambia/09-00006/2015,A/Stockholm/6/2014,<40
+A/Antalya/5181/2015,A/Stockholm/6/2014,160
+A/Cankiri/2395/2015,A/Stockholm/6/2014,160
+A/Ankara/2396/2015,A/Stockholm/6/2014,320
+A/Turkey/TR-31/2016,A/Stockholm/6/2014,160
+A/Texas/50/2012,A/Switzerland/9715293/2013,40
+A/Samara/73/2013,A/Switzerland/9715293/2013,160
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,160
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Netherlands/525/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/146/2013,A/Switzerland/9715293/2013,40
+A/Hong Kong/5738/2014,A/Switzerland/9715293/2013,40
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,40
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,80
+A/Georgia/532/2015,A/Switzerland/9715293/2013,80
+A/Zambia/04-00420/2015,A/Switzerland/9715293/2013,320
+A/Zambia/04-00313/2015,A/Switzerland/9715293/2013,320
+A/Zambia/09-00003/2015,A/Switzerland/9715293/2013,640
+A/Zambia/09-00006/2015,A/Switzerland/9715293/2013,640
+A/Antalya/5181/2015,A/Switzerland/9715293/2013,80
+A/Cankiri/2395/2015,A/Switzerland/9715293/2013,80
+A/Ankara/2396/2015,A/Switzerland/9715293/2013,160
+A/Turkey/TR-31/2016,A/Switzerland/9715293/2013,80
+A/Texas/50/2012,A/Switzerland/9715293/2013,320
+A/Samara/73/2013,A/Switzerland/9715293/2013,640
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,80
+A/Stockholm/6/2014,A/Switzerland/9715293/2013,640
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,80
+A/Switzerland/9715293/2013,A/Switzerland/9715293/2013,640
+A/Netherlands/525/2014,A/Switzerland/9715293/2013,160
+A/Hong Kong/146/2013,A/Switzerland/9715293/2013,640
+A/Hong Kong/5738/2014,A/Switzerland/9715293/2013,40
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,80
+A/Hong Kong/4801/2014,A/Switzerland/9715293/2013,40
+A/Georgia/532/2015,A/Switzerland/9715293/2013,80
+A/Zambia/04-00420/2015,A/Switzerland/9715293/2013,<40
+A/Zambia/04-00313/2015,A/Switzerland/9715293/2013,<40
+A/Zambia/09-00003/2015,A/Switzerland/9715293/2013,<40
+A/Zambia/09-00006/2015,A/Switzerland/9715293/2013,<40
+A/Antalya/5181/2015,A/Switzerland/9715293/2013,80
+A/Cankiri/2395/2015,A/Switzerland/9715293/2013,80
+A/Ankara/2396/2015,A/Switzerland/9715293/2013,160
+A/Turkey/TR-31/2016,A/Switzerland/9715293/2013,80
+A/Texas/50/2012,A/Netherlands/525/2014,320
+A/Samara/73/2013,A/Netherlands/525/2014,320
+A/Stockholm/6/2014,A/Netherlands/525/2014,40
+A/Stockholm/6/2014,A/Netherlands/525/2014,80
+A/Switzerland/9715293/2013,A/Netherlands/525/2014,40
+A/Switzerland/9715293/2013,A/Netherlands/525/2014,80
+A/Netherlands/525/2014,A/Netherlands/525/2014,1280
+A/Hong Kong/146/2013,A/Netherlands/525/2014,320
+A/Hong Kong/5738/2014,A/Netherlands/525/2014,<40
+A/Hong Kong/4801/2014,A/Netherlands/525/2014,40
+A/Hong Kong/4801/2014,A/Netherlands/525/2014,40
+A/Georgia/532/2015,A/Netherlands/525/2014,40
+A/Zambia/04-00420/2015,A/Netherlands/525/2014,<40
+A/Zambia/04-00313/2015,A/Netherlands/525/2014,<40
+A/Zambia/09-00003/2015,A/Netherlands/525/2014,<40
+A/Zambia/09-00006/2015,A/Netherlands/525/2014,<40
+A/Antalya/5181/2015,A/Netherlands/525/2014,40
+A/Cankiri/2395/2015,A/Netherlands/525/2014,40
+A/Ankara/2396/2015,A/Netherlands/525/2014,40
+A/Turkey/TR-31/2016,A/Netherlands/525/2014,40
+A/Texas/50/2012,A/Hong Kong/146/2013,320
+A/Samara/73/2013,A/Hong Kong/146/2013,640
+A/Stockholm/6/2014,A/Hong Kong/146/2013,80
+A/Stockholm/6/2014,A/Hong Kong/146/2013,40
+A/Switzerland/9715293/2013,A/Hong Kong/146/2013,40
+A/Switzerland/9715293/2013,A/Hong Kong/146/2013,80
+A/Netherlands/525/2014,A/Hong Kong/146/2013,80
+A/Hong Kong/146/2013,A/Hong Kong/146/2013,640
+A/Hong Kong/5738/2014,A/Hong Kong/146/2013,80
+A/Hong Kong/4801/2014,A/Hong Kong/146/2013,80
+A/Hong Kong/4801/2014,A/Hong Kong/146/2013,<40
+A/Georgia/532/2015,A/Hong Kong/146/2013,<40
+A/Zambia/04-00420/2015,A/Hong Kong/146/2013,<40
+A/Zambia/04-00313/2015,A/Hong Kong/146/2013,<40
+A/Zambia/09-00003/2015,A/Hong Kong/146/2013,<40
+A/Zambia/09-00006/2015,A/Hong Kong/146/2013,<40
+A/Antalya/5181/2015,A/Hong Kong/146/2013,80
+A/Cankiri/2395/2015,A/Hong Kong/146/2013,80
+A/Ankara/2396/2015,A/Hong Kong/146/2013,80
+A/Turkey/TR-31/2016,A/Hong Kong/146/2013,80
+A/Texas/50/2012,A/Hong Kong/5738/2014,80
+A/Samara/73/2013,A/Hong Kong/5738/2014,320
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,80
+A/Stockholm/6/2014,A/Hong Kong/5738/2014,160
+A/Switzerland/9715293/2013,A/Hong Kong/5738/2014,160
+A/Switzerland/9715293/2013,A/Hong Kong/5738/2014,160
+A/Netherlands/525/2014,A/Hong Kong/5738/2014,80
+A/Hong Kong/146/2013,A/Hong Kong/5738/2014,320
+A/Hong Kong/5738/2014,A/Hong Kong/5738/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/5738/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/5738/2014,320
+A/Georgia/532/2015,A/Hong Kong/5738/2014,80
+A/Zambia/04-00420/2015,A/Hong Kong/5738/2014,<40
+A/Zambia/04-00313/2015,A/Hong Kong/5738/2014,<40
+A/Zambia/09-00003/2015,A/Hong Kong/5738/2014,<40
+A/Zambia/09-00006/2015,A/Hong Kong/5738/2014,<40
+A/Antalya/5181/2015,A/Hong Kong/5738/2014,160
+A/Cankiri/2395/2015,A/Hong Kong/5738/2014,80
+A/Ankara/2396/2015,A/Hong Kong/5738/2014,160
+A/Turkey/TR-31/2016,A/Hong Kong/5738/2014,160
+A/Texas/50/2012,A/Hong Kong/4801/2014,320
+A/Samara/73/2013,A/Hong Kong/4801/2014,640
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,160
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,320
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,160
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,320
+A/Netherlands/525/2014,A/Hong Kong/4801/2014,160
+A/Hong Kong/146/2013,A/Hong Kong/4801/2014,640
+A/Hong Kong/5738/2014,A/Hong Kong/4801/2014,320
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,320
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,640
+A/Georgia/532/2015,A/Hong Kong/4801/2014,160
+A/Zambia/04-00420/2015,A/Hong Kong/4801/2014,<40
+A/Zambia/04-00313/2015,A/Hong Kong/4801/2014,<40
+A/Zambia/09-00003/2015,A/Hong Kong/4801/2014,<40
+A/Zambia/09-00006/2015,A/Hong Kong/4801/2014,<40
+A/Antalya/5181/2015,A/Hong Kong/4801/2014,160
+A/Cankiri/2395/2015,A/Hong Kong/4801/2014,160
+A/Ankara/2396/2015,A/Hong Kong/4801/2014,160
+A/Turkey/TR-31/2016,A/Hong Kong/4801/2014,160
+A/Texas/50/2012,A/Hong Kong/4801/2014,40
+A/Samara/73/2013,A/Hong Kong/4801/2014,320
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,80
+A/Stockholm/6/2014,A/Hong Kong/4801/2014,40
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,80
+A/Switzerland/9715293/2013,A/Hong Kong/4801/2014,80
+A/Netherlands/525/2014,A/Hong Kong/4801/2014,80
+A/Hong Kong/146/2013,A/Hong Kong/4801/2014,160
+A/Hong Kong/5738/2014,A/Hong Kong/4801/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,160
+A/Hong Kong/4801/2014,A/Hong Kong/4801/2014,320
+A/Georgia/532/2015,A/Hong Kong/4801/2014,320
+A/Zambia/04-00420/2015,A/Hong Kong/4801/2014,<40
+A/Zambia/04-00313/2015,A/Hong Kong/4801/2014,<40
+A/Zambia/09-00003/2015,A/Hong Kong/4801/2014,<40
+A/Zambia/09-00006/2015,A/Hong Kong/4801/2014,<40
+A/Antalya/5181/2015,A/Hong Kong/4801/2014,80
+A/Cankiri/2395/2015,A/Hong Kong/4801/2014,80
+A/Ankara/2396/2015,A/Hong Kong/4801/2014,160
+A/Turkey/TR-31/2016,A/Hong Kong/4801/2014,160
+A/Texas/50/2012,A/Georgia/532/2015,160
+A/Samara/73/2013,A/Georgia/532/2015,320
+A/Stockholm/6/2014,A/Georgia/532/2015,80
+A/Stockholm/6/2014,A/Georgia/532/2015,80
+A/Switzerland/9715293/2013,A/Georgia/532/2015,80
+A/Switzerland/9715293/2013,A/Georgia/532/2015,160
+A/Netherlands/525/2014,A/Georgia/532/2015,80
+A/Hong Kong/146/2013,A/Georgia/532/2015,320
+A/Hong Kong/5738/2014,A/Georgia/532/2015,160
+A/Hong Kong/4801/2014,A/Georgia/532/2015,160
+A/Hong Kong/4801/2014,A/Georgia/532/2015,320
+A/Georgia/532/2015,A/Georgia/532/2015,160
+A/Zambia/04-00420/2015,A/Georgia/532/2015,<40
+A/Zambia/04-00313/2015,A/Georgia/532/2015,40
+A/Zambia/09-00003/2015,A/Georgia/532/2015,40
+A/Zambia/09-00006/2015,A/Georgia/532/2015,80
+A/Antalya/5181/2015,A/Georgia/532/2015,80
+A/Cankiri/2395/2015,A/Georgia/532/2015,80
+A/Ankara/2396/2015,A/Georgia/532/2015,80
+A/Turkey/TR-31/2016,A/Georgia/532/2015,160

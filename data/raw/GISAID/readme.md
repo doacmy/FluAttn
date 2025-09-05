@@ -1,0 +1,1 @@
+Due to GISAID's data-sharing policy, we are not permitted to directly distribute the viral sequence data. Therefore, this project does not include the specific sequences. Please download the FASTA files from GISAID and save them to this directory to proceed.

@@ -1,0 +1,871 @@
+Test Virus,Reference Virus,Titre
+A/Brisbane/10/2007,A/Brisbane/10/2007,5120
+A/Perth/16/2009,A/Brisbane/10/2007,160
+A/Victoria/208/2009,A/Brisbane/10/2007,640
+A/Victoria/210/2009,A/Brisbane/10/2007,640
+A/Hong Kong/1985/2009,A/Brisbane/10/2007,80
+A/Netherlands/9/2010,A/Brisbane/10/2007,40
+A/Stockholm/2/2010,A/Brisbane/10/2007,80
+A/Johannesburg/19/2010,A/Brisbane/10/2007,80
+A/Johannesburg/47/2010,A/Brisbane/10/2007,40
+A/Johannesburg/31/2010,A/Brisbane/10/2007,40
+A/Johannesburg/34/2010,A/Brisbane/10/2007,80
+A/Johannesburg/60/2010,A/Brisbane/10/2007,80
+A/Cape Town/62/2010,A/Brisbane/10/2007,80
+A/Johannesburg/87/2010,A/Brisbane/10/2007,40
+A/Brisbane/10/2007,A/Perth/16/2009,160
+A/Perth/16/2009,A/Perth/16/2009,1280
+A/Victoria/208/2009,A/Perth/16/2009,2560
+A/Victoria/210/2009,A/Perth/16/2009,2560
+A/Hong Kong/1985/2009,A/Perth/16/2009,640
+A/Netherlands/9/2010,A/Perth/16/2009,160
+A/Stockholm/2/2010,A/Perth/16/2009,320
+A/Johannesburg/19/2010,A/Perth/16/2009,640
+A/Johannesburg/47/2010,A/Perth/16/2009,320
+A/Johannesburg/31/2010,A/Perth/16/2009,320
+A/Johannesburg/34/2010,A/Perth/16/2009,640
+A/Johannesburg/60/2010,A/Perth/16/2009,1280
+A/Cape Town/62/2010,A/Perth/16/2009,320
+A/Johannesburg/87/2010,A/Perth/16/2009,320
+A/Brisbane/10/2007,A/Hong Kong/34430/2009,320
+A/Perth/16/2009,A/Hong Kong/34430/2009,640
+A/Victoria/208/2009,A/Hong Kong/34430/2009,5120
+A/Victoria/210/2009,A/Hong Kong/34430/2009,5120
+A/Hong Kong/1985/2009,A/Hong Kong/34430/2009,2560
+A/Netherlands/9/2010,A/Hong Kong/34430/2009,640
+A/Stockholm/2/2010,A/Hong Kong/34430/2009,640
+A/Johannesburg/19/2010,A/Hong Kong/34430/2009,5120
+A/Johannesburg/47/2010,A/Hong Kong/34430/2009,1280
+A/Johannesburg/31/2010,A/Hong Kong/34430/2009,1280
+A/Johannesburg/34/2010,A/Hong Kong/34430/2009,2560
+A/Johannesburg/60/2010,A/Hong Kong/34430/2009,5120
+A/Cape Town/62/2010,A/Hong Kong/34430/2009,2560
+A/Johannesburg/87/2010,A/Hong Kong/34430/2009,1280
+A/Brisbane/10/2007,A/Victoria/208/2009,640
+A/Perth/16/2009,A/Victoria/208/2009,320
+A/Victoria/208/2009,A/Victoria/208/2009,5120
+A/Victoria/210/2009,A/Victoria/208/2009,2560
+A/Hong Kong/1985/2009,A/Victoria/208/2009,320
+A/Netherlands/9/2010,A/Victoria/208/2009,320
+A/Stockholm/2/2010,A/Victoria/208/2009,160
+A/Johannesburg/19/2010,A/Victoria/208/2009,640
+A/Johannesburg/47/2010,A/Victoria/208/2009,320
+A/Johannesburg/31/2010,A/Victoria/208/2009,160
+A/Johannesburg/34/2010,A/Victoria/208/2009,640
+A/Johannesburg/60/2010,A/Victoria/208/2009,640
+A/Cape Town/62/2010,A/Victoria/208/2009,320
+A/Johannesburg/87/2010,A/Victoria/208/2009,320
+A/Brisbane/10/2007,A/Victoria/210/2009,320
+A/Perth/16/2009,A/Victoria/210/2009,320
+A/Victoria/208/2009,A/Victoria/210/2009,5120
+A/Victoria/210/2009,A/Victoria/210/2009,5120
+A/Hong Kong/1985/2009,A/Victoria/210/2009,640
+A/Netherlands/9/2010,A/Victoria/210/2009,160
+A/Stockholm/2/2010,A/Victoria/210/2009,160
+A/Johannesburg/19/2010,A/Victoria/210/2009,320
+A/Johannesburg/47/2010,A/Victoria/210/2009,160
+A/Johannesburg/31/2010,A/Victoria/210/2009,160
+A/Johannesburg/34/2010,A/Victoria/210/2009,1280
+A/Johannesburg/60/2010,A/Victoria/210/2009,640
+A/Cape Town/62/2010,A/Victoria/210/2009,320
+A/Johannesburg/87/2010,A/Victoria/210/2009,160
+A/Brisbane/10/2007,A/Brisbane/10/2007,5120
+A/Perth/16/2009,A/Brisbane/10/2007,320
+A/Victoria/208/2009,A/Brisbane/10/2007,640
+A/Perth/10/2010,A/Brisbane/10/2007,320
+A/Alabama/5/2010,A/Brisbane/10/2007,320
+A/La Reunion/832/2010,A/Brisbane/10/2007,160
+A/Rhode Island/1/2010,A/Brisbane/10/2007,320
+A/Panama/307149/2010,A/Brisbane/10/2007,80
+A/Hong Kong/3579/2010,A/Brisbane/10/2007,<40
+A/Hong Kong/3570/2010,A/Brisbane/10/2007,160
+A/Victoria/563/2010,A/Brisbane/10/2007,320
+A/Ghana/FS-4462/2010,A/Brisbane/10/2007,160
+A/Peleponnese/4043/2010,A/Brisbane/10/2007,320
+A/Ghana/FS-4589/2010,A/Brisbane/10/2007,80
+A/England/4360174/2010,A/Brisbane/10/2007,160
+A/Baleares/RR6848/2010,A/Brisbane/10/2007,80
+A/Madagascar/7142/2010,A/Brisbane/10/2007,80
+A/Madagascar/7184/2010,A/Brisbane/10/2007,80
+A/Argentina/28342/2010,A/Brisbane/10/2007,160
+A/Argentina/28370/2010,A/Brisbane/10/2007,80
+A/Argentina/28367/2010,A/Brisbane/10/2007,80
+A/Argentina/28373/2010,A/Brisbane/10/2007,80
+A/Hong Kong/6894/2010,A/Brisbane/10/2007,80
+A/Argentina/28378/2010,A/Brisbane/10/2007,40
+A/Hong Kong/6925/2010,A/Brisbane/10/2007,80
+A/Brisbane/10/2007,A/Perth/16/2009,160
+A/Perth/16/2009,A/Perth/16/2009,2560
+A/Victoria/208/2009,A/Perth/16/2009,1280
+A/Perth/10/2010,A/Perth/16/2009,640
+A/Alabama/5/2010,A/Perth/16/2009,640
+A/La Reunion/832/2010,A/Perth/16/2009,320
+A/Rhode Island/1/2010,A/Perth/16/2009,320
+A/Panama/307149/2010,A/Perth/16/2009,640
+A/Hong Kong/3579/2010,A/Perth/16/2009,640
+A/Hong Kong/3570/2010,A/Perth/16/2009,640
+A/Victoria/563/2010,A/Perth/16/2009,1280
+A/Ghana/FS-4462/2010,A/Perth/16/2009,320
+A/Peleponnese/4043/2010,A/Perth/16/2009,1280
+A/Ghana/FS-4589/2010,A/Perth/16/2009,320
+A/England/4360174/2010,A/Perth/16/2009,640
+A/Baleares/RR6848/2010,A/Perth/16/2009,160
+A/Madagascar/7142/2010,A/Perth/16/2009,320
+A/Madagascar/7184/2010,A/Perth/16/2009,320
+A/Argentina/28342/2010,A/Perth/16/2009,640
+A/Argentina/28370/2010,A/Perth/16/2009,640
+A/Argentina/28367/2010,A/Perth/16/2009,640
+A/Argentina/28373/2010,A/Perth/16/2009,640
+A/Hong Kong/6894/2010,A/Perth/16/2009,320
+A/Argentina/28378/2010,A/Perth/16/2009,320
+A/Hong Kong/6925/2010,A/Perth/16/2009,1280
+A/Brisbane/10/2007,A/Victoria/208/2009,640
+A/Perth/16/2009,A/Victoria/208/2009,320
+A/Victoria/208/2009,A/Victoria/208/2009,5120
+A/Perth/10/2010,A/Victoria/208/2009,160
+A/Alabama/5/2010,A/Victoria/208/2009,160
+A/La Reunion/832/2010,A/Victoria/208/2009,80
+A/Rhode Island/1/2010,A/Victoria/208/2009,80
+A/Panama/307149/2010,A/Victoria/208/2009,160
+A/Hong Kong/3579/2010,A/Victoria/208/2009,160
+A/Hong Kong/3570/2010,A/Victoria/208/2009,320
+A/Victoria/563/2010,A/Victoria/208/2009,5120
+A/Ghana/FS-4462/2010,A/Victoria/208/2009,160
+A/Peleponnese/4043/2010,A/Victoria/208/2009,320
+A/Ghana/FS-4589/2010,A/Victoria/208/2009,160
+A/England/4360174/2010,A/Victoria/208/2009,320
+A/Baleares/RR6848/2010,A/Victoria/208/2009,80
+A/Madagascar/7142/2010,A/Victoria/208/2009,160
+A/Madagascar/7184/2010,A/Victoria/208/2009,160
+A/Argentina/28342/2010,A/Victoria/208/2009,320
+A/Argentina/28370/2010,A/Victoria/208/2009,320
+A/Argentina/28367/2010,A/Victoria/208/2009,320
+A/Argentina/28373/2010,A/Victoria/208/2009,320
+A/Hong Kong/6894/2010,A/Victoria/208/2009,80
+A/Argentina/28378/2010,A/Victoria/208/2009,160
+A/Hong Kong/6925/2010,A/Victoria/208/2009,160
+A/Brisbane/10/2007,A/Perth/10/2010,80
+A/Perth/16/2009,A/Perth/10/2010,320
+A/Victoria/208/2009,A/Perth/10/2010,1280
+A/Perth/10/2010,A/Perth/10/2010,320
+A/Alabama/5/2010,A/Perth/10/2010,320
+A/La Reunion/832/2010,A/Perth/10/2010,320
+A/Rhode Island/1/2010,A/Perth/10/2010,160
+A/Panama/307149/2010,A/Perth/10/2010,640
+A/Hong Kong/3579/2010,A/Perth/10/2010,320
+A/Hong Kong/3570/2010,A/Perth/10/2010,640
+A/Victoria/563/2010,A/Perth/10/2010,1280
+A/Ghana/FS-4462/2010,A/Perth/10/2010,160
+A/Peleponnese/4043/2010,A/Perth/10/2010,640
+A/Ghana/FS-4589/2010,A/Perth/10/2010,160
+A/England/4360174/2010,A/Perth/10/2010,320
+A/Baleares/RR6848/2010,A/Perth/10/2010,320
+A/Madagascar/7142/2010,A/Perth/10/2010,320
+A/Madagascar/7184/2010,A/Perth/10/2010,320
+A/Argentina/28342/2010,A/Perth/10/2010,640
+A/Argentina/28370/2010,A/Perth/10/2010,640
+A/Argentina/28367/2010,A/Perth/10/2010,640
+A/Argentina/28373/2010,A/Perth/10/2010,640
+A/Hong Kong/6894/2010,A/Perth/10/2010,160
+A/Argentina/28378/2010,A/Perth/10/2010,320
+A/Hong Kong/6925/2010,A/Perth/10/2010,320
+A/Brisbane/10/2007,A/Alabama/5/2010,80
+A/Perth/16/2009,A/Alabama/5/2010,320
+A/Victoria/208/2009,A/Alabama/5/2010,1280
+A/Perth/10/2010,A/Alabama/5/2010,320
+A/Alabama/5/2010,A/Alabama/5/2010,1280
+A/La Reunion/832/2010,A/Alabama/5/2010,320
+A/Rhode Island/1/2010,A/Alabama/5/2010,320
+A/Panama/307149/2010,A/Alabama/5/2010,1280
+A/Hong Kong/3579/2010,A/Alabama/5/2010,640
+A/Hong Kong/3570/2010,A/Alabama/5/2010,1280
+A/Victoria/563/2010,A/Alabama/5/2010,1280
+A/Ghana/FS-4462/2010,A/Alabama/5/2010,320
+A/Peleponnese/4043/2010,A/Alabama/5/2010,1280
+A/Ghana/FS-4589/2010,A/Alabama/5/2010,320
+A/England/4360174/2010,A/Alabama/5/2010,640
+A/Baleares/RR6848/2010,A/Alabama/5/2010,640
+A/Madagascar/7142/2010,A/Alabama/5/2010,320
+A/Madagascar/7184/2010,A/Alabama/5/2010,320
+A/Argentina/28342/2010,A/Alabama/5/2010,1280
+A/Argentina/28370/2010,A/Alabama/5/2010,640
+A/Argentina/28367/2010,A/Alabama/5/2010,1280
+A/Argentina/28373/2010,A/Alabama/5/2010,1280
+A/Hong Kong/6894/2010,A/Alabama/5/2010,320
+A/Argentina/28378/2010,A/Alabama/5/2010,640
+A/Hong Kong/6925/2010,A/Alabama/5/2010,320
+A/Brisbane/10/2007,A/Brisbane/10/2007,5120
+A/Perth/16/2009,A/Brisbane/10/2007,320
+A/Victoria/208/2009,A/Brisbane/10/2007,640
+A/Perth/10/2010,A/Brisbane/10/2007,160
+A/Alabama/5/2010,A/Brisbane/10/2007,80
+A/England/76/2010,A/Brisbane/10/2007,160
+A/Esfahan/6117/2010,A/Brisbane/10/2007,160
+A/Madagascar/6613/2010,A/Brisbane/10/2007,160
+A/Madagascar/6157/2010,A/Brisbane/10/2007,80
+A/Hong Kong/6882/2010,A/Brisbane/10/2007,160
+A/Madagascar/7749/2010,A/Brisbane/10/2007,40
+A/Brisbane/10/2007,A/Perth/16/2009,160
+A/Perth/16/2009,A/Perth/16/2009,1280
+A/Victoria/208/2009,A/Perth/16/2009,1280
+A/Perth/10/2010,A/Perth/16/2009,640
+A/Alabama/5/2010,A/Perth/16/2009,320
+A/England/76/2010,A/Perth/16/2009,320
+A/Esfahan/6117/2010,A/Perth/16/2009,1280
+A/Madagascar/6613/2010,A/Perth/16/2009,640
+A/Madagascar/6157/2010,A/Perth/16/2009,320
+A/Hong Kong/6882/2010,A/Perth/16/2009,320
+A/Madagascar/7749/2010,A/Perth/16/2009,320
+A/Brisbane/10/2007,A/Victoria/208/2009,640
+A/Perth/16/2009,A/Victoria/208/2009,640
+A/Victoria/208/2009,A/Victoria/208/2009,5120
+A/Perth/10/2010,A/Victoria/208/2009,320
+A/Alabama/5/2010,A/Victoria/208/2009,160
+A/England/76/2010,A/Victoria/208/2009,160
+A/Esfahan/6117/2010,A/Victoria/208/2009,320
+A/Madagascar/6613/2010,A/Victoria/208/2009,320
+A/Madagascar/6157/2010,A/Victoria/208/2009,160
+A/Hong Kong/6882/2010,A/Victoria/208/2009,160
+A/Madagascar/7749/2010,A/Victoria/208/2009,160
+A/Brisbane/10/2007,A/Perth/10/2010,80
+A/Perth/16/2009,A/Perth/10/2010,320
+A/Victoria/208/2009,A/Perth/10/2010,1280
+A/Perth/10/2010,A/Perth/10/2010,320
+A/Alabama/5/2010,A/Perth/10/2010,320
+A/England/76/2010,A/Perth/10/2010,320
+A/Esfahan/6117/2010,A/Perth/10/2010,320
+A/Madagascar/6613/2010,A/Perth/10/2010,640
+A/Madagascar/6157/2010,A/Perth/10/2010,320
+A/Hong Kong/6882/2010,A/Perth/10/2010,320
+A/Madagascar/7749/2010,A/Perth/10/2010,320
+A/Brisbane/10/2007,A/Alabama/5/2010,80
+A/Perth/16/2009,A/Alabama/5/2010,320
+A/Victoria/208/2009,A/Alabama/5/2010,1280
+A/Perth/10/2010,A/Alabama/5/2010,320
+A/Alabama/5/2010,A/Alabama/5/2010,640
+A/England/76/2010,A/Alabama/5/2010,640
+A/Esfahan/6117/2010,A/Alabama/5/2010,640
+A/Madagascar/6613/2010,A/Alabama/5/2010,1280
+A/Madagascar/6157/2010,A/Alabama/5/2010,640
+A/Hong Kong/6882/2010,A/Alabama/5/2010,640
+A/Madagascar/7749/2010,A/Alabama/5/2010,640
+A/Brisbane/10/2007,A/Brisbane/10/2007,5120
+A/Perth/16/2009,A/Brisbane/10/2007,320
+A/Victoria/208/2009,A/Brisbane/10/2007,320
+A/Alabama/5/2010,A/Brisbane/10/2007,80
+A/Georgia/15/2010,A/Brisbane/10/2007,80
+A/Stockholm/6/2010,A/Brisbane/10/2007,40
+A/Denmark/105/2010,A/Brisbane/10/2007,80
+A/Paris/1992/2010,A/Brisbane/10/2007,80
+A/Paris/2005/2010,A/Brisbane/10/2007,80
+A/Bremen/1/2010,A/Brisbane/10/2007,80
+A/Bretagne/2248/2010,A/Brisbane/10/2007,40
+A/Fes/140/2010,A/Brisbane/10/2007,80
+A/Brisbane/10/2007,A/Perth/16/2009,80
+A/Perth/16/2009,A/Perth/16/2009,2560
+A/Victoria/208/2009,A/Perth/16/2009,1280
+A/Alabama/5/2010,A/Perth/16/2009,320
+A/Georgia/15/2010,A/Perth/16/2009,640
+A/Stockholm/6/2010,A/Perth/16/2009,2560
+A/Denmark/105/2010,A/Perth/16/2009,640
+A/Paris/1992/2010,A/Perth/16/2009,640
+A/Paris/2005/2010,A/Perth/16/2009,640
+A/Bremen/1/2010,A/Perth/16/2009,640
+A/Bretagne/2248/2010,A/Perth/16/2009,320
+A/Fes/140/2010,A/Perth/16/2009,640
+A/Brisbane/10/2007,A/Victoria/208/2009,640
+A/Perth/16/2009,A/Victoria/208/2009,640
+A/Victoria/208/2009,A/Victoria/208/2009,5120
+A/Alabama/5/2010,A/Victoria/208/2009,80
+A/Georgia/15/2010,A/Victoria/208/2009,160
+A/Stockholm/6/2010,A/Victoria/208/2009,160
+A/Denmark/105/2010,A/Victoria/208/2009,160
+A/Paris/1992/2010,A/Victoria/208/2009,320
+A/Paris/2005/2010,A/Victoria/208/2009,160
+A/Bremen/1/2010,A/Victoria/208/2009,160
+A/Bretagne/2248/2010,A/Victoria/208/2009,160
+A/Fes/140/2010,A/Victoria/208/2009,320
+A/Brisbane/10/2007,A/Alabama/5/2010,320
+A/Perth/16/2009,A/Alabama/5/2010,640
+A/Victoria/208/2009,A/Alabama/5/2010,1280
+A/Alabama/5/2010,A/Alabama/5/2010,2560
+A/Georgia/15/2010,A/Alabama/5/2010,640
+A/Stockholm/6/2010,A/Alabama/5/2010,1280
+A/Denmark/105/2010,A/Alabama/5/2010,1280
+A/Paris/1992/2010,A/Alabama/5/2010,2560
+A/Paris/2005/2010,A/Alabama/5/2010,2560
+A/Bremen/1/2010,A/Alabama/5/2010,2560
+A/Bretagne/2248/2010,A/Alabama/5/2010,1280
+A/Fes/140/2010,A/Alabama/5/2010,2560
+A/Brisbane/10/2007,A/Alabama/5/2010,80
+A/Perth/16/2009,A/Alabama/5/2010,320
+A/Victoria/208/2009,A/Alabama/5/2010,640
+A/Alabama/5/2010,A/Alabama/5/2010,640
+A/Georgia/15/2010,A/Alabama/5/2010,320
+A/Stockholm/6/2010,A/Alabama/5/2010,640
+A/Denmark/105/2010,A/Alabama/5/2010,640
+A/Paris/1992/2010,A/Alabama/5/2010,640
+A/Paris/2005/2010,A/Alabama/5/2010,640
+A/Bremen/1/2010,A/Alabama/5/2010,640
+A/Bretagne/2248/2010,A/Alabama/5/2010,640
+A/Fes/140/2010,A/Alabama/5/2010,640
+A/Brisbane/10/2007,A/Brisbane/10/2007,5120
+A/Perth/16/2009,A/Brisbane/10/2007,320
+A/Victoria/208/2009,A/Brisbane/10/2007,320
+A/Alabama/5/2010,A/Brisbane/10/2007,80
+A/Rhode Island/1/2010,A/Brisbane/10/2007,40
+A/Gothenburg/1/2010,A/Brisbane/10/2007,40
+A/Stockholm/10/2010,A/Brisbane/10/2007,40
+A/Poitiers/1071/2010,A/Brisbane/10/2007,40
+A/England/270/2010,A/Brisbane/10/2007,80
+A/Lyon/1014/2010,A/Brisbane/10/2007,40
+A/Lyon/1058/2010,A/Brisbane/10/2007,80
+A/Lyon/1135/2010,A/Brisbane/10/2007,80
+A/Stockholm/17/2010,A/Brisbane/10/2007,40
+A/Fes/158/2010,A/Brisbane/10/2007,40
+A/Athens/108/2010,A/Brisbane/10/2007,80
+A/Brisbane/10/2007,A/Perth/16/2009,80
+A/Perth/16/2009,A/Perth/16/2009,1280
+A/Victoria/208/2009,A/Perth/16/2009,640
+A/Alabama/5/2010,A/Perth/16/2009,160
+A/Rhode Island/1/2010,A/Perth/16/2009,320
+A/Gothenburg/1/2010,A/Perth/16/2009,160
+A/Stockholm/10/2010,A/Perth/16/2009,640
+A/Poitiers/1071/2010,A/Perth/16/2009,320
+A/England/270/2010,A/Perth/16/2009,320
+A/Lyon/1014/2010,A/Perth/16/2009,640
+A/Lyon/1058/2010,A/Perth/16/2009,320
+A/Lyon/1135/2010,A/Perth/16/2009,320
+A/Stockholm/17/2010,A/Perth/16/2009,320
+A/Fes/158/2010,A/Perth/16/2009,640
+A/Athens/108/2010,A/Perth/16/2009,320
+A/Brisbane/10/2007,A/Victoria/208/2009,320
+A/Perth/16/2009,A/Victoria/208/2009,640
+A/Victoria/208/2009,A/Victoria/208/2009,2560
+A/Alabama/5/2010,A/Victoria/208/2009,80
+A/Rhode Island/1/2010,A/Victoria/208/2009,80
+A/Gothenburg/1/2010,A/Victoria/208/2009,80
+A/Stockholm/10/2010,A/Victoria/208/2009,80
+A/Poitiers/1071/2010,A/Victoria/208/2009,80
+A/England/270/2010,A/Victoria/208/2009,160
+A/Lyon/1014/2010,A/Victoria/208/2009,160
+A/Lyon/1058/2010,A/Victoria/208/2009,160
+A/Lyon/1135/2010,A/Victoria/208/2009,160
+A/Stockholm/17/2010,A/Victoria/208/2009,160
+A/Fes/158/2010,A/Victoria/208/2009,160
+A/Athens/108/2010,A/Victoria/208/2009,160
+A/Brisbane/10/2007,A/Alabama/5/2010,320
+A/Perth/16/2009,A/Alabama/5/2010,640
+A/Victoria/208/2009,A/Alabama/5/2010,1280
+A/Alabama/5/2010,A/Alabama/5/2010,1280
+A/Rhode Island/1/2010,A/Alabama/5/2010,320
+A/Gothenburg/1/2010,A/Alabama/5/2010,640
+A/Stockholm/10/2010,A/Alabama/5/2010,320
+A/Poitiers/1071/2010,A/Alabama/5/2010,1280
+A/England/270/2010,A/Alabama/5/2010,1280
+A/Lyon/1014/2010,A/Alabama/5/2010,1280
+A/Lyon/1058/2010,A/Alabama/5/2010,1280
+A/Lyon/1135/2010,A/Alabama/5/2010,1280
+A/Stockholm/17/2010,A/Alabama/5/2010,1280
+A/Fes/158/2010,A/Alabama/5/2010,2560
+A/Athens/108/2010,A/Alabama/5/2010,1280
+A/Brisbane/10/2007,A/Alabama/5/2010,80
+A/Perth/16/2009,A/Alabama/5/2010,320
+A/Victoria/208/2009,A/Alabama/5/2010,640
+A/Alabama/5/2010,A/Alabama/5/2010,640
+A/Rhode Island/1/2010,A/Alabama/5/2010,160
+A/Gothenburg/1/2010,A/Alabama/5/2010,320
+A/Stockholm/10/2010,A/Alabama/5/2010,160
+A/Poitiers/1071/2010,A/Alabama/5/2010,640
+A/England/270/2010,A/Alabama/5/2010,320
+A/Lyon/1014/2010,A/Alabama/5/2010,640
+A/Lyon/1058/2010,A/Alabama/5/2010,640
+A/Lyon/1135/2010,A/Alabama/5/2010,640
+A/Stockholm/17/2010,A/Alabama/5/2010,640
+A/Fes/158/2010,A/Alabama/5/2010,640
+A/Athens/108/2010,A/Alabama/5/2010,640
+A/Wisconsin/67/2005,A/Wisconsin/67/2005,2560
+A/Brisbane/10/2007,A/Wisconsin/67/2005,5120
+A/Perth/16/2009,A/Wisconsin/67/2005,40
+A/Wisconsin/15/2009,A/Wisconsin/67/2005,<40
+A/Victoria/208/2009,A/Wisconsin/67/2005,160
+A/Victoria/210/2009,A/Wisconsin/67/2005,160
+A/Alabama/5/2010,A/Wisconsin/67/2005,<40
+A/Norway/1330/2010,A/Wisconsin/67/2005,<40
+A/Hessen/5/2010,A/Wisconsin/67/2005,<40
+A/Yokohama/96/2010,A/Wisconsin/67/2005,<40
+A/Paris/1844/2010,A/Wisconsin/67/2005,40
+A/Wisconsin/67/2005,A/Brisbane/10/2007,1280
+A/Brisbane/10/2007,A/Brisbane/10/2007,5120
+A/Perth/16/2009,A/Brisbane/10/2007,<40
+A/Wisconsin/15/2009,A/Brisbane/10/2007,<40
+A/Victoria/208/2009,A/Brisbane/10/2007,160
+A/Victoria/210/2009,A/Brisbane/10/2007,80
+A/Alabama/5/2010,A/Brisbane/10/2007,<40
+A/Norway/1330/2010,A/Brisbane/10/2007,<40
+A/Hessen/5/2010,A/Brisbane/10/2007,<40
+A/Yokohama/96/2010,A/Brisbane/10/2007,<40
+A/Paris/1844/2010,A/Brisbane/10/2007,<40
+A/Wisconsin/67/2005,A/Perth/16/2009,<40
+A/Brisbane/10/2007,A/Perth/16/2009,40
+A/Perth/16/2009,A/Perth/16/2009,1280
+A/Wisconsin/15/2009,A/Perth/16/2009,640
+A/Victoria/208/2009,A/Perth/16/2009,640
+A/Victoria/210/2009,A/Perth/16/2009,1280
+A/Alabama/5/2010,A/Perth/16/2009,<40
+A/Norway/1330/2010,A/Perth/16/2009,80
+A/Hessen/5/2010,A/Perth/16/2009,80
+A/Yokohama/96/2010,A/Perth/16/2009,80
+A/Paris/1844/2010,A/Perth/16/2009,640
+A/Wisconsin/67/2005,A/Wisconsin/15/2009,<40
+A/Brisbane/10/2007,A/Wisconsin/15/2009,80
+A/Perth/16/2009,A/Wisconsin/15/2009,640
+A/Wisconsin/15/2009,A/Wisconsin/15/2009,320
+A/Victoria/208/2009,A/Wisconsin/15/2009,640
+A/Victoria/210/2009,A/Wisconsin/15/2009,1280
+A/Alabama/5/2010,A/Wisconsin/15/2009,80
+A/Norway/1330/2010,A/Wisconsin/15/2009,320
+A/Hessen/5/2010,A/Wisconsin/15/2009,320
+A/Yokohama/96/2010,A/Wisconsin/15/2009,160
+A/Paris/1844/2010,A/Wisconsin/15/2009,1280
+A/Wisconsin/67/2005,A/Victoria/208/2009,320
+A/Brisbane/10/2007,A/Victoria/208/2009,320
+A/Perth/16/2009,A/Victoria/208/2009,1280
+A/Wisconsin/15/2009,A/Victoria/208/2009,40
+A/Victoria/208/2009,A/Victoria/208/2009,5120
+A/Victoria/210/2009,A/Victoria/208/2009,2560
+A/Alabama/5/2010,A/Victoria/208/2009,40
+A/Norway/1330/2010,A/Victoria/208/2009,80
+A/Hessen/5/2010,A/Victoria/208/2009,80
+A/Yokohama/96/2010,A/Victoria/208/2009,80
+A/Paris/1844/2010,A/Victoria/208/2009,320
+A/Wisconsin/67/2005,A/Victoria/210/2009,40
+A/Brisbane/10/2007,A/Victoria/210/2009,320
+A/Perth/16/2009,A/Victoria/210/2009,2560
+A/Wisconsin/15/2009,A/Victoria/210/2009,160
+A/Victoria/208/2009,A/Victoria/210/2009,5120
+A/Victoria/210/2009,A/Victoria/210/2009,5120
+A/Alabama/5/2010,A/Victoria/210/2009,40
+A/Norway/1330/2010,A/Victoria/210/2009,80
+A/Hessen/5/2010,A/Victoria/210/2009,80
+A/Yokohama/96/2010,A/Victoria/210/2009,80
+A/Paris/1844/2010,A/Victoria/210/2009,640
+A/Wisconsin/67/2005,A/Alabama/5/2010,<40
+A/Brisbane/10/2007,A/Alabama/5/2010,40
+A/Perth/16/2009,A/Alabama/5/2010,640
+A/Wisconsin/15/2009,A/Alabama/5/2010,1280
+A/Victoria/208/2009,A/Alabama/5/2010,1280
+A/Victoria/210/2009,A/Alabama/5/2010,320
+A/Alabama/5/2010,A/Alabama/5/2010,160
+A/Norway/1330/2010,A/Alabama/5/2010,80
+A/Hessen/5/2010,A/Alabama/5/2010,80
+A/Yokohama/96/2010,A/Alabama/5/2010,80
+A/Paris/1844/2010,A/Alabama/5/2010,640
+A/Wisconsin/67/2005,A/Wisconsin/67/2005,2560
+A/Brisbane/10/2007,A/Wisconsin/67/2005,2560
+A/Perth/16/2009,A/Wisconsin/67/2005,80
+A/Wisconsin/15/2009,A/Wisconsin/67/2005,<40
+A/Victoria/208/2009,A/Wisconsin/67/2005,320
+A/Victoria/210/2009,A/Wisconsin/67/2005,320
+A/Alabama/5/2010,A/Wisconsin/67/2005,<40
+A/Rhode Island/1/2010,A/Wisconsin/67/2005,<40
+A/Gothenburg/1/2010,A/Wisconsin/67/2005,<40
+A/Georgia/15/2010,A/Wisconsin/67/2005,<40
+A/Stockholm/6/2010,A/Wisconsin/67/2005,40
+A/Brussels/G0515/2010,A/Wisconsin/67/2005,<40
+A/Wisconsin/13/2010,A/Wisconsin/67/2005,<40
+A/Brussels/G0550/2010,A/Wisconsin/67/2005,<40
+A/Stockholm/7/2010,A/Wisconsin/67/2005,40
+A/Denmark/105/2010,A/Wisconsin/67/2005,<40
+A/Paris/2031/2010,A/Wisconsin/67/2005,<40
+A/Paris/1838/2010,A/Wisconsin/67/2005,<40
+A/Pays de Loire/1883/2010,A/Wisconsin/67/2005,<40
+A/Paris/1896/2010,A/Wisconsin/67/2005,<40
+A/Paris/2119/2010,A/Wisconsin/67/2005,<40
+A/Paris/2120/2010,A/Wisconsin/67/2005,<40
+A/Paris/2106/2010,A/Wisconsin/67/2005,<40
+A/Paris/2260/2010,A/Wisconsin/67/2005,<40
+A/Brussels/G0801/2010,A/Wisconsin/67/2005,<40
+A/Paris/2174/2010,A/Wisconsin/67/2005,<40
+A/Finland/40/2010,A/Wisconsin/67/2005,<40
+A/Paris/2291/2010,A/Wisconsin/67/2005,<40
+A/Stockholm/17/2010,A/Wisconsin/67/2005,<40
+A/Fes/158/2011,A/Wisconsin/67/2005,<40
+A/Paris/1843/2010,A/Wisconsin/67/2005,<40
+A/Wisconsin/67/2005,A/Brisbane/10/2007,640
+A/Brisbane/10/2007,A/Brisbane/10/2007,5120
+A/Perth/16/2009,A/Brisbane/10/2007,80
+A/Wisconsin/15/2009,A/Brisbane/10/2007,<40
+A/Victoria/208/2009,A/Brisbane/10/2007,320
+A/Victoria/210/2009,A/Brisbane/10/2007,320
+A/Alabama/5/2010,A/Brisbane/10/2007,40
+A/Rhode Island/1/2010,A/Brisbane/10/2007,<40
+A/Gothenburg/1/2010,A/Brisbane/10/2007,40
+A/Georgia/15/2010,A/Brisbane/10/2007,<40
+A/Stockholm/6/2010,A/Brisbane/10/2007,<40
+A/Brussels/G0515/2010,A/Brisbane/10/2007,<40
+A/Wisconsin/13/2010,A/Brisbane/10/2007,<40
+A/Brussels/G0550/2010,A/Brisbane/10/2007,80
+A/Stockholm/7/2010,A/Brisbane/10/2007,<40
+A/Denmark/105/2010,A/Brisbane/10/2007,80
+A/Paris/2031/2010,A/Brisbane/10/2007,160
+A/Paris/1838/2010,A/Brisbane/10/2007,160
+A/Pays de Loire/1883/2010,A/Brisbane/10/2007,80
+A/Paris/1896/2010,A/Brisbane/10/2007,80
+A/Paris/2119/2010,A/Brisbane/10/2007,160
+A/Paris/2120/2010,A/Brisbane/10/2007,80
+A/Paris/2106/2010,A/Brisbane/10/2007,160
+A/Paris/2260/2010,A/Brisbane/10/2007,80
+A/Brussels/G0801/2010,A/Brisbane/10/2007,40
+A/Paris/2174/2010,A/Brisbane/10/2007,80
+A/Finland/40/2010,A/Brisbane/10/2007,160
+A/Paris/2291/2010,A/Brisbane/10/2007,80
+A/Stockholm/17/2010,A/Brisbane/10/2007,40
+A/Fes/158/2011,A/Brisbane/10/2007,80
+A/Paris/1843/2010,A/Brisbane/10/2007,40
+A/Wisconsin/67/2005,A/Perth/16/2009,<40
+A/Brisbane/10/2007,A/Perth/16/2009,40
+A/Perth/16/2009,A/Perth/16/2009,1280
+A/Wisconsin/15/2009,A/Perth/16/2009,640
+A/Victoria/208/2009,A/Perth/16/2009,1280
+A/Victoria/210/2009,A/Perth/16/2009,1280
+A/Alabama/5/2010,A/Perth/16/2009,80
+A/Rhode Island/1/2010,A/Perth/16/2009,320
+A/Gothenburg/1/2010,A/Perth/16/2009,80
+A/Georgia/15/2010,A/Perth/16/2009,1280
+A/Stockholm/6/2010,A/Perth/16/2009,1280
+A/Brussels/G0515/2010,A/Perth/16/2009,320
+A/Wisconsin/13/2010,A/Perth/16/2009,160
+A/Brussels/G0550/2010,A/Perth/16/2009,80
+A/Stockholm/7/2010,A/Perth/16/2009,1280
+A/Denmark/105/2010,A/Perth/16/2009,320
+A/Paris/2031/2010,A/Perth/16/2009,160
+A/Paris/1838/2010,A/Perth/16/2009,320
+A/Pays de Loire/1883/2010,A/Perth/16/2009,160
+A/Paris/1896/2010,A/Perth/16/2009,160
+A/Paris/2119/2010,A/Perth/16/2009,160
+A/Paris/2120/2010,A/Perth/16/2009,80
+A/Paris/2106/2010,A/Perth/16/2009,160
+A/Paris/2260/2010,A/Perth/16/2009,160
+A/Brussels/G0801/2010,A/Perth/16/2009,80
+A/Paris/2174/2010,A/Perth/16/2009,160
+A/Finland/40/2010,A/Perth/16/2009,640
+A/Paris/2291/2010,A/Perth/16/2009,160
+A/Stockholm/17/2010,A/Perth/16/2009,80
+A/Fes/158/2011,A/Perth/16/2009,640
+A/Paris/1843/2010,A/Perth/16/2009,160
+A/Wisconsin/67/2005,A/Wisconsin/15/2009,<40
+A/Brisbane/10/2007,A/Wisconsin/15/2009,40
+A/Perth/16/2009,A/Wisconsin/15/2009,640
+A/Wisconsin/15/2009,A/Wisconsin/15/2009,320
+A/Victoria/208/2009,A/Wisconsin/15/2009,1280
+A/Victoria/210/2009,A/Wisconsin/15/2009,1280
+A/Alabama/5/2010,A/Wisconsin/15/2009,40
+A/Rhode Island/1/2010,A/Wisconsin/15/2009,160
+A/Gothenburg/1/2010,A/Wisconsin/15/2009,160
+A/Georgia/15/2010,A/Wisconsin/15/2009,320
+A/Stockholm/6/2010,A/Wisconsin/15/2009,160
+A/Brussels/G0515/2010,A/Wisconsin/15/2009,320
+A/Wisconsin/13/2010,A/Wisconsin/15/2009,<40
+A/Brussels/G0550/2010,A/Wisconsin/15/2009,80
+A/Stockholm/7/2010,A/Wisconsin/15/2009,320
+A/Denmark/105/2010,A/Wisconsin/15/2009,160
+A/Paris/2031/2010,A/Wisconsin/15/2009,320
+A/Paris/1838/2010,A/Wisconsin/15/2009,160
+A/Pays de Loire/1883/2010,A/Wisconsin/15/2009,160
+A/Paris/1896/2010,A/Wisconsin/15/2009,160
+A/Paris/2119/2010,A/Wisconsin/15/2009,320
+A/Paris/2120/2010,A/Wisconsin/15/2009,160
+A/Paris/2106/2010,A/Wisconsin/15/2009,320
+A/Paris/2260/2010,A/Wisconsin/15/2009,320
+A/Brussels/G0801/2010,A/Wisconsin/15/2009,80
+A/Paris/2174/2010,A/Wisconsin/15/2009,320
+A/Finland/40/2010,A/Wisconsin/15/2009,320
+A/Paris/2291/2010,A/Wisconsin/15/2009,320
+A/Stockholm/17/2010,A/Wisconsin/15/2009,80
+A/Fes/158/2011,A/Wisconsin/15/2009,320
+A/Paris/1843/2010,A/Wisconsin/15/2009,320
+A/Wisconsin/67/2005,A/Victoria/208/2009,160
+A/Brisbane/10/2007,A/Victoria/208/2009,320
+A/Perth/16/2009,A/Victoria/208/2009,2560
+A/Wisconsin/15/2009,A/Victoria/208/2009,40
+A/Victoria/208/2009,A/Victoria/208/2009,5120
+A/Victoria/210/2009,A/Victoria/208/2009,2560
+A/Alabama/5/2010,A/Victoria/208/2009,<40
+A/Rhode Island/1/2010,A/Victoria/208/2009,160
+A/Gothenburg/1/2010,A/Victoria/208/2009,160
+A/Georgia/15/2010,A/Victoria/208/2009,320
+A/Stockholm/6/2010,A/Victoria/208/2009,160
+A/Brussels/G0515/2010,A/Victoria/208/2009,160
+A/Wisconsin/13/2010,A/Victoria/208/2009,<40
+A/Brussels/G0550/2010,A/Victoria/208/2009,80
+A/Stockholm/7/2010,A/Victoria/208/2009,320
+A/Denmark/105/2010,A/Victoria/208/2009,160
+A/Paris/2031/2010,A/Victoria/208/2009,320
+A/Paris/1838/2010,A/Victoria/208/2009,320
+A/Pays de Loire/1883/2010,A/Victoria/208/2009,160
+A/Paris/1896/2010,A/Victoria/208/2009,160
+A/Paris/2119/2010,A/Victoria/208/2009,320
+A/Paris/2120/2010,A/Victoria/208/2009,160
+A/Paris/2106/2010,A/Victoria/208/2009,320
+A/Paris/2260/2010,A/Victoria/208/2009,320
+A/Brussels/G0801/2010,A/Victoria/208/2009,80
+A/Paris/2174/2010,A/Victoria/208/2009,320
+A/Finland/40/2010,A/Victoria/208/2009,320
+A/Paris/2291/2010,A/Victoria/208/2009,160
+A/Stockholm/17/2010,A/Victoria/208/2009,80
+A/Fes/158/2011,A/Victoria/208/2009,320
+A/Paris/1843/2010,A/Victoria/208/2009,320
+A/Wisconsin/67/2005,A/Victoria/210/2009,40
+A/Brisbane/10/2007,A/Victoria/210/2009,320
+A/Perth/16/2009,A/Victoria/210/2009,2560
+A/Wisconsin/15/2009,A/Victoria/210/2009,160
+A/Victoria/208/2009,A/Victoria/210/2009,5120
+A/Victoria/210/2009,A/Victoria/210/2009,5120
+A/Alabama/5/2010,A/Victoria/210/2009,<40
+A/Rhode Island/1/2010,A/Victoria/210/2009,80
+A/Gothenburg/1/2010,A/Victoria/210/2009,160
+A/Georgia/15/2010,A/Victoria/210/2009,640
+A/Stockholm/6/2010,A/Victoria/210/2009,640
+A/Brussels/G0515/2010,A/Victoria/210/2009,160
+A/Wisconsin/13/2010,A/Victoria/210/2009,<40
+A/Brussels/G0550/2010,A/Victoria/210/2009,80
+A/Stockholm/7/2010,A/Victoria/210/2009,640
+A/Denmark/105/2010,A/Victoria/210/2009,160
+A/Paris/2031/2010,A/Victoria/210/2009,320
+A/Paris/1838/2010,A/Victoria/210/2009,320
+A/Pays de Loire/1883/2010,A/Victoria/210/2009,160
+A/Paris/1896/2010,A/Victoria/210/2009,160
+A/Paris/2119/2010,A/Victoria/210/2009,320
+A/Paris/2120/2010,A/Victoria/210/2009,160
+A/Paris/2106/2010,A/Victoria/210/2009,320
+A/Paris/2260/2010,A/Victoria/210/2009,320
+A/Brussels/G0801/2010,A/Victoria/210/2009,160
+A/Paris/2174/2010,A/Victoria/210/2009,320
+A/Finland/40/2010,A/Victoria/210/2009,320
+A/Paris/2291/2010,A/Victoria/210/2009,160
+A/Stockholm/17/2010,A/Victoria/210/2009,160
+A/Fes/158/2011,A/Victoria/210/2009,320
+A/Paris/1843/2010,A/Victoria/210/2009,320
+A/Wisconsin/67/2005,A/Alabama/5/2010,<40
+A/Brisbane/10/2007,A/Alabama/5/2010,160
+A/Perth/16/2009,A/Alabama/5/2010,1280
+A/Wisconsin/15/2009,A/Alabama/5/2010,320
+A/Victoria/208/2009,A/Alabama/5/2010,5120
+A/Victoria/210/2009,A/Alabama/5/2010,5120
+A/Alabama/5/2010,A/Alabama/5/2010,640
+A/Rhode Island/1/2010,A/Alabama/5/2010,1280
+A/Gothenburg/1/2010,A/Alabama/5/2010,640
+A/Georgia/15/2010,A/Alabama/5/2010,1280
+A/Stockholm/6/2010,A/Alabama/5/2010,1280
+A/Brussels/G0515/2010,A/Alabama/5/2010,640
+A/Wisconsin/13/2010,A/Alabama/5/2010,640
+A/Brussels/G0550/2010,A/Alabama/5/2010,640
+A/Stockholm/7/2010,A/Alabama/5/2010,1280
+A/Denmark/105/2010,A/Alabama/5/2010,640
+A/Paris/2031/2010,A/Alabama/5/2010,1280
+A/Paris/1838/2010,A/Alabama/5/2010,1280
+A/Pays de Loire/1883/2010,A/Alabama/5/2010,640
+A/Paris/1896/2010,A/Alabama/5/2010,640
+A/Paris/2119/2010,A/Alabama/5/2010,640
+A/Paris/2120/2010,A/Alabama/5/2010,640
+A/Paris/2106/2010,A/Alabama/5/2010,640
+A/Paris/2260/2010,A/Alabama/5/2010,640
+A/Brussels/G0801/2010,A/Alabama/5/2010,640
+A/Paris/2174/2010,A/Alabama/5/2010,640
+A/Finland/40/2010,A/Alabama/5/2010,1280
+A/Paris/2291/2010,A/Alabama/5/2010,640
+A/Stockholm/17/2010,A/Alabama/5/2010,640
+A/Fes/158/2011,A/Alabama/5/2010,1280
+A/Paris/1843/2010,A/Alabama/5/2010,640
+A/Wisconsin/67/2005,A/Rhode Island/1/2010,<40
+A/Brisbane/10/2007,A/Rhode Island/1/2010,80
+A/Perth/16/2009,A/Rhode Island/1/2010,1280
+A/Wisconsin/15/2009,A/Rhode Island/1/2010,320
+A/Victoria/208/2009,A/Rhode Island/1/2010,1280
+A/Victoria/210/2009,A/Rhode Island/1/2010,1280
+A/Alabama/5/2010,A/Rhode Island/1/2010,640
+A/Rhode Island/1/2010,A/Rhode Island/1/2010,1280
+A/Gothenburg/1/2010,A/Rhode Island/1/2010,320
+A/Georgia/15/2010,A/Rhode Island/1/2010,1280
+A/Stockholm/6/2010,A/Rhode Island/1/2010,640
+A/Brussels/G0515/2010,A/Rhode Island/1/2010,320
+A/Wisconsin/13/2010,A/Rhode Island/1/2010,160
+A/Brussels/G0550/2010,A/Rhode Island/1/2010,320
+A/Stockholm/7/2010,A/Rhode Island/1/2010,1280
+A/Denmark/105/2010,A/Rhode Island/1/2010,640
+A/Paris/2031/2010,A/Rhode Island/1/2010,640
+A/Paris/1838/2010,A/Rhode Island/1/2010,640
+A/Pays de Loire/1883/2010,A/Rhode Island/1/2010,640
+A/Paris/1896/2010,A/Rhode Island/1/2010,640
+A/Paris/2119/2010,A/Rhode Island/1/2010,640
+A/Paris/2120/2010,A/Rhode Island/1/2010,640
+A/Paris/2106/2010,A/Rhode Island/1/2010,640
+A/Paris/2260/2010,A/Rhode Island/1/2010,640
+A/Brussels/G0801/2010,A/Rhode Island/1/2010,320
+A/Paris/2174/2010,A/Rhode Island/1/2010,640
+A/Finland/40/2010,A/Rhode Island/1/2010,1280
+A/Paris/2291/2010,A/Rhode Island/1/2010,640
+A/Stockholm/17/2010,A/Rhode Island/1/2010,320
+A/Fes/158/2011,A/Rhode Island/1/2010,1280
+A/Paris/1843/2010,A/Rhode Island/1/2010,640
+A/Wisconsin/67/2005,A/Wisconsin/67/2005,2560
+A/Brisbane/10/2007,A/Wisconsin/67/2005,2560
+A/Perth/16/2009,A/Wisconsin/67/2005,40
+A/Wisconsin/15/2009,A/Wisconsin/67/2005,<40
+A/Victoria/208/2009,A/Wisconsin/67/2005,160
+A/Victoria/210/2009,A/Wisconsin/67/2005,160
+A/Alabama/5/2010,A/Wisconsin/67/2005,<40
+A/Perth/10/2010,A/Wisconsin/67/2005,<40
+A/Taiwan/851/2010,A/Wisconsin/67/2005,<40
+A/Brussels/SO066/2010,A/Wisconsin/67/2005,<40
+A/Poitiers/1071/2010,A/Wisconsin/67/2005,40
+A/Lyon/1014/2010,A/Wisconsin/67/2005,40
+A/England/270/2010,A/Wisconsin/67/2005,<40
+A/Lyon/1058/2010,A/Wisconsin/67/2005,<40
+A/Lyon/1135/2010,A/Wisconsin/67/2005,<40
+A/Netherlands/34/2010,A/Wisconsin/67/2005,<40
+A/Mures/47467/2011,A/Wisconsin/67/2005,<40
+A/Galati/47519/2011,A/Wisconsin/67/2005,<40
+A/Netherlands/63/2011,A/Wisconsin/67/2005,<40
+A/Athens/108/2011,A/Wisconsin/67/2005,<40
+A/Wisconsin/67/2005,A/Brisbane/10/2007,2560
+A/Brisbane/10/2007,A/Brisbane/10/2007,5120
+A/Perth/16/2009,A/Brisbane/10/2007,160
+A/Wisconsin/15/2009,A/Brisbane/10/2007,<40
+A/Victoria/208/2009,A/Brisbane/10/2007,160
+A/Victoria/210/2009,A/Brisbane/10/2007,160
+A/Alabama/5/2010,A/Brisbane/10/2007,<40
+A/Perth/10/2010,A/Brisbane/10/2007,<40
+A/Taiwan/851/2010,A/Brisbane/10/2007,<40
+A/Brussels/SO066/2010,A/Brisbane/10/2007,<40
+A/Poitiers/1071/2010,A/Brisbane/10/2007,80
+A/Lyon/1014/2010,A/Brisbane/10/2007,40
+A/England/270/2010,A/Brisbane/10/2007,80
+A/Lyon/1058/2010,A/Brisbane/10/2007,80
+A/Lyon/1135/2010,A/Brisbane/10/2007,80
+A/Netherlands/34/2010,A/Brisbane/10/2007,40
+A/Mures/47467/2011,A/Brisbane/10/2007,160
+A/Galati/47519/2011,A/Brisbane/10/2007,160
+A/Netherlands/63/2011,A/Brisbane/10/2007,40
+A/Athens/108/2011,A/Brisbane/10/2007,80
+A/Wisconsin/67/2005,A/Perth/16/2009,40
+A/Brisbane/10/2007,A/Perth/16/2009,40
+A/Perth/16/2009,A/Perth/16/2009,1280
+A/Wisconsin/15/2009,A/Perth/16/2009,640
+A/Victoria/208/2009,A/Perth/16/2009,1280
+A/Victoria/210/2009,A/Perth/16/2009,1280
+A/Alabama/5/2010,A/Perth/16/2009,80
+A/Perth/10/2010,A/Perth/16/2009,320
+A/Taiwan/851/2010,A/Perth/16/2009,1280
+A/Brussels/SO066/2010,A/Perth/16/2009,160
+A/Poitiers/1071/2010,A/Perth/16/2009,320
+A/Lyon/1014/2010,A/Perth/16/2009,640
+A/England/270/2010,A/Perth/16/2009,160
+A/Lyon/1058/2010,A/Perth/16/2009,320
+A/Lyon/1135/2010,A/Perth/16/2009,320
+A/Netherlands/34/2010,A/Perth/16/2009,160
+A/Mures/47467/2011,A/Perth/16/2009,640
+A/Galati/47519/2011,A/Perth/16/2009,1280
+A/Netherlands/63/2011,A/Perth/16/2009,640
+A/Athens/108/2011,A/Perth/16/2009,320
+A/Wisconsin/67/2005,A/Wisconsin/15/2009,<40
+A/Brisbane/10/2007,A/Wisconsin/15/2009,40
+A/Perth/16/2009,A/Wisconsin/15/2009,640
+A/Wisconsin/15/2009,A/Wisconsin/15/2009,320
+A/Victoria/208/2009,A/Wisconsin/15/2009,1280
+A/Victoria/210/2009,A/Wisconsin/15/2009,1280
+A/Alabama/5/2010,A/Wisconsin/15/2009,40
+A/Perth/10/2010,A/Wisconsin/15/2009,80
+A/Taiwan/851/2010,A/Wisconsin/15/2009,320
+A/Brussels/SO066/2010,A/Wisconsin/15/2009,160
+A/Poitiers/1071/2010,A/Wisconsin/15/2009,640
+A/Lyon/1014/2010,A/Wisconsin/15/2009,1280
+A/England/270/2010,A/Wisconsin/15/2009,160
+A/Lyon/1058/2010,A/Wisconsin/15/2009,640
+A/Lyon/1135/2010,A/Wisconsin/15/2009,320
+A/Netherlands/34/2010,A/Wisconsin/15/2009,80
+A/Mures/47467/2011,A/Wisconsin/15/2009,1280
+A/Galati/47519/2011,A/Wisconsin/15/2009,1280
+A/Netherlands/63/2011,A/Wisconsin/15/2009,640
+A/Athens/108/2011,A/Wisconsin/15/2009,320
+A/Wisconsin/67/2005,A/Victoria/208/2009,320
+A/Brisbane/10/2007,A/Victoria/208/2009,320
+A/Perth/16/2009,A/Victoria/208/2009,640
+A/Wisconsin/15/2009,A/Victoria/208/2009,80
+A/Victoria/208/2009,A/Victoria/208/2009,5120
+A/Victoria/210/2009,A/Victoria/208/2009,2560
+A/Alabama/5/2010,A/Victoria/208/2009,40
+A/Perth/10/2010,A/Victoria/208/2009,80
+A/Taiwan/851/2010,A/Victoria/208/2009,160
+A/Brussels/SO066/2010,A/Victoria/208/2009,160
+A/Poitiers/1071/2010,A/Victoria/208/2009,320
+A/Lyon/1014/2010,A/Victoria/208/2009,640
+A/England/270/2010,A/Victoria/208/2009,80
+A/Lyon/1058/2010,A/Victoria/208/2009,320
+A/Lyon/1135/2010,A/Victoria/208/2009,320
+A/Netherlands/34/2010,A/Victoria/208/2009,80
+A/Mures/47467/2011,A/Victoria/208/2009,640
+A/Galati/47519/2011,A/Victoria/208/2009,1280
+A/Netherlands/63/2011,A/Victoria/208/2009,160
+A/Athens/108/2011,A/Victoria/208/2009,320
+A/Wisconsin/67/2005,A/Victoria/210/2009,40
+A/Brisbane/10/2007,A/Victoria/210/2009,320
+A/Perth/16/2009,A/Victoria/210/2009,1280
+A/Wisconsin/15/2009,A/Victoria/210/2009,160
+A/Victoria/208/2009,A/Victoria/210/2009,5120
+A/Victoria/210/2009,A/Victoria/210/2009,5120
+A/Alabama/5/2010,A/Victoria/210/2009,40
+A/Perth/10/2010,A/Victoria/210/2009,80
+A/Taiwan/851/2010,A/Victoria/210/2009,320
+A/Brussels/SO066/2010,A/Victoria/210/2009,160
+A/Poitiers/1071/2010,A/Victoria/210/2009,320
+A/Lyon/1014/2010,A/Victoria/210/2009,640
+A/England/270/2010,A/Victoria/210/2009,80
+A/Lyon/1058/2010,A/Victoria/210/2009,320
+A/Lyon/1135/2010,A/Victoria/210/2009,320
+A/Netherlands/34/2010,A/Victoria/210/2009,80
+A/Mures/47467/2011,A/Victoria/210/2009,640
+A/Galati/47519/2011,A/Victoria/210/2009,2560
+A/Netherlands/63/2011,A/Victoria/210/2009,640
+A/Athens/108/2011,A/Victoria/210/2009,320
+A/Wisconsin/67/2005,A/Alabama/5/2010,<40
+A/Brisbane/10/2007,A/Alabama/5/2010,160
+A/Perth/16/2009,A/Alabama/5/2010,1280
+A/Wisconsin/15/2009,A/Alabama/5/2010,320
+A/Victoria/208/2009,A/Alabama/5/2010,2560
+A/Victoria/210/2009,A/Alabama/5/2010,2560
+A/Alabama/5/2010,A/Alabama/5/2010,640
+A/Perth/10/2010,A/Alabama/5/2010,640
+A/Taiwan/851/2010,A/Alabama/5/2010,1280
+A/Brussels/SO066/2010,A/Alabama/5/2010,320
+A/Poitiers/1071/2010,A/Alabama/5/2010,1280
+A/Lyon/1014/2010,A/Alabama/5/2010,2560
+A/England/270/2010,A/Alabama/5/2010,1280
+A/Lyon/1058/2010,A/Alabama/5/2010,1280
+A/Lyon/1135/2010,A/Alabama/5/2010,1280
+A/Netherlands/34/2010,A/Alabama/5/2010,1280
+A/Mures/47467/2011,A/Alabama/5/2010,1280
+A/Galati/47519/2011,A/Alabama/5/2010,1280
+A/Netherlands/63/2011,A/Alabama/5/2010,1280
+A/Athens/108/2011,A/Alabama/5/2010,1280
+A/Wisconsin/67/2005,A/Perth/10/2010,160
+A/Brisbane/10/2007,A/Perth/10/2010,160
+A/Perth/16/2009,A/Perth/10/2010,1280
+A/Wisconsin/15/2009,A/Perth/10/2010,640
+A/Victoria/208/2009,A/Perth/10/2010,5120
+A/Victoria/210/2009,A/Perth/10/2010,2560
+A/Alabama/5/2010,A/Perth/10/2010,320
+A/Perth/10/2010,A/Perth/10/2010,320
+A/Taiwan/851/2010,A/Perth/10/2010,640
+A/Brussels/SO066/2010,A/Perth/10/2010,160
+A/Poitiers/1071/2010,A/Perth/10/2010,1280
+A/Lyon/1014/2010,A/Perth/10/2010,1280
+A/England/270/2010,A/Perth/10/2010,640
+A/Lyon/1058/2010,A/Perth/10/2010,1280
+A/Lyon/1135/2010,A/Perth/10/2010,1280
+A/Netherlands/34/2010,A/Perth/10/2010,320
+A/Mures/47467/2011,A/Perth/10/2010,2560
+A/Galati/47519/2011,A/Perth/10/2010,5120
+A/Netherlands/63/2011,A/Perth/10/2010,640
+A/Athens/108/2011,A/Perth/10/2010,640

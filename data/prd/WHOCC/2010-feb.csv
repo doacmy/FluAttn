@@ -1,0 +1,830 @@
+Test Virus,Reference Virus,Titre
+A/Wisconsin/67/2005,A/Wisconsin/67/2005,1280
+A/Brisbane/10/2007,A/Wisconsin/67/2005,640
+A/Uruguay/716/2007,A/Wisconsin/67/2005,1280
+A/Finland/9/2008,A/Wisconsin/67/2005,1280
+A/Johannesburg/15/2008,A/Wisconsin/67/2005,1280
+A/Hong Kong/1952/2009,A/Wisconsin/67/2005,<40
+A/Hong Kong/1985/2009,A/Wisconsin/67/2005,<40
+A/Perth/16/2009,A/Wisconsin/67/2005,<40
+A/Wisconsin/15/2009,A/Wisconsin/67/2005,<40
+A/Cameroon/445/2009,A/Wisconsin/67/2005,<40
+A/England/700/2009,A/Wisconsin/67/2005,80
+A/Cameroon/486/2009,A/Wisconsin/67/2005,<40
+A/Hong Kong/33726/2009,A/Wisconsin/67/2005,80
+A/Paris/3873/09,A/Wisconsin/67/2005,<40
+A/Paris/4596/09,A/Wisconsin/67/2005,<40
+A/Hong Kong/26554/2009,A/Wisconsin/67/2005,80
+A/England/815/2009,A/Wisconsin/67/2005,40
+A/Lyon/1715/2009,A/Wisconsin/67/2005,80
+A/Hong Kong/26227/2009,A/Wisconsin/67/2005,80
+A/Hong Kong/26233/2009,A/Wisconsin/67/2005,80
+A/Bordeaux/1942/2009,A/Wisconsin/67/2005,<40
+A/Gibraltar/SB226/09,A/Wisconsin/67/2005,40
+A/Cameroon/422/2009,A/Wisconsin/67/2005,<40
+A/Paris/5870/09,A/Wisconsin/67/2005,40
+A/Gibraltar/SB252/09,A/Wisconsin/67/2005,40
+A/Paris/6047/2009,A/Wisconsin/67/2005,80
+A/Cameroon/663/2009,A/Wisconsin/67/2005,80
+A/Cameroon/614/2009,A/Wisconsin/67/2005,<40
+A/Cameroon/653/2009,A/Wisconsin/67/2005,<40
+A/Dakar/41/2009,A/Wisconsin/67/2005,<40
+A/Dakar/43/2009,A/Wisconsin/67/2005,<40
+A/Cameroon/658/2009,A/Wisconsin/67/2005,40
+A/Cameroon/675/2009,A/Wisconsin/67/2005,<40
+A/Dakar/44/2009,A/Wisconsin/67/2005,<40
+A/Algeria/G46/2009,A/Wisconsin/67/2005,80
+A/Hong Kong/34194/2009,A/Wisconsin/67/2005,40
+A/Hong Kong/34430/2009,A/Wisconsin/67/2005,<40
+A/Cameroon/598/2009,A/Wisconsin/67/2005,80
+A/Cameroon/675/2009,A/Wisconsin/67/2005,<40
+A/Turkey/TR-26/2009,A/Wisconsin/67/2005,<40
+A/Turkey/TR-28/2009,A/Wisconsin/67/2005,<40
+A/Turkey/TR-33/2009,A/Wisconsin/67/2005,<40
+A/Wisconsin/67/2005,A/Brisbane/10/2007,640
+A/Brisbane/10/2007,A/Brisbane/10/2007,1280
+A/Uruguay/716/2007,A/Brisbane/10/2007,1280
+A/Finland/9/2008,A/Brisbane/10/2007,1280
+A/Johannesburg/15/2008,A/Brisbane/10/2007,1280
+A/Hong Kong/1952/2009,A/Brisbane/10/2007,80
+A/Hong Kong/1985/2009,A/Brisbane/10/2007,80
+A/Perth/16/2009,A/Brisbane/10/2007,<40
+A/Wisconsin/15/2009,A/Brisbane/10/2007,<40
+A/Cameroon/445/2009,A/Brisbane/10/2007,<40
+A/England/700/2009,A/Brisbane/10/2007,160
+A/Cameroon/486/2009,A/Brisbane/10/2007,80
+A/Hong Kong/33726/2009,A/Brisbane/10/2007,160
+A/Paris/3873/09,A/Brisbane/10/2007,80
+A/Paris/4596/09,A/Brisbane/10/2007,80
+A/Hong Kong/26554/2009,A/Brisbane/10/2007,160
+A/England/815/2009,A/Brisbane/10/2007,160
+A/Lyon/1715/2009,A/Brisbane/10/2007,160
+A/Hong Kong/26227/2009,A/Brisbane/10/2007,80
+A/Hong Kong/26233/2009,A/Brisbane/10/2007,80
+A/Bordeaux/1942/2009,A/Brisbane/10/2007,160
+A/Gibraltar/SB226/09,A/Brisbane/10/2007,160
+A/Cameroon/422/2009,A/Brisbane/10/2007,80
+A/Paris/5870/09,A/Brisbane/10/2007,<40
+A/Gibraltar/SB252/09,A/Brisbane/10/2007,160
+A/Paris/6047/2009,A/Brisbane/10/2007,320
+A/Cameroon/663/2009,A/Brisbane/10/2007,80
+A/Cameroon/614/2009,A/Brisbane/10/2007,80
+A/Cameroon/653/2009,A/Brisbane/10/2007,80
+A/Dakar/41/2009,A/Brisbane/10/2007,40
+A/Dakar/43/2009,A/Brisbane/10/2007,160
+A/Cameroon/658/2009,A/Brisbane/10/2007,160
+A/Cameroon/675/2009,A/Brisbane/10/2007,160
+A/Dakar/44/2009,A/Brisbane/10/2007,40
+A/Algeria/G46/2009,A/Brisbane/10/2007,320
+A/Hong Kong/34194/2009,A/Brisbane/10/2007,160
+A/Hong Kong/34430/2009,A/Brisbane/10/2007,80
+A/Cameroon/598/2009,A/Brisbane/10/2007,320
+A/Cameroon/675/2009,A/Brisbane/10/2007,160
+A/Turkey/TR-26/2009,A/Brisbane/10/2007,40
+A/Turkey/TR-28/2009,A/Brisbane/10/2007,40
+A/Turkey/TR-33/2009,A/Brisbane/10/2007,40
+A/Wisconsin/67/2005,A/Uruguay/716/2007,1280
+A/Brisbane/10/2007,A/Uruguay/716/2007,1280
+A/Uruguay/716/2007,A/Uruguay/716/2007,2560
+A/Finland/9/2008,A/Uruguay/716/2007,1280
+A/Johannesburg/15/2008,A/Uruguay/716/2007,1280
+A/Hong Kong/1952/2009,A/Uruguay/716/2007,80
+A/Hong Kong/1985/2009,A/Uruguay/716/2007,80
+A/Perth/16/2009,A/Uruguay/716/2007,<40
+A/Wisconsin/15/2009,A/Uruguay/716/2007,<40
+A/Cameroon/445/2009,A/Uruguay/716/2007,80
+A/England/700/2009,A/Uruguay/716/2007,320
+A/Cameroon/486/2009,A/Uruguay/716/2007,80
+A/Hong Kong/33726/2009,A/Uruguay/716/2007,160
+A/Paris/3873/09,A/Uruguay/716/2007,160
+A/Paris/4596/09,A/Uruguay/716/2007,160
+A/Hong Kong/26554/2009,A/Uruguay/716/2007,160
+A/England/815/2009,A/Uruguay/716/2007,160
+A/Lyon/1715/2009,A/Uruguay/716/2007,80
+A/Hong Kong/26227/2009,A/Uruguay/716/2007,80
+A/Hong Kong/26233/2009,A/Uruguay/716/2007,80
+A/Bordeaux/1942/2009,A/Uruguay/716/2007,80
+A/Gibraltar/SB226/09,A/Uruguay/716/2007,160
+A/Cameroon/422/2009,A/Uruguay/716/2007,80
+A/Paris/5870/09,A/Uruguay/716/2007,80
+A/Gibraltar/SB252/09,A/Uruguay/716/2007,160
+A/Paris/6047/2009,A/Uruguay/716/2007,320
+A/Cameroon/663/2009,A/Uruguay/716/2007,320
+A/Cameroon/614/2009,A/Uruguay/716/2007,40
+A/Cameroon/653/2009,A/Uruguay/716/2007,160
+A/Dakar/41/2009,A/Uruguay/716/2007,80
+A/Dakar/43/2009,A/Uruguay/716/2007,80
+A/Cameroon/658/2009,A/Uruguay/716/2007,160
+A/Cameroon/675/2009,A/Uruguay/716/2007,160
+A/Dakar/44/2009,A/Uruguay/716/2007,40
+A/Algeria/G46/2009,A/Uruguay/716/2007,160
+A/Hong Kong/34194/2009,A/Uruguay/716/2007,80
+A/Hong Kong/34430/2009,A/Uruguay/716/2007,80
+A/Cameroon/598/2009,A/Uruguay/716/2007,320
+A/Cameroon/675/2009,A/Uruguay/716/2007,160
+A/Turkey/TR-26/2009,A/Uruguay/716/2007,80
+A/Turkey/TR-28/2009,A/Uruguay/716/2007,80
+A/Turkey/TR-33/2009,A/Uruguay/716/2007,40
+A/Wisconsin/67/2005,A/Finland/9/2008,320
+A/Brisbane/10/2007,A/Finland/9/2008,640
+A/Uruguay/716/2007,A/Finland/9/2008,1280
+A/Finland/9/2008,A/Finland/9/2008,640
+A/Johannesburg/15/2008,A/Finland/9/2008,1280
+A/Hong Kong/1952/2009,A/Finland/9/2008,<40
+A/Hong Kong/1985/2009,A/Finland/9/2008,<40
+A/Perth/16/2009,A/Finland/9/2008,<40
+A/Wisconsin/15/2009,A/Finland/9/2008,<40
+A/Cameroon/445/2009,A/Finland/9/2008,40
+A/England/700/2009,A/Finland/9/2008,160
+A/Cameroon/486/2009,A/Finland/9/2008,40
+A/Hong Kong/33726/2009,A/Finland/9/2008,80
+A/Paris/3873/09,A/Finland/9/2008,40
+A/Paris/4596/09,A/Finland/9/2008,40
+A/Hong Kong/26554/2009,A/Finland/9/2008,80
+A/England/815/2009,A/Finland/9/2008,80
+A/Lyon/1715/2009,A/Finland/9/2008,40
+A/Hong Kong/26227/2009,A/Finland/9/2008,40
+A/Hong Kong/26233/2009,A/Finland/9/2008,40
+A/Bordeaux/1942/2009,A/Finland/9/2008,<40
+A/Gibraltar/SB226/09,A/Finland/9/2008,80
+A/Cameroon/422/2009,A/Finland/9/2008,<40
+A/Paris/5870/09,A/Finland/9/2008,<40
+A/Gibraltar/SB252/09,A/Finland/9/2008,40
+A/Paris/6047/2009,A/Finland/9/2008,160
+A/Cameroon/663/2009,A/Finland/9/2008,40
+A/Cameroon/614/2009,A/Finland/9/2008,<40
+A/Cameroon/653/2009,A/Finland/9/2008,40
+A/Dakar/41/2009,A/Finland/9/2008,40
+A/Dakar/43/2009,A/Finland/9/2008,40
+A/Cameroon/658/2009,A/Finland/9/2008,40
+A/Cameroon/675/2009,A/Finland/9/2008,40
+A/Dakar/44/2009,A/Finland/9/2008,<40
+A/Algeria/G46/2009,A/Finland/9/2008,160
+A/Hong Kong/34194/2009,A/Finland/9/2008,40
+A/Hong Kong/34430/2009,A/Finland/9/2008,<40
+A/Cameroon/598/2009,A/Finland/9/2008,80
+A/Cameroon/675/2009,A/Finland/9/2008,40
+A/Turkey/TR-26/2009,A/Finland/9/2008,40
+A/Turkey/TR-28/2009,A/Finland/9/2008,<40
+A/Turkey/TR-33/2009,A/Finland/9/2008,<40
+A/Wisconsin/67/2005,A/Johannesburg/15/2008,320
+A/Brisbane/10/2007,A/Johannesburg/15/2008,320
+A/Uruguay/716/2007,A/Johannesburg/15/2008,640
+A/Finland/9/2008,A/Johannesburg/15/2008,640
+A/Johannesburg/15/2008,A/Johannesburg/15/2008,2560
+A/Hong Kong/1952/2009,A/Johannesburg/15/2008,<40
+A/Hong Kong/1985/2009,A/Johannesburg/15/2008,<40
+A/Perth/16/2009,A/Johannesburg/15/2008,<40
+A/Wisconsin/15/2009,A/Johannesburg/15/2008,<40
+A/Cameroon/445/2009,A/Johannesburg/15/2008,80
+A/England/700/2009,A/Johannesburg/15/2008,320
+A/Cameroon/486/2009,A/Johannesburg/15/2008,80
+A/Hong Kong/33726/2009,A/Johannesburg/15/2008,160
+A/Paris/3873/09,A/Johannesburg/15/2008,40
+A/Paris/4596/09,A/Johannesburg/15/2008,40
+A/Hong Kong/26554/2009,A/Johannesburg/15/2008,80
+A/England/815/2009,A/Johannesburg/15/2008,80
+A/Lyon/1715/2009,A/Johannesburg/15/2008,80
+A/Hong Kong/26227/2009,A/Johannesburg/15/2008,80
+A/Hong Kong/26233/2009,A/Johannesburg/15/2008,80
+A/Bordeaux/1942/2009,A/Johannesburg/15/2008,40
+A/Gibraltar/SB226/09,A/Johannesburg/15/2008,80
+A/Cameroon/422/2009,A/Johannesburg/15/2008,<40
+A/Paris/5870/09,A/Johannesburg/15/2008,<40
+A/Gibraltar/SB252/09,A/Johannesburg/15/2008,80
+A/Paris/6047/2009,A/Johannesburg/15/2008,160
+A/Cameroon/663/2009,A/Johannesburg/15/2008,80
+A/Cameroon/614/2009,A/Johannesburg/15/2008,40
+A/Cameroon/653/2009,A/Johannesburg/15/2008,40
+A/Dakar/41/2009,A/Johannesburg/15/2008,40
+A/Dakar/43/2009,A/Johannesburg/15/2008,40
+A/Cameroon/658/2009,A/Johannesburg/15/2008,80
+A/Cameroon/675/2009,A/Johannesburg/15/2008,80
+A/Dakar/44/2009,A/Johannesburg/15/2008,40
+A/Algeria/G46/2009,A/Johannesburg/15/2008,160
+A/Hong Kong/34194/2009,A/Johannesburg/15/2008,40
+A/Hong Kong/34430/2009,A/Johannesburg/15/2008,<40
+A/Cameroon/598/2009,A/Johannesburg/15/2008,80
+A/Cameroon/675/2009,A/Johannesburg/15/2008,80
+A/Turkey/TR-26/2009,A/Johannesburg/15/2008,40
+A/Turkey/TR-28/2009,A/Johannesburg/15/2008,40
+A/Turkey/TR-33/2009,A/Johannesburg/15/2008,<40
+A/Wisconsin/67/2005,A/Hong Kong/1952/2009,<40
+A/Brisbane/10/2007,A/Hong Kong/1952/2009,<40
+A/Uruguay/716/2007,A/Hong Kong/1952/2009,<40
+A/Finland/9/2008,A/Hong Kong/1952/2009,<40
+A/Johannesburg/15/2008,A/Hong Kong/1952/2009,40
+A/Hong Kong/1952/2009,A/Hong Kong/1952/2009,160
+A/Hong Kong/1985/2009,A/Hong Kong/1952/2009,160
+A/Perth/16/2009,A/Hong Kong/1952/2009,40
+A/Wisconsin/15/2009,A/Hong Kong/1952/2009,40
+A/Cameroon/445/2009,A/Hong Kong/1952/2009,<40
+A/England/700/2009,A/Hong Kong/1952/2009,<40
+A/Cameroon/486/2009,A/Hong Kong/1952/2009,<40
+A/Hong Kong/33726/2009,A/Hong Kong/1952/2009,<40
+A/Paris/3873/09,A/Hong Kong/1952/2009,80
+A/Paris/4596/09,A/Hong Kong/1952/2009,80
+A/Hong Kong/26554/2009,A/Hong Kong/1952/2009,640
+A/England/815/2009,A/Hong Kong/1952/2009,160
+A/Lyon/1715/2009,A/Hong Kong/1952/2009,40
+A/Hong Kong/26227/2009,A/Hong Kong/1952/2009,320
+A/Hong Kong/26233/2009,A/Hong Kong/1952/2009,160
+A/Bordeaux/1942/2009,A/Hong Kong/1952/2009,160
+A/Gibraltar/SB226/09,A/Hong Kong/1952/2009,80
+A/Cameroon/422/2009,A/Hong Kong/1952/2009,40
+A/Paris/5870/09,A/Hong Kong/1952/2009,80
+A/Gibraltar/SB252/09,A/Hong Kong/1952/2009,80
+A/Paris/6047/2009,A/Hong Kong/1952/2009,320
+A/Cameroon/663/2009,A/Hong Kong/1952/2009,80
+A/Cameroon/614/2009,A/Hong Kong/1952/2009,80
+A/Cameroon/653/2009,A/Hong Kong/1952/2009,80
+A/Dakar/41/2009,A/Hong Kong/1952/2009,*
+A/Dakar/43/2009,A/Hong Kong/1952/2009,*
+A/Cameroon/658/2009,A/Hong Kong/1952/2009,80
+A/Cameroon/675/2009,A/Hong Kong/1952/2009,80
+A/Dakar/44/2009,A/Hong Kong/1952/2009,*
+A/Algeria/G46/2009,A/Hong Kong/1952/2009,320
+A/Hong Kong/34194/2009,A/Hong Kong/1952/2009,160
+A/Hong Kong/34430/2009,A/Hong Kong/1952/2009,160
+A/Cameroon/598/2009,A/Hong Kong/1952/2009,160
+A/Cameroon/675/2009,A/Hong Kong/1952/2009,80
+A/Turkey/TR-26/2009,A/Hong Kong/1952/2009,*
+A/Turkey/TR-28/2009,A/Hong Kong/1952/2009,*
+A/Turkey/TR-33/2009,A/Hong Kong/1952/2009,*
+A/Wisconsin/67/2005,A/Hong Kong/1985/2009,<40
+A/Brisbane/10/2007,A/Hong Kong/1985/2009,<40
+A/Uruguay/716/2007,A/Hong Kong/1985/2009,<40
+A/Finland/9/2008,A/Hong Kong/1985/2009,80
+A/Johannesburg/15/2008,A/Hong Kong/1985/2009,80
+A/Hong Kong/1952/2009,A/Hong Kong/1985/2009,1280
+A/Hong Kong/1985/2009,A/Hong Kong/1985/2009,1280
+A/Perth/16/2009,A/Hong Kong/1985/2009,320
+A/Wisconsin/15/2009,A/Hong Kong/1985/2009,640
+A/Cameroon/445/2009,A/Hong Kong/1985/2009,<40
+A/England/700/2009,A/Hong Kong/1985/2009,80
+A/Cameroon/486/2009,A/Hong Kong/1985/2009,<40
+A/Hong Kong/33726/2009,A/Hong Kong/1985/2009,40
+A/Paris/3873/09,A/Hong Kong/1985/2009,320
+A/Paris/4596/09,A/Hong Kong/1985/2009,320
+A/Hong Kong/26554/2009,A/Hong Kong/1985/2009,2560
+A/England/815/2009,A/Hong Kong/1985/2009,640
+A/Lyon/1715/2009,A/Hong Kong/1985/2009,640
+A/Hong Kong/26227/2009,A/Hong Kong/1985/2009,1280
+A/Hong Kong/26233/2009,A/Hong Kong/1985/2009,1280
+A/Bordeaux/1942/2009,A/Hong Kong/1985/2009,1280
+A/Gibraltar/SB226/09,A/Hong Kong/1985/2009,320
+A/Cameroon/422/2009,A/Hong Kong/1985/2009,80
+A/Paris/5870/09,A/Hong Kong/1985/2009,320
+A/Gibraltar/SB252/09,A/Hong Kong/1985/2009,320
+A/Paris/6047/2009,A/Hong Kong/1985/2009,1280
+A/Cameroon/663/2009,A/Hong Kong/1985/2009,640
+A/Cameroon/614/2009,A/Hong Kong/1985/2009,320
+A/Cameroon/653/2009,A/Hong Kong/1985/2009,320
+A/Dakar/41/2009,A/Hong Kong/1985/2009,1280
+A/Dakar/43/2009,A/Hong Kong/1985/2009,320
+A/Cameroon/658/2009,A/Hong Kong/1985/2009,640
+A/Cameroon/675/2009,A/Hong Kong/1985/2009,640
+A/Dakar/44/2009,A/Hong Kong/1985/2009,640
+A/Algeria/G46/2009,A/Hong Kong/1985/2009,1280
+A/Hong Kong/34194/2009,A/Hong Kong/1985/2009,1280
+A/Hong Kong/34430/2009,A/Hong Kong/1985/2009,1280
+A/Cameroon/598/2009,A/Hong Kong/1985/2009,1280
+A/Cameroon/675/2009,A/Hong Kong/1985/2009,640
+A/Turkey/TR-26/2009,A/Hong Kong/1985/2009,2560
+A/Turkey/TR-28/2009,A/Hong Kong/1985/2009,2560
+A/Turkey/TR-33/2009,A/Hong Kong/1985/2009,1280
+A/Wisconsin/67/2005,A/Perth/16/2009,<40
+A/Brisbane/10/2007,A/Perth/16/2009,<40
+A/Uruguay/716/2007,A/Perth/16/2009,40
+A/Finland/9/2008,A/Perth/16/2009,80
+A/Johannesburg/15/2008,A/Perth/16/2009,80
+A/Hong Kong/1952/2009,A/Perth/16/2009,640
+A/Hong Kong/1985/2009,A/Perth/16/2009,640
+A/Perth/16/2009,A/Perth/16/2009,640
+A/Wisconsin/15/2009,A/Perth/16/2009,320
+A/Cameroon/445/2009,A/Perth/16/2009,<40
+A/England/700/2009,A/Perth/16/2009,320
+A/Cameroon/486/2009,A/Perth/16/2009,<40
+A/Hong Kong/33726/2009,A/Perth/16/2009,<40
+A/Paris/3873/09,A/Perth/16/2009,160
+A/Paris/4596/09,A/Perth/16/2009,160
+A/Hong Kong/26554/2009,A/Perth/16/2009,2560
+A/England/815/2009,A/Perth/16/2009,320
+A/Lyon/1715/2009,A/Perth/16/2009,640
+A/Hong Kong/26227/2009,A/Perth/16/2009,640
+A/Hong Kong/26233/2009,A/Perth/16/2009,640
+A/Bordeaux/1942/2009,A/Perth/16/2009,1280
+A/Gibraltar/SB226/09,A/Perth/16/2009,320
+A/Cameroon/422/2009,A/Perth/16/2009,80
+A/Paris/5870/09,A/Perth/16/2009,160
+A/Gibraltar/SB252/09,A/Perth/16/2009,320
+A/Paris/6047/2009,A/Perth/16/2009,1280
+A/Cameroon/663/2009,A/Perth/16/2009,320
+A/Cameroon/614/2009,A/Perth/16/2009,320
+A/Cameroon/653/2009,A/Perth/16/2009,320
+A/Dakar/41/2009,A/Perth/16/2009,640
+A/Dakar/43/2009,A/Perth/16/2009,320
+A/Cameroon/658/2009,A/Perth/16/2009,320
+A/Cameroon/675/2009,A/Perth/16/2009,320
+A/Dakar/44/2009,A/Perth/16/2009,640
+A/Algeria/G46/2009,A/Perth/16/2009,1280
+A/Hong Kong/34194/2009,A/Perth/16/2009,1280
+A/Hong Kong/34430/2009,A/Perth/16/2009,1280
+A/Cameroon/598/2009,A/Perth/16/2009,640
+A/Cameroon/675/2009,A/Perth/16/2009,320
+A/Turkey/TR-26/2009,A/Perth/16/2009,1280
+A/Turkey/TR-28/2009,A/Perth/16/2009,1280
+A/Turkey/TR-33/2009,A/Perth/16/2009,640
+A/Wisconsin/67/2005,A/Wisconsin/15/2009,<40
+A/Brisbane/10/2007,A/Wisconsin/15/2009,<40
+A/Uruguay/716/2007,A/Wisconsin/15/2009,<40
+A/Finland/9/2008,A/Wisconsin/15/2009,<40
+A/Johannesburg/15/2008,A/Wisconsin/15/2009,40
+A/Hong Kong/1952/2009,A/Wisconsin/15/2009,320
+A/Hong Kong/1985/2009,A/Wisconsin/15/2009,320
+A/Perth/16/2009,A/Wisconsin/15/2009,80
+A/Wisconsin/15/2009,A/Wisconsin/15/2009,160
+A/Cameroon/445/2009,A/Wisconsin/15/2009,<40
+A/England/700/2009,A/Wisconsin/15/2009,<40
+A/Cameroon/486/2009,A/Wisconsin/15/2009,<40
+A/Hong Kong/33726/2009,A/Wisconsin/15/2009,<40
+A/Paris/3873/09,A/Wisconsin/15/2009,160
+A/Paris/4596/09,A/Wisconsin/15/2009,80
+A/Hong Kong/26554/2009,A/Wisconsin/15/2009,1280
+A/England/815/2009,A/Wisconsin/15/2009,160
+A/Lyon/1715/2009,A/Wisconsin/15/2009,80
+A/Hong Kong/26227/2009,A/Wisconsin/15/2009,640
+A/Hong Kong/26233/2009,A/Wisconsin/15/2009,320
+A/Bordeaux/1942/2009,A/Wisconsin/15/2009,640
+A/Gibraltar/SB226/09,A/Wisconsin/15/2009,160
+A/Cameroon/422/2009,A/Wisconsin/15/2009,40
+A/Paris/5870/09,A/Wisconsin/15/2009,160
+A/Gibraltar/SB252/09,A/Wisconsin/15/2009,160
+A/Paris/6047/2009,A/Wisconsin/15/2009,160
+A/Cameroon/663/2009,A/Wisconsin/15/2009,160
+A/Cameroon/614/2009,A/Wisconsin/15/2009,80
+A/Cameroon/653/2009,A/Wisconsin/15/2009,80
+A/Dakar/41/2009,A/Wisconsin/15/2009,320
+A/Dakar/43/2009,A/Wisconsin/15/2009,80
+A/Cameroon/658/2009,A/Wisconsin/15/2009,160
+A/Cameroon/675/2009,A/Wisconsin/15/2009,160
+A/Dakar/44/2009,A/Wisconsin/15/2009,320
+A/Algeria/G46/2009,A/Wisconsin/15/2009,1280
+A/Hong Kong/34194/2009,A/Wisconsin/15/2009,1280
+A/Hong Kong/34430/2009,A/Wisconsin/15/2009,640
+A/Cameroon/598/2009,A/Wisconsin/15/2009,160
+A/Cameroon/675/2009,A/Wisconsin/15/2009,160
+A/Turkey/TR-26/2009,A/Wisconsin/15/2009,640
+A/Turkey/TR-28/2009,A/Wisconsin/15/2009,320
+A/Turkey/TR-33/2009,A/Wisconsin/15/2009,160
+A/Wisconsin/67/2005,A/Wisconsin/67/2005,1280
+A/Brisbane/10/2007,A/Wisconsin/67/2005,2560
+A/Uruguay/716/2007,A/Wisconsin/67/2005,1280
+A/Finland/9/2008,A/Wisconsin/67/2005,640
+A/Johannesburg/15/2008,A/Wisconsin/67/2005,320
+A/Hong Kong/1952/2009,A/Wisconsin/67/2005,320
+A/Hong Kong/1985/2009,A/Wisconsin/67/2005,80
+A/Perth/16/2009,A/Wisconsin/67/2005,<40
+A/Wisconsin/15/2009,A/Wisconsin/67/2005,<40
+A/Hong Kong/26560/2009,A/Wisconsin/67/2005,<40
+A/Philippines/2191/2009,A/Wisconsin/67/2005,<40
+A/Gothenburg/3/2009,A/Wisconsin/67/2005,160
+A/Cameroon/699/2009,A/Wisconsin/67/2005,320
+A/Ghana/FS-1551/2009,A/Wisconsin/67/2005,80
+A/Ghana/FS-1589/2009,A/Wisconsin/67/2005,80
+A/Ghana/FS-1591/2009,A/Wisconsin/67/2005,<40
+A/Sweden/2/2009,A/Wisconsin/67/2005,80
+A/Stockholm/89/2009,A/Wisconsin/67/2005,40
+A/Umeå/4/2009,A/Wisconsin/67/2005,40
+A/Norway/3789/2009,A/Wisconsin/67/2005,<40
+A/Norway/3790/2009,A/Wisconsin/67/2005,<40
+A/Finland/638/2009,A/Wisconsin/67/2005,40
+A/Finland/640/2009,A/Wisconsin/67/2005,40
+A/Cameroon/677/2009,A/Wisconsin/67/2005,80
+A/Cameroon/678/2009,A/Wisconsin/67/2005,40
+A/Cameroon/681/2009,A/Wisconsin/67/2005,160
+A/Cameroon/701/2009,A/Wisconsin/67/2005,40
+A/Cameroon/704/2009,A/Wisconsin/67/2005,80
+A/Stockholm/112/2009,A/Wisconsin/67/2005,80
+A/Israel/22/2009,A/Wisconsin/67/2005,40
+A/Israel/23/2009,A/Wisconsin/67/2005,40
+A/Israel/24/2009,A/Wisconsin/67/2005,40
+A/Israel/25/2009,A/Wisconsin/67/2005,<40
+A/Israel/26/2009,A/Wisconsin/67/2005,40
+A/Israel/27/2009,A/Wisconsin/67/2005,40
+A/Ghana/FS-2240/2009,A/Wisconsin/67/2005,40
+A/Nordrhein-Westfalen/1/2010,A/Wisconsin/67/2005,80
+A/Lyon/Cx-R/3120,A/Wisconsin/67/2005,40
+A/Lyon/3670/2009,A/Wisconsin/67/2005,80
+A/Lyon/CHU/52,A/Wisconsin/67/2005,160
+A/Ghana/FS-2355/2009,A/Wisconsin/67/2005,80
+A/Wisconsin/67/2005,A/Brisbane/10/2007,640
+A/Brisbane/10/2007,A/Brisbane/10/2007,2560
+A/Uruguay/716/2007,A/Brisbane/10/2007,1280
+A/Finland/9/2008,A/Brisbane/10/2007,1280
+A/Johannesburg/15/2008,A/Brisbane/10/2007,640
+A/Hong Kong/1952/2009,A/Brisbane/10/2007,320
+A/Hong Kong/1985/2009,A/Brisbane/10/2007,160
+A/Perth/16/2009,A/Brisbane/10/2007,<40
+A/Wisconsin/15/2009,A/Brisbane/10/2007,40
+A/Hong Kong/26560/2009,A/Brisbane/10/2007,<40
+A/Philippines/2191/2009,A/Brisbane/10/2007,<40
+A/Gothenburg/3/2009,A/Brisbane/10/2007,640
+A/Cameroon/699/2009,A/Brisbane/10/2007,640
+A/Ghana/FS-1551/2009,A/Brisbane/10/2007,160
+A/Ghana/FS-1589/2009,A/Brisbane/10/2007,160
+A/Ghana/FS-1591/2009,A/Brisbane/10/2007,80
+A/Sweden/2/2009,A/Brisbane/10/2007,160
+A/Stockholm/89/2009,A/Brisbane/10/2007,160
+A/Umeå/4/2009,A/Brisbane/10/2007,160
+A/Norway/3789/2009,A/Brisbane/10/2007,40
+A/Norway/3790/2009,A/Brisbane/10/2007,80
+A/Finland/638/2009,A/Brisbane/10/2007,80
+A/Finland/640/2009,A/Brisbane/10/2007,160
+A/Cameroon/677/2009,A/Brisbane/10/2007,320
+A/Cameroon/678/2009,A/Brisbane/10/2007,160
+A/Cameroon/681/2009,A/Brisbane/10/2007,320
+A/Cameroon/701/2009,A/Brisbane/10/2007,160
+A/Cameroon/704/2009,A/Brisbane/10/2007,160
+A/Stockholm/112/2009,A/Brisbane/10/2007,320
+A/Israel/22/2009,A/Brisbane/10/2007,80
+A/Israel/23/2009,A/Brisbane/10/2007,160
+A/Israel/24/2009,A/Brisbane/10/2007,160
+A/Israel/25/2009,A/Brisbane/10/2007,80
+A/Israel/26/2009,A/Brisbane/10/2007,80
+A/Israel/27/2009,A/Brisbane/10/2007,160
+A/Ghana/FS-2240/2009,A/Brisbane/10/2007,160
+A/Nordrhein-Westfalen/1/2010,A/Brisbane/10/2007,160
+A/Lyon/Cx-R/3120,A/Brisbane/10/2007,80
+A/Lyon/3670/2009,A/Brisbane/10/2007,160
+A/Lyon/CHU/52,A/Brisbane/10/2007,320
+A/Ghana/FS-2355/2009,A/Brisbane/10/2007,160
+A/Wisconsin/67/2005,A/Uruguay/716/2007,1280
+A/Brisbane/10/2007,A/Uruguay/716/2007,2560
+A/Uruguay/716/2007,A/Uruguay/716/2007,1280
+A/Finland/9/2008,A/Uruguay/716/2007,1280
+A/Johannesburg/15/2008,A/Uruguay/716/2007,640
+A/Hong Kong/1952/2009,A/Uruguay/716/2007,320
+A/Hong Kong/1985/2009,A/Uruguay/716/2007,160
+A/Perth/16/2009,A/Uruguay/716/2007,<40
+A/Wisconsin/15/2009,A/Uruguay/716/2007,40
+A/Hong Kong/26560/2009,A/Uruguay/716/2007,<40
+A/Philippines/2191/2009,A/Uruguay/716/2007,<40
+A/Gothenburg/3/2009,A/Uruguay/716/2007,640
+A/Cameroon/699/2009,A/Uruguay/716/2007,640
+A/Ghana/FS-1551/2009,A/Uruguay/716/2007,160
+A/Ghana/FS-1589/2009,A/Uruguay/716/2007,160
+A/Ghana/FS-1591/2009,A/Uruguay/716/2007,160
+A/Sweden/2/2009,A/Uruguay/716/2007,160
+A/Stockholm/89/2009,A/Uruguay/716/2007,160
+A/Umeå/4/2009,A/Uruguay/716/2007,160
+A/Norway/3789/2009,A/Uruguay/716/2007,40
+A/Norway/3790/2009,A/Uruguay/716/2007,80
+A/Finland/638/2009,A/Uruguay/716/2007,80
+A/Finland/640/2009,A/Uruguay/716/2007,160
+A/Cameroon/677/2009,A/Uruguay/716/2007,320
+A/Cameroon/678/2009,A/Uruguay/716/2007,160
+A/Cameroon/681/2009,A/Uruguay/716/2007,320
+A/Cameroon/701/2009,A/Uruguay/716/2007,160
+A/Cameroon/704/2009,A/Uruguay/716/2007,160
+A/Stockholm/112/2009,A/Uruguay/716/2007,320
+A/Israel/22/2009,A/Uruguay/716/2007,80
+A/Israel/23/2009,A/Uruguay/716/2007,80
+A/Israel/24/2009,A/Uruguay/716/2007,80
+A/Israel/25/2009,A/Uruguay/716/2007,80
+A/Israel/26/2009,A/Uruguay/716/2007,80
+A/Israel/27/2009,A/Uruguay/716/2007,80
+A/Ghana/FS-2240/2009,A/Uruguay/716/2007,160
+A/Nordrhein-Westfalen/1/2010,A/Uruguay/716/2007,160
+A/Lyon/Cx-R/3120,A/Uruguay/716/2007,80
+A/Lyon/3670/2009,A/Uruguay/716/2007,160
+A/Lyon/CHU/52,A/Uruguay/716/2007,320
+A/Ghana/FS-2355/2009,A/Uruguay/716/2007,160
+A/Wisconsin/67/2005,A/Finland/9/2008,640
+A/Brisbane/10/2007,A/Finland/9/2008,1280
+A/Uruguay/716/2007,A/Finland/9/2008,1280
+A/Finland/9/2008,A/Finland/9/2008,1280
+A/Johannesburg/15/2008,A/Finland/9/2008,640
+A/Hong Kong/1952/2009,A/Finland/9/2008,320
+A/Hong Kong/1985/2009,A/Finland/9/2008,80
+A/Perth/16/2009,A/Finland/9/2008,<40
+A/Wisconsin/15/2009,A/Finland/9/2008,<40
+A/Hong Kong/26560/2009,A/Finland/9/2008,<40
+A/Philippines/2191/2009,A/Finland/9/2008,<40
+A/Gothenburg/3/2009,A/Finland/9/2008,320
+A/Cameroon/699/2009,A/Finland/9/2008,320
+A/Ghana/FS-1551/2009,A/Finland/9/2008,80
+A/Ghana/FS-1589/2009,A/Finland/9/2008,80
+A/Ghana/FS-1591/2009,A/Finland/9/2008,40
+A/Sweden/2/2009,A/Finland/9/2008,160
+A/Stockholm/89/2009,A/Finland/9/2008,80
+A/Umeå/4/2009,A/Finland/9/2008,80
+A/Norway/3789/2009,A/Finland/9/2008,40
+A/Norway/3790/2009,A/Finland/9/2008,40
+A/Finland/638/2009,A/Finland/9/2008,40
+A/Finland/640/2009,A/Finland/9/2008,80
+A/Cameroon/677/2009,A/Finland/9/2008,160
+A/Cameroon/678/2009,A/Finland/9/2008,40
+A/Cameroon/681/2009,A/Finland/9/2008,160
+A/Cameroon/701/2009,A/Finland/9/2008,40
+A/Cameroon/704/2009,A/Finland/9/2008,80
+A/Stockholm/112/2009,A/Finland/9/2008,160
+A/Israel/22/2009,A/Finland/9/2008,40
+A/Israel/23/2009,A/Finland/9/2008,40
+A/Israel/24/2009,A/Finland/9/2008,40
+A/Israel/25/2009,A/Finland/9/2008,40
+A/Israel/26/2009,A/Finland/9/2008,40
+A/Israel/27/2009,A/Finland/9/2008,80
+A/Ghana/FS-2240/2009,A/Finland/9/2008,80
+A/Nordrhein-Westfalen/1/2010,A/Finland/9/2008,160
+A/Lyon/Cx-R/3120,A/Finland/9/2008,40
+A/Lyon/3670/2009,A/Finland/9/2008,80
+A/Lyon/CHU/52,A/Finland/9/2008,160
+A/Ghana/FS-2355/2009,A/Finland/9/2008,80
+A/Wisconsin/67/2005,A/Johannesburg/15/2008,640
+A/Brisbane/10/2007,A/Johannesburg/15/2008,1280
+A/Uruguay/716/2007,A/Johannesburg/15/2008,640
+A/Finland/9/2008,A/Johannesburg/15/2008,1280
+A/Johannesburg/15/2008,A/Johannesburg/15/2008,640
+A/Hong Kong/1952/2009,A/Johannesburg/15/2008,320
+A/Hong Kong/1985/2009,A/Johannesburg/15/2008,80
+A/Perth/16/2009,A/Johannesburg/15/2008,<40
+A/Wisconsin/15/2009,A/Johannesburg/15/2008,<40
+A/Hong Kong/26560/2009,A/Johannesburg/15/2008,<40
+A/Philippines/2191/2009,A/Johannesburg/15/2008,<40
+A/Gothenburg/3/2009,A/Johannesburg/15/2008,640
+A/Cameroon/699/2009,A/Johannesburg/15/2008,1280
+A/Ghana/FS-1551/2009,A/Johannesburg/15/2008,160
+A/Ghana/FS-1589/2009,A/Johannesburg/15/2008,160
+A/Ghana/FS-1591/2009,A/Johannesburg/15/2008,40
+A/Sweden/2/2009,A/Johannesburg/15/2008,160
+A/Stockholm/89/2009,A/Johannesburg/15/2008,80
+A/Umeå/4/2009,A/Johannesburg/15/2008,160
+A/Norway/3789/2009,A/Johannesburg/15/2008,40
+A/Norway/3790/2009,A/Johannesburg/15/2008,40
+A/Finland/638/2009,A/Johannesburg/15/2008,40
+A/Finland/640/2009,A/Johannesburg/15/2008,80
+A/Cameroon/677/2009,A/Johannesburg/15/2008,160
+A/Cameroon/678/2009,A/Johannesburg/15/2008,80
+A/Cameroon/681/2009,A/Johannesburg/15/2008,160
+A/Cameroon/701/2009,A/Johannesburg/15/2008,40
+A/Cameroon/704/2009,A/Johannesburg/15/2008,80
+A/Stockholm/112/2009,A/Johannesburg/15/2008,160
+A/Israel/22/2009,A/Johannesburg/15/2008,80
+A/Israel/23/2009,A/Johannesburg/15/2008,80
+A/Israel/24/2009,A/Johannesburg/15/2008,80
+A/Israel/25/2009,A/Johannesburg/15/2008,40
+A/Israel/26/2009,A/Johannesburg/15/2008,80
+A/Israel/27/2009,A/Johannesburg/15/2008,80
+A/Ghana/FS-2240/2009,A/Johannesburg/15/2008,80
+A/Nordrhein-Westfalen/1/2010,A/Johannesburg/15/2008,80
+A/Lyon/Cx-R/3120,A/Johannesburg/15/2008,40
+A/Lyon/3670/2009,A/Johannesburg/15/2008,160
+A/Lyon/CHU/52,A/Johannesburg/15/2008,160
+A/Ghana/FS-2355/2009,A/Johannesburg/15/2008,80
+A/Wisconsin/67/2005,A/Hong Kong/1952/2009,<40
+A/Brisbane/10/2007,A/Hong Kong/1952/2009,40
+A/Uruguay/716/2007,A/Hong Kong/1952/2009,<40
+A/Finland/9/2008,A/Hong Kong/1952/2009,80
+A/Johannesburg/15/2008,A/Hong Kong/1952/2009,80
+A/Hong Kong/1952/2009,A/Hong Kong/1952/2009,320
+A/Hong Kong/1985/2009,A/Hong Kong/1952/2009,160
+A/Perth/16/2009,A/Hong Kong/1952/2009,80
+A/Wisconsin/15/2009,A/Hong Kong/1952/2009,160
+A/Hong Kong/26560/2009,A/Hong Kong/1952/2009,80
+A/Philippines/2191/2009,A/Hong Kong/1952/2009,80
+A/Gothenburg/3/2009,A/Hong Kong/1952/2009,40
+A/Cameroon/699/2009,A/Hong Kong/1952/2009,80
+A/Ghana/FS-1551/2009,A/Hong Kong/1952/2009,320
+A/Ghana/FS-1589/2009,A/Hong Kong/1952/2009,640
+A/Ghana/FS-1591/2009,A/Hong Kong/1952/2009,320
+A/Sweden/2/2009,A/Hong Kong/1952/2009,320
+A/Stockholm/89/2009,A/Hong Kong/1952/2009,80
+A/Umeå/4/2009,A/Hong Kong/1952/2009,160
+A/Norway/3789/2009,A/Hong Kong/1952/2009,40
+A/Norway/3790/2009,A/Hong Kong/1952/2009,40
+A/Finland/638/2009,A/Hong Kong/1952/2009,40
+A/Finland/640/2009,A/Hong Kong/1952/2009,40
+A/Cameroon/677/2009,A/Hong Kong/1952/2009,320
+A/Cameroon/678/2009,A/Hong Kong/1952/2009,80
+A/Cameroon/681/2009,A/Hong Kong/1952/2009,160
+A/Cameroon/701/2009,A/Hong Kong/1952/2009,80
+A/Cameroon/704/2009,A/Hong Kong/1952/2009,80
+A/Stockholm/112/2009,A/Hong Kong/1952/2009,320
+A/Israel/22/2009,A/Hong Kong/1952/2009,40
+A/Israel/23/2009,A/Hong Kong/1952/2009,40
+A/Israel/24/2009,A/Hong Kong/1952/2009,80
+A/Israel/25/2009,A/Hong Kong/1952/2009,40
+A/Israel/26/2009,A/Hong Kong/1952/2009,80
+A/Israel/27/2009,A/Hong Kong/1952/2009,80
+A/Ghana/FS-2240/2009,A/Hong Kong/1952/2009,320
+A/Nordrhein-Westfalen/1/2010,A/Hong Kong/1952/2009,640
+A/Lyon/Cx-R/3120,A/Hong Kong/1952/2009,40
+A/Lyon/3670/2009,A/Hong Kong/1952/2009,80
+A/Lyon/CHU/52,A/Hong Kong/1952/2009,160
+A/Ghana/FS-2355/2009,A/Hong Kong/1952/2009,320
+A/Wisconsin/67/2005,A/Hong Kong/1985/2009,<40
+A/Brisbane/10/2007,A/Hong Kong/1985/2009,80
+A/Uruguay/716/2007,A/Hong Kong/1985/2009,<40
+A/Finland/9/2008,A/Hong Kong/1985/2009,320
+A/Johannesburg/15/2008,A/Hong Kong/1985/2009,320
+A/Hong Kong/1952/2009,A/Hong Kong/1985/2009,2560
+A/Hong Kong/1985/2009,A/Hong Kong/1985/2009,1280
+A/Perth/16/2009,A/Hong Kong/1985/2009,640
+A/Wisconsin/15/2009,A/Hong Kong/1985/2009,2560
+A/Hong Kong/26560/2009,A/Hong Kong/1985/2009,1280
+A/Philippines/2191/2009,A/Hong Kong/1985/2009,1280
+A/Gothenburg/3/2009,A/Hong Kong/1985/2009,80
+A/Cameroon/699/2009,A/Hong Kong/1985/2009,160
+A/Ghana/FS-1551/2009,A/Hong Kong/1985/2009,2560
+A/Ghana/FS-1589/2009,A/Hong Kong/1985/2009,2560
+A/Ghana/FS-1591/2009,A/Hong Kong/1985/2009,1280
+A/Sweden/2/2009,A/Hong Kong/1985/2009,2560
+A/Stockholm/89/2009,A/Hong Kong/1985/2009,320
+A/Umeå/4/2009,A/Hong Kong/1985/2009,640
+A/Norway/3789/2009,A/Hong Kong/1985/2009,80
+A/Norway/3790/2009,A/Hong Kong/1985/2009,160
+A/Finland/638/2009,A/Hong Kong/1985/2009,160
+A/Finland/640/2009,A/Hong Kong/1985/2009,320
+A/Cameroon/677/2009,A/Hong Kong/1985/2009,1280
+A/Cameroon/678/2009,A/Hong Kong/1985/2009,320
+A/Cameroon/681/2009,A/Hong Kong/1985/2009,1280
+A/Cameroon/701/2009,A/Hong Kong/1985/2009,320
+A/Cameroon/704/2009,A/Hong Kong/1985/2009,640
+A/Stockholm/112/2009,A/Hong Kong/1985/2009,1280
+A/Israel/22/2009,A/Hong Kong/1985/2009,160
+A/Israel/23/2009,A/Hong Kong/1985/2009,160
+A/Israel/24/2009,A/Hong Kong/1985/2009,160
+A/Israel/25/2009,A/Hong Kong/1985/2009,160
+A/Israel/26/2009,A/Hong Kong/1985/2009,160
+A/Israel/27/2009,A/Hong Kong/1985/2009,320
+A/Ghana/FS-2240/2009,A/Hong Kong/1985/2009,2560
+A/Nordrhein-Westfalen/1/2010,A/Hong Kong/1985/2009,2560
+A/Lyon/Cx-R/3120,A/Hong Kong/1985/2009,160
+A/Lyon/3670/2009,A/Hong Kong/1985/2009,640
+A/Lyon/CHU/52,A/Hong Kong/1985/2009,1280
+A/Ghana/FS-2355/2009,A/Hong Kong/1985/2009,1280
+A/Wisconsin/67/2005,A/Perth/16/2009,<40
+A/Brisbane/10/2007,A/Perth/16/2009,40
+A/Uruguay/716/2007,A/Perth/16/2009,<40
+A/Finland/9/2008,A/Perth/16/2009,320
+A/Johannesburg/15/2008,A/Perth/16/2009,320
+A/Hong Kong/1952/2009,A/Perth/16/2009,1280
+A/Hong Kong/1985/2009,A/Perth/16/2009,640
+A/Perth/16/2009,A/Perth/16/2009,640
+A/Wisconsin/15/2009,A/Perth/16/2009,1280
+A/Hong Kong/26560/2009,A/Perth/16/2009,1280
+A/Philippines/2191/2009,A/Perth/16/2009,640
+A/Gothenburg/3/2009,A/Perth/16/2009,40
+A/Cameroon/699/2009,A/Perth/16/2009,160
+A/Ghana/FS-1551/2009,A/Perth/16/2009,1280
+A/Ghana/FS-1589/2009,A/Perth/16/2009,2560
+A/Ghana/FS-1591/2009,A/Perth/16/2009,1280
+A/Sweden/2/2009,A/Perth/16/2009,1280
+A/Stockholm/89/2009,A/Perth/16/2009,640
+A/Umeå/4/2009,A/Perth/16/2009,1280
+A/Norway/3789/2009,A/Perth/16/2009,160
+A/Norway/3790/2009,A/Perth/16/2009,320
+A/Finland/638/2009,A/Perth/16/2009,320
+A/Finland/640/2009,A/Perth/16/2009,320
+A/Cameroon/677/2009,A/Perth/16/2009,1280
+A/Cameroon/678/2009,A/Perth/16/2009,320
+A/Cameroon/681/2009,A/Perth/16/2009,640
+A/Cameroon/701/2009,A/Perth/16/2009,320
+A/Cameroon/704/2009,A/Perth/16/2009,1280
+A/Stockholm/112/2009,A/Perth/16/2009,1280
+A/Israel/22/2009,A/Perth/16/2009,320
+A/Israel/23/2009,A/Perth/16/2009,320
+A/Israel/24/2009,A/Perth/16/2009,320
+A/Israel/25/2009,A/Perth/16/2009,160
+A/Israel/26/2009,A/Perth/16/2009,320
+A/Israel/27/2009,A/Perth/16/2009,320
+A/Ghana/FS-2240/2009,A/Perth/16/2009,2560
+A/Nordrhein-Westfalen/1/2010,A/Perth/16/2009,2560
+A/Lyon/Cx-R/3120,A/Perth/16/2009,320
+A/Lyon/3670/2009,A/Perth/16/2009,640
+A/Lyon/CHU/52,A/Perth/16/2009,1280
+A/Ghana/FS-2355/2009,A/Perth/16/2009,1280
+A/Wisconsin/67/2005,A/Wisconsin/15/2009,<40
+A/Brisbane/10/2007,A/Wisconsin/15/2009,40
+A/Uruguay/716/2007,A/Wisconsin/15/2009,<40
+A/Finland/9/2008,A/Wisconsin/15/2009,80
+A/Johannesburg/15/2008,A/Wisconsin/15/2009,80
+A/Hong Kong/1952/2009,A/Wisconsin/15/2009,640
+A/Hong Kong/1985/2009,A/Wisconsin/15/2009,320
+A/Perth/16/2009,A/Wisconsin/15/2009,80
+A/Wisconsin/15/2009,A/Wisconsin/15/2009,160
+A/Hong Kong/26560/2009,A/Wisconsin/15/2009,80
+A/Philippines/2191/2009,A/Wisconsin/15/2009,80
+A/Gothenburg/3/2009,A/Wisconsin/15/2009,<40
+A/Cameroon/699/2009,A/Wisconsin/15/2009,40
+A/Ghana/FS-1551/2009,A/Wisconsin/15/2009,640
+A/Ghana/FS-1589/2009,A/Wisconsin/15/2009,1280
+A/Ghana/FS-1591/2009,A/Wisconsin/15/2009,640
+A/Sweden/2/2009,A/Wisconsin/15/2009,640
+A/Stockholm/89/2009,A/Wisconsin/15/2009,160
+A/Umeå/4/2009,A/Wisconsin/15/2009,320
+A/Norway/3789/2009,A/Wisconsin/15/2009,40
+A/Norway/3790/2009,A/Wisconsin/15/2009,40
+A/Finland/638/2009,A/Wisconsin/15/2009,80
+A/Finland/640/2009,A/Wisconsin/15/2009,80
+A/Cameroon/677/2009,A/Wisconsin/15/2009,320
+A/Cameroon/678/2009,A/Wisconsin/15/2009,80
+A/Cameroon/681/2009,A/Wisconsin/15/2009,320
+A/Cameroon/701/2009,A/Wisconsin/15/2009,80
+A/Cameroon/704/2009,A/Wisconsin/15/2009,160
+A/Stockholm/112/2009,A/Wisconsin/15/2009,320
+A/Israel/22/2009,A/Wisconsin/15/2009,80
+A/Israel/23/2009,A/Wisconsin/15/2009,80
+A/Israel/24/2009,A/Wisconsin/15/2009,80
+A/Israel/25/2009,A/Wisconsin/15/2009,80
+A/Israel/26/2009,A/Wisconsin/15/2009,80
+A/Israel/27/2009,A/Wisconsin/15/2009,80
+A/Ghana/FS-2240/2009,A/Wisconsin/15/2009,640
+A/Nordrhein-Westfalen/1/2010,A/Wisconsin/15/2009,1280
+A/Lyon/Cx-R/3120,A/Wisconsin/15/2009,80
+A/Lyon/3670/2009,A/Wisconsin/15/2009,320
+A/Lyon/CHU/52,A/Wisconsin/15/2009,320
+A/Ghana/FS-2355/2009,A/Wisconsin/15/2009,640
+A/Wisconsin/67/2005,A/Hong Kong/26560/2009,160
+A/Brisbane/10/2007,A/Hong Kong/26560/2009,320
+A/Uruguay/716/2007,A/Hong Kong/26560/2009,40
+A/Finland/9/2008,A/Hong Kong/26560/2009,320
+A/Johannesburg/15/2008,A/Hong Kong/26560/2009,320
+A/Hong Kong/1952/2009,A/Hong Kong/26560/2009,2560
+A/Hong Kong/1985/2009,A/Hong Kong/26560/2009,640
+A/Perth/16/2009,A/Hong Kong/26560/2009,640
+A/Wisconsin/15/2009,A/Hong Kong/26560/2009,1280
+A/Hong Kong/26560/2009,A/Hong Kong/26560/2009,1280
+A/Philippines/2191/2009,A/Hong Kong/26560/2009,640
+A/Gothenburg/3/2009,A/Hong Kong/26560/2009,160
+A/Cameroon/699/2009,A/Hong Kong/26560/2009,320
+A/Ghana/FS-1551/2009,A/Hong Kong/26560/2009,2560
+A/Ghana/FS-1589/2009,A/Hong Kong/26560/2009,2560
+A/Ghana/FS-1591/2009,A/Hong Kong/26560/2009,2560
+A/Sweden/2/2009,A/Hong Kong/26560/2009,2560
+A/Stockholm/89/2009,A/Hong Kong/26560/2009,320
+A/Umeå/4/2009,A/Hong Kong/26560/2009,1280
+A/Norway/3789/2009,A/Hong Kong/26560/2009,40
+A/Norway/3790/2009,A/Hong Kong/26560/2009,80
+A/Finland/638/2009,A/Hong Kong/26560/2009,80
+A/Finland/640/2009,A/Hong Kong/26560/2009,160
+A/Cameroon/677/2009,A/Hong Kong/26560/2009,1280
+A/Cameroon/678/2009,A/Hong Kong/26560/2009,160
+A/Cameroon/681/2009,A/Hong Kong/26560/2009,1280
+A/Cameroon/701/2009,A/Hong Kong/26560/2009,320
+A/Cameroon/704/2009,A/Hong Kong/26560/2009,320
+A/Stockholm/112/2009,A/Hong Kong/26560/2009,2560
+A/Israel/22/2009,A/Hong Kong/26560/2009,160
+A/Israel/23/2009,A/Hong Kong/26560/2009,160
+A/Israel/24/2009,A/Hong Kong/26560/2009,160
+A/Israel/25/2009,A/Hong Kong/26560/2009,80
+A/Israel/26/2009,A/Hong Kong/26560/2009,160
+A/Israel/27/2009,A/Hong Kong/26560/2009,160
+A/Ghana/FS-2240/2009,A/Hong Kong/26560/2009,2560
+A/Nordrhein-Westfalen/1/2010,A/Hong Kong/26560/2009,2560
+A/Lyon/Cx-R/3120,A/Hong Kong/26560/2009,160
+A/Lyon/3670/2009,A/Hong Kong/26560/2009,640
+A/Lyon/CHU/52,A/Hong Kong/26560/2009,1280
+A/Ghana/FS-2355/2009,A/Hong Kong/26560/2009,2560
+A/Wisconsin/67/2005,A/Philippines/2191/2009,<40
+A/Brisbane/10/2007,A/Philippines/2191/2009,320
+A/Uruguay/716/2007,A/Philippines/2191/2009,160
+A/Finland/9/2008,A/Philippines/2191/2009,320
+A/Johannesburg/15/2008,A/Philippines/2191/2009,320
+A/Hong Kong/1952/2009,A/Philippines/2191/2009,2560
+A/Hong Kong/1985/2009,A/Philippines/2191/2009,640
+A/Perth/16/2009,A/Philippines/2191/2009,640
+A/Wisconsin/15/2009,A/Philippines/2191/2009,1280
+A/Hong Kong/26560/2009,A/Philippines/2191/2009,1280
+A/Philippines/2191/2009,A/Philippines/2191/2009,1280
+A/Gothenburg/3/2009,A/Philippines/2191/2009,160
+A/Cameroon/699/2009,A/Philippines/2191/2009,320
+A/Ghana/FS-1551/2009,A/Philippines/2191/2009,2560
+A/Ghana/FS-1589/2009,A/Philippines/2191/2009,2560
+A/Ghana/FS-1591/2009,A/Philippines/2191/2009,2560
+A/Sweden/2/2009,A/Philippines/2191/2009,2560
+A/Stockholm/89/2009,A/Philippines/2191/2009,640
+A/Umeå/4/2009,A/Philippines/2191/2009,1280
+A/Norway/3789/2009,A/Philippines/2191/2009,80
+A/Norway/3790/2009,A/Philippines/2191/2009,80
+A/Finland/638/2009,A/Philippines/2191/2009,160
+A/Finland/640/2009,A/Philippines/2191/2009,160
+A/Cameroon/677/2009,A/Philippines/2191/2009,1280
+A/Cameroon/678/2009,A/Philippines/2191/2009,160
+A/Cameroon/681/2009,A/Philippines/2191/2009,640
+A/Cameroon/701/2009,A/Philippines/2191/2009,320
+A/Cameroon/704/2009,A/Philippines/2191/2009,320
+A/Stockholm/112/2009,A/Philippines/2191/2009,2560
+A/Israel/22/2009,A/Philippines/2191/2009,160
+A/Israel/23/2009,A/Philippines/2191/2009,160
+A/Israel/24/2009,A/Philippines/2191/2009,160
+A/Israel/25/2009,A/Philippines/2191/2009,160
+A/Israel/26/2009,A/Philippines/2191/2009,160
+A/Israel/27/2009,A/Philippines/2191/2009,160
+A/Ghana/FS-2240/2009,A/Philippines/2191/2009,2560
+A/Nordrhein-Westfalen/1/2010,A/Philippines/2191/2009,2560
+A/Lyon/Cx-R/3120,A/Philippines/2191/2009,160
+A/Lyon/3670/2009,A/Philippines/2191/2009,640
+A/Lyon/CHU/52,A/Philippines/2191/2009,640
+A/Ghana/FS-2355/2009,A/Philippines/2191/2009,2560

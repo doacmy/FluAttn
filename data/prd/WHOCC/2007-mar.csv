@@ -1,0 +1,501 @@
+Test Virus,Reference Virus,Titre
+A/California/7/2004,A/California/7/2004,5120
+A/Hong Kong/4443/2005,A/California/7/2004,1280
+A/Hiroshima/52/2005,A/California/7/2004,640
+A/Wisconsin/67/2005,A/California/7/2004,1280
+A/Slovakia/134/2006,A/California/7/2004,1280
+A/Berlin/2/2006,A/California/7/2004,320
+A/Lyon/636/2006,A/California/7/2004,1280
+A/Hiroshima/33/2006,A/California/7/2004,320
+A/Sendai/F131/2006,A/California/7/2004,320
+A/Algeria/G138/2006,A/California/7/2004,320
+A/Madagascar/2670/2006,A/California/7/2004,640
+A/Greece/624/2006,A/California/7/2004,160
+A/Madagascar/2700/2006,A/California/7/2004,640
+A/Madagascar/2699/2006,A/California/7/2004,640
+A/Umea/7/06,A/California/7/2004,80
+A/Madagascar/2761/2006,A/California/7/2004,640
+A/Algeria/G273/2006,A/California/7/2004,80
+A/Marseille/1215/06,A/California/7/2004,640
+A/Bordeaux/1276/06,A/California/7/2004,320
+A/Paris/395/2007,A/California/7/2004,320
+A/Parma/9/2006,A/California/7/2004,160
+A/Norway/2250/2006,A/California/7/2004,320
+A/Norway/2253/2006,A/California/7/2004,320
+A/Norway/2252/2006,A/California/7/2004,160
+A/Switzerland/6936/2006,A/California/7/2004,1280
+A/Egypt/99/2006,A/California/7/2004,640
+A/Belgium/SP005/07,A/California/7/2004,320
+A/Belgium/SP007/07,A/California/7/2004,80
+A/Lyon/1359/06,A/California/7/2004,160
+A/Belgium/SP003/07,A/California/7/2004,640
+A/Lyon/1324/06,A/California/7/2004,320
+A/Lyon/1312/06,A/California/7/2004,320
+A/Belgium/SP009/07,A/California/7/2004,160
+A/California/7/2004,A/Hong Kong/4443/2005,640
+A/Hong Kong/4443/2005,A/Hong Kong/4443/2005,1280
+A/Hiroshima/52/2005,A/Hong Kong/4443/2005,1280
+A/Wisconsin/67/2005,A/Hong Kong/4443/2005,1280
+A/Slovakia/134/2006,A/Hong Kong/4443/2005,2560
+A/Berlin/2/2006,A/Hong Kong/4443/2005,320
+A/Lyon/636/2006,A/Hong Kong/4443/2005,320
+A/Hiroshima/33/2006,A/Hong Kong/4443/2005,320
+A/Sendai/F131/2006,A/Hong Kong/4443/2005,1280
+A/Algeria/G138/2006,A/Hong Kong/4443/2005,320
+A/Madagascar/2670/2006,A/Hong Kong/4443/2005,640
+A/Greece/624/2006,A/Hong Kong/4443/2005,160
+A/Madagascar/2700/2006,A/Hong Kong/4443/2005,320
+A/Madagascar/2699/2006,A/Hong Kong/4443/2005,320
+A/Umea/7/06,A/Hong Kong/4443/2005,160
+A/Madagascar/2761/2006,A/Hong Kong/4443/2005,640
+A/Algeria/G273/2006,A/Hong Kong/4443/2005,80
+A/Marseille/1215/06,A/Hong Kong/4443/2005,640
+A/Bordeaux/1276/06,A/Hong Kong/4443/2005,640
+A/Paris/395/2007,A/Hong Kong/4443/2005,320
+A/Parma/9/2006,A/Hong Kong/4443/2005,640
+A/Norway/2250/2006,A/Hong Kong/4443/2005,320
+A/Norway/2253/2006,A/Hong Kong/4443/2005,320
+A/Norway/2252/2006,A/Hong Kong/4443/2005,160
+A/Switzerland/6936/2006,A/Hong Kong/4443/2005,640
+A/Egypt/99/2006,A/Hong Kong/4443/2005,2560
+A/Belgium/SP005/07,A/Hong Kong/4443/2005,640
+A/Belgium/SP007/07,A/Hong Kong/4443/2005,80
+A/Lyon/1359/06,A/Hong Kong/4443/2005,320
+A/Belgium/SP003/07,A/Hong Kong/4443/2005,640
+A/Lyon/1324/06,A/Hong Kong/4443/2005,320
+A/Lyon/1312/06,A/Hong Kong/4443/2005,640
+A/Belgium/SP009/07,A/Hong Kong/4443/2005,320
+A/California/7/2004,A/Hiroshima/52/2005,640
+A/Hong Kong/4443/2005,A/Hiroshima/52/2005,1280
+A/Hiroshima/52/2005,A/Hiroshima/52/2005,2560
+A/Wisconsin/67/2005,A/Hiroshima/52/2005,2560
+A/Slovakia/134/2006,A/Hiroshima/52/2005,640
+A/Berlin/2/2006,A/Hiroshima/52/2005,320
+A/Lyon/636/2006,A/Hiroshima/52/2005,1280
+A/Hiroshima/33/2006,A/Hiroshima/52/2005,320
+A/Sendai/F131/2006,A/Hiroshima/52/2005,640
+A/Algeria/G138/2006,A/Hiroshima/52/2005,320
+A/Madagascar/2670/2006,A/Hiroshima/52/2005,640
+A/Greece/624/2006,A/Hiroshima/52/2005,320
+A/Madagascar/2700/2006,A/Hiroshima/52/2005,320
+A/Madagascar/2699/2006,A/Hiroshima/52/2005,320
+A/Umea/7/06,A/Hiroshima/52/2005,80
+A/Madagascar/2761/2006,A/Hiroshima/52/2005,320
+A/Algeria/G273/2006,A/Hiroshima/52/2005,160
+A/Marseille/1215/06,A/Hiroshima/52/2005,320
+A/Bordeaux/1276/06,A/Hiroshima/52/2005,640
+A/Paris/395/2007,A/Hiroshima/52/2005,320
+A/Parma/9/2006,A/Hiroshima/52/2005,640
+A/Norway/2250/2006,A/Hiroshima/52/2005,320
+A/Norway/2253/2006,A/Hiroshima/52/2005,160
+A/Norway/2252/2006,A/Hiroshima/52/2005,160
+A/Switzerland/6936/2006,A/Hiroshima/52/2005,320
+A/Egypt/99/2006,A/Hiroshima/52/2005,1280
+A/Belgium/SP005/07,A/Hiroshima/52/2005,320
+A/Belgium/SP007/07,A/Hiroshima/52/2005,160
+A/Lyon/1359/06,A/Hiroshima/52/2005,160
+A/Belgium/SP003/07,A/Hiroshima/52/2005,320
+A/Lyon/1324/06,A/Hiroshima/52/2005,320
+A/Lyon/1312/06,A/Hiroshima/52/2005,320
+A/Belgium/SP009/07,A/Hiroshima/52/2005,320
+A/California/7/2004,A/Wisconsin/67/2005,1280
+A/Hong Kong/4443/2005,A/Wisconsin/67/2005,2560
+A/Hiroshima/52/2005,A/Wisconsin/67/2005,5120
+A/Wisconsin/67/2005,A/Wisconsin/67/2005,5120
+A/Slovakia/134/2006,A/Wisconsin/67/2005,5120
+A/Berlin/2/2006,A/Wisconsin/67/2005,320
+A/Lyon/636/2006,A/Wisconsin/67/2005,320
+A/Hiroshima/33/2006,A/Wisconsin/67/2005,320
+A/Sendai/F131/2006,A/Wisconsin/67/2005,640
+A/Algeria/G138/2006,A/Wisconsin/67/2005,320
+A/Madagascar/2670/2006,A/Wisconsin/67/2005,2560
+A/Greece/624/2006,A/Wisconsin/67/2005,160
+A/Madagascar/2700/2006,A/Wisconsin/67/2005,1280
+A/Madagascar/2699/2006,A/Wisconsin/67/2005,640
+A/Umea/7/06,A/Wisconsin/67/2005,160
+A/Madagascar/2761/2006,A/Wisconsin/67/2005,2560
+A/Algeria/G273/2006,A/Wisconsin/67/2005,40
+A/Marseille/1215/06,A/Wisconsin/67/2005,160
+A/Bordeaux/1276/06,A/Wisconsin/67/2005,320
+A/Paris/395/2007,A/Wisconsin/67/2005,320
+A/Parma/9/2006,A/Wisconsin/67/2005,160
+A/Norway/2250/2006,A/Wisconsin/67/2005,1280
+A/Norway/2253/2006,A/Wisconsin/67/2005,640
+A/Norway/2252/2006,A/Wisconsin/67/2005,320
+A/Switzerland/6936/2006,A/Wisconsin/67/2005,160
+A/Egypt/99/2006,A/Wisconsin/67/2005,1280
+A/Belgium/SP005/07,A/Wisconsin/67/2005,640
+A/Belgium/SP007/07,A/Wisconsin/67/2005,80
+A/Lyon/1359/06,A/Wisconsin/67/2005,80
+A/Belgium/SP003/07,A/Wisconsin/67/2005,1280
+A/Lyon/1324/06,A/Wisconsin/67/2005,320
+A/Lyon/1312/06,A/Wisconsin/67/2005,320
+A/Belgium/SP009/07,A/Wisconsin/67/2005,160
+A/California/7/2004,A/Slovakia/134/2006,320
+A/Hong Kong/4443/2005,A/Slovakia/134/2006,640
+A/Hiroshima/52/2005,A/Slovakia/134/2006,160
+A/Wisconsin/67/2005,A/Slovakia/134/2006,640
+A/Slovakia/134/2006,A/Slovakia/134/2006,320
+A/Berlin/2/2006,A/Slovakia/134/2006,80
+A/Lyon/636/2006,A/Slovakia/134/2006,80
+A/Hiroshima/33/2006,A/Slovakia/134/2006,160
+A/Sendai/F131/2006,A/Slovakia/134/2006,160
+A/Algeria/G138/2006,A/Slovakia/134/2006,40
+A/Madagascar/2670/2006,A/Slovakia/134/2006,160
+A/Greece/624/2006,A/Slovakia/134/2006,40
+A/Madagascar/2700/2006,A/Slovakia/134/2006,80
+A/Madagascar/2699/2006,A/Slovakia/134/2006,80
+A/Umea/7/06,A/Slovakia/134/2006,80
+A/Madagascar/2761/2006,A/Slovakia/134/2006,160
+A/Algeria/G273/2006,A/Slovakia/134/2006,40
+A/Marseille/1215/06,A/Slovakia/134/2006,160
+A/Bordeaux/1276/06,A/Slovakia/134/2006,320
+A/Paris/395/2007,A/Slovakia/134/2006,160
+A/Parma/9/2006,A/Slovakia/134/2006,80
+A/Norway/2250/2006,A/Slovakia/134/2006,80
+A/Norway/2253/2006,A/Slovakia/134/2006,80
+A/Norway/2252/2006,A/Slovakia/134/2006,40
+A/Switzerland/6936/2006,A/Slovakia/134/2006,80
+A/Egypt/99/2006,A/Slovakia/134/2006,320
+A/Belgium/SP005/07,A/Slovakia/134/2006,320
+A/Belgium/SP007/07,A/Slovakia/134/2006,40
+A/Lyon/1359/06,A/Slovakia/134/2006,40
+A/Belgium/SP003/07,A/Slovakia/134/2006,160
+A/Lyon/1324/06,A/Slovakia/134/2006,160
+A/Lyon/1312/06,A/Slovakia/134/2006,160
+A/Belgium/SP009/07,A/Slovakia/134/2006,160
+A/California/7/2004,A/Berlin/2/2006,640
+A/Hong Kong/4443/2005,A/Berlin/2/2006,80
+A/Hiroshima/52/2005,A/Berlin/2/2006,80
+A/Wisconsin/67/2005,A/Berlin/2/2006,80
+A/Slovakia/134/2006,A/Berlin/2/2006,80
+A/Berlin/2/2006,A/Berlin/2/2006,80
+A/Lyon/636/2006,A/Berlin/2/2006,320
+A/Hiroshima/33/2006,A/Berlin/2/2006,<40
+A/Sendai/F131/2006,A/Berlin/2/2006,40
+A/Algeria/G138/2006,A/Berlin/2/2006,40
+A/Madagascar/2670/2006,A/Berlin/2/2006,80
+A/Greece/624/2006,A/Berlin/2/2006,40
+A/Madagascar/2700/2006,A/Berlin/2/2006,80
+A/Madagascar/2699/2006,A/Berlin/2/2006,80
+A/Umea/7/06,A/Berlin/2/2006,20
+A/Madagascar/2761/2006,A/Berlin/2/2006,80
+A/Algeria/G273/2006,A/Berlin/2/2006,<40
+A/Marseille/1215/06,A/Berlin/2/2006,20
+A/Bordeaux/1276/06,A/Berlin/2/2006,40
+A/Paris/395/2007,A/Berlin/2/2006,80
+A/Parma/9/2006,A/Berlin/2/2006,20
+A/Norway/2250/2006,A/Berlin/2/2006,40
+A/Norway/2253/2006,A/Berlin/2/2006,40
+A/Norway/2252/2006,A/Berlin/2/2006,40
+A/Switzerland/6936/2006,A/Berlin/2/2006,80
+A/Egypt/99/2006,A/Berlin/2/2006,40
+A/Belgium/SP005/07,A/Berlin/2/2006,80
+A/Belgium/SP007/07,A/Berlin/2/2006,10
+A/Lyon/1359/06,A/Berlin/2/2006,10
+A/Belgium/SP003/07,A/Berlin/2/2006,20
+A/Lyon/1324/06,A/Berlin/2/2006,20
+A/Lyon/1312/06,A/Berlin/2/2006,20
+A/Belgium/SP009/07,A/Berlin/2/2006,40
+A/California/7/2004,A/Lyon/636/2006,1280
+A/Hong Kong/4443/2005,A/Lyon/636/2006,320
+A/Hiroshima/52/2005,A/Lyon/636/2006,320
+A/Wisconsin/67/2005,A/Lyon/636/2006,640
+A/Slovakia/134/2006,A/Lyon/636/2006,1280
+A/Berlin/2/2006,A/Lyon/636/2006,80
+A/Lyon/636/2006,A/Lyon/636/2006,640
+A/Hiroshima/33/2006,A/Lyon/636/2006,160
+A/Sendai/F131/2006,A/Lyon/636/2006,320
+A/Algeria/G138/2006,A/Lyon/636/2006,80
+A/Madagascar/2670/2006,A/Lyon/636/2006,640
+A/Greece/624/2006,A/Lyon/636/2006,<40
+A/Madagascar/2700/2006,A/Lyon/636/2006,160
+A/Madagascar/2699/2006,A/Lyon/636/2006,160
+A/Umea/7/06,A/Lyon/636/2006,10
+A/Madagascar/2761/2006,A/Lyon/636/2006,640
+A/Algeria/G273/2006,A/Lyon/636/2006,<40
+A/Marseille/1215/06,A/Lyon/636/2006,160
+A/Bordeaux/1276/06,A/Lyon/636/2006,320
+A/Paris/395/2007,A/Lyon/636/2006,320
+A/Parma/9/2006,A/Lyon/636/2006,40
+A/Norway/2250/2006,A/Lyon/636/2006,160
+A/Norway/2253/2006,A/Lyon/636/2006,80
+A/Norway/2252/2006,A/Lyon/636/2006,80
+A/Switzerland/6936/2006,A/Lyon/636/2006,160
+A/Egypt/99/2006,A/Lyon/636/2006,640
+A/Belgium/SP005/07,A/Lyon/636/2006,320
+A/Belgium/SP007/07,A/Lyon/636/2006,<40
+A/Lyon/1359/06,A/Lyon/636/2006,40
+A/Belgium/SP003/07,A/Lyon/636/2006,640
+A/Lyon/1324/06,A/Lyon/636/2006,80
+A/Lyon/1312/06,A/Lyon/636/2006,80
+A/Belgium/SP009/07,A/Lyon/636/2006,160
+A/California/7/2004,A/Hiroshima/52/2005,320
+A/Hong Kong/4443/2005,A/Hiroshima/52/2005,640
+A/Hiroshima/52/2005,A/Hiroshima/52/2005,1280
+A/Wisconsin/67/2005,A/Hiroshima/52/2005,320
+A/Slovakia/134/2006,A/Hiroshima/52/2005,160
+A/Berlin/2/2006,A/Hiroshima/52/2005,640
+A/Lyon/636/2006,A/Hiroshima/52/2005,640
+A/Hiroshima/33/2006,A/Hiroshima/52/2005,640
+A/Sendai/F131/2006,A/Hiroshima/52/2005,640
+A/Algeria/G138/2006,A/Hiroshima/52/2005,*
+A/Madagascar/2670/2006,A/Hiroshima/52/2005,*
+A/Greece/624/2006,A/Hiroshima/52/2005,80
+A/Madagascar/2700/2006,A/Hiroshima/52/2005,*
+A/Madagascar/2699/2006,A/Hiroshima/52/2005,*
+A/Umea/7/06,A/Hiroshima/52/2005,80
+A/Madagascar/2761/2006,A/Hiroshima/52/2005,*
+A/Algeria/G273/2006,A/Hiroshima/52/2005,*
+A/Marseille/1215/06,A/Hiroshima/52/2005,320
+A/Bordeaux/1276/06,A/Hiroshima/52/2005,640
+A/Paris/395/2007,A/Hiroshima/52/2005,320
+A/Parma/9/2006,A/Hiroshima/52/2005,160
+A/Norway/2250/2006,A/Hiroshima/52/2005,*
+A/Norway/2253/2006,A/Hiroshima/52/2005,*
+A/Norway/2252/2006,A/Hiroshima/52/2005,*
+A/Switzerland/6936/2006,A/Hiroshima/52/2005,320
+A/Egypt/99/2006,A/Hiroshima/52/2005,640
+A/Belgium/SP005/07,A/Hiroshima/52/2005,640
+A/Belgium/SP007/07,A/Hiroshima/52/2005,40
+A/Lyon/1359/06,A/Hiroshima/52/2005,160
+A/Belgium/SP003/07,A/Hiroshima/52/2005,640
+A/Lyon/1324/06,A/Hiroshima/52/2005,320
+A/Lyon/1312/06,A/Hiroshima/52/2005,320
+A/Belgium/SP009/07,A/Hiroshima/52/2005,160
+A/California/7/2004,A/Sendai/F131/2006,640
+A/Hong Kong/4443/2005,A/Sendai/F131/2006,640
+A/Hiroshima/52/2005,A/Sendai/F131/2006,640
+A/Wisconsin/67/2005,A/Sendai/F131/2006,320
+A/Slovakia/134/2006,A/Sendai/F131/2006,160
+A/Berlin/2/2006,A/Sendai/F131/2006,320
+A/Lyon/636/2006,A/Sendai/F131/2006,640
+A/Hiroshima/33/2006,A/Sendai/F131/2006,320
+A/Sendai/F131/2006,A/Sendai/F131/2006,640
+A/Algeria/G138/2006,A/Sendai/F131/2006,*
+A/Madagascar/2670/2006,A/Sendai/F131/2006,*
+A/Greece/624/2006,A/Sendai/F131/2006,80
+A/Madagascar/2700/2006,A/Sendai/F131/2006,*
+A/Madagascar/2699/2006,A/Sendai/F131/2006,*
+A/Umea/7/06,A/Sendai/F131/2006,<40
+A/Madagascar/2761/2006,A/Sendai/F131/2006,*
+A/Algeria/G273/2006,A/Sendai/F131/2006,*
+A/Marseille/1215/06,A/Sendai/F131/2006,160
+A/Bordeaux/1276/06,A/Sendai/F131/2006,320
+A/Paris/395/2007,A/Sendai/F131/2006,160
+A/Parma/9/2006,A/Sendai/F131/2006,160
+A/Norway/2250/2006,A/Sendai/F131/2006,*
+A/Norway/2253/2006,A/Sendai/F131/2006,*
+A/Norway/2252/2006,A/Sendai/F131/2006,*
+A/Switzerland/6936/2006,A/Sendai/F131/2006,160
+A/Egypt/99/2006,A/Sendai/F131/2006,640
+A/Belgium/SP005/07,A/Sendai/F131/2006,320
+A/Belgium/SP007/07,A/Sendai/F131/2006,<40
+A/Lyon/1359/06,A/Sendai/F131/2006,80
+A/Belgium/SP003/07,A/Sendai/F131/2006,320
+A/Lyon/1324/06,A/Sendai/F131/2006,160
+A/Lyon/1312/06,A/Sendai/F131/2006,160
+A/Belgium/SP009/07,A/Sendai/F131/2006,80
+A/California/7/2004,A/California/7/2004,5120
+A/Hong Kong/4443/2005,A/California/7/2004,640
+A/Hiroshima/52/2005,A/California/7/2004,640
+A/Wisconsin/67/2005,A/California/7/2004,1280
+A/Slovakia/134/2006,A/California/7/2004,1280
+A/Berlin/2/2006,A/California/7/2004,640
+A/Lyon/636/2006,A/California/7/2004,5120
+A/Norway/2253/2006,A/California/7/2004,320
+A/Switzerland/6936/2006,A/California/7/2004,1280
+A/Egypt/99/2006,A/California/7/2004,640
+A/Belgium/SP009/07,A/California/7/2004,160
+A/Israel/73/2006,A/California/7/2004,320
+A/Netherlands/363/2006,A/California/7/2004,160
+A/Barcelona/134/2006,A/California/7/2004,160
+A/Parma/4/07,A/California/7/2004,80
+A/Sofia/319/07,A/California/7/2004,1280
+A/Stockholm/25/06,A/California/7/2004,160
+A/Switzerland/7567/2007,A/California/7/2004,320
+A/Latvia/345/2007,A/California/7/2004,160
+A/Bratislava/46/07,A/California/7/2004,1280
+A/Denmark/1/2007,A/California/7/2004,320
+A/Berlin/4/07,A/California/7/2004,320
+A/Finland/800/07,A/California/7/2004,160
+A/Thessaloniki/26/07,A/California/7/2004,160
+A/Lisbon/14/2007,A/California/7/2004,1280
+A/Lyon/323/2007,A/California/7/2004,160
+A/Serres/77/07,A/California/7/2004,80
+A/Valladolid/8/2007,A/California/7/2004,1280
+A/Trieste/29c/2007,A/California/7/2004,320
+A/California/7/2004,A/Hong Kong/4443/2005,640
+A/Hong Kong/4443/2005,A/Hong Kong/4443/2005,640
+A/Hiroshima/52/2005,A/Hong Kong/4443/2005,1280
+A/Wisconsin/67/2005,A/Hong Kong/4443/2005,2560
+A/Slovakia/134/2006,A/Hong Kong/4443/2005,1280
+A/Berlin/2/2006,A/Hong Kong/4443/2005,320
+A/Lyon/636/2006,A/Hong Kong/4443/2005,1280
+A/Norway/2253/2006,A/Hong Kong/4443/2005,160
+A/Switzerland/6936/2006,A/Hong Kong/4443/2005,640
+A/Egypt/99/2006,A/Hong Kong/4443/2005,2560
+A/Belgium/SP009/07,A/Hong Kong/4443/2005,320
+A/Israel/73/2006,A/Hong Kong/4443/2005,320
+A/Netherlands/363/2006,A/Hong Kong/4443/2005,640
+A/Barcelona/134/2006,A/Hong Kong/4443/2005,320
+A/Parma/4/07,A/Hong Kong/4443/2005,160
+A/Sofia/319/07,A/Hong Kong/4443/2005,640
+A/Stockholm/25/06,A/Hong Kong/4443/2005,160
+A/Switzerland/7567/2007,A/Hong Kong/4443/2005,320
+A/Latvia/345/2007,A/Hong Kong/4443/2005,160
+A/Bratislava/46/07,A/Hong Kong/4443/2005,640
+A/Denmark/1/2007,A/Hong Kong/4443/2005,640
+A/Berlin/4/07,A/Hong Kong/4443/2005,640
+A/Finland/800/07,A/Hong Kong/4443/2005,320
+A/Thessaloniki/26/07,A/Hong Kong/4443/2005,320
+A/Lisbon/14/2007,A/Hong Kong/4443/2005,640
+A/Lyon/323/2007,A/Hong Kong/4443/2005,320
+A/Serres/77/07,A/Hong Kong/4443/2005,160
+A/Valladolid/8/2007,A/Hong Kong/4443/2005,640
+A/Trieste/29c/2007,A/Hong Kong/4443/2005,640
+A/California/7/2004,A/Hiroshima/52/2005,320
+A/Hong Kong/4443/2005,A/Hiroshima/52/2005,320
+A/Hiroshima/52/2005,A/Hiroshima/52/2005,5120
+A/Wisconsin/67/2005,A/Hiroshima/52/2005,2560
+A/Slovakia/134/2006,A/Hiroshima/52/2005,1280
+A/Berlin/2/2006,A/Hiroshima/52/2005,320
+A/Lyon/636/2006,A/Hiroshima/52/2005,1280
+A/Norway/2253/2006,A/Hiroshima/52/2005,640
+A/Switzerland/6936/2006,A/Hiroshima/52/2005,320
+A/Egypt/99/2006,A/Hiroshima/52/2005,1280
+A/Belgium/SP009/07,A/Hiroshima/52/2005,320
+A/Israel/73/2006,A/Hiroshima/52/2005,320
+A/Netherlands/363/2006,A/Hiroshima/52/2005,320
+A/Barcelona/134/2006,A/Hiroshima/52/2005,320
+A/Parma/4/07,A/Hiroshima/52/2005,160
+A/Sofia/319/07,A/Hiroshima/52/2005,320
+A/Stockholm/25/06,A/Hiroshima/52/2005,160
+A/Switzerland/7567/2007,A/Hiroshima/52/2005,320
+A/Latvia/345/2007,A/Hiroshima/52/2005,160
+A/Bratislava/46/07,A/Hiroshima/52/2005,320
+A/Denmark/1/2007,A/Hiroshima/52/2005,1280
+A/Berlin/4/07,A/Hiroshima/52/2005,640
+A/Finland/800/07,A/Hiroshima/52/2005,320
+A/Thessaloniki/26/07,A/Hiroshima/52/2005,640
+A/Lisbon/14/2007,A/Hiroshima/52/2005,640
+A/Lyon/323/2007,A/Hiroshima/52/2005,320
+A/Serres/77/07,A/Hiroshima/52/2005,640
+A/Valladolid/8/2007,A/Hiroshima/52/2005,640
+A/Trieste/29c/2007,A/Hiroshima/52/2005,640
+A/California/7/2004,A/Wisconsin/67/2005,320
+A/Hong Kong/4443/2005,A/Wisconsin/67/2005,320
+A/Hiroshima/52/2005,A/Wisconsin/67/2005,2560
+A/Wisconsin/67/2005,A/Wisconsin/67/2005,5120
+A/Slovakia/134/2006,A/Wisconsin/67/2005,2560
+A/Berlin/2/2006,A/Wisconsin/67/2005,160
+A/Lyon/636/2006,A/Wisconsin/67/2005,1280
+A/Norway/2253/2006,A/Wisconsin/67/2005,320
+A/Switzerland/6936/2006,A/Wisconsin/67/2005,160
+A/Egypt/99/2006,A/Wisconsin/67/2005,1280
+A/Belgium/SP009/07,A/Wisconsin/67/2005,160
+A/Israel/73/2006,A/Wisconsin/67/2005,160
+A/Netherlands/363/2006,A/Wisconsin/67/2005,320
+A/Barcelona/134/2006,A/Wisconsin/67/2005,320
+A/Parma/4/07,A/Wisconsin/67/2005,320
+A/Sofia/319/07,A/Wisconsin/67/2005,640
+A/Stockholm/25/06,A/Wisconsin/67/2005,80
+A/Switzerland/7567/2007,A/Wisconsin/67/2005,320
+A/Latvia/345/2007,A/Wisconsin/67/2005,80
+A/Bratislava/46/07,A/Wisconsin/67/2005,640
+A/Denmark/1/2007,A/Wisconsin/67/2005,640
+A/Berlin/4/07,A/Wisconsin/67/2005,640
+A/Finland/800/07,A/Wisconsin/67/2005,320
+A/Thessaloniki/26/07,A/Wisconsin/67/2005,320
+A/Lisbon/14/2007,A/Wisconsin/67/2005,640
+A/Lyon/323/2007,A/Wisconsin/67/2005,320
+A/Serres/77/07,A/Wisconsin/67/2005,640
+A/Valladolid/8/2007,A/Wisconsin/67/2005,1280
+A/Trieste/29c/2007,A/Wisconsin/67/2005,640
+A/California/7/2004,A/Slovakia/134/2006,80
+A/Hong Kong/4443/2005,A/Slovakia/134/2006,80
+A/Hiroshima/52/2005,A/Slovakia/134/2006,320
+A/Wisconsin/67/2005,A/Slovakia/134/2006,320
+A/Slovakia/134/2006,A/Slovakia/134/2006,320
+A/Berlin/2/2006,A/Slovakia/134/2006,80
+A/Lyon/636/2006,A/Slovakia/134/2006,160
+A/Norway/2253/2006,A/Slovakia/134/2006,320
+A/Switzerland/6936/2006,A/Slovakia/134/2006,80
+A/Egypt/99/2006,A/Slovakia/134/2006,320
+A/Belgium/SP009/07,A/Slovakia/134/2006,160
+A/Israel/73/2006,A/Slovakia/134/2006,80
+A/Netherlands/363/2006,A/Slovakia/134/2006,160
+A/Barcelona/134/2006,A/Slovakia/134/2006,80
+A/Parma/4/07,A/Slovakia/134/2006,40
+A/Sofia/319/07,A/Slovakia/134/2006,160
+A/Stockholm/25/06,A/Slovakia/134/2006,40
+A/Switzerland/7567/2007,A/Slovakia/134/2006,80
+A/Latvia/345/2007,A/Slovakia/134/2006,20
+A/Bratislava/46/07,A/Slovakia/134/2006,160
+A/Denmark/1/2007,A/Slovakia/134/2006,320
+A/Berlin/4/07,A/Slovakia/134/2006,160
+A/Finland/800/07,A/Slovakia/134/2006,80
+A/Thessaloniki/26/07,A/Slovakia/134/2006,40
+A/Lisbon/14/2007,A/Slovakia/134/2006,160
+A/Lyon/323/2007,A/Slovakia/134/2006,80
+A/Serres/77/07,A/Slovakia/134/2006,80
+A/Valladolid/8/2007,A/Slovakia/134/2006,160
+A/Trieste/29c/2007,A/Slovakia/134/2006,320
+A/California/7/2004,A/Berlin/2/2006,640
+A/Hong Kong/4443/2005,A/Berlin/2/2006,80
+A/Hiroshima/52/2005,A/Berlin/2/2006,80
+A/Wisconsin/67/2005,A/Berlin/2/2006,80
+A/Slovakia/134/2006,A/Berlin/2/2006,80
+A/Berlin/2/2006,A/Berlin/2/2006,160
+A/Lyon/636/2006,A/Berlin/2/2006,640
+A/Norway/2253/2006,A/Berlin/2/2006,80
+A/Switzerland/6936/2006,A/Berlin/2/2006,80
+A/Egypt/99/2006,A/Berlin/2/2006,40
+A/Belgium/SP009/07,A/Berlin/2/2006,40
+A/Israel/73/2006,A/Berlin/2/2006,40
+A/Netherlands/363/2006,A/Berlin/2/2006,20
+A/Barcelona/134/2006,A/Berlin/2/2006,80
+A/Parma/4/07,A/Berlin/2/2006,20
+A/Sofia/319/07,A/Berlin/2/2006,40
+A/Stockholm/25/06,A/Berlin/2/2006,20
+A/Switzerland/7567/2007,A/Berlin/2/2006,20
+A/Latvia/345/2007,A/Berlin/2/2006,10
+A/Bratislava/46/07,A/Berlin/2/2006,20
+A/Denmark/1/2007,A/Berlin/2/2006,40
+A/Berlin/4/07,A/Berlin/2/2006,80
+A/Finland/800/07,A/Berlin/2/2006,20
+A/Thessaloniki/26/07,A/Berlin/2/2006,20
+A/Lisbon/14/2007,A/Berlin/2/2006,40
+A/Lyon/323/2007,A/Berlin/2/2006,40
+A/Serres/77/07,A/Berlin/2/2006,40
+A/Valladolid/8/2007,A/Berlin/2/2006,40
+A/Trieste/29c/2007,A/Berlin/2/2006,80
+A/California/7/2004,A/Lyon/636/2006,1280
+A/Hong Kong/4443/2005,A/Lyon/636/2006,160
+A/Hiroshima/52/2005,A/Lyon/636/2006,640
+A/Wisconsin/67/2005,A/Lyon/636/2006,640
+A/Slovakia/134/2006,A/Lyon/636/2006,1280
+A/Berlin/2/2006,A/Lyon/636/2006,320
+A/Lyon/636/2006,A/Lyon/636/2006,640
+A/Norway/2253/2006,A/Lyon/636/2006,80
+A/Switzerland/6936/2006,A/Lyon/636/2006,160
+A/Egypt/99/2006,A/Lyon/636/2006,640
+A/Belgium/SP009/07,A/Lyon/636/2006,160
+A/Israel/73/2006,A/Lyon/636/2006,<40
+A/Netherlands/363/2006,A/Lyon/636/2006,320
+A/Barcelona/134/2006,A/Lyon/636/2006,80
+A/Parma/4/07,A/Lyon/636/2006,20
+A/Sofia/319/07,A/Lyon/636/2006,640
+A/Stockholm/25/06,A/Lyon/636/2006,<40
+A/Switzerland/7567/2007,A/Lyon/636/2006,320
+A/Latvia/345/2007,A/Lyon/636/2006,<40
+A/Bratislava/46/07,A/Lyon/636/2006,640
+A/Denmark/1/2007,A/Lyon/636/2006,320
+A/Berlin/4/07,A/Lyon/636/2006,320
+A/Finland/800/07,A/Lyon/636/2006,20
+A/Thessaloniki/26/07,A/Lyon/636/2006,40
+A/Lisbon/14/2007,A/Lyon/636/2006,640
+A/Lyon/323/2007,A/Lyon/636/2006,40
+A/Serres/77/07,A/Lyon/636/2006,160
+A/Valladolid/8/2007,A/Lyon/636/2006,640
+A/Trieste/29c/2007,A/Lyon/636/2006,160

@@ -1,0 +1,4032 @@
+Test Virus,Reference Virus,Titre
+A/Brisbane/10/2007,A/Brisbane/10/2007,5120
+A/Perth/16/2009,A/Brisbane/10/2007,<40
+A/Victoria/208/2009,A/Brisbane/10/2007,1280
+A/Victoria/210/2009,A/Brisbane/10/2007,640
+A/Alabama/5/2010,A/Brisbane/10/2007,80
+A/Perth/10/2010,A/Brisbane/10/2007,640
+A/Hong Kong/3969/2011,A/Brisbane/10/2007,320
+A/Stockholm/18/2011,A/Brisbane/10/2007,160
+A/Iowa/19/2010,A/Brisbane/10/2007,160
+A/England/253/2011,A/Brisbane/10/2007,160
+A/England/257/2011,A/Brisbane/10/2007,160
+A/England/256/2011,A/Brisbane/10/2007,160
+A/England/255/2011,A/Brisbane/10/2007,80
+A/Bratislava/31/2011,A/Brisbane/10/2007,160
+A/Bratislava/31/2011,A/Brisbane/10/2007,160
+A/England/258/2011,A/Brisbane/10/2007,80
+A/Tunisia/15685/2011,A/Brisbane/10/2007,80
+A/England/259/2011,A/Brisbane/10/2007,80
+A/Finland/190/2011,A/Brisbane/10/2007,160
+A/Brisbane/10/2007,A/Perth/16/2009,80
+A/Perth/16/2009,A/Perth/16/2009,640
+A/Victoria/208/2009,A/Perth/16/2009,640
+A/Victoria/210/2009,A/Perth/16/2009,1280
+A/Alabama/5/2010,A/Perth/16/2009,80
+A/Perth/10/2010,A/Perth/16/2009,320
+A/Hong Kong/3969/2011,A/Perth/16/2009,160
+A/Stockholm/18/2011,A/Perth/16/2009,80
+A/Iowa/19/2010,A/Perth/16/2009,320
+A/England/253/2011,A/Perth/16/2009,160
+A/England/257/2011,A/Perth/16/2009,80
+A/England/256/2011,A/Perth/16/2009,80
+A/England/255/2011,A/Perth/16/2009,40
+A/Bratislava/31/2011,A/Perth/16/2009,160
+A/Bratislava/31/2011,A/Perth/16/2009,160
+A/England/258/2011,A/Perth/16/2009,80
+A/Tunisia/15685/2011,A/Perth/16/2009,80
+A/England/259/2011,A/Perth/16/2009,80
+A/Finland/190/2011,A/Perth/16/2009,80
+A/Brisbane/10/2007,A/Victoria/208/2009,40
+A/Perth/16/2009,A/Victoria/208/2009,40
+A/Victoria/208/2009,A/Victoria/208/2009,2560
+A/Victoria/210/2009,A/Victoria/208/2009,1280
+A/Alabama/5/2010,A/Victoria/208/2009,40
+A/Perth/10/2010,A/Victoria/208/2009,1280
+A/Hong Kong/3969/2011,A/Victoria/208/2009,160
+A/Stockholm/18/2011,A/Victoria/208/2009,40
+A/Iowa/19/2010,A/Victoria/208/2009,1280
+A/England/253/2011,A/Victoria/208/2009,160
+A/England/257/2011,A/Victoria/208/2009,160
+A/England/256/2011,A/Victoria/208/2009,160
+A/England/255/2011,A/Victoria/208/2009,80
+A/Bratislava/31/2011,A/Victoria/208/2009,320
+A/Bratislava/31/2011,A/Victoria/208/2009,160
+A/England/258/2011,A/Victoria/208/2009,80
+A/Tunisia/15685/2011,A/Victoria/208/2009,80
+A/England/259/2011,A/Victoria/208/2009,80
+A/Finland/190/2011,A/Victoria/208/2009,80
+A/Brisbane/10/2007,A/Victoria/210/2009,80
+A/Perth/16/2009,A/Victoria/210/2009,160
+A/Victoria/208/2009,A/Victoria/210/2009,2560
+A/Victoria/210/2009,A/Victoria/210/2009,2560
+A/Alabama/5/2010,A/Victoria/210/2009,40
+A/Perth/10/2010,A/Victoria/210/2009,2560
+A/Hong Kong/3969/2011,A/Victoria/210/2009,320
+A/Stockholm/18/2011,A/Victoria/210/2009,40
+A/Iowa/19/2010,A/Victoria/210/2009,1280
+A/England/253/2011,A/Victoria/210/2009,160
+A/England/257/2011,A/Victoria/210/2009,160
+A/England/256/2011,A/Victoria/210/2009,160
+A/England/255/2011,A/Victoria/210/2009,160
+A/Bratislava/31/2011,A/Victoria/210/2009,640
+A/Bratislava/31/2011,A/Victoria/210/2009,160
+A/England/258/2011,A/Victoria/210/2009,80
+A/Tunisia/15685/2011,A/Victoria/210/2009,80
+A/England/259/2011,A/Victoria/210/2009,80
+A/Finland/190/2011,A/Victoria/210/2009,80
+A/Brisbane/10/2007,A/Alabama/5/2010,<40
+A/Perth/16/2009,A/Alabama/5/2010,80
+A/Victoria/208/2009,A/Alabama/5/2010,1280
+A/Victoria/210/2009,A/Alabama/5/2010,320
+A/Alabama/5/2010,A/Alabama/5/2010,320
+A/Perth/10/2010,A/Alabama/5/2010,640
+A/Hong Kong/3969/2011,A/Alabama/5/2010,320
+A/Stockholm/18/2011,A/Alabama/5/2010,80
+A/Iowa/19/2010,A/Alabama/5/2010,640
+A/England/253/2011,A/Alabama/5/2010,320
+A/England/257/2011,A/Alabama/5/2010,320
+A/England/256/2011,A/Alabama/5/2010,160
+A/England/255/2011,A/Alabama/5/2010,160
+A/Bratislava/31/2011,A/Alabama/5/2010,640
+A/Bratislava/31/2011,A/Alabama/5/2010,320
+A/England/258/2011,A/Alabama/5/2010,160
+A/Tunisia/15685/2011,A/Alabama/5/2010,80
+A/England/259/2011,A/Alabama/5/2010,160
+A/Finland/190/2011,A/Alabama/5/2010,160
+A/Brisbane/10/2007,A/Perth/10/2010,80
+A/Perth/16/2009,A/Perth/10/2010,160
+A/Victoria/208/2009,A/Perth/10/2010,2560
+A/Victoria/210/2009,A/Perth/10/2010,1280
+A/Alabama/5/2010,A/Perth/10/2010,320
+A/Perth/10/2010,A/Perth/10/2010,1280
+A/Hong Kong/3969/2011,A/Perth/10/2010,640
+A/Stockholm/18/2011,A/Perth/10/2010,160
+A/Iowa/19/2010,A/Perth/10/2010,1280
+A/England/253/2011,A/Perth/10/2010,640
+A/England/257/2011,A/Perth/10/2010,320
+A/England/256/2011,A/Perth/10/2010,320
+A/England/255/2011,A/Perth/10/2010,160
+A/Bratislava/31/2011,A/Perth/10/2010,640
+A/Bratislava/31/2011,A/Perth/10/2010,320
+A/England/258/2011,A/Perth/10/2010,320
+A/Tunisia/15685/2011,A/Perth/10/2010,160
+A/England/259/2011,A/Perth/10/2010,320
+A/Finland/190/2011,A/Perth/10/2010,160
+A/Brisbane/10/2007,A/Hong Kong/3969/2011,320
+A/Perth/16/2009,A/Hong Kong/3969/2011,320
+A/Victoria/208/2009,A/Hong Kong/3969/2011,2560
+A/Victoria/210/2009,A/Hong Kong/3969/2011,1280
+A/Alabama/5/2010,A/Hong Kong/3969/2011,640
+A/Perth/10/2010,A/Hong Kong/3969/2011,2560
+A/Hong Kong/3969/2011,A/Hong Kong/3969/2011,1280
+A/Stockholm/18/2011,A/Hong Kong/3969/2011,640
+A/Iowa/19/2010,A/Hong Kong/3969/2011,2560
+A/England/253/2011,A/Hong Kong/3969/2011,1280
+A/England/257/2011,A/Hong Kong/3969/2011,640
+A/England/256/2011,A/Hong Kong/3969/2011,640
+A/England/255/2011,A/Hong Kong/3969/2011,320
+A/Bratislava/31/2011,A/Hong Kong/3969/2011,1280
+A/Bratislava/31/2011,A/Hong Kong/3969/2011,640
+A/England/258/2011,A/Hong Kong/3969/2011,640
+A/Tunisia/15685/2011,A/Hong Kong/3969/2011,640
+A/England/259/2011,A/Hong Kong/3969/2011,640
+A/Finland/190/2011,A/Hong Kong/3969/2011,640
+A/Brisbane/10/2007,A/Stockholm/18/2011,40
+A/Perth/16/2009,A/Stockholm/18/2011,160
+A/Victoria/208/2009,A/Stockholm/18/2011,1280
+A/Victoria/210/2009,A/Stockholm/18/2011,640
+A/Alabama/5/2010,A/Stockholm/18/2011,160
+A/Perth/10/2010,A/Stockholm/18/2011,1280
+A/Hong Kong/3969/2011,A/Stockholm/18/2011,320
+A/Stockholm/18/2011,A/Stockholm/18/2011,320
+A/Iowa/19/2010,A/Stockholm/18/2011,1280
+A/England/253/2011,A/Stockholm/18/2011,640
+A/England/257/2011,A/Stockholm/18/2011,640
+A/England/256/2011,A/Stockholm/18/2011,320
+A/England/255/2011,A/Stockholm/18/2011,320
+A/Bratislava/31/2011,A/Stockholm/18/2011,640
+A/Bratislava/31/2011,A/Stockholm/18/2011,320
+A/England/258/2011,A/Stockholm/18/2011,320
+A/Tunisia/15685/2011,A/Stockholm/18/2011,320
+A/England/259/2011,A/Stockholm/18/2011,320
+A/Finland/190/2011,A/Stockholm/18/2011,320
+A/Brisbane/10/2007,A/Iowa/19/2010,40
+A/Perth/16/2009,A/Iowa/19/2010,160
+A/Victoria/208/2009,A/Iowa/19/2010,5120
+A/Victoria/210/2009,A/Iowa/19/2010,1280
+A/Alabama/5/2010,A/Iowa/19/2010,320
+A/Perth/10/2010,A/Iowa/19/2010,1280
+A/Hong Kong/3969/2011,A/Iowa/19/2010,640
+A/Stockholm/18/2011,A/Iowa/19/2010,160
+A/Iowa/19/2010,A/Iowa/19/2010,5120
+A/England/253/2011,A/Iowa/19/2010,640
+A/England/257/2011,A/Iowa/19/2010,320
+A/England/256/2011,A/Iowa/19/2010,320
+A/England/255/2011,A/Iowa/19/2010,160
+A/Bratislava/31/2011,A/Iowa/19/2010,640
+A/Bratislava/31/2011,A/Iowa/19/2010,320
+A/England/258/2011,A/Iowa/19/2010,320
+A/Tunisia/15685/2011,A/Iowa/19/2010,320
+A/England/259/2011,A/Iowa/19/2010,160
+A/Finland/190/2011,A/Iowa/19/2010,160
+A/Brisbane/10/2007,A/Brisbane/10/2007,640
+A/Perth/16/2009,A/Brisbane/10/2007,<40
+A/Victoria/208/2009,A/Brisbane/10/2007,320
+A/Victoria/210/2009,A/Brisbane/10/2007,320
+A/Alabama/5/2010,A/Brisbane/10/2007,<40
+A/Perth/10/2010,A/Brisbane/10/2007,320
+A/Hong Kong/3969/2011,A/Brisbane/10/2007,80
+A/Stockholm/18/2011,A/Brisbane/10/2007,80
+A/Iowa/19/2010,A/Brisbane/10/2007,320
+A/Brisbane/299/2011,A/Brisbane/10/2007,160
+A/Stockholm/23/2011,A/Brisbane/10/2007,<40
+A/Stockholm/24/2011,A/Brisbane/10/2007,<40
+A/Stockholm/26/2011,A/Brisbane/10/2007,<40
+A/Norway/2047/2011,A/Brisbane/10/2007,40
+A/Norway/2125/2011,A/Brisbane/10/2007,80
+A/Algeria/G04/2011,A/Brisbane/10/2007,<40
+A/Stockholm/29/2011,A/Brisbane/10/2007,<40
+A/Algeria/G05/2011,A/Brisbane/10/2007,<40
+A/Norway/2146/2011,A/Brisbane/10/2007,<40
+A/Algeria/G10/2011,A/Brisbane/10/2007,<40
+A/Algeria/G36/2011,A/Brisbane/10/2007,<40
+A/Bayern/87/2011,A/Brisbane/10/2007,<40
+A/Stockholm/33/2011,A/Brisbane/10/2007,<40
+A/Stockholm/32/2011,A/Brisbane/10/2007,40
+A/Stockholm/34/2011,A/Brisbane/10/2007,40
+A/Netherlands/702/2011,A/Brisbane/10/2007,<40
+A/Berlin/85/2011,A/Brisbane/10/2007,40
+A/Berlin/86/2011,A/Brisbane/10/2007,40
+A/Berlin/87/2011,A/Brisbane/10/2007,40
+A/Brisbane/10/2007,A/Perth/16/2009,40
+A/Perth/16/2009,A/Perth/16/2009,640
+A/Victoria/208/2009,A/Perth/16/2009,640
+A/Victoria/210/2009,A/Perth/16/2009,2560
+A/Alabama/5/2010,A/Perth/16/2009,80
+A/Perth/10/2010,A/Perth/16/2009,640
+A/Hong Kong/3969/2011,A/Perth/16/2009,160
+A/Stockholm/18/2011,A/Perth/16/2009,80
+A/Iowa/19/2010,A/Perth/16/2009,640
+A/Brisbane/299/2011,A/Perth/16/2009,160
+A/Stockholm/23/2011,A/Perth/16/2009,40
+A/Stockholm/24/2011,A/Perth/16/2009,40
+A/Stockholm/26/2011,A/Perth/16/2009,40
+A/Norway/2047/2011,A/Perth/16/2009,160
+A/Norway/2125/2011,A/Perth/16/2009,320
+A/Algeria/G04/2011,A/Perth/16/2009,80
+A/Stockholm/29/2011,A/Perth/16/2009,40
+A/Algeria/G05/2011,A/Perth/16/2009,40
+A/Norway/2146/2011,A/Perth/16/2009,40
+A/Algeria/G10/2011,A/Perth/16/2009,80
+A/Algeria/G36/2011,A/Perth/16/2009,80
+A/Bayern/87/2011,A/Perth/16/2009,80
+A/Stockholm/33/2011,A/Perth/16/2009,80
+A/Stockholm/32/2011,A/Perth/16/2009,160
+A/Stockholm/34/2011,A/Perth/16/2009,40
+A/Netherlands/702/2011,A/Perth/16/2009,80
+A/Berlin/85/2011,A/Perth/16/2009,160
+A/Berlin/86/2011,A/Perth/16/2009,160
+A/Berlin/87/2011,A/Perth/16/2009,160
+A/Brisbane/10/2007,A/Victoria/208/2009,40
+A/Perth/16/2009,A/Victoria/208/2009,40
+A/Victoria/208/2009,A/Victoria/208/2009,2560
+A/Victoria/210/2009,A/Victoria/208/2009,2560
+A/Alabama/5/2010,A/Victoria/208/2009,40
+A/Perth/10/2010,A/Victoria/208/2009,1280
+A/Hong Kong/3969/2011,A/Victoria/208/2009,80
+A/Stockholm/18/2011,A/Victoria/208/2009,80
+A/Iowa/19/2010,A/Victoria/208/2009,2560
+A/Brisbane/299/2011,A/Victoria/208/2009,640
+A/Stockholm/23/2011,A/Victoria/208/2009,80
+A/Stockholm/24/2011,A/Victoria/208/2009,80
+A/Stockholm/26/2011,A/Victoria/208/2009,80
+A/Norway/2047/2011,A/Victoria/208/2009,160
+A/Norway/2125/2011,A/Victoria/208/2009,320
+A/Algeria/G04/2011,A/Victoria/208/2009,160
+A/Stockholm/29/2011,A/Victoria/208/2009,80
+A/Algeria/G05/2011,A/Victoria/208/2009,80
+A/Norway/2146/2011,A/Victoria/208/2009,80
+A/Algeria/G10/2011,A/Victoria/208/2009,160
+A/Algeria/G36/2011,A/Victoria/208/2009,160
+A/Bayern/87/2011,A/Victoria/208/2009,160
+A/Stockholm/33/2011,A/Victoria/208/2009,80
+A/Stockholm/32/2011,A/Victoria/208/2009,160
+A/Stockholm/34/2011,A/Victoria/208/2009,80
+A/Netherlands/702/2011,A/Victoria/208/2009,80
+A/Berlin/85/2011,A/Victoria/208/2009,160
+A/Berlin/86/2011,A/Victoria/208/2009,160
+A/Berlin/87/2011,A/Victoria/208/2009,160
+A/Brisbane/10/2007,A/Victoria/210/2009,<40
+A/Perth/16/2009,A/Victoria/210/2009,160
+A/Victoria/208/2009,A/Victoria/210/2009,2560
+A/Victoria/210/2009,A/Victoria/210/2009,5120
+A/Alabama/5/2010,A/Victoria/210/2009,40
+A/Perth/10/2010,A/Victoria/210/2009,2560
+A/Hong Kong/3969/2011,A/Victoria/210/2009,160
+A/Stockholm/18/2011,A/Victoria/210/2009,160
+A/Iowa/19/2010,A/Victoria/210/2009,2560
+A/Brisbane/299/2011,A/Victoria/210/2009,1280
+A/Stockholm/23/2011,A/Victoria/210/2009,80
+A/Stockholm/24/2011,A/Victoria/210/2009,80
+A/Stockholm/26/2011,A/Victoria/210/2009,80
+A/Norway/2047/2011,A/Victoria/210/2009,160
+A/Norway/2125/2011,A/Victoria/210/2009,320
+A/Algeria/G04/2011,A/Victoria/210/2009,160
+A/Stockholm/29/2011,A/Victoria/210/2009,80
+A/Algeria/G05/2011,A/Victoria/210/2009,80
+A/Norway/2146/2011,A/Victoria/210/2009,80
+A/Algeria/G10/2011,A/Victoria/210/2009,160
+A/Algeria/G36/2011,A/Victoria/210/2009,160
+A/Bayern/87/2011,A/Victoria/210/2009,160
+A/Stockholm/33/2011,A/Victoria/210/2009,160
+A/Stockholm/32/2011,A/Victoria/210/2009,160
+A/Stockholm/34/2011,A/Victoria/210/2009,80
+A/Netherlands/702/2011,A/Victoria/210/2009,80
+A/Berlin/85/2011,A/Victoria/210/2009,160
+A/Berlin/86/2011,A/Victoria/210/2009,160
+A/Berlin/87/2011,A/Victoria/210/2009,160
+A/Brisbane/10/2007,A/Alabama/5/2010,<40
+A/Perth/16/2009,A/Alabama/5/2010,160
+A/Victoria/208/2009,A/Alabama/5/2010,1280
+A/Victoria/210/2009,A/Alabama/5/2010,640
+A/Alabama/5/2010,A/Alabama/5/2010,320
+A/Perth/10/2010,A/Alabama/5/2010,1280
+A/Hong Kong/3969/2011,A/Alabama/5/2010,320
+A/Stockholm/18/2011,A/Alabama/5/2010,320
+A/Iowa/19/2010,A/Alabama/5/2010,2560
+A/Brisbane/299/2011,A/Alabama/5/2010,320
+A/Stockholm/23/2011,A/Alabama/5/2010,80
+A/Stockholm/24/2011,A/Alabama/5/2010,160
+A/Stockholm/26/2011,A/Alabama/5/2010,160
+A/Norway/2047/2011,A/Alabama/5/2010,320
+A/Norway/2125/2011,A/Alabama/5/2010,640
+A/Algeria/G04/2011,A/Alabama/5/2010,160
+A/Stockholm/29/2011,A/Alabama/5/2010,160
+A/Algeria/G05/2011,A/Alabama/5/2010,80
+A/Norway/2146/2011,A/Alabama/5/2010,160
+A/Algeria/G10/2011,A/Alabama/5/2010,160
+A/Algeria/G36/2011,A/Alabama/5/2010,160
+A/Bayern/87/2011,A/Alabama/5/2010,160
+A/Stockholm/33/2011,A/Alabama/5/2010,160
+A/Stockholm/32/2011,A/Alabama/5/2010,320
+A/Stockholm/34/2011,A/Alabama/5/2010,160
+A/Netherlands/702/2011,A/Alabama/5/2010,160
+A/Berlin/85/2011,A/Alabama/5/2010,320
+A/Berlin/86/2011,A/Alabama/5/2010,320
+A/Berlin/87/2011,A/Alabama/5/2010,320
+A/Brisbane/10/2007,A/Perth/10/2010,80
+A/Perth/16/2009,A/Perth/10/2010,160
+A/Victoria/208/2009,A/Perth/10/2010,2560
+A/Victoria/210/2009,A/Perth/10/2010,2560
+A/Alabama/5/2010,A/Perth/10/2010,320
+A/Perth/10/2010,A/Perth/10/2010,2560
+A/Hong Kong/3969/2011,A/Perth/10/2010,320
+A/Stockholm/18/2011,A/Perth/10/2010,320
+A/Iowa/19/2010,A/Perth/10/2010,2560
+A/Brisbane/299/2011,A/Perth/10/2010,640
+A/Stockholm/23/2011,A/Perth/10/2010,160
+A/Stockholm/24/2011,A/Perth/10/2010,320
+A/Stockholm/26/2011,A/Perth/10/2010,160
+A/Norway/2047/2011,A/Perth/10/2010,640
+A/Norway/2125/2011,A/Perth/10/2010,1280
+A/Algeria/G04/2011,A/Perth/10/2010,320
+A/Stockholm/29/2011,A/Perth/10/2010,160
+A/Algeria/G05/2011,A/Perth/10/2010,160
+A/Norway/2146/2011,A/Perth/10/2010,160
+A/Algeria/G10/2011,A/Perth/10/2010,320
+A/Algeria/G36/2011,A/Perth/10/2010,320
+A/Bayern/87/2011,A/Perth/10/2010,320
+A/Stockholm/33/2011,A/Perth/10/2010,320
+A/Stockholm/32/2011,A/Perth/10/2010,640
+A/Stockholm/34/2011,A/Perth/10/2010,160
+A/Netherlands/702/2011,A/Perth/10/2010,320
+A/Berlin/85/2011,A/Perth/10/2010,640
+A/Berlin/86/2011,A/Perth/10/2010,640
+A/Berlin/87/2011,A/Perth/10/2010,640
+A/Brisbane/10/2007,A/Hong Kong/3969/2011,160
+A/Perth/16/2009,A/Hong Kong/3969/2011,640
+A/Victoria/208/2009,A/Hong Kong/3969/2011,2560
+A/Victoria/210/2009,A/Hong Kong/3969/2011,2560
+A/Alabama/5/2010,A/Hong Kong/3969/2011,640
+A/Perth/10/2010,A/Hong Kong/3969/2011,2560
+A/Hong Kong/3969/2011,A/Hong Kong/3969/2011,1280
+A/Stockholm/18/2011,A/Hong Kong/3969/2011,1280
+A/Iowa/19/2010,A/Hong Kong/3969/2011,2560
+A/Brisbane/299/2011,A/Hong Kong/3969/2011,1280
+A/Stockholm/23/2011,A/Hong Kong/3969/2011,320
+A/Stockholm/24/2011,A/Hong Kong/3969/2011,320
+A/Stockholm/26/2011,A/Hong Kong/3969/2011,320
+A/Norway/2047/2011,A/Hong Kong/3969/2011,1280
+A/Norway/2125/2011,A/Hong Kong/3969/2011,2560
+A/Algeria/G04/2011,A/Hong Kong/3969/2011,640
+A/Stockholm/29/2011,A/Hong Kong/3969/2011,640
+A/Algeria/G05/2011,A/Hong Kong/3969/2011,320
+A/Norway/2146/2011,A/Hong Kong/3969/2011,320
+A/Algeria/G10/2011,A/Hong Kong/3969/2011,640
+A/Algeria/G36/2011,A/Hong Kong/3969/2011,640
+A/Bayern/87/2011,A/Hong Kong/3969/2011,640
+A/Stockholm/33/2011,A/Hong Kong/3969/2011,640
+A/Stockholm/32/2011,A/Hong Kong/3969/2011,1280
+A/Stockholm/34/2011,A/Hong Kong/3969/2011,320
+A/Netherlands/702/2011,A/Hong Kong/3969/2011,640
+A/Berlin/85/2011,A/Hong Kong/3969/2011,1280
+A/Berlin/86/2011,A/Hong Kong/3969/2011,640
+A/Berlin/87/2011,A/Hong Kong/3969/2011,640
+A/Brisbane/10/2007,A/Stockholm/18/2011,<40
+A/Perth/16/2009,A/Stockholm/18/2011,160
+A/Victoria/208/2009,A/Stockholm/18/2011,2560
+A/Victoria/210/2009,A/Stockholm/18/2011,1280
+A/Alabama/5/2010,A/Stockholm/18/2011,320
+A/Perth/10/2010,A/Stockholm/18/2011,1280
+A/Hong Kong/3969/2011,A/Stockholm/18/2011,320
+A/Stockholm/18/2011,A/Stockholm/18/2011,640
+A/Iowa/19/2010,A/Stockholm/18/2011,2560
+A/Brisbane/299/2011,A/Stockholm/18/2011,640
+A/Stockholm/23/2011,A/Stockholm/18/2011,160
+A/Stockholm/24/2011,A/Stockholm/18/2011,320
+A/Stockholm/26/2011,A/Stockholm/18/2011,320
+A/Norway/2047/2011,A/Stockholm/18/2011,320
+A/Norway/2125/2011,A/Stockholm/18/2011,640
+A/Algeria/G04/2011,A/Stockholm/18/2011,320
+A/Stockholm/29/2011,A/Stockholm/18/2011,320
+A/Algeria/G05/2011,A/Stockholm/18/2011,160
+A/Norway/2146/2011,A/Stockholm/18/2011,160
+A/Algeria/G10/2011,A/Stockholm/18/2011,640
+A/Algeria/G36/2011,A/Stockholm/18/2011,640
+A/Bayern/87/2011,A/Stockholm/18/2011,320
+A/Stockholm/33/2011,A/Stockholm/18/2011,320
+A/Stockholm/32/2011,A/Stockholm/18/2011,640
+A/Stockholm/34/2011,A/Stockholm/18/2011,160
+A/Netherlands/702/2011,A/Stockholm/18/2011,160
+A/Berlin/85/2011,A/Stockholm/18/2011,640
+A/Berlin/86/2011,A/Stockholm/18/2011,640
+A/Berlin/87/2011,A/Stockholm/18/2011,640
+A/Brisbane/10/2007,A/Iowa/19/2010,40
+A/Perth/16/2009,A/Iowa/19/2010,160
+A/Victoria/208/2009,A/Iowa/19/2010,2560
+A/Victoria/210/2009,A/Iowa/19/2010,1280
+A/Alabama/5/2010,A/Iowa/19/2010,320
+A/Perth/10/2010,A/Iowa/19/2010,1280
+A/Hong Kong/3969/2011,A/Iowa/19/2010,320
+A/Stockholm/18/2011,A/Iowa/19/2010,320
+A/Iowa/19/2010,A/Iowa/19/2010,2560
+A/Brisbane/299/2011,A/Iowa/19/2010,1280
+A/Stockholm/23/2011,A/Iowa/19/2010,80
+A/Stockholm/24/2011,A/Iowa/19/2010,320
+A/Stockholm/26/2011,A/Iowa/19/2010,160
+A/Norway/2047/2011,A/Iowa/19/2010,640
+A/Norway/2125/2011,A/Iowa/19/2010,1280
+A/Algeria/G04/2011,A/Iowa/19/2010,320
+A/Stockholm/29/2011,A/Iowa/19/2010,160
+A/Algeria/G05/2011,A/Iowa/19/2010,160
+A/Norway/2146/2011,A/Iowa/19/2010,160
+A/Algeria/G10/2011,A/Iowa/19/2010,320
+A/Algeria/G36/2011,A/Iowa/19/2010,320
+A/Bayern/87/2011,A/Iowa/19/2010,320
+A/Stockholm/33/2011,A/Iowa/19/2010,320
+A/Stockholm/32/2011,A/Iowa/19/2010,640
+A/Stockholm/34/2011,A/Iowa/19/2010,160
+A/Netherlands/702/2011,A/Iowa/19/2010,320
+A/Berlin/85/2011,A/Iowa/19/2010,640
+A/Berlin/86/2011,A/Iowa/19/2010,640
+A/Berlin/87/2011,A/Iowa/19/2010,640
+A/Brisbane/10/2007,A/Brisbane/10/2007,640
+A/Perth/16/2009,A/Brisbane/10/2007,<40
+A/Victoria/208/2009,A/Brisbane/10/2007,640
+A/Victoria/210/2009,A/Brisbane/10/2007,1280
+A/Alabama/5/2010,A/Brisbane/10/2007,<40
+A/Perth/10/2010,A/Brisbane/10/2007,640
+A/Hong Kong/3969/2011,A/Brisbane/10/2007,80
+A/Stockholm/18/2011,A/Brisbane/10/2007,80
+A/Iowa/19/2010,A/Brisbane/10/2007,160
+A/Chiang Rai/277/2011,A/Brisbane/10/2007,40
+A/Hormozgan/7980/2011,A/Brisbane/10/2007,<40
+A/Hormozgan/7981/2011,A/Brisbane/10/2007,40
+A/Khorasan/8032/2011,A/Brisbane/10/2007,40
+A/Khorasan/8320/2011,A/Brisbane/10/2007,40
+A/Tehran/8331/2011,A/Brisbane/10/2007,40
+A/Esfahan/8343/2011,A/Brisbane/10/2007,40
+A/Kentucky/05/2011,A/Brisbane/10/2007,<40
+A/Utah/12/2011,A/Brisbane/10/2007,80
+A/Madrid/RR8753/2011,A/Brisbane/10/2007,40
+A/Slovenia/2855/2011,A/Brisbane/10/2007,40
+A/Berlin/92/2011,A/Brisbane/10/2007,40
+A/Berlin/93/2011,A/Brisbane/10/2007,80
+A/Norway/2366/2011,A/Brisbane/10/2007,160
+A/Berlin/89/2011,A/Brisbane/10/2007,40
+A/Slovenia/2970/2011,A/Brisbane/10/2007,40
+A/Berlin/88/2011,A/Brisbane/10/2007,40
+A/Berlin/90/2011,A/Brisbane/10/2007,40
+A/Madrid/RR8856/2011,A/Brisbane/10/2007,40
+A/Berlin/91/2011,A/Brisbane/10/2007,40
+A/Castilla La Mancha/RR8843/2011,A/Brisbane/10/2007,40
+A/Pais Vasco/RR8864/2011,A/Brisbane/10/2007,<40
+A/Pais Vasco/RR8867/2011,A/Brisbane/10/2007,40
+A/Castilla La Mancha/RR8870/2011,A/Brisbane/10/2007,40
+A/Castilla La Mancha/RR8871/2011,A/Brisbane/10/2007,40
+A/Berlin/1/2012,A/Brisbane/10/2007,40
+A/Slovenia/9/2012,A/Brisbane/10/2007,<40
+A/Brisbane/10/2007,A/Perth/16/2009,<40
+A/Perth/16/2009,A/Perth/16/2009,320
+A/Victoria/208/2009,A/Perth/16/2009,640
+A/Victoria/210/2009,A/Perth/16/2009,1280
+A/Alabama/5/2010,A/Perth/16/2009,80
+A/Perth/10/2010,A/Perth/16/2009,640
+A/Hong Kong/3969/2011,A/Perth/16/2009,160
+A/Stockholm/18/2011,A/Perth/16/2009,160
+A/Iowa/19/2010,A/Perth/16/2009,1280
+A/Chiang Rai/277/2011,A/Perth/16/2009,160
+A/Hormozgan/7980/2011,A/Perth/16/2009,40
+A/Hormozgan/7981/2011,A/Perth/16/2009,160
+A/Khorasan/8032/2011,A/Perth/16/2009,160
+A/Khorasan/8320/2011,A/Perth/16/2009,160
+A/Tehran/8331/2011,A/Perth/16/2009,160
+A/Esfahan/8343/2011,A/Perth/16/2009,320
+A/Kentucky/05/2011,A/Perth/16/2009,40
+A/Utah/12/2011,A/Perth/16/2009,80
+A/Madrid/RR8753/2011,A/Perth/16/2009,80
+A/Slovenia/2855/2011,A/Perth/16/2009,160
+A/Berlin/92/2011,A/Perth/16/2009,160
+A/Berlin/93/2011,A/Perth/16/2009,320
+A/Norway/2366/2011,A/Perth/16/2009,160
+A/Berlin/89/2011,A/Perth/16/2009,160
+A/Slovenia/2970/2011,A/Perth/16/2009,320
+A/Berlin/88/2011,A/Perth/16/2009,160
+A/Berlin/90/2011,A/Perth/16/2009,160
+A/Madrid/RR8856/2011,A/Perth/16/2009,160
+A/Berlin/91/2011,A/Perth/16/2009,160
+A/Castilla La Mancha/RR8843/2011,A/Perth/16/2009,320
+A/Pais Vasco/RR8864/2011,A/Perth/16/2009,80
+A/Pais Vasco/RR8867/2011,A/Perth/16/2009,80
+A/Castilla La Mancha/RR8870/2011,A/Perth/16/2009,160
+A/Castilla La Mancha/RR8871/2011,A/Perth/16/2009,160
+A/Berlin/1/2012,A/Perth/16/2009,160
+A/Slovenia/9/2012,A/Perth/16/2009,80
+A/Brisbane/10/2007,A/Victoria/208/2009,<40
+A/Perth/16/2009,A/Victoria/208/2009,40
+A/Victoria/208/2009,A/Victoria/208/2009,2560
+A/Victoria/210/2009,A/Victoria/208/2009,1280
+A/Alabama/5/2010,A/Victoria/208/2009,40
+A/Perth/10/2010,A/Victoria/208/2009,1280
+A/Hong Kong/3969/2011,A/Victoria/208/2009,160
+A/Stockholm/18/2011,A/Victoria/208/2009,160
+A/Iowa/19/2010,A/Victoria/208/2009,5120
+A/Chiang Rai/277/2011,A/Victoria/208/2009,320
+A/Hormozgan/7980/2011,A/Victoria/208/2009,160
+A/Hormozgan/7981/2011,A/Victoria/208/2009,320
+A/Khorasan/8032/2011,A/Victoria/208/2009,320
+A/Khorasan/8320/2011,A/Victoria/208/2009,160
+A/Tehran/8331/2011,A/Victoria/208/2009,160
+A/Esfahan/8343/2011,A/Victoria/208/2009,160
+A/Kentucky/05/2011,A/Victoria/208/2009,40
+A/Utah/12/2011,A/Victoria/208/2009,160
+A/Madrid/RR8753/2011,A/Victoria/208/2009,160
+A/Slovenia/2855/2011,A/Victoria/208/2009,160
+A/Berlin/92/2011,A/Victoria/208/2009,640
+A/Berlin/93/2011,A/Victoria/208/2009,640
+A/Norway/2366/2011,A/Victoria/208/2009,160
+A/Berlin/89/2011,A/Victoria/208/2009,320
+A/Slovenia/2970/2011,A/Victoria/208/2009,320
+A/Berlin/88/2011,A/Victoria/208/2009,320
+A/Berlin/90/2011,A/Victoria/208/2009,640
+A/Madrid/RR8856/2011,A/Victoria/208/2009,160
+A/Berlin/91/2011,A/Victoria/208/2009,640
+A/Castilla La Mancha/RR8843/2011,A/Victoria/208/2009,160
+A/Pais Vasco/RR8864/2011,A/Victoria/208/2009,160
+A/Pais Vasco/RR8867/2011,A/Victoria/208/2009,160
+A/Castilla La Mancha/RR8870/2011,A/Victoria/208/2009,160
+A/Castilla La Mancha/RR8871/2011,A/Victoria/208/2009,320
+A/Berlin/1/2012,A/Victoria/208/2009,160
+A/Slovenia/9/2012,A/Victoria/208/2009,80
+A/Brisbane/10/2007,A/Victoria/210/2009,<40
+A/Perth/16/2009,A/Victoria/210/2009,160
+A/Victoria/208/2009,A/Victoria/210/2009,2560
+A/Victoria/210/2009,A/Victoria/210/2009,5120
+A/Alabama/5/2010,A/Victoria/210/2009,40
+A/Perth/10/2010,A/Victoria/210/2009,2560
+A/Hong Kong/3969/2011,A/Victoria/210/2009,160
+A/Stockholm/18/2011,A/Victoria/210/2009,160
+A/Iowa/19/2010,A/Victoria/210/2009,2560
+A/Chiang Rai/277/2011,A/Victoria/210/2009,160
+A/Hormozgan/7980/2011,A/Victoria/210/2009,80
+A/Hormozgan/7981/2011,A/Victoria/210/2009,320
+A/Khorasan/8032/2011,A/Victoria/210/2009,320
+A/Khorasan/8320/2011,A/Victoria/210/2009,160
+A/Tehran/8331/2011,A/Victoria/210/2009,160
+A/Esfahan/8343/2011,A/Victoria/210/2009,320
+A/Kentucky/05/2011,A/Victoria/210/2009,40
+A/Utah/12/2011,A/Victoria/210/2009,160
+A/Madrid/RR8753/2011,A/Victoria/210/2009,160
+A/Slovenia/2855/2011,A/Victoria/210/2009,160
+A/Berlin/92/2011,A/Victoria/210/2009,320
+A/Berlin/93/2011,A/Victoria/210/2009,320
+A/Norway/2366/2011,A/Victoria/210/2009,160
+A/Berlin/89/2011,A/Victoria/210/2009,160
+A/Slovenia/2970/2011,A/Victoria/210/2009,320
+A/Berlin/88/2011,A/Victoria/210/2009,160
+A/Berlin/90/2011,A/Victoria/210/2009,320
+A/Madrid/RR8856/2011,A/Victoria/210/2009,160
+A/Berlin/91/2011,A/Victoria/210/2009,320
+A/Castilla La Mancha/RR8843/2011,A/Victoria/210/2009,320
+A/Pais Vasco/RR8864/2011,A/Victoria/210/2009,160
+A/Pais Vasco/RR8867/2011,A/Victoria/210/2009,160
+A/Castilla La Mancha/RR8870/2011,A/Victoria/210/2009,160
+A/Castilla La Mancha/RR8871/2011,A/Victoria/210/2009,160
+A/Berlin/1/2012,A/Victoria/210/2009,160
+A/Slovenia/9/2012,A/Victoria/210/2009,80
+A/Brisbane/10/2007,A/Alabama/5/2010,<40
+A/Perth/16/2009,A/Alabama/5/2010,160
+A/Victoria/208/2009,A/Alabama/5/2010,1280
+A/Victoria/210/2009,A/Alabama/5/2010,320
+A/Alabama/5/2010,A/Alabama/5/2010,160
+A/Perth/10/2010,A/Alabama/5/2010,1280
+A/Hong Kong/3969/2011,A/Alabama/5/2010,320
+A/Stockholm/18/2011,A/Alabama/5/2010,320
+A/Iowa/19/2010,A/Alabama/5/2010,2560
+A/Chiang Rai/277/2011,A/Alabama/5/2010,320
+A/Hormozgan/7980/2011,A/Alabama/5/2010,160
+A/Hormozgan/7981/2011,A/Alabama/5/2010,320
+A/Khorasan/8032/2011,A/Alabama/5/2010,320
+A/Khorasan/8320/2011,A/Alabama/5/2010,320
+A/Tehran/8331/2011,A/Alabama/5/2010,320
+A/Esfahan/8343/2011,A/Alabama/5/2010,640
+A/Kentucky/05/2011,A/Alabama/5/2010,160
+A/Utah/12/2011,A/Alabama/5/2010,160
+A/Madrid/RR8753/2011,A/Alabama/5/2010,160
+A/Slovenia/2855/2011,A/Alabama/5/2010,640
+A/Berlin/92/2011,A/Alabama/5/2010,640
+A/Berlin/93/2011,A/Alabama/5/2010,640
+A/Norway/2366/2011,A/Alabama/5/2010,320
+A/Berlin/89/2011,A/Alabama/5/2010,320
+A/Slovenia/2970/2011,A/Alabama/5/2010,640
+A/Berlin/88/2011,A/Alabama/5/2010,320
+A/Berlin/90/2011,A/Alabama/5/2010,320
+A/Madrid/RR8856/2011,A/Alabama/5/2010,320
+A/Berlin/91/2011,A/Alabama/5/2010,640
+A/Castilla La Mancha/RR8843/2011,A/Alabama/5/2010,320
+A/Pais Vasco/RR8864/2011,A/Alabama/5/2010,160
+A/Pais Vasco/RR8867/2011,A/Alabama/5/2010,320
+A/Castilla La Mancha/RR8870/2011,A/Alabama/5/2010,160
+A/Castilla La Mancha/RR8871/2011,A/Alabama/5/2010,320
+A/Berlin/1/2012,A/Alabama/5/2010,320
+A/Slovenia/9/2012,A/Alabama/5/2010,320
+A/Brisbane/10/2007,A/Perth/10/2010,80
+A/Perth/16/2009,A/Perth/10/2010,160
+A/Victoria/208/2009,A/Perth/10/2010,2560
+A/Victoria/210/2009,A/Perth/10/2010,2560
+A/Alabama/5/2010,A/Perth/10/2010,320
+A/Perth/10/2010,A/Perth/10/2010,2560
+A/Hong Kong/3969/2011,A/Perth/10/2010,640
+A/Stockholm/18/2011,A/Perth/10/2010,320
+A/Iowa/19/2010,A/Perth/10/2010,5120
+A/Chiang Rai/277/2011,A/Perth/10/2010,640
+A/Hormozgan/7980/2011,A/Perth/10/2010,160
+A/Hormozgan/7981/2011,A/Perth/10/2010,320
+A/Khorasan/8032/2011,A/Perth/10/2010,640
+A/Khorasan/8320/2011,A/Perth/10/2010,320
+A/Tehran/8331/2011,A/Perth/10/2010,640
+A/Esfahan/8343/2011,A/Perth/10/2010,640
+A/Kentucky/05/2011,A/Perth/10/2010,160
+A/Utah/12/2011,A/Perth/10/2010,320
+A/Madrid/RR8753/2011,A/Perth/10/2010,320
+A/Slovenia/2855/2011,A/Perth/10/2010,640
+A/Berlin/92/2011,A/Perth/10/2010,640
+A/Berlin/93/2011,A/Perth/10/2010,640
+A/Norway/2366/2011,A/Perth/10/2010,320
+A/Berlin/89/2011,A/Perth/10/2010,320
+A/Slovenia/2970/2011,A/Perth/10/2010,640
+A/Berlin/88/2011,A/Perth/10/2010,640
+A/Berlin/90/2011,A/Perth/10/2010,640
+A/Madrid/RR8856/2011,A/Perth/10/2010,320
+A/Berlin/91/2011,A/Perth/10/2010,640
+A/Castilla La Mancha/RR8843/2011,A/Perth/10/2010,640
+A/Pais Vasco/RR8864/2011,A/Perth/10/2010,320
+A/Pais Vasco/RR8867/2011,A/Perth/10/2010,320
+A/Castilla La Mancha/RR8870/2011,A/Perth/10/2010,320
+A/Castilla La Mancha/RR8871/2011,A/Perth/10/2010,320
+A/Berlin/1/2012,A/Perth/10/2010,320
+A/Slovenia/9/2012,A/Perth/10/2010,320
+A/Brisbane/10/2007,A/Hong Kong/3969/2011,160
+A/Perth/16/2009,A/Hong Kong/3969/2011,640
+A/Victoria/208/2009,A/Hong Kong/3969/2011,2560
+A/Victoria/210/2009,A/Hong Kong/3969/2011,1280
+A/Alabama/5/2010,A/Hong Kong/3969/2011,320
+A/Perth/10/2010,A/Hong Kong/3969/2011,2560
+A/Hong Kong/3969/2011,A/Hong Kong/3969/2011,1280
+A/Stockholm/18/2011,A/Hong Kong/3969/2011,640
+A/Iowa/19/2010,A/Hong Kong/3969/2011,2560
+A/Chiang Rai/277/2011,A/Hong Kong/3969/2011,1280
+A/Hormozgan/7980/2011,A/Hong Kong/3969/2011,320
+A/Hormozgan/7981/2011,A/Hong Kong/3969/2011,640
+A/Khorasan/8032/2011,A/Hong Kong/3969/2011,640
+A/Khorasan/8320/2011,A/Hong Kong/3969/2011,640
+A/Tehran/8331/2011,A/Hong Kong/3969/2011,640
+A/Esfahan/8343/2011,A/Hong Kong/3969/2011,1280
+A/Kentucky/05/2011,A/Hong Kong/3969/2011,320
+A/Utah/12/2011,A/Hong Kong/3969/2011,640
+A/Madrid/RR8753/2011,A/Hong Kong/3969/2011,640
+A/Slovenia/2855/2011,A/Hong Kong/3969/2011,1280
+A/Berlin/92/2011,A/Hong Kong/3969/2011,1280
+A/Berlin/93/2011,A/Hong Kong/3969/2011,1280
+A/Norway/2366/2011,A/Hong Kong/3969/2011,640
+A/Berlin/89/2011,A/Hong Kong/3969/2011,640
+A/Slovenia/2970/2011,A/Hong Kong/3969/2011,1280
+A/Berlin/88/2011,A/Hong Kong/3969/2011,1280
+A/Berlin/90/2011,A/Hong Kong/3969/2011,1280
+A/Madrid/RR8856/2011,A/Hong Kong/3969/2011,640
+A/Berlin/91/2011,A/Hong Kong/3969/2011,1280
+A/Castilla La Mancha/RR8843/2011,A/Hong Kong/3969/2011,1280
+A/Pais Vasco/RR8864/2011,A/Hong Kong/3969/2011,320
+A/Pais Vasco/RR8867/2011,A/Hong Kong/3969/2011,640
+A/Castilla La Mancha/RR8870/2011,A/Hong Kong/3969/2011,640
+A/Castilla La Mancha/RR8871/2011,A/Hong Kong/3969/2011,640
+A/Berlin/1/2012,A/Hong Kong/3969/2011,640
+A/Slovenia/9/2012,A/Hong Kong/3969/2011,640
+A/Brisbane/10/2007,A/Stockholm/18/2011,40
+A/Perth/16/2009,A/Stockholm/18/2011,160
+A/Victoria/208/2009,A/Stockholm/18/2011,1280
+A/Victoria/210/2009,A/Stockholm/18/2011,640
+A/Alabama/5/2010,A/Stockholm/18/2011,160
+A/Perth/10/2010,A/Stockholm/18/2011,1280
+A/Hong Kong/3969/2011,A/Stockholm/18/2011,640
+A/Stockholm/18/2011,A/Stockholm/18/2011,1280
+A/Iowa/19/2010,A/Stockholm/18/2011,2560
+A/Chiang Rai/277/2011,A/Stockholm/18/2011,320
+A/Hormozgan/7980/2011,A/Stockholm/18/2011,320
+A/Hormozgan/7981/2011,A/Stockholm/18/2011,320
+A/Khorasan/8032/2011,A/Stockholm/18/2011,640
+A/Khorasan/8320/2011,A/Stockholm/18/2011,640
+A/Tehran/8331/2011,A/Stockholm/18/2011,320
+A/Esfahan/8343/2011,A/Stockholm/18/2011,640
+A/Kentucky/05/2011,A/Stockholm/18/2011,160
+A/Utah/12/2011,A/Stockholm/18/2011,640
+A/Madrid/RR8753/2011,A/Stockholm/18/2011,320
+A/Slovenia/2855/2011,A/Stockholm/18/2011,320
+A/Berlin/92/2011,A/Stockholm/18/2011,640
+A/Berlin/93/2011,A/Stockholm/18/2011,640
+A/Norway/2366/2011,A/Stockholm/18/2011,320
+A/Berlin/89/2011,A/Stockholm/18/2011,320
+A/Slovenia/2970/2011,A/Stockholm/18/2011,640
+A/Berlin/88/2011,A/Stockholm/18/2011,320
+A/Berlin/90/2011,A/Stockholm/18/2011,640
+A/Madrid/RR8856/2011,A/Stockholm/18/2011,320
+A/Berlin/91/2011,A/Stockholm/18/2011,640
+A/Castilla La Mancha/RR8843/2011,A/Stockholm/18/2011,640
+A/Pais Vasco/RR8864/2011,A/Stockholm/18/2011,640
+A/Pais Vasco/RR8867/2011,A/Stockholm/18/2011,320
+A/Castilla La Mancha/RR8870/2011,A/Stockholm/18/2011,320
+A/Castilla La Mancha/RR8871/2011,A/Stockholm/18/2011,320
+A/Berlin/1/2012,A/Stockholm/18/2011,320
+A/Slovenia/9/2012,A/Stockholm/18/2011,320
+A/Brisbane/10/2007,A/Iowa/19/2010,<40
+A/Perth/16/2009,A/Iowa/19/2010,160
+A/Victoria/208/2009,A/Iowa/19/2010,2560
+A/Victoria/210/2009,A/Iowa/19/2010,1280
+A/Alabama/5/2010,A/Iowa/19/2010,160
+A/Perth/10/2010,A/Iowa/19/2010,2560
+A/Hong Kong/3969/2011,A/Iowa/19/2010,320
+A/Stockholm/18/2011,A/Iowa/19/2010,320
+A/Iowa/19/2010,A/Iowa/19/2010,5120
+A/Chiang Rai/277/2011,A/Iowa/19/2010,640
+A/Hormozgan/7980/2011,A/Iowa/19/2010,320
+A/Hormozgan/7981/2011,A/Iowa/19/2010,320
+A/Khorasan/8032/2011,A/Iowa/19/2010,640
+A/Khorasan/8320/2011,A/Iowa/19/2010,640
+A/Tehran/8331/2011,A/Iowa/19/2010,640
+A/Esfahan/8343/2011,A/Iowa/19/2010,1280
+A/Kentucky/05/2011,A/Iowa/19/2010,160
+A/Utah/12/2011,A/Iowa/19/2010,320
+A/Madrid/RR8753/2011,A/Iowa/19/2010,320
+A/Slovenia/2855/2011,A/Iowa/19/2010,640
+A/Berlin/92/2011,A/Iowa/19/2010,640
+A/Berlin/93/2011,A/Iowa/19/2010,640
+A/Norway/2366/2011,A/Iowa/19/2010,320
+A/Berlin/89/2011,A/Iowa/19/2010,640
+A/Slovenia/2970/2011,A/Iowa/19/2010,640
+A/Berlin/88/2011,A/Iowa/19/2010,640
+A/Berlin/90/2011,A/Iowa/19/2010,640
+A/Madrid/RR8856/2011,A/Iowa/19/2010,320
+A/Berlin/91/2011,A/Iowa/19/2010,640
+A/Castilla La Mancha/RR8843/2011,A/Iowa/19/2010,640
+A/Pais Vasco/RR8864/2011,A/Iowa/19/2010,320
+A/Pais Vasco/RR8867/2011,A/Iowa/19/2010,320
+A/Castilla La Mancha/RR8870/2011,A/Iowa/19/2010,320
+A/Castilla La Mancha/RR8871/2011,A/Iowa/19/2010,640
+A/Berlin/1/2012,A/Iowa/19/2010,320
+A/Slovenia/9/2012,A/Iowa/19/2010,320
+A/Brisbane/10/2007,A/Brisbane/10/2007,1280
+A/Perth/16/2009,A/Brisbane/10/2007,<40
+A/Victoria/208/2009,A/Brisbane/10/2007,640
+A/Victoria/210/2009,A/Brisbane/10/2007,640
+A/Alabama/5/2010,A/Brisbane/10/2007,<40
+A/Perth/10/2010,A/Brisbane/10/2007,320
+A/Hong Kong/3969/2011,A/Brisbane/10/2007,160
+A/Stockholm/18/2011,A/Brisbane/10/2007,80
+A/Iowa/19/2010,A/Brisbane/10/2007,160
+A/Adjame/GR765/2011,A/Brisbane/10/2007,40
+A/Yopougon/GR826/2011,A/Brisbane/10/2007,40
+A/Attecoube/GR1099/2011,A/Brisbane/10/2007,80
+A/Marrakech/38/2011,A/Brisbane/10/2007,<40
+A/Attecoube/GR1241/2011,A/Brisbane/10/2007,40
+A/Adjame/GR1272/2011,A/Brisbane/10/2007,40
+A/Adjame/GR1327/2011,A/Brisbane/10/2007,40
+A/Porto/EuroEva58/2011,A/Brisbane/10/2007,40
+A/Norway/2233/2011,A/Brisbane/10/2007,40
+A/Meknes/49H/2011,A/Brisbane/10/2007,40
+A/Belgium/G1063/2011,A/Brisbane/10/2007,40
+A/Meknes/136H/2011,A/Brisbane/10/2007,40
+A/Berlin/94/2011,A/Brisbane/10/2007,80
+A/Meknes/56H/2011,A/Brisbane/10/2007,40
+A/Hong Kong/4960/2011,A/Brisbane/10/2007,40
+A/Hong Kong/4937/2011,A/Brisbane/10/2007,40
+A/Norway/2350/2011,A/Brisbane/10/2007,40
+A/Meknes/68/2011,A/Brisbane/10/2007,<40
+A/Tehran/9671/2011,A/Brisbane/10/2007,40
+A/Ghom/9677/2011,A/Brisbane/10/2007,40
+A/Tehran/9720/2011,A/Brisbane/10/2007,40
+A/Tehran/9721/2011,A/Brisbane/10/2007,40
+A/Hong Kong/4974/2011,A/Brisbane/10/2007,40
+A/Norway/2335/2011,A/Brisbane/10/2007,40
+A/Norway/2329/2011,A/Brisbane/10/2007,40
+A/Belgium/G1109/2011,A/Brisbane/10/2007,40
+A/Norway/2334/2011,A/Brisbane/10/2007,40
+A/Norway/2352/2011,A/Brisbane/10/2007,80
+A/Belgium/G1125/2011,A/Brisbane/10/2007,40
+A/Agadir/87/2011,A/Brisbane/10/2007,40
+A/Settat/91H/2011,A/Brisbane/10/2007,40
+A/Norway/2382/2011,A/Brisbane/10/2007,160
+A/Norway/2430/2011,A/Brisbane/10/2007,80
+A/Norway/2431/2011,A/Brisbane/10/2007,80
+A/Norway/2432/2011,A/Brisbane/10/2007,40
+A/Bayern/88/2011,A/Brisbane/10/2007,40
+A/Hong Kong/5047/2011,A/Brisbane/10/2007,40
+A/Norway/2400/2011,A/Brisbane/10/2007,80
+A/Belgium/G1147/2011,A/Brisbane/10/2007,80
+A/Norway/2406/2011,A/Brisbane/10/2007,80
+A/Tiznit/131/2011,A/Brisbane/10/2007,40
+A/Norway/2426/2011,A/Brisbane/10/2007,40
+A/Norway/2418/2011,A/Brisbane/10/2007,160
+A/Norway/2442/2011,A/Brisbane/10/2007,40
+A/Casablanca/155/2011,A/Brisbane/10/2007,<40
+A/Tiznit/167/2011,A/Brisbane/10/2007,<40
+A/Rabat/197/2011,A/Brisbane/10/2007,40
+A/Alborz/96/2012,A/Brisbane/10/2007,40
+A/Tehran/104/2012,A/Brisbane/10/2007,40
+A/Tehran/109/2012,A/Brisbane/10/2007,40
+A/Tehran/115/2012,A/Brisbane/10/2007,40
+A/Tehran/180/2012,A/Brisbane/10/2007,40
+A/Tehran/181/2012,A/Brisbane/10/2007,40
+A/Via Real/SU5/2012,A/Brisbane/10/2007,40
+A/Porto/EuroEva69/2012,A/Brisbane/10/2007,40
+A/Norway/2367/2011,A/Brisbane/10/2007,40
+A/Baden-Wurttemberg/1/2012,A/Brisbane/10/2007,40
+A/Oujda/144H/2011,A/Brisbane/10/2007,40
+A/Brisbane/10/2007,A/Perth/16/2009,80
+A/Perth/16/2009,A/Perth/16/2009,1280
+A/Victoria/208/2009,A/Perth/16/2009,1280
+A/Victoria/210/2009,A/Perth/16/2009,2560
+A/Alabama/5/2010,A/Perth/16/2009,80
+A/Perth/10/2010,A/Perth/16/2009,640
+A/Hong Kong/3969/2011,A/Perth/16/2009,320
+A/Stockholm/18/2011,A/Perth/16/2009,160
+A/Iowa/19/2010,A/Perth/16/2009,1280
+A/Adjame/GR765/2011,A/Perth/16/2009,320
+A/Yopougon/GR826/2011,A/Perth/16/2009,80
+A/Attecoube/GR1099/2011,A/Perth/16/2009,160
+A/Marrakech/38/2011,A/Perth/16/2009,80
+A/Attecoube/GR1241/2011,A/Perth/16/2009,80
+A/Adjame/GR1272/2011,A/Perth/16/2009,80
+A/Adjame/GR1327/2011,A/Perth/16/2009,80
+A/Porto/EuroEva58/2011,A/Perth/16/2009,160
+A/Norway/2233/2011,A/Perth/16/2009,160
+A/Meknes/49H/2011,A/Perth/16/2009,80
+A/Belgium/G1063/2011,A/Perth/16/2009,40
+A/Meknes/136H/2011,A/Perth/16/2009,80
+A/Berlin/94/2011,A/Perth/16/2009,320
+A/Meknes/56H/2011,A/Perth/16/2009,80
+A/Hong Kong/4960/2011,A/Perth/16/2009,80
+A/Hong Kong/4937/2011,A/Perth/16/2009,160
+A/Norway/2350/2011,A/Perth/16/2009,80
+A/Meknes/68/2011,A/Perth/16/2009,80
+A/Tehran/9671/2011,A/Perth/16/2009,160
+A/Ghom/9677/2011,A/Perth/16/2009,160
+A/Tehran/9720/2011,A/Perth/16/2009,160
+A/Tehran/9721/2011,A/Perth/16/2009,160
+A/Hong Kong/4974/2011,A/Perth/16/2009,160
+A/Norway/2335/2011,A/Perth/16/2009,160
+A/Norway/2329/2011,A/Perth/16/2009,80
+A/Belgium/G1109/2011,A/Perth/16/2009,160
+A/Norway/2334/2011,A/Perth/16/2009,160
+A/Norway/2352/2011,A/Perth/16/2009,160
+A/Belgium/G1125/2011,A/Perth/16/2009,80
+A/Agadir/87/2011,A/Perth/16/2009,160
+A/Settat/91H/2011,A/Perth/16/2009,160
+A/Norway/2382/2011,A/Perth/16/2009,160
+A/Norway/2430/2011,A/Perth/16/2009,160
+A/Norway/2431/2011,A/Perth/16/2009,320
+A/Norway/2432/2011,A/Perth/16/2009,80
+A/Bayern/88/2011,A/Perth/16/2009,160
+A/Hong Kong/5047/2011,A/Perth/16/2009,80
+A/Norway/2400/2011,A/Perth/16/2009,320
+A/Belgium/G1147/2011,A/Perth/16/2009,160
+A/Norway/2406/2011,A/Perth/16/2009,160
+A/Tiznit/131/2011,A/Perth/16/2009,80
+A/Norway/2426/2011,A/Perth/16/2009,160
+A/Norway/2418/2011,A/Perth/16/2009,160
+A/Norway/2442/2011,A/Perth/16/2009,160
+A/Casablanca/155/2011,A/Perth/16/2009,80
+A/Tiznit/167/2011,A/Perth/16/2009,80
+A/Rabat/197/2011,A/Perth/16/2009,80
+A/Alborz/96/2012,A/Perth/16/2009,160
+A/Tehran/104/2012,A/Perth/16/2009,80
+A/Tehran/109/2012,A/Perth/16/2009,80
+A/Tehran/115/2012,A/Perth/16/2009,160
+A/Tehran/180/2012,A/Perth/16/2009,80
+A/Tehran/181/2012,A/Perth/16/2009,160
+A/Via Real/SU5/2012,A/Perth/16/2009,160
+A/Porto/EuroEva69/2012,A/Perth/16/2009,160
+A/Norway/2367/2011,A/Perth/16/2009,160
+A/Baden-Wurttemberg/1/2012,A/Perth/16/2009,80
+A/Oujda/144H/2011,A/Perth/16/2009,80
+A/Brisbane/10/2007,A/Victoria/208/2009,80
+A/Perth/16/2009,A/Victoria/208/2009,80
+A/Victoria/208/2009,A/Victoria/208/2009,5120
+A/Victoria/210/2009,A/Victoria/208/2009,2560
+A/Alabama/5/2010,A/Victoria/208/2009,40
+A/Perth/10/2010,A/Victoria/208/2009,1280
+A/Hong Kong/3969/2011,A/Victoria/208/2009,160
+A/Stockholm/18/2011,A/Victoria/208/2009,80
+A/Iowa/19/2010,A/Victoria/208/2009,5120
+A/Adjame/GR765/2011,A/Victoria/208/2009,320
+A/Yopougon/GR826/2011,A/Victoria/208/2009,160
+A/Attecoube/GR1099/2011,A/Victoria/208/2009,320
+A/Marrakech/38/2011,A/Victoria/208/2009,160
+A/Attecoube/GR1241/2011,A/Victoria/208/2009,160
+A/Adjame/GR1272/2011,A/Victoria/208/2009,160
+A/Adjame/GR1327/2011,A/Victoria/208/2009,160
+A/Porto/EuroEva58/2011,A/Victoria/208/2009,320
+A/Norway/2233/2011,A/Victoria/208/2009,160
+A/Meknes/49H/2011,A/Victoria/208/2009,80
+A/Belgium/G1063/2011,A/Victoria/208/2009,80
+A/Meknes/136H/2011,A/Victoria/208/2009,160
+A/Berlin/94/2011,A/Victoria/208/2009,320
+A/Meknes/56H/2011,A/Victoria/208/2009,320
+A/Hong Kong/4960/2011,A/Victoria/208/2009,80
+A/Hong Kong/4937/2011,A/Victoria/208/2009,160
+A/Norway/2350/2011,A/Victoria/208/2009,160
+A/Meknes/68/2011,A/Victoria/208/2009,160
+A/Tehran/9671/2011,A/Victoria/208/2009,320
+A/Ghom/9677/2011,A/Victoria/208/2009,320
+A/Tehran/9720/2011,A/Victoria/208/2009,160
+A/Tehran/9721/2011,A/Victoria/208/2009,160
+A/Hong Kong/4974/2011,A/Victoria/208/2009,160
+A/Norway/2335/2011,A/Victoria/208/2009,160
+A/Norway/2329/2011,A/Victoria/208/2009,160
+A/Belgium/G1109/2011,A/Victoria/208/2009,320
+A/Norway/2334/2011,A/Victoria/208/2009,160
+A/Norway/2352/2011,A/Victoria/208/2009,160
+A/Belgium/G1125/2011,A/Victoria/208/2009,160
+A/Agadir/87/2011,A/Victoria/208/2009,160
+A/Settat/91H/2011,A/Victoria/208/2009,160
+A/Norway/2382/2011,A/Victoria/208/2009,160
+A/Norway/2430/2011,A/Victoria/208/2009,320
+A/Norway/2431/2011,A/Victoria/208/2009,320
+A/Norway/2432/2011,A/Victoria/208/2009,160
+A/Bayern/88/2011,A/Victoria/208/2009,320
+A/Hong Kong/5047/2011,A/Victoria/208/2009,160
+A/Norway/2400/2011,A/Victoria/208/2009,640
+A/Belgium/G1147/2011,A/Victoria/208/2009,320
+A/Norway/2406/2011,A/Victoria/208/2009,320
+A/Tiznit/131/2011,A/Victoria/208/2009,320
+A/Norway/2426/2011,A/Victoria/208/2009,160
+A/Norway/2418/2011,A/Victoria/208/2009,160
+A/Norway/2442/2011,A/Victoria/208/2009,160
+A/Casablanca/155/2011,A/Victoria/208/2009,80
+A/Tiznit/167/2011,A/Victoria/208/2009,80
+A/Rabat/197/2011,A/Victoria/208/2009,80
+A/Alborz/96/2012,A/Victoria/208/2009,320
+A/Tehran/104/2012,A/Victoria/208/2009,160
+A/Tehran/109/2012,A/Victoria/208/2009,160
+A/Tehran/115/2012,A/Victoria/208/2009,160
+A/Tehran/180/2012,A/Victoria/208/2009,160
+A/Tehran/181/2012,A/Victoria/208/2009,160
+A/Via Real/SU5/2012,A/Victoria/208/2009,320
+A/Porto/EuroEva69/2012,A/Victoria/208/2009,320
+A/Norway/2367/2011,A/Victoria/208/2009,160
+A/Baden-Wurttemberg/1/2012,A/Victoria/208/2009,160
+A/Oujda/144H/2011,A/Victoria/208/2009,160
+A/Brisbane/10/2007,A/Victoria/210/2009,160
+A/Perth/16/2009,A/Victoria/210/2009,640
+A/Victoria/208/2009,A/Victoria/210/2009,5120
+A/Victoria/210/2009,A/Victoria/210/2009,5120
+A/Alabama/5/2010,A/Victoria/210/2009,80
+A/Perth/10/2010,A/Victoria/210/2009,2560
+A/Hong Kong/3969/2011,A/Victoria/210/2009,640
+A/Stockholm/18/2011,A/Victoria/210/2009,160
+A/Iowa/19/2010,A/Victoria/210/2009,2560
+A/Adjame/GR765/2011,A/Victoria/210/2009,160
+A/Yopougon/GR826/2011,A/Victoria/210/2009,80
+A/Attecoube/GR1099/2011,A/Victoria/210/2009,160
+A/Marrakech/38/2011,A/Victoria/210/2009,80
+A/Attecoube/GR1241/2011,A/Victoria/210/2009,80
+A/Adjame/GR1272/2011,A/Victoria/210/2009,160
+A/Adjame/GR1327/2011,A/Victoria/210/2009,160
+A/Porto/EuroEva58/2011,A/Victoria/210/2009,80
+A/Norway/2233/2011,A/Victoria/210/2009,160
+A/Meknes/49H/2011,A/Victoria/210/2009,80
+A/Belgium/G1063/2011,A/Victoria/210/2009,80
+A/Meknes/136H/2011,A/Victoria/210/2009,160
+A/Berlin/94/2011,A/Victoria/210/2009,320
+A/Meknes/56H/2011,A/Victoria/210/2009,80
+A/Hong Kong/4960/2011,A/Victoria/210/2009,160
+A/Hong Kong/4937/2011,A/Victoria/210/2009,80
+A/Norway/2350/2011,A/Victoria/210/2009,160
+A/Meknes/68/2011,A/Victoria/210/2009,80
+A/Tehran/9671/2011,A/Victoria/210/2009,320
+A/Ghom/9677/2011,A/Victoria/210/2009,160
+A/Tehran/9720/2011,A/Victoria/210/2009,160
+A/Tehran/9721/2011,A/Victoria/210/2009,160
+A/Hong Kong/4974/2011,A/Victoria/210/2009,160
+A/Norway/2335/2011,A/Victoria/210/2009,320
+A/Norway/2329/2011,A/Victoria/210/2009,80
+A/Belgium/G1109/2011,A/Victoria/210/2009,160
+A/Norway/2334/2011,A/Victoria/210/2009,160
+A/Norway/2352/2011,A/Victoria/210/2009,160
+A/Belgium/G1125/2011,A/Victoria/210/2009,160
+A/Agadir/87/2011,A/Victoria/210/2009,160
+A/Settat/91H/2011,A/Victoria/210/2009,320
+A/Norway/2382/2011,A/Victoria/210/2009,320
+A/Norway/2430/2011,A/Victoria/210/2009,160
+A/Norway/2431/2011,A/Victoria/210/2009,320
+A/Norway/2432/2011,A/Victoria/210/2009,160
+A/Bayern/88/2011,A/Victoria/210/2009,320
+A/Hong Kong/5047/2011,A/Victoria/210/2009,160
+A/Norway/2400/2011,A/Victoria/210/2009,640
+A/Belgium/G1147/2011,A/Victoria/210/2009,160
+A/Norway/2406/2011,A/Victoria/210/2009,160
+A/Tiznit/131/2011,A/Victoria/210/2009,160
+A/Norway/2426/2011,A/Victoria/210/2009,160
+A/Norway/2418/2011,A/Victoria/210/2009,160
+A/Norway/2442/2011,A/Victoria/210/2009,160
+A/Casablanca/155/2011,A/Victoria/210/2009,80
+A/Tiznit/167/2011,A/Victoria/210/2009,80
+A/Rabat/197/2011,A/Victoria/210/2009,80
+A/Alborz/96/2012,A/Victoria/210/2009,160
+A/Tehran/104/2012,A/Victoria/210/2009,80
+A/Tehran/109/2012,A/Victoria/210/2009,80
+A/Tehran/115/2012,A/Victoria/210/2009,160
+A/Tehran/180/2012,A/Victoria/210/2009,80
+A/Tehran/181/2012,A/Victoria/210/2009,160
+A/Via Real/SU5/2012,A/Victoria/210/2009,160
+A/Porto/EuroEva69/2012,A/Victoria/210/2009,160
+A/Norway/2367/2011,A/Victoria/210/2009,160
+A/Baden-Wurttemberg/1/2012,A/Victoria/210/2009,80
+A/Oujda/144H/2011,A/Victoria/210/2009,320
+A/Brisbane/10/2007,A/Alabama/5/2010,40
+A/Perth/16/2009,A/Alabama/5/2010,320
+A/Victoria/208/2009,A/Alabama/5/2010,1280
+A/Victoria/210/2009,A/Alabama/5/2010,640
+A/Alabama/5/2010,A/Alabama/5/2010,320
+A/Perth/10/2010,A/Alabama/5/2010,1280
+A/Hong Kong/3969/2011,A/Alabama/5/2010,320
+A/Stockholm/18/2011,A/Alabama/5/2010,160
+A/Iowa/19/2010,A/Alabama/5/2010,2560
+A/Adjame/GR765/2011,A/Alabama/5/2010,320
+A/Yopougon/GR826/2011,A/Alabama/5/2010,160
+A/Attecoube/GR1099/2011,A/Alabama/5/2010,320
+A/Marrakech/38/2011,A/Alabama/5/2010,160
+A/Attecoube/GR1241/2011,A/Alabama/5/2010,160
+A/Adjame/GR1272/2011,A/Alabama/5/2010,160
+A/Adjame/GR1327/2011,A/Alabama/5/2010,160
+A/Porto/EuroEva58/2011,A/Alabama/5/2010,320
+A/Norway/2233/2011,A/Alabama/5/2010,320
+A/Meknes/49H/2011,A/Alabama/5/2010,160
+A/Belgium/G1063/2011,A/Alabama/5/2010,160
+A/Meknes/136H/2011,A/Alabama/5/2010,160
+A/Berlin/94/2011,A/Alabama/5/2010,640
+A/Meknes/56H/2011,A/Alabama/5/2010,160
+A/Hong Kong/4960/2011,A/Alabama/5/2010,160
+A/Hong Kong/4937/2011,A/Alabama/5/2010,160
+A/Norway/2350/2011,A/Alabama/5/2010,160
+A/Meknes/68/2011,A/Alabama/5/2010,160
+A/Tehran/9671/2011,A/Alabama/5/2010,640
+A/Ghom/9677/2011,A/Alabama/5/2010,320
+A/Tehran/9720/2011,A/Alabama/5/2010,320
+A/Tehran/9721/2011,A/Alabama/5/2010,160
+A/Hong Kong/4974/2011,A/Alabama/5/2010,320
+A/Norway/2335/2011,A/Alabama/5/2010,320
+A/Norway/2329/2011,A/Alabama/5/2010,160
+A/Belgium/G1109/2011,A/Alabama/5/2010,640
+A/Norway/2334/2011,A/Alabama/5/2010,160
+A/Norway/2352/2011,A/Alabama/5/2010,320
+A/Belgium/G1125/2011,A/Alabama/5/2010,160
+A/Agadir/87/2011,A/Alabama/5/2010,160
+A/Settat/91H/2011,A/Alabama/5/2010,160
+A/Norway/2382/2011,A/Alabama/5/2010,320
+A/Norway/2430/2011,A/Alabama/5/2010,320
+A/Norway/2431/2011,A/Alabama/5/2010,640
+A/Norway/2432/2011,A/Alabama/5/2010,160
+A/Bayern/88/2011,A/Alabama/5/2010,320
+A/Hong Kong/5047/2011,A/Alabama/5/2010,160
+A/Norway/2400/2011,A/Alabama/5/2010,1280
+A/Belgium/G1147/2011,A/Alabama/5/2010,320
+A/Norway/2406/2011,A/Alabama/5/2010,320
+A/Tiznit/131/2011,A/Alabama/5/2010,160
+A/Norway/2426/2011,A/Alabama/5/2010,320
+A/Norway/2418/2011,A/Alabama/5/2010,320
+A/Norway/2442/2011,A/Alabama/5/2010,160
+A/Casablanca/155/2011,A/Alabama/5/2010,160
+A/Tiznit/167/2011,A/Alabama/5/2010,80
+A/Rabat/197/2011,A/Alabama/5/2010,160
+A/Alborz/96/2012,A/Alabama/5/2010,320
+A/Tehran/104/2012,A/Alabama/5/2010,160
+A/Tehran/109/2012,A/Alabama/5/2010,160
+A/Tehran/115/2012,A/Alabama/5/2010,320
+A/Tehran/180/2012,A/Alabama/5/2010,160
+A/Tehran/181/2012,A/Alabama/5/2010,320
+A/Via Real/SU5/2012,A/Alabama/5/2010,640
+A/Porto/EuroEva69/2012,A/Alabama/5/2010,640
+A/Norway/2367/2011,A/Alabama/5/2010,320
+A/Baden-Wurttemberg/1/2012,A/Alabama/5/2010,160
+A/Oujda/144H/2011,A/Alabama/5/2010,160
+A/Brisbane/10/2007,A/Perth/10/2010,160
+A/Perth/16/2009,A/Perth/10/2010,640
+A/Victoria/208/2009,A/Perth/10/2010,5120
+A/Victoria/210/2009,A/Perth/10/2010,2560
+A/Alabama/5/2010,A/Perth/10/2010,320
+A/Perth/10/2010,A/Perth/10/2010,2560
+A/Hong Kong/3969/2011,A/Perth/10/2010,640
+A/Stockholm/18/2011,A/Perth/10/2010,320
+A/Iowa/19/2010,A/Perth/10/2010,5120
+A/Adjame/GR765/2011,A/Perth/10/2010,640
+A/Yopougon/GR826/2011,A/Perth/10/2010,320
+A/Attecoube/GR1099/2011,A/Perth/10/2010,640
+A/Marrakech/38/2011,A/Perth/10/2010,320
+A/Attecoube/GR1241/2011,A/Perth/10/2010,640
+A/Adjame/GR1272/2011,A/Perth/10/2010,320
+A/Adjame/GR1327/2011,A/Perth/10/2010,640
+A/Porto/EuroEva58/2011,A/Perth/10/2010,640
+A/Norway/2233/2011,A/Perth/10/2010,320
+A/Meknes/49H/2011,A/Perth/10/2010,320
+A/Belgium/G1063/2011,A/Perth/10/2010,320
+A/Meknes/136H/2011,A/Perth/10/2010,320
+A/Berlin/94/2011,A/Perth/10/2010,1280
+A/Meknes/56H/2011,A/Perth/10/2010,320
+A/Hong Kong/4960/2011,A/Perth/10/2010,320
+A/Hong Kong/4937/2011,A/Perth/10/2010,320
+A/Norway/2350/2011,A/Perth/10/2010,320
+A/Meknes/68/2011,A/Perth/10/2010,320
+A/Tehran/9671/2011,A/Perth/10/2010,640
+A/Ghom/9677/2011,A/Perth/10/2010,640
+A/Tehran/9720/2011,A/Perth/10/2010,640
+A/Tehran/9721/2011,A/Perth/10/2010,320
+A/Hong Kong/4974/2011,A/Perth/10/2010,320
+A/Norway/2335/2011,A/Perth/10/2010,640
+A/Norway/2329/2011,A/Perth/10/2010,320
+A/Belgium/G1109/2011,A/Perth/10/2010,1280
+A/Norway/2334/2011,A/Perth/10/2010,320
+A/Norway/2352/2011,A/Perth/10/2010,320
+A/Belgium/G1125/2011,A/Perth/10/2010,640
+A/Agadir/87/2011,A/Perth/10/2010,640
+A/Settat/91H/2011,A/Perth/10/2010,320
+A/Norway/2382/2011,A/Perth/10/2010,640
+A/Norway/2430/2011,A/Perth/10/2010,320
+A/Norway/2431/2011,A/Perth/10/2010,1280
+A/Norway/2432/2011,A/Perth/10/2010,320
+A/Bayern/88/2011,A/Perth/10/2010,640
+A/Hong Kong/5047/2011,A/Perth/10/2010,320
+A/Norway/2400/2011,A/Perth/10/2010,1280
+A/Belgium/G1147/2011,A/Perth/10/2010,640
+A/Norway/2406/2011,A/Perth/10/2010,640
+A/Tiznit/131/2011,A/Perth/10/2010,320
+A/Norway/2426/2011,A/Perth/10/2010,320
+A/Norway/2418/2011,A/Perth/10/2010,640
+A/Norway/2442/2011,A/Perth/10/2010,320
+A/Casablanca/155/2011,A/Perth/10/2010,320
+A/Tiznit/167/2011,A/Perth/10/2010,160
+A/Rabat/197/2011,A/Perth/10/2010,320
+A/Alborz/96/2012,A/Perth/10/2010,640
+A/Tehran/104/2012,A/Perth/10/2010,320
+A/Tehran/109/2012,A/Perth/10/2010,160
+A/Tehran/115/2012,A/Perth/10/2010,640
+A/Tehran/180/2012,A/Perth/10/2010,320
+A/Tehran/181/2012,A/Perth/10/2010,640
+A/Via Real/SU5/2012,A/Perth/10/2010,1280
+A/Porto/EuroEva69/2012,A/Perth/10/2010,640
+A/Norway/2367/2011,A/Perth/10/2010,320
+A/Baden-Wurttemberg/1/2012,A/Perth/10/2010,320
+A/Oujda/144H/2011,A/Perth/10/2010,320
+A/Brisbane/10/2007,A/Hong Kong/3969/2011,320
+A/Perth/16/2009,A/Hong Kong/3969/2011,1280
+A/Victoria/208/2009,A/Hong Kong/3969/2011,5120
+A/Victoria/210/2009,A/Hong Kong/3969/2011,1280
+A/Alabama/5/2010,A/Hong Kong/3969/2011,640
+A/Perth/10/2010,A/Hong Kong/3969/2011,2560
+A/Hong Kong/3969/2011,A/Hong Kong/3969/2011,1280
+A/Stockholm/18/2011,A/Hong Kong/3969/2011,640
+A/Iowa/19/2010,A/Hong Kong/3969/2011,5120
+A/Adjame/GR765/2011,A/Hong Kong/3969/2011,640
+A/Yopougon/GR826/2011,A/Hong Kong/3969/2011,320
+A/Attecoube/GR1099/2011,A/Hong Kong/3969/2011,1280
+A/Marrakech/38/2011,A/Hong Kong/3969/2011,320
+A/Attecoube/GR1241/2011,A/Hong Kong/3969/2011,1280
+A/Adjame/GR1272/2011,A/Hong Kong/3969/2011,1280
+A/Adjame/GR1327/2011,A/Hong Kong/3969/2011,1280
+A/Porto/EuroEva58/2011,A/Hong Kong/3969/2011,1280
+A/Norway/2233/2011,A/Hong Kong/3969/2011,640
+A/Meknes/49H/2011,A/Hong Kong/3969/2011,640
+A/Belgium/G1063/2011,A/Hong Kong/3969/2011,640
+A/Meknes/136H/2011,A/Hong Kong/3969/2011,640
+A/Berlin/94/2011,A/Hong Kong/3969/2011,2560
+A/Meknes/56H/2011,A/Hong Kong/3969/2011,640
+A/Hong Kong/4960/2011,A/Hong Kong/3969/2011,320
+A/Hong Kong/4937/2011,A/Hong Kong/3969/2011,1280
+A/Norway/2350/2011,A/Hong Kong/3969/2011,320
+A/Meknes/68/2011,A/Hong Kong/3969/2011,640
+A/Tehran/9671/2011,A/Hong Kong/3969/2011,1280
+A/Ghom/9677/2011,A/Hong Kong/3969/2011,1280
+A/Tehran/9720/2011,A/Hong Kong/3969/2011,1280
+A/Tehran/9721/2011,A/Hong Kong/3969/2011,640
+A/Hong Kong/4974/2011,A/Hong Kong/3969/2011,1280
+A/Norway/2335/2011,A/Hong Kong/3969/2011,1280
+A/Norway/2329/2011,A/Hong Kong/3969/2011,320
+A/Belgium/G1109/2011,A/Hong Kong/3969/2011,2560
+A/Norway/2334/2011,A/Hong Kong/3969/2011,1280
+A/Norway/2352/2011,A/Hong Kong/3969/2011,640
+A/Belgium/G1125/2011,A/Hong Kong/3969/2011,1280
+A/Agadir/87/2011,A/Hong Kong/3969/2011,1280
+A/Settat/91H/2011,A/Hong Kong/3969/2011,640
+A/Norway/2382/2011,A/Hong Kong/3969/2011,1280
+A/Norway/2430/2011,A/Hong Kong/3969/2011,1280
+A/Norway/2431/2011,A/Hong Kong/3969/2011,2560
+A/Norway/2432/2011,A/Hong Kong/3969/2011,640
+A/Bayern/88/2011,A/Hong Kong/3969/2011,1280
+A/Hong Kong/5047/2011,A/Hong Kong/3969/2011,640
+A/Norway/2400/2011,A/Hong Kong/3969/2011,2560
+A/Belgium/G1147/2011,A/Hong Kong/3969/2011,1280
+A/Norway/2406/2011,A/Hong Kong/3969/2011,1280
+A/Tiznit/131/2011,A/Hong Kong/3969/2011,640
+A/Norway/2426/2011,A/Hong Kong/3969/2011,640
+A/Norway/2418/2011,A/Hong Kong/3969/2011,1280
+A/Norway/2442/2011,A/Hong Kong/3969/2011,1280
+A/Casablanca/155/2011,A/Hong Kong/3969/2011,320
+A/Tiznit/167/2011,A/Hong Kong/3969/2011,320
+A/Rabat/197/2011,A/Hong Kong/3969/2011,640
+A/Alborz/96/2012,A/Hong Kong/3969/2011,1280
+A/Tehran/104/2012,A/Hong Kong/3969/2011,640
+A/Tehran/109/2012,A/Hong Kong/3969/2011,640
+A/Tehran/115/2012,A/Hong Kong/3969/2011,640
+A/Tehran/180/2012,A/Hong Kong/3969/2011,640
+A/Tehran/181/2012,A/Hong Kong/3969/2011,640
+A/Via Real/SU5/2012,A/Hong Kong/3969/2011,1280
+A/Porto/EuroEva69/2012,A/Hong Kong/3969/2011,1280
+A/Norway/2367/2011,A/Hong Kong/3969/2011,640
+A/Baden-Wurttemberg/1/2012,A/Hong Kong/3969/2011,640
+A/Oujda/144H/2011,A/Hong Kong/3969/2011,640
+A/Brisbane/10/2007,A/Stockholm/18/2011,80
+A/Perth/16/2009,A/Stockholm/18/2011,320
+A/Victoria/208/2009,A/Stockholm/18/2011,2560
+A/Victoria/210/2009,A/Stockholm/18/2011,1280
+A/Alabama/5/2010,A/Stockholm/18/2011,320
+A/Perth/10/2010,A/Stockholm/18/2011,1280
+A/Hong Kong/3969/2011,A/Stockholm/18/2011,640
+A/Stockholm/18/2011,A/Stockholm/18/2011,640
+A/Iowa/19/2010,A/Stockholm/18/2011,5120
+A/Adjame/GR765/2011,A/Stockholm/18/2011,2560
+A/Yopougon/GR826/2011,A/Stockholm/18/2011,640
+A/Attecoube/GR1099/2011,A/Stockholm/18/2011,1280
+A/Marrakech/38/2011,A/Stockholm/18/2011,320
+A/Attecoube/GR1241/2011,A/Stockholm/18/2011,640
+A/Adjame/GR1272/2011,A/Stockholm/18/2011,640
+A/Adjame/GR1327/2011,A/Stockholm/18/2011,640
+A/Porto/EuroEva58/2011,A/Stockholm/18/2011,1280
+A/Norway/2233/2011,A/Stockholm/18/2011,640
+A/Meknes/49H/2011,A/Stockholm/18/2011,320
+A/Belgium/G1063/2011,A/Stockholm/18/2011,320
+A/Meknes/136H/2011,A/Stockholm/18/2011,640
+A/Berlin/94/2011,A/Stockholm/18/2011,1280
+A/Meknes/56H/2011,A/Stockholm/18/2011,320
+A/Hong Kong/4960/2011,A/Stockholm/18/2011,320
+A/Hong Kong/4937/2011,A/Stockholm/18/2011,320
+A/Norway/2350/2011,A/Stockholm/18/2011,320
+A/Meknes/68/2011,A/Stockholm/18/2011,320
+A/Tehran/9671/2011,A/Stockholm/18/2011,640
+A/Ghom/9677/2011,A/Stockholm/18/2011,640
+A/Tehran/9720/2011,A/Stockholm/18/2011,640
+A/Tehran/9721/2011,A/Stockholm/18/2011,640
+A/Hong Kong/4974/2011,A/Stockholm/18/2011,640
+A/Norway/2335/2011,A/Stockholm/18/2011,640
+A/Norway/2329/2011,A/Stockholm/18/2011,320
+A/Belgium/G1109/2011,A/Stockholm/18/2011,640
+A/Norway/2334/2011,A/Stockholm/18/2011,640
+A/Norway/2352/2011,A/Stockholm/18/2011,640
+A/Belgium/G1125/2011,A/Stockholm/18/2011,320
+A/Agadir/87/2011,A/Stockholm/18/2011,320
+A/Settat/91H/2011,A/Stockholm/18/2011,640
+A/Norway/2382/2011,A/Stockholm/18/2011,640
+A/Norway/2430/2011,A/Stockholm/18/2011,640
+A/Norway/2431/2011,A/Stockholm/18/2011,1280
+A/Norway/2432/2011,A/Stockholm/18/2011,640
+A/Bayern/88/2011,A/Stockholm/18/2011,320
+A/Hong Kong/5047/2011,A/Stockholm/18/2011,320
+A/Norway/2400/2011,A/Stockholm/18/2011,1280
+A/Belgium/G1147/2011,A/Stockholm/18/2011,1280
+A/Norway/2406/2011,A/Stockholm/18/2011,640
+A/Tiznit/131/2011,A/Stockholm/18/2011,320
+A/Norway/2426/2011,A/Stockholm/18/2011,640
+A/Norway/2418/2011,A/Stockholm/18/2011,640
+A/Norway/2442/2011,A/Stockholm/18/2011,640
+A/Casablanca/155/2011,A/Stockholm/18/2011,320
+A/Tiznit/167/2011,A/Stockholm/18/2011,160
+A/Rabat/197/2011,A/Stockholm/18/2011,320
+A/Alborz/96/2012,A/Stockholm/18/2011,640
+A/Tehran/104/2012,A/Stockholm/18/2011,320
+A/Tehran/109/2012,A/Stockholm/18/2011,320
+A/Tehran/115/2012,A/Stockholm/18/2011,640
+A/Tehran/180/2012,A/Stockholm/18/2011,640
+A/Tehran/181/2012,A/Stockholm/18/2011,320
+A/Via Real/SU5/2012,A/Stockholm/18/2011,640
+A/Porto/EuroEva69/2012,A/Stockholm/18/2011,640
+A/Norway/2367/2011,A/Stockholm/18/2011,640
+A/Baden-Wurttemberg/1/2012,A/Stockholm/18/2011,640
+A/Oujda/144H/2011,A/Stockholm/18/2011,640
+A/Brisbane/10/2007,A/Iowa/19/2010,80
+A/Perth/16/2009,A/Iowa/19/2010,320
+A/Victoria/208/2009,A/Iowa/19/2010,5120
+A/Victoria/210/2009,A/Iowa/19/2010,2560
+A/Alabama/5/2010,A/Iowa/19/2010,320
+A/Perth/10/2010,A/Iowa/19/2010,2560
+A/Hong Kong/3969/2011,A/Iowa/19/2010,640
+A/Stockholm/18/2011,A/Iowa/19/2010,320
+A/Iowa/19/2010,A/Iowa/19/2010,5120
+A/Adjame/GR765/2011,A/Iowa/19/2010,640
+A/Yopougon/GR826/2011,A/Iowa/19/2010,320
+A/Attecoube/GR1099/2011,A/Iowa/19/2010,640
+A/Marrakech/38/2011,A/Iowa/19/2010,320
+A/Attecoube/GR1241/2011,A/Iowa/19/2010,640
+A/Adjame/GR1272/2011,A/Iowa/19/2010,320
+A/Adjame/GR1327/2011,A/Iowa/19/2010,320
+A/Porto/EuroEva58/2011,A/Iowa/19/2010,320
+A/Norway/2233/2011,A/Iowa/19/2010,320
+A/Meknes/49H/2011,A/Iowa/19/2010,320
+A/Belgium/G1063/2011,A/Iowa/19/2010,320
+A/Meknes/136H/2011,A/Iowa/19/2010,320
+A/Berlin/94/2011,A/Iowa/19/2010,1280
+A/Meknes/56H/2011,A/Iowa/19/2010,320
+A/Hong Kong/4960/2011,A/Iowa/19/2010,320
+A/Hong Kong/4937/2011,A/Iowa/19/2010,320
+A/Norway/2350/2011,A/Iowa/19/2010,640
+A/Meknes/68/2011,A/Iowa/19/2010,320
+A/Tehran/9671/2011,A/Iowa/19/2010,640
+A/Ghom/9677/2011,A/Iowa/19/2010,640
+A/Tehran/9720/2011,A/Iowa/19/2010,640
+A/Tehran/9721/2011,A/Iowa/19/2010,320
+A/Hong Kong/4974/2011,A/Iowa/19/2010,320
+A/Norway/2335/2011,A/Iowa/19/2010,640
+A/Norway/2329/2011,A/Iowa/19/2010,320
+A/Belgium/G1109/2011,A/Iowa/19/2010,1280
+A/Norway/2334/2011,A/Iowa/19/2010,320
+A/Norway/2352/2011,A/Iowa/19/2010,320
+A/Belgium/G1125/2011,A/Iowa/19/2010,320
+A/Agadir/87/2011,A/Iowa/19/2010,320
+A/Settat/91H/2011,A/Iowa/19/2010,320
+A/Norway/2382/2011,A/Iowa/19/2010,320
+A/Norway/2430/2011,A/Iowa/19/2010,640
+A/Norway/2431/2011,A/Iowa/19/2010,640
+A/Norway/2432/2011,A/Iowa/19/2010,320
+A/Bayern/88/2011,A/Iowa/19/2010,640
+A/Hong Kong/5047/2011,A/Iowa/19/2010,320
+A/Norway/2400/2011,A/Iowa/19/2010,1280
+A/Belgium/G1147/2011,A/Iowa/19/2010,640
+A/Norway/2406/2011,A/Iowa/19/2010,640
+A/Tiznit/131/2011,A/Iowa/19/2010,320
+A/Norway/2426/2011,A/Iowa/19/2010,640
+A/Norway/2418/2011,A/Iowa/19/2010,320
+A/Norway/2442/2011,A/Iowa/19/2010,320
+A/Casablanca/155/2011,A/Iowa/19/2010,160
+A/Tiznit/167/2011,A/Iowa/19/2010,160
+A/Rabat/197/2011,A/Iowa/19/2010,320
+A/Alborz/96/2012,A/Iowa/19/2010,640
+A/Tehran/104/2012,A/Iowa/19/2010,160
+A/Tehran/109/2012,A/Iowa/19/2010,160
+A/Tehran/115/2012,A/Iowa/19/2010,320
+A/Tehran/180/2012,A/Iowa/19/2010,320
+A/Tehran/181/2012,A/Iowa/19/2010,320
+A/Via Real/SU5/2012,A/Iowa/19/2010,1280
+A/Porto/EuroEva69/2012,A/Iowa/19/2010,1280
+A/Norway/2367/2011,A/Iowa/19/2010,320
+A/Baden-Wurttemberg/1/2012,A/Iowa/19/2010,320
+A/Oujda/144H/2011,A/Iowa/19/2010,320
+A/Brisbane/10/2007,A/Brisbane/10/2007,5120
+A/Perth/16/2009,A/Brisbane/10/2007,<40
+A/Victoria/208/2009,A/Brisbane/10/2007,320
+A/Victoria/210/2009,A/Brisbane/10/2007,320
+A/Alabama/5/2010,A/Brisbane/10/2007,<40
+A/Perth/10/2010,A/Brisbane/10/2007,160
+A/Hong Kong/3969/2011,A/Brisbane/10/2007,80
+A/Stockholm/18/2011,A/Brisbane/10/2007,<40
+A/Iowa/19/2010,A/Brisbane/10/2007,80
+A/La Réunion/2055/2011,A/Brisbane/10/2007,80
+A/La Réunion/1956/2011,A/Brisbane/10/2007,80
+A/Paris/1744/2011,A/Brisbane/10/2007,40
+A/Attecoube/GR1103/2011,A/Brisbane/10/2007,<40
+A/Korogho/GR1307/2011,A/Brisbane/10/2007,<40
+A/Ghana/FS-11-1981/2011,A/Brisbane/10/2007,<40
+A/Parma/171/2011,A/Brisbane/10/2007,<40
+A/Firenze/1/2011,A/Brisbane/10/2007,<40
+A/Catalonia/S4345/2011,A/Brisbane/10/2007,40
+A/Milano/260/2011,A/Brisbane/10/2007,<40
+A/Trieste/58/2011,A/Brisbane/10/2007,<40
+A/Milano/256/2011,A/Brisbane/10/2007,<40
+A/Paris/2013/2011,A/Brisbane/10/2007,40
+A/Parma/169/2011,A/Brisbane/10/2007,<40
+A/Turkey/05/2011,A/Brisbane/10/2007,<40
+A/Marseille/2240/2011,A/Brisbane/10/2007,<40
+A/Lorraine/2073/2011,A/Brisbane/10/2007,40
+A/Toulouse/2187/2011,A/Brisbane/10/2007,40
+A/Rheinland-Pfalz/75/2011,A/Brisbane/10/2007,<40
+A/Berlin/2/2012,A/Brisbane/10/2007,40
+A/Milano/258/2011,A/Brisbane/10/2007,<40
+A/Trieste/59/2011,A/Brisbane/10/2007,<40
+A/Israel/32/2011,A/Brisbane/10/2007,<40
+A/Norway/2433/2011,A/Brisbane/10/2007,<40
+A/Lorraine/2056/2011,A/Brisbane/10/2007,40
+A/Valladolid/48/2011,A/Brisbane/10/2007,<40
+A/Milano/265/2011,A/Brisbane/10/2007,<40
+A/Parma/170/2011,A/Brisbane/10/2007,40
+A/Turkey/07/2011,A/Brisbane/10/2007,<40
+A/Turkey/08/2011,A/Brisbane/10/2007,<40
+A/Firenze/3/2011,A/Brisbane/10/2007,40
+A/Turkey/12/2011,A/Brisbane/10/2007,<40
+A/Paris/2097/2011,A/Brisbane/10/2007,40
+A/Milano/268/2011,A/Brisbane/10/2007,<40
+A/Turkey/14/2011,A/Brisbane/10/2007,<40
+A/Paris/2100/2011,A/Brisbane/10/2007,<40
+A/Valladolid/49/2011,A/Brisbane/10/2007,<40
+A/Israel/38/2011,A/Brisbane/10/2007,<40
+A/Paris/2114/2011,A/Brisbane/10/2007,<40
+A/Ireland/11M92381/2011,A/Brisbane/10/2007,<40
+A/Parma/168/2011,A/Brisbane/10/2007,40
+A/Paris/2116/2011,A/Brisbane/10/2007,<40
+A/Paris/2133/2011,A/Brisbane/10/2007,<40
+A/Ireland/11M92761/2011,A/Brisbane/10/2007,<40
+A/Parma/172/2011,A/Brisbane/10/2007,40
+A/Parma/175/2011,A/Brisbane/10/2007,40
+A/Lyon/2264/2011,A/Brisbane/10/2007,40
+A/Israel/41/2011,A/Brisbane/10/2007,<40
+A/Catalonia/S4320/2011,A/Brisbane/10/2007,40
+A/Pays de Loire/2149/2011,A/Brisbane/10/2007,<40
+A/Trieste/62/2011,A/Brisbane/10/2007,<40
+A/Parma/177/2011,A/Brisbane/10/2007,40
+A/Paris/2154/2011,A/Brisbane/10/2007,<40
+A/Paris/7/2012,A/Brisbane/10/2007,<40
+A/Salamanca/50/2011,A/Brisbane/10/2007,<40
+A/Trieste/63/2011,A/Brisbane/10/2007,<40
+A/Parma/173/2011,A/Brisbane/10/2007,40
+A/Parma/174/2011,A/Brisbane/10/2007,<40
+A/Parma/176/2011,A/Brisbane/10/2007,40
+A/Baden-Wurttemberg/2/2012,A/Brisbane/10/2007,40
+A/Lyon/40/2012,A/Brisbane/10/2007,40
+A/Via Real/SU6/2012,A/Brisbane/10/2007,<40
+A/Paris/27/2012,A/Brisbane/10/2007,<40
+A/Parma/01/2012,A/Brisbane/10/2007,<40
+A/Valladolid/1/2012,A/Brisbane/10/2007,<40
+A/Segovia/2/2012,A/Brisbane/10/2007,<40
+A/Berlin/3/2012,A/Brisbane/10/2007,40
+A/Salamanca/4/2012,A/Brisbane/10/2007,<40
+A/Israel/27/2011,A/Brisbane/10/2007,<40
+A/Israel/43/2011,A/Brisbane/10/2007,<40
+A/Israel/47/2011,A/Brisbane/10/2007,<40
+A/Israel/50/2011,A/Brisbane/10/2007,<40
+A/Brisbane/10/2007,A/Perth/16/2009,40
+A/Perth/16/2009,A/Perth/16/2009,1280
+A/Victoria/208/2009,A/Perth/16/2009,1280
+A/Victoria/210/2009,A/Perth/16/2009,2560
+A/Alabama/5/2010,A/Perth/16/2009,80
+A/Perth/10/2010,A/Perth/16/2009,640
+A/Hong Kong/3969/2011,A/Perth/16/2009,160
+A/Stockholm/18/2011,A/Perth/16/2009,80
+A/Iowa/19/2010,A/Perth/16/2009,640
+A/La Réunion/2055/2011,A/Perth/16/2009,640
+A/La Réunion/1956/2011,A/Perth/16/2009,320
+A/Paris/1744/2011,A/Perth/16/2009,160
+A/Attecoube/GR1103/2011,A/Perth/16/2009,160
+A/Korogho/GR1307/2011,A/Perth/16/2009,80
+A/Ghana/FS-11-1981/2011,A/Perth/16/2009,160
+A/Parma/171/2011,A/Perth/16/2009,40
+A/Firenze/1/2011,A/Perth/16/2009,40
+A/Catalonia/S4345/2011,A/Perth/16/2009,160
+A/Milano/260/2011,A/Perth/16/2009,40
+A/Trieste/58/2011,A/Perth/16/2009,80
+A/Milano/256/2011,A/Perth/16/2009,80
+A/Paris/2013/2011,A/Perth/16/2009,160
+A/Parma/169/2011,A/Perth/16/2009,160
+A/Turkey/05/2011,A/Perth/16/2009,80
+A/Marseille/2240/2011,A/Perth/16/2009,80
+A/Lorraine/2073/2011,A/Perth/16/2009,320
+A/Toulouse/2187/2011,A/Perth/16/2009,160
+A/Rheinland-Pfalz/75/2011,A/Perth/16/2009,80
+A/Berlin/2/2012,A/Perth/16/2009,320
+A/Milano/258/2011,A/Perth/16/2009,80
+A/Trieste/59/2011,A/Perth/16/2009,40
+A/Israel/32/2011,A/Perth/16/2009,80
+A/Norway/2433/2011,A/Perth/16/2009,80
+A/Lorraine/2056/2011,A/Perth/16/2009,160
+A/Valladolid/48/2011,A/Perth/16/2009,80
+A/Milano/265/2011,A/Perth/16/2009,80
+A/Parma/170/2011,A/Perth/16/2009,160
+A/Turkey/07/2011,A/Perth/16/2009,160
+A/Turkey/08/2011,A/Perth/16/2009,160
+A/Firenze/3/2011,A/Perth/16/2009,320
+A/Turkey/12/2011,A/Perth/16/2009,80
+A/Paris/2097/2011,A/Perth/16/2009,160
+A/Milano/268/2011,A/Perth/16/2009,80
+A/Turkey/14/2011,A/Perth/16/2009,160
+A/Paris/2100/2011,A/Perth/16/2009,80
+A/Valladolid/49/2011,A/Perth/16/2009,80
+A/Israel/38/2011,A/Perth/16/2009,80
+A/Paris/2114/2011,A/Perth/16/2009,160
+A/Ireland/11M92381/2011,A/Perth/16/2009,80
+A/Parma/168/2011,A/Perth/16/2009,160
+A/Paris/2116/2011,A/Perth/16/2009,160
+A/Paris/2133/2011,A/Perth/16/2009,80
+A/Ireland/11M92761/2011,A/Perth/16/2009,80
+A/Parma/172/2011,A/Perth/16/2009,160
+A/Parma/175/2011,A/Perth/16/2009,320
+A/Lyon/2264/2011,A/Perth/16/2009,320
+A/Israel/41/2011,A/Perth/16/2009,160
+A/Catalonia/S4320/2011,A/Perth/16/2009,160
+A/Pays de Loire/2149/2011,A/Perth/16/2009,80
+A/Trieste/62/2011,A/Perth/16/2009,160
+A/Parma/177/2011,A/Perth/16/2009,160
+A/Paris/2154/2011,A/Perth/16/2009,80
+A/Paris/7/2012,A/Perth/16/2009,80
+A/Salamanca/50/2011,A/Perth/16/2009,160
+A/Trieste/63/2011,A/Perth/16/2009,160
+A/Parma/173/2011,A/Perth/16/2009,160
+A/Parma/174/2011,A/Perth/16/2009,80
+A/Parma/176/2011,A/Perth/16/2009,320
+A/Baden-Wurttemberg/2/2012,A/Perth/16/2009,320
+A/Lyon/40/2012,A/Perth/16/2009,160
+A/Via Real/SU6/2012,A/Perth/16/2009,160
+A/Paris/27/2012,A/Perth/16/2009,80
+A/Parma/01/2012,A/Perth/16/2009,<40
+A/Valladolid/1/2012,A/Perth/16/2009,160
+A/Segovia/2/2012,A/Perth/16/2009,80
+A/Berlin/3/2012,A/Perth/16/2009,160
+A/Salamanca/4/2012,A/Perth/16/2009,80
+A/Israel/27/2011,A/Perth/16/2009,160
+A/Israel/43/2011,A/Perth/16/2009,80
+A/Israel/47/2011,A/Perth/16/2009,40
+A/Israel/50/2011,A/Perth/16/2009,40
+A/Brisbane/10/2007,A/Victoria/208/2009,40
+A/Perth/16/2009,A/Victoria/208/2009,40
+A/Victoria/208/2009,A/Victoria/208/2009,2560
+A/Victoria/210/2009,A/Victoria/208/2009,1280
+A/Alabama/5/2010,A/Victoria/208/2009,40
+A/Perth/10/2010,A/Victoria/208/2009,2560
+A/Hong Kong/3969/2011,A/Victoria/208/2009,160
+A/Stockholm/18/2011,A/Victoria/208/2009,80
+A/Iowa/19/2010,A/Victoria/208/2009,2560
+A/La Réunion/2055/2011,A/Victoria/208/2009,320
+A/La Réunion/1956/2011,A/Victoria/208/2009,320
+A/Paris/1744/2011,A/Victoria/208/2009,160
+A/Attecoube/GR1103/2011,A/Victoria/208/2009,160
+A/Korogho/GR1307/2011,A/Victoria/208/2009,160
+A/Ghana/FS-11-1981/2011,A/Victoria/208/2009,160
+A/Parma/171/2011,A/Victoria/208/2009,40
+A/Firenze/1/2011,A/Victoria/208/2009,40
+A/Catalonia/S4345/2011,A/Victoria/208/2009,320
+A/Milano/260/2011,A/Victoria/208/2009,40
+A/Trieste/58/2011,A/Victoria/208/2009,160
+A/Milano/256/2011,A/Victoria/208/2009,160
+A/Paris/2013/2011,A/Victoria/208/2009,320
+A/Parma/169/2011,A/Victoria/208/2009,160
+A/Turkey/05/2011,A/Victoria/208/2009,160
+A/Marseille/2240/2011,A/Victoria/208/2009,160
+A/Lorraine/2073/2011,A/Victoria/208/2009,320
+A/Toulouse/2187/2011,A/Victoria/208/2009,160
+A/Rheinland-Pfalz/75/2011,A/Victoria/208/2009,160
+A/Berlin/2/2012,A/Victoria/208/2009,160
+A/Milano/258/2011,A/Victoria/208/2009,80
+A/Trieste/59/2011,A/Victoria/208/2009,80
+A/Israel/32/2011,A/Victoria/208/2009,80
+A/Norway/2433/2011,A/Victoria/208/2009,160
+A/Lorraine/2056/2011,A/Victoria/208/2009,160
+A/Valladolid/48/2011,A/Victoria/208/2009,80
+A/Milano/265/2011,A/Victoria/208/2009,80
+A/Parma/170/2011,A/Victoria/208/2009,160
+A/Turkey/07/2011,A/Victoria/208/2009,160
+A/Turkey/08/2011,A/Victoria/208/2009,160
+A/Firenze/3/2011,A/Victoria/208/2009,320
+A/Turkey/12/2011,A/Victoria/208/2009,160
+A/Paris/2097/2011,A/Victoria/208/2009,160
+A/Milano/268/2011,A/Victoria/208/2009,80
+A/Turkey/14/2011,A/Victoria/208/2009,320
+A/Paris/2100/2011,A/Victoria/208/2009,160
+A/Valladolid/49/2011,A/Victoria/208/2009,80
+A/Israel/38/2011,A/Victoria/208/2009,80
+A/Paris/2114/2011,A/Victoria/208/2009,160
+A/Ireland/11M92381/2011,A/Victoria/208/2009,40
+A/Parma/168/2011,A/Victoria/208/2009,160
+A/Paris/2116/2011,A/Victoria/208/2009,160
+A/Paris/2133/2011,A/Victoria/208/2009,80
+A/Ireland/11M92761/2011,A/Victoria/208/2009,160
+A/Parma/172/2011,A/Victoria/208/2009,320
+A/Parma/175/2011,A/Victoria/208/2009,320
+A/Lyon/2264/2011,A/Victoria/208/2009,320
+A/Israel/41/2011,A/Victoria/208/2009,160
+A/Catalonia/S4320/2011,A/Victoria/208/2009,320
+A/Pays de Loire/2149/2011,A/Victoria/208/2009,160
+A/Trieste/62/2011,A/Victoria/208/2009,160
+A/Parma/177/2011,A/Victoria/208/2009,320
+A/Paris/2154/2011,A/Victoria/208/2009,160
+A/Paris/7/2012,A/Victoria/208/2009,40
+A/Salamanca/50/2011,A/Victoria/208/2009,160
+A/Trieste/63/2011,A/Victoria/208/2009,80
+A/Parma/173/2011,A/Victoria/208/2009,160
+A/Parma/174/2011,A/Victoria/208/2009,80
+A/Parma/176/2011,A/Victoria/208/2009,320
+A/Baden-Wurttemberg/2/2012,A/Victoria/208/2009,320
+A/Lyon/40/2012,A/Victoria/208/2009,320
+A/Via Real/SU6/2012,A/Victoria/208/2009,160
+A/Paris/27/2012,A/Victoria/208/2009,160
+A/Parma/01/2012,A/Victoria/208/2009,<40
+A/Valladolid/1/2012,A/Victoria/208/2009,160
+A/Segovia/2/2012,A/Victoria/208/2009,80
+A/Berlin/3/2012,A/Victoria/208/2009,160
+A/Salamanca/4/2012,A/Victoria/208/2009,160
+A/Israel/27/2011,A/Victoria/208/2009,80
+A/Israel/43/2011,A/Victoria/208/2009,160
+A/Israel/47/2011,A/Victoria/208/2009,80
+A/Israel/50/2011,A/Victoria/208/2009,80
+A/Brisbane/10/2007,A/Victoria/210/2009,40
+A/Perth/16/2009,A/Victoria/210/2009,160
+A/Victoria/208/2009,A/Victoria/210/2009,2560
+A/Victoria/210/2009,A/Victoria/210/2009,2560
+A/Alabama/5/2010,A/Victoria/210/2009,40
+A/Perth/10/2010,A/Victoria/210/2009,2560
+A/Hong Kong/3969/2011,A/Victoria/210/2009,160
+A/Stockholm/18/2011,A/Victoria/210/2009,40
+A/Iowa/19/2010,A/Victoria/210/2009,2560
+A/La Réunion/2055/2011,A/Victoria/210/2009,320
+A/La Réunion/1956/2011,A/Victoria/210/2009,320
+A/Paris/1744/2011,A/Victoria/210/2009,160
+A/Attecoube/GR1103/2011,A/Victoria/210/2009,80
+A/Korogho/GR1307/2011,A/Victoria/210/2009,160
+A/Ghana/FS-11-1981/2011,A/Victoria/210/2009,160
+A/Parma/171/2011,A/Victoria/210/2009,<40
+A/Firenze/1/2011,A/Victoria/210/2009,80
+A/Catalonia/S4345/2011,A/Victoria/210/2009,320
+A/Milano/260/2011,A/Victoria/210/2009,80
+A/Trieste/58/2011,A/Victoria/210/2009,80
+A/Milano/256/2011,A/Victoria/210/2009,80
+A/Paris/2013/2011,A/Victoria/210/2009,160
+A/Parma/169/2011,A/Victoria/210/2009,80
+A/Turkey/05/2011,A/Victoria/210/2009,80
+A/Marseille/2240/2011,A/Victoria/210/2009,160
+A/Lorraine/2073/2011,A/Victoria/210/2009,160
+A/Toulouse/2187/2011,A/Victoria/210/2009,160
+A/Rheinland-Pfalz/75/2011,A/Victoria/210/2009,160
+A/Berlin/2/2012,A/Victoria/210/2009,160
+A/Milano/258/2011,A/Victoria/210/2009,80
+A/Trieste/59/2011,A/Victoria/210/2009,80
+A/Israel/32/2011,A/Victoria/210/2009,80
+A/Norway/2433/2011,A/Victoria/210/2009,160
+A/Lorraine/2056/2011,A/Victoria/210/2009,160
+A/Valladolid/48/2011,A/Victoria/210/2009,80
+A/Milano/265/2011,A/Victoria/210/2009,80
+A/Parma/170/2011,A/Victoria/210/2009,160
+A/Turkey/07/2011,A/Victoria/210/2009,80
+A/Turkey/08/2011,A/Victoria/210/2009,80
+A/Firenze/3/2011,A/Victoria/210/2009,320
+A/Turkey/12/2011,A/Victoria/210/2009,160
+A/Paris/2097/2011,A/Victoria/210/2009,160
+A/Milano/268/2011,A/Victoria/210/2009,80
+A/Turkey/14/2011,A/Victoria/210/2009,160
+A/Paris/2100/2011,A/Victoria/210/2009,80
+A/Valladolid/49/2011,A/Victoria/210/2009,80
+A/Israel/38/2011,A/Victoria/210/2009,80
+A/Paris/2114/2011,A/Victoria/210/2009,320
+A/Ireland/11M92381/2011,A/Victoria/210/2009,<40
+A/Parma/168/2011,A/Victoria/210/2009,160
+A/Paris/2116/2011,A/Victoria/210/2009,320
+A/Paris/2133/2011,A/Victoria/210/2009,80
+A/Ireland/11M92761/2011,A/Victoria/210/2009,80
+A/Parma/172/2011,A/Victoria/210/2009,160
+A/Parma/175/2011,A/Victoria/210/2009,320
+A/Lyon/2264/2011,A/Victoria/210/2009,160
+A/Israel/41/2011,A/Victoria/210/2009,160
+A/Catalonia/S4320/2011,A/Victoria/210/2009,320
+A/Pays de Loire/2149/2011,A/Victoria/210/2009,80
+A/Trieste/62/2011,A/Victoria/210/2009,80
+A/Parma/177/2011,A/Victoria/210/2009,160
+A/Paris/2154/2011,A/Victoria/210/2009,80
+A/Paris/7/2012,A/Victoria/210/2009,80
+A/Salamanca/50/2011,A/Victoria/210/2009,80
+A/Trieste/63/2011,A/Victoria/210/2009,80
+A/Parma/173/2011,A/Victoria/210/2009,160
+A/Parma/174/2011,A/Victoria/210/2009,80
+A/Parma/176/2011,A/Victoria/210/2009,320
+A/Baden-Wurttemberg/2/2012,A/Victoria/210/2009,320
+A/Lyon/40/2012,A/Victoria/210/2009,320
+A/Via Real/SU6/2012,A/Victoria/210/2009,160
+A/Paris/27/2012,A/Victoria/210/2009,80
+A/Parma/01/2012,A/Victoria/210/2009,<40
+A/Valladolid/1/2012,A/Victoria/210/2009,160
+A/Segovia/2/2012,A/Victoria/210/2009,80
+A/Berlin/3/2012,A/Victoria/210/2009,80
+A/Salamanca/4/2012,A/Victoria/210/2009,80
+A/Israel/27/2011,A/Victoria/210/2009,80
+A/Israel/43/2011,A/Victoria/210/2009,80
+A/Israel/47/2011,A/Victoria/210/2009,80
+A/Israel/50/2011,A/Victoria/210/2009,80
+A/Brisbane/10/2007,A/Alabama/5/2010,40
+A/Perth/16/2009,A/Alabama/5/2010,160
+A/Victoria/208/2009,A/Alabama/5/2010,1280
+A/Victoria/210/2009,A/Alabama/5/2010,320
+A/Alabama/5/2010,A/Alabama/5/2010,160
+A/Perth/10/2010,A/Alabama/5/2010,1280
+A/Hong Kong/3969/2011,A/Alabama/5/2010,320
+A/Stockholm/18/2011,A/Alabama/5/2010,80
+A/Iowa/19/2010,A/Alabama/5/2010,2560
+A/La Réunion/2055/2011,A/Alabama/5/2010,640
+A/La Réunion/1956/2011,A/Alabama/5/2010,320
+A/Paris/1744/2011,A/Alabama/5/2010,320
+A/Attecoube/GR1103/2011,A/Alabama/5/2010,160
+A/Korogho/GR1307/2011,A/Alabama/5/2010,320
+A/Ghana/FS-11-1981/2011,A/Alabama/5/2010,320
+A/Parma/171/2011,A/Alabama/5/2010,40
+A/Firenze/1/2011,A/Alabama/5/2010,160
+A/Catalonia/S4345/2011,A/Alabama/5/2010,640
+A/Milano/260/2011,A/Alabama/5/2010,80
+A/Trieste/58/2011,A/Alabama/5/2010,160
+A/Milano/256/2011,A/Alabama/5/2010,160
+A/Paris/2013/2011,A/Alabama/5/2010,320
+A/Parma/169/2011,A/Alabama/5/2010,160
+A/Turkey/05/2011,A/Alabama/5/2010,160
+A/Marseille/2240/2011,A/Alabama/5/2010,160
+A/Lorraine/2073/2011,A/Alabama/5/2010,640
+A/Toulouse/2187/2011,A/Alabama/5/2010,320
+A/Rheinland-Pfalz/75/2011,A/Alabama/5/2010,160
+A/Berlin/2/2012,A/Alabama/5/2010,640
+A/Milano/258/2011,A/Alabama/5/2010,160
+A/Trieste/59/2011,A/Alabama/5/2010,80
+A/Israel/32/2011,A/Alabama/5/2010,160
+A/Norway/2433/2011,A/Alabama/5/2010,160
+A/Lorraine/2056/2011,A/Alabama/5/2010,160
+A/Valladolid/48/2011,A/Alabama/5/2010,160
+A/Milano/265/2011,A/Alabama/5/2010,80
+A/Parma/170/2011,A/Alabama/5/2010,320
+A/Turkey/07/2011,A/Alabama/5/2010,160
+A/Turkey/08/2011,A/Alabama/5/2010,320
+A/Firenze/3/2011,A/Alabama/5/2010,640
+A/Turkey/12/2011,A/Alabama/5/2010,160
+A/Paris/2097/2011,A/Alabama/5/2010,320
+A/Milano/268/2011,A/Alabama/5/2010,80
+A/Turkey/14/2011,A/Alabama/5/2010,320
+A/Paris/2100/2011,A/Alabama/5/2010,160
+A/Valladolid/49/2011,A/Alabama/5/2010,160
+A/Israel/38/2011,A/Alabama/5/2010,160
+A/Paris/2114/2011,A/Alabama/5/2010,320
+A/Ireland/11M92381/2011,A/Alabama/5/2010,80
+A/Parma/168/2011,A/Alabama/5/2010,160
+A/Paris/2116/2011,A/Alabama/5/2010,320
+A/Paris/2133/2011,A/Alabama/5/2010,80
+A/Ireland/11M92761/2011,A/Alabama/5/2010,160
+A/Parma/172/2011,A/Alabama/5/2010,320
+A/Parma/175/2011,A/Alabama/5/2010,320
+A/Lyon/2264/2011,A/Alabama/5/2010,320
+A/Israel/41/2011,A/Alabama/5/2010,320
+A/Catalonia/S4320/2011,A/Alabama/5/2010,640
+A/Pays de Loire/2149/2011,A/Alabama/5/2010,320
+A/Trieste/62/2011,A/Alabama/5/2010,160
+A/Parma/177/2011,A/Alabama/5/2010,320
+A/Paris/2154/2011,A/Alabama/5/2010,320
+A/Paris/7/2012,A/Alabama/5/2010,160
+A/Salamanca/50/2011,A/Alabama/5/2010,160
+A/Trieste/63/2011,A/Alabama/5/2010,160
+A/Parma/173/2011,A/Alabama/5/2010,320
+A/Parma/174/2011,A/Alabama/5/2010,80
+A/Parma/176/2011,A/Alabama/5/2010,320
+A/Baden-Wurttemberg/2/2012,A/Alabama/5/2010,640
+A/Lyon/40/2012,A/Alabama/5/2010,320
+A/Via Real/SU6/2012,A/Alabama/5/2010,640
+A/Paris/27/2012,A/Alabama/5/2010,160
+A/Parma/01/2012,A/Alabama/5/2010,40
+A/Valladolid/1/2012,A/Alabama/5/2010,320
+A/Segovia/2/2012,A/Alabama/5/2010,160
+A/Berlin/3/2012,A/Alabama/5/2010,320
+A/Salamanca/4/2012,A/Alabama/5/2010,160
+A/Israel/27/2011,A/Alabama/5/2010,320
+A/Israel/43/2011,A/Alabama/5/2010,160
+A/Israel/47/2011,A/Alabama/5/2010,80
+A/Israel/50/2011,A/Alabama/5/2010,80
+A/Brisbane/10/2007,A/Perth/10/2010,80
+A/Perth/16/2009,A/Perth/10/2010,160
+A/Victoria/208/2009,A/Perth/10/2010,5120
+A/Victoria/210/2009,A/Perth/10/2010,1280
+A/Alabama/5/2010,A/Perth/10/2010,80
+A/Perth/10/2010,A/Perth/10/2010,2560
+A/Hong Kong/3969/2011,A/Perth/10/2010,320
+A/Stockholm/18/2011,A/Perth/10/2010,160
+A/Iowa/19/2010,A/Perth/10/2010,5120
+A/La Réunion/2055/2011,A/Perth/10/2010,1280
+A/La Réunion/1956/2011,A/Perth/10/2010,320
+A/Paris/1744/2011,A/Perth/10/2010,160
+A/Attecoube/GR1103/2011,A/Perth/10/2010,320
+A/Korogho/GR1307/2011,A/Perth/10/2010,320
+A/Ghana/FS-11-1981/2011,A/Perth/10/2010,320
+A/Parma/171/2011,A/Perth/10/2010,80
+A/Firenze/1/2011,A/Perth/10/2010,160
+A/Catalonia/S4345/2011,A/Perth/10/2010,640
+A/Milano/260/2011,A/Perth/10/2010,160
+A/Trieste/58/2011,A/Perth/10/2010,320
+A/Milano/256/2011,A/Perth/10/2010,160
+A/Paris/2013/2011,A/Perth/10/2010,640
+A/Parma/169/2011,A/Perth/10/2010,320
+A/Turkey/05/2011,A/Perth/10/2010,160
+A/Marseille/2240/2011,A/Perth/10/2010,320
+A/Lorraine/2073/2011,A/Perth/10/2010,640
+A/Toulouse/2187/2011,A/Perth/10/2010,320
+A/Rheinland-Pfalz/75/2011,A/Perth/10/2010,160
+A/Berlin/2/2012,A/Perth/10/2010,640
+A/Milano/258/2011,A/Perth/10/2010,160
+A/Trieste/59/2011,A/Perth/10/2010,160
+A/Israel/32/2011,A/Perth/10/2010,320
+A/Norway/2433/2011,A/Perth/10/2010,160
+A/Lorraine/2056/2011,A/Perth/10/2010,320
+A/Valladolid/48/2011,A/Perth/10/2010,80
+A/Milano/265/2011,A/Perth/10/2010,160
+A/Parma/170/2011,A/Perth/10/2010,320
+A/Turkey/07/2011,A/Perth/10/2010,160
+A/Turkey/08/2011,A/Perth/10/2010,320
+A/Firenze/3/2011,A/Perth/10/2010,640
+A/Turkey/12/2011,A/Perth/10/2010,320
+A/Paris/2097/2011,A/Perth/10/2010,320
+A/Milano/268/2011,A/Perth/10/2010,160
+A/Turkey/14/2011,A/Perth/10/2010,320
+A/Paris/2100/2011,A/Perth/10/2010,160
+A/Valladolid/49/2011,A/Perth/10/2010,160
+A/Israel/38/2011,A/Perth/10/2010,160
+A/Paris/2114/2011,A/Perth/10/2010,320
+A/Ireland/11M92381/2011,A/Perth/10/2010,80
+A/Parma/168/2011,A/Perth/10/2010,320
+A/Paris/2116/2011,A/Perth/10/2010,320
+A/Paris/2133/2011,A/Perth/10/2010,160
+A/Ireland/11M92761/2011,A/Perth/10/2010,160
+A/Parma/172/2011,A/Perth/10/2010,640
+A/Parma/175/2011,A/Perth/10/2010,640
+A/Lyon/2264/2011,A/Perth/10/2010,640
+A/Israel/41/2011,A/Perth/10/2010,320
+A/Catalonia/S4320/2011,A/Perth/10/2010,640
+A/Pays de Loire/2149/2011,A/Perth/10/2010,320
+A/Trieste/62/2011,A/Perth/10/2010,320
+A/Parma/177/2011,A/Perth/10/2010,320
+A/Paris/2154/2011,A/Perth/10/2010,320
+A/Paris/7/2012,A/Perth/10/2010,320
+A/Salamanca/50/2011,A/Perth/10/2010,320
+A/Trieste/63/2011,A/Perth/10/2010,160
+A/Parma/173/2011,A/Perth/10/2010,640
+A/Parma/174/2011,A/Perth/10/2010,160
+A/Parma/176/2011,A/Perth/10/2010,320
+A/Baden-Wurttemberg/2/2012,A/Perth/10/2010,640
+A/Lyon/40/2012,A/Perth/10/2010,640
+A/Via Real/SU6/2012,A/Perth/10/2010,640
+A/Paris/27/2012,A/Perth/10/2010,160
+A/Parma/01/2012,A/Perth/10/2010,80
+A/Valladolid/1/2012,A/Perth/10/2010,640
+A/Segovia/2/2012,A/Perth/10/2010,320
+A/Berlin/3/2012,A/Perth/10/2010,640
+A/Salamanca/4/2012,A/Perth/10/2010,160
+A/Israel/27/2011,A/Perth/10/2010,320
+A/Israel/43/2011,A/Perth/10/2010,80
+A/Israel/47/2011,A/Perth/10/2010,80
+A/Israel/50/2011,A/Perth/10/2010,160
+A/Brisbane/10/2007,A/Hong Kong/3969/2011,160
+A/Perth/16/2009,A/Hong Kong/3969/2011,640
+A/Victoria/208/2009,A/Hong Kong/3969/2011,2560
+A/Victoria/210/2009,A/Hong Kong/3969/2011,1280
+A/Alabama/5/2010,A/Hong Kong/3969/2011,640
+A/Perth/10/2010,A/Hong Kong/3969/2011,2560
+A/Hong Kong/3969/2011,A/Hong Kong/3969/2011,1280
+A/Stockholm/18/2011,A/Hong Kong/3969/2011,320
+A/Iowa/19/2010,A/Hong Kong/3969/2011,2560
+A/La Réunion/2055/2011,A/Hong Kong/3969/2011,2560
+A/La Réunion/1956/2011,A/Hong Kong/3969/2011,640
+A/Paris/1744/2011,A/Hong Kong/3969/2011,640
+A/Attecoube/GR1103/2011,A/Hong Kong/3969/2011,640
+A/Korogho/GR1307/2011,A/Hong Kong/3969/2011,640
+A/Ghana/FS-11-1981/2011,A/Hong Kong/3969/2011,640
+A/Parma/171/2011,A/Hong Kong/3969/2011,160
+A/Firenze/1/2011,A/Hong Kong/3969/2011,160
+A/Catalonia/S4345/2011,A/Hong Kong/3969/2011,640
+A/Milano/260/2011,A/Hong Kong/3969/2011,320
+A/Trieste/58/2011,A/Hong Kong/3969/2011,320
+A/Milano/256/2011,A/Hong Kong/3969/2011,320
+A/Paris/2013/2011,A/Hong Kong/3969/2011,1280
+A/Parma/169/2011,A/Hong Kong/3969/2011,320
+A/Turkey/05/2011,A/Hong Kong/3969/2011,320
+A/Marseille/2240/2011,A/Hong Kong/3969/2011,640
+A/Lorraine/2073/2011,A/Hong Kong/3969/2011,1280
+A/Toulouse/2187/2011,A/Hong Kong/3969/2011,640
+A/Rheinland-Pfalz/75/2011,A/Hong Kong/3969/2011,320
+A/Berlin/2/2012,A/Hong Kong/3969/2011,640
+A/Milano/258/2011,A/Hong Kong/3969/2011,320
+A/Trieste/59/2011,A/Hong Kong/3969/2011,320
+A/Israel/32/2011,A/Hong Kong/3969/2011,160
+A/Norway/2433/2011,A/Hong Kong/3969/2011,320
+A/Lorraine/2056/2011,A/Hong Kong/3969/2011,640
+A/Valladolid/48/2011,A/Hong Kong/3969/2011,160
+A/Milano/265/2011,A/Hong Kong/3969/2011,320
+A/Parma/170/2011,A/Hong Kong/3969/2011,640
+A/Turkey/07/2011,A/Hong Kong/3969/2011,320
+A/Turkey/08/2011,A/Hong Kong/3969/2011,640
+A/Firenze/3/2011,A/Hong Kong/3969/2011,640
+A/Turkey/12/2011,A/Hong Kong/3969/2011,320
+A/Paris/2097/2011,A/Hong Kong/3969/2011,1280
+A/Milano/268/2011,A/Hong Kong/3969/2011,320
+A/Turkey/14/2011,A/Hong Kong/3969/2011,640
+A/Paris/2100/2011,A/Hong Kong/3969/2011,640
+A/Valladolid/49/2011,A/Hong Kong/3969/2011,320
+A/Israel/38/2011,A/Hong Kong/3969/2011,320
+A/Paris/2114/2011,A/Hong Kong/3969/2011,640
+A/Ireland/11M92381/2011,A/Hong Kong/3969/2011,320
+A/Parma/168/2011,A/Hong Kong/3969/2011,1280
+A/Paris/2116/2011,A/Hong Kong/3969/2011,640
+A/Paris/2133/2011,A/Hong Kong/3969/2011,160
+A/Ireland/11M92761/2011,A/Hong Kong/3969/2011,320
+A/Parma/172/2011,A/Hong Kong/3969/2011,640
+A/Parma/175/2011,A/Hong Kong/3969/2011,1280
+A/Lyon/2264/2011,A/Hong Kong/3969/2011,640
+A/Israel/41/2011,A/Hong Kong/3969/2011,640
+A/Catalonia/S4320/2011,A/Hong Kong/3969/2011,640
+A/Pays de Loire/2149/2011,A/Hong Kong/3969/2011,640
+A/Trieste/62/2011,A/Hong Kong/3969/2011,320
+A/Parma/177/2011,A/Hong Kong/3969/2011,640
+A/Paris/2154/2011,A/Hong Kong/3969/2011,640
+A/Paris/7/2012,A/Hong Kong/3969/2011,320
+A/Salamanca/50/2011,A/Hong Kong/3969/2011,640
+A/Trieste/63/2011,A/Hong Kong/3969/2011,320
+A/Parma/173/2011,A/Hong Kong/3969/2011,640
+A/Parma/174/2011,A/Hong Kong/3969/2011,320
+A/Parma/176/2011,A/Hong Kong/3969/2011,640
+A/Baden-Wurttemberg/2/2012,A/Hong Kong/3969/2011,640
+A/Lyon/40/2012,A/Hong Kong/3969/2011,640
+A/Via Real/SU6/2012,A/Hong Kong/3969/2011,640
+A/Paris/27/2012,A/Hong Kong/3969/2011,320
+A/Parma/01/2012,A/Hong Kong/3969/2011,160
+A/Valladolid/1/2012,A/Hong Kong/3969/2011,640
+A/Segovia/2/2012,A/Hong Kong/3969/2011,320
+A/Berlin/3/2012,A/Hong Kong/3969/2011,640
+A/Salamanca/4/2012,A/Hong Kong/3969/2011,320
+A/Israel/27/2011,A/Hong Kong/3969/2011,1280
+A/Israel/43/2011,A/Hong Kong/3969/2011,320
+A/Israel/47/2011,A/Hong Kong/3969/2011,160
+A/Israel/50/2011,A/Hong Kong/3969/2011,160
+A/Brisbane/10/2007,A/Stockholm/18/2011,<40
+A/Perth/16/2009,A/Stockholm/18/2011,160
+A/Victoria/208/2009,A/Stockholm/18/2011,2560
+A/Victoria/210/2009,A/Stockholm/18/2011,640
+A/Alabama/5/2010,A/Stockholm/18/2011,160
+A/Perth/10/2010,A/Stockholm/18/2011,1280
+A/Hong Kong/3969/2011,A/Stockholm/18/2011,640
+A/Stockholm/18/2011,A/Stockholm/18/2011,320
+A/Iowa/19/2010,A/Stockholm/18/2011,2560
+A/La Réunion/2055/2011,A/Stockholm/18/2011,1280
+A/La Réunion/1956/2011,A/Stockholm/18/2011,640
+A/Paris/1744/2011,A/Stockholm/18/2011,640
+A/Attecoube/GR1103/2011,A/Stockholm/18/2011,1280
+A/Korogho/GR1307/2011,A/Stockholm/18/2011,640
+A/Ghana/FS-11-1981/2011,A/Stockholm/18/2011,640
+A/Parma/171/2011,A/Stockholm/18/2011,160
+A/Firenze/1/2011,A/Stockholm/18/2011,320
+A/Catalonia/S4345/2011,A/Stockholm/18/2011,640
+A/Milano/260/2011,A/Stockholm/18/2011,320
+A/Trieste/58/2011,A/Stockholm/18/2011,320
+A/Milano/256/2011,A/Stockholm/18/2011,320
+A/Paris/2013/2011,A/Stockholm/18/2011,640
+A/Parma/169/2011,A/Stockholm/18/2011,640
+A/Turkey/05/2011,A/Stockholm/18/2011,320
+A/Marseille/2240/2011,A/Stockholm/18/2011,640
+A/Lorraine/2073/2011,A/Stockholm/18/2011,640
+A/Toulouse/2187/2011,A/Stockholm/18/2011,640
+A/Rheinland-Pfalz/75/2011,A/Stockholm/18/2011,320
+A/Berlin/2/2012,A/Stockholm/18/2011,640
+A/Milano/258/2011,A/Stockholm/18/2011,320
+A/Trieste/59/2011,A/Stockholm/18/2011,160
+A/Israel/32/2011,A/Stockholm/18/2011,160
+A/Norway/2433/2011,A/Stockholm/18/2011,320
+A/Lorraine/2056/2011,A/Stockholm/18/2011,320
+A/Valladolid/48/2011,A/Stockholm/18/2011,320
+A/Milano/265/2011,A/Stockholm/18/2011,320
+A/Parma/170/2011,A/Stockholm/18/2011,640
+A/Turkey/07/2011,A/Stockholm/18/2011,320
+A/Turkey/08/2011,A/Stockholm/18/2011,320
+A/Firenze/3/2011,A/Stockholm/18/2011,320
+A/Turkey/12/2011,A/Stockholm/18/2011,320
+A/Paris/2097/2011,A/Stockholm/18/2011,320
+A/Milano/268/2011,A/Stockholm/18/2011,320
+A/Turkey/14/2011,A/Stockholm/18/2011,1280
+A/Paris/2100/2011,A/Stockholm/18/2011,320
+A/Valladolid/49/2011,A/Stockholm/18/2011,320
+A/Israel/38/2011,A/Stockholm/18/2011,160
+A/Paris/2114/2011,A/Stockholm/18/2011,320
+A/Ireland/11M92381/2011,A/Stockholm/18/2011,320
+A/Parma/168/2011,A/Stockholm/18/2011,640
+A/Paris/2116/2011,A/Stockholm/18/2011,320
+A/Paris/2133/2011,A/Stockholm/18/2011,160
+A/Ireland/11M92761/2011,A/Stockholm/18/2011,160
+A/Parma/172/2011,A/Stockholm/18/2011,1280
+A/Parma/175/2011,A/Stockholm/18/2011,1280
+A/Lyon/2264/2011,A/Stockholm/18/2011,640
+A/Israel/41/2011,A/Stockholm/18/2011,320
+A/Catalonia/S4320/2011,A/Stockholm/18/2011,640
+A/Pays de Loire/2149/2011,A/Stockholm/18/2011,320
+A/Trieste/62/2011,A/Stockholm/18/2011,640
+A/Parma/177/2011,A/Stockholm/18/2011,1280
+A/Paris/2154/2011,A/Stockholm/18/2011,320
+A/Paris/7/2012,A/Stockholm/18/2011,320
+A/Salamanca/50/2011,A/Stockholm/18/2011,1280
+A/Trieste/63/2011,A/Stockholm/18/2011,640
+A/Parma/173/2011,A/Stockholm/18/2011,1280
+A/Parma/174/2011,A/Stockholm/18/2011,320
+A/Parma/176/2011,A/Stockholm/18/2011,1280
+A/Baden-Wurttemberg/2/2012,A/Stockholm/18/2011,640
+A/Lyon/40/2012,A/Stockholm/18/2011,640
+A/Via Real/SU6/2012,A/Stockholm/18/2011,640
+A/Paris/27/2012,A/Stockholm/18/2011,320
+A/Parma/01/2012,A/Stockholm/18/2011,80
+A/Valladolid/1/2012,A/Stockholm/18/2011,640
+A/Segovia/2/2012,A/Stockholm/18/2011,160
+A/Berlin/3/2012,A/Stockholm/18/2011,320
+A/Salamanca/4/2012,A/Stockholm/18/2011,160
+A/Israel/27/2011,A/Stockholm/18/2011,320
+A/Israel/43/2011,A/Stockholm/18/2011,320
+A/Israel/47/2011,A/Stockholm/18/2011,160
+A/Israel/50/2011,A/Stockholm/18/2011,160
+A/Brisbane/10/2007,A/Iowa/19/2010,40
+A/Perth/16/2009,A/Iowa/19/2010,160
+A/Victoria/208/2009,A/Iowa/19/2010,5120
+A/Victoria/210/2009,A/Iowa/19/2010,1280
+A/Alabama/5/2010,A/Iowa/19/2010,160
+A/Perth/10/2010,A/Iowa/19/2010,2560
+A/Hong Kong/3969/2011,A/Iowa/19/2010,320
+A/Stockholm/18/2011,A/Iowa/19/2010,80
+A/Iowa/19/2010,A/Iowa/19/2010,5120
+A/La Réunion/2055/2011,A/Iowa/19/2010,640
+A/La Réunion/1956/2011,A/Iowa/19/2010,640
+A/Paris/1744/2011,A/Iowa/19/2010,640
+A/Attecoube/GR1103/2011,A/Iowa/19/2010,320
+A/Korogho/GR1307/2011,A/Iowa/19/2010,320
+A/Ghana/FS-11-1981/2011,A/Iowa/19/2010,320
+A/Parma/171/2011,A/Iowa/19/2010,80
+A/Firenze/1/2011,A/Iowa/19/2010,160
+A/Catalonia/S4345/2011,A/Iowa/19/2010,1280
+A/Milano/260/2011,A/Iowa/19/2010,160
+A/Trieste/58/2011,A/Iowa/19/2010,160
+A/Milano/256/2011,A/Iowa/19/2010,160
+A/Paris/2013/2011,A/Iowa/19/2010,640
+A/Parma/169/2011,A/Iowa/19/2010,320
+A/Turkey/05/2011,A/Iowa/19/2010,160
+A/Marseille/2240/2011,A/Iowa/19/2010,320
+A/Lorraine/2073/2011,A/Iowa/19/2010,1280
+A/Toulouse/2187/2011,A/Iowa/19/2010,320
+A/Rheinland-Pfalz/75/2011,A/Iowa/19/2010,160
+A/Berlin/2/2012,A/Iowa/19/2010,640
+A/Milano/258/2011,A/Iowa/19/2010,160
+A/Trieste/59/2011,A/Iowa/19/2010,160
+A/Israel/32/2011,A/Iowa/19/2010,160
+A/Norway/2433/2011,A/Iowa/19/2010,160
+A/Lorraine/2056/2011,A/Iowa/19/2010,640
+A/Valladolid/48/2011,A/Iowa/19/2010,160
+A/Milano/265/2011,A/Iowa/19/2010,160
+A/Parma/170/2011,A/Iowa/19/2010,320
+A/Turkey/07/2011,A/Iowa/19/2010,160
+A/Turkey/08/2011,A/Iowa/19/2010,80
+A/Firenze/3/2011,A/Iowa/19/2010,640
+A/Turkey/12/2011,A/Iowa/19/2010,160
+A/Paris/2097/2011,A/Iowa/19/2010,640
+A/Milano/268/2011,A/Iowa/19/2010,160
+A/Turkey/14/2011,A/Iowa/19/2010,320
+A/Paris/2100/2011,A/Iowa/19/2010,80
+A/Valladolid/49/2011,A/Iowa/19/2010,160
+A/Israel/38/2011,A/Iowa/19/2010,160
+A/Paris/2114/2011,A/Iowa/19/2010,320
+A/Ireland/11M92381/2011,A/Iowa/19/2010,80
+A/Parma/168/2011,A/Iowa/19/2010,320
+A/Paris/2116/2011,A/Iowa/19/2010,640
+A/Paris/2133/2011,A/Iowa/19/2010,80
+A/Ireland/11M92761/2011,A/Iowa/19/2010,160
+A/Parma/172/2011,A/Iowa/19/2010,320
+A/Parma/175/2011,A/Iowa/19/2010,640
+A/Lyon/2264/2011,A/Iowa/19/2010,640
+A/Israel/41/2011,A/Iowa/19/2010,320
+A/Catalonia/S4320/2011,A/Iowa/19/2010,1280
+A/Pays de Loire/2149/2011,A/Iowa/19/2010,320
+A/Trieste/62/2011,A/Iowa/19/2010,320
+A/Parma/177/2011,A/Iowa/19/2010,160
+A/Paris/2154/2011,A/Iowa/19/2010,160
+A/Paris/7/2012,A/Iowa/19/2010,160
+A/Salamanca/50/2011,A/Iowa/19/2010,320
+A/Trieste/63/2011,A/Iowa/19/2010,320
+A/Parma/173/2011,A/Iowa/19/2010,320
+A/Parma/174/2011,A/Iowa/19/2010,160
+A/Parma/176/2011,A/Iowa/19/2010,640
+A/Baden-Wurttemberg/2/2012,A/Iowa/19/2010,640
+A/Lyon/40/2012,A/Iowa/19/2010,640
+A/Via Real/SU6/2012,A/Iowa/19/2010,640
+A/Paris/27/2012,A/Iowa/19/2010,160
+A/Parma/01/2012,A/Iowa/19/2010,40
+A/Valladolid/1/2012,A/Iowa/19/2010,640
+A/Segovia/2/2012,A/Iowa/19/2010,320
+A/Berlin/3/2012,A/Iowa/19/2010,320
+A/Salamanca/4/2012,A/Iowa/19/2010,320
+A/Israel/27/2011,A/Iowa/19/2010,320
+A/Israel/43/2011,A/Iowa/19/2010,320
+A/Israel/47/2011,A/Iowa/19/2010,80
+A/Israel/50/2011,A/Iowa/19/2010,80
+A/Perth/16/2009,A/Perth/16/2009,640
+A/Victoria/208/2009,A/Perth/16/2009,640
+A/Alabama/5/2010,A/Perth/16/2009,40
+A/Hong Kong/3969/2011,A/Perth/16/2009,160
+A/Stockholm/18/2011,A/Perth/16/2009,40
+A/Iowa/19/2010,A/Perth/16/2009,1280
+A/Finland/190/2011,A/Perth/16/2009,160
+A/England/259/2011,A/Perth/16/2009,160
+A/Norway/1789/2011,A/Perth/16/2009,320
+A/Denmark/87/2011,A/Perth/16/2009,80
+A/Jordan/20110030568/2011,A/Perth/16/2009,160
+A/Jordan/20110030585/2011,A/Perth/16/2009,<40
+A/Kobe/241/2011,A/Perth/16/2009,<40
+A/Hiroshima-C/53/2011,A/Perth/16/2009,160
+A/Jordan/20110030655/2011,A/Perth/16/2009,160
+A/Yopougon/GR1336/2011,A/Perth/16/2009,40
+A/Jordan/20110030687/2011,A/Perth/16/2009,80
+A/Bursa/108/2011,A/Perth/16/2009,40
+A/Turkey/01/2011,A/Perth/16/2009,80
+A/Denmark/90/2011,A/Perth/16/2009,80
+A/Jordan/20110030713/2011,A/Perth/16/2009,40
+A/Jordan/20110030706/2011,A/Perth/16/2009,80
+A/Jordan/20110030717/2011,A/Perth/16/2009,80
+A/Netherlands/710/2011,A/Perth/16/2009,40
+A/Turkey/06/2011,A/Perth/16/2009,40
+A/Turkey/10/2011,A/Perth/16/2009,80
+A/Jordan/20110030732/2011,A/Perth/16/2009,80
+A/İzmir/176/2011,A/Perth/16/2009,<40
+A/Turkey/04/2011,A/Perth/16/2009,40
+A/Jordan/20110030749/2011,A/Perth/16/2009,160
+A/Turkey/26/2011,A/Perth/16/2009,40
+A/İzmir/182/2011,A/Perth/16/2009,80
+A/Milano/268/2011,A/Perth/16/2009,40
+A/Jordan/20110030777/2011,A/Perth/16/2009,80
+A/Turkey/18/2011,A/Perth/16/2009,80
+A/Norway/99/2012,A/Perth/16/2009,320
+A/Turkey/19/2011,A/Perth/16/2009,320
+A/İstanbul/202/2011,A/Perth/16/2009,160
+A/Antalya/204/2011,A/Perth/16/2009,80
+A/Ireland/11M92698/2011,A/Perth/16/2009,40
+A/Turkey/21/2011,A/Perth/16/2009,40
+A/Turkey/22/2011,A/Perth/16/2009,160
+A/Turkey/27/2011,A/Perth/16/2009,40
+A/Turkey/30/2011,A/Perth/16/2009,<40
+A/Turkey/31/2011,A/Perth/16/2009,<40
+A/Turkey/32/2011,A/Perth/16/2009,160
+A/Ireland/11M92761/2011,A/Perth/16/2009,40
+A/Trieste/60/2011,A/Perth/16/2009,40
+A/Turkey/23/2011,A/Perth/16/2009,160
+A/Turkey/24/2011,A/Perth/16/2009,40
+A/Jordan/20110030780/2011,A/Perth/16/2009,80
+A/Norway/2448/2011,A/Perth/16/2009,320
+A/Ireland/11M92761/2011,A/Perth/16/2009,80
+A/Ireland/11M92922/2011,A/Perth/16/2009,40
+A/Turkey/28/2011,A/Perth/16/2009,80
+A/Norway/39/2012,A/Perth/16/2009,40
+A/Norway/96/2012,A/Perth/16/2009,40
+A/Ireland/11V9451/2011,A/Perth/16/2009,80
+A/Norway/38/2012,A/Perth/16/2009,80
+A/Switzerland/5776029/2011,A/Perth/16/2009,40
+A/Jordan/20110030776/2011,A/Perth/16/2009,80
+A/İstanbul/249/2011,A/Perth/16/2009,160
+A/Latvia/12-47890p/2011,A/Perth/16/2009,80
+A/Netherlands/713/2011,A/Perth/16/2009,40
+A/Bursa/250/2011,A/Perth/16/2009,80
+A/İzmir/251/2011,A/Perth/16/2009,80
+A/Norway/3/2012,A/Perth/16/2009,40
+A/Norway/75/2012,A/Perth/16/2009,80
+A/Norway/97/2012,A/Perth/16/2009,320
+A/Switzerland/5802473/2012,A/Perth/16/2009,40
+A/Austria/654044/2012,A/Perth/16/2009,40
+A/Ireland/12M90/2012,A/Perth/16/2009,80
+A/Lyon/37/2012,A/Perth/16/2009,40
+A/Netherlands/001/2012,A/Perth/16/2009,320
+A/Norway/73/2012,A/Perth/16/2009,320
+A/Switzerland/5834715/2012,A/Perth/16/2009,80
+A/Switzerland/5834718/2012,A/Perth/16/2009,80
+A/Switzerland/5834731/2012,A/Perth/16/2009,80
+A/Berlin/6/2012,A/Perth/16/2009,160
+A/Hamburg/1/2012,A/Perth/16/2009,160
+A/Austria/654591/2012,A/Perth/16/2009,160
+A/Latvia/1-34462p/2012,A/Perth/16/2009,80
+A/Latvia/1-34610/2012,A/Perth/16/2009,80
+A/Ireland/12v397/2012,A/Perth/16/2009,40
+A/England/12/2012,A/Perth/16/2009,160
+A/Norway/114/2012,A/Perth/16/2009,40
+A/Latvia/1-35583/2012,A/Perth/16/2009,80
+A/Austria/655242/2012,A/Perth/16/2009,80
+A/Netherlands/002/2012,A/Perth/16/2009,<40
+A/Rheinland-Pfalz/1/2012,A/Perth/16/2009,160
+A/Switzerland/5834730/2012,A/Perth/16/2009,40
+A/Switzerland/5834796/2012,A/Perth/16/2009,40
+A/Berlin/4/2012,A/Perth/16/2009,160
+A/Baden-Württemberg/3/2012,A/Perth/16/2009,80
+A/Latvia/1-37528/2012,A/Perth/16/2009,80
+A/England/21/2012,A/Perth/16/2009,40
+A/Berlin/5/2012,A/Perth/16/2009,80
+A/Berlin/7/2012,A/Perth/16/2009,80
+A/Brandenburg/1/2012,A/Perth/16/2009,320
+A/England/20/2012,A/Perth/16/2009,80
+A/Berlin/8/2012,A/Perth/16/2009,80
+A/Switzerland/5867852/2012,A/Perth/16/2009,40
+A/Austria/653679/2012,A/Perth/16/2009,40
+A/Perth/16/2009,A/Victoria/208/2009,80
+A/Victoria/208/2009,A/Victoria/208/2009,1280
+A/Alabama/5/2010,A/Victoria/208/2009,40
+A/Hong Kong/3969/2011,A/Victoria/208/2009,160
+A/Stockholm/18/2011,A/Victoria/208/2009,80
+A/Iowa/19/2010,A/Victoria/208/2009,2560
+A/Finland/190/2011,A/Victoria/208/2009,160
+A/England/259/2011,A/Victoria/208/2009,160
+A/Norway/1789/2011,A/Victoria/208/2009,320
+A/Denmark/87/2011,A/Victoria/208/2009,80
+A/Jordan/20110030568/2011,A/Victoria/208/2009,160
+A/Jordan/20110030585/2011,A/Victoria/208/2009,40
+A/Kobe/241/2011,A/Victoria/208/2009,40
+A/Hiroshima-C/53/2011,A/Victoria/208/2009,80
+A/Jordan/20110030655/2011,A/Victoria/208/2009,160
+A/Yopougon/GR1336/2011,A/Victoria/208/2009,80
+A/Jordan/20110030687/2011,A/Victoria/208/2009,160
+A/Bursa/108/2011,A/Victoria/208/2009,80
+A/Turkey/01/2011,A/Victoria/208/2009,80
+A/Denmark/90/2011,A/Victoria/208/2009,80
+A/Jordan/20110030713/2011,A/Victoria/208/2009,40
+A/Jordan/20110030706/2011,A/Victoria/208/2009,80
+A/Jordan/20110030717/2011,A/Victoria/208/2009,80
+A/Netherlands/710/2011,A/Victoria/208/2009,80
+A/Turkey/06/2011,A/Victoria/208/2009,40
+A/Turkey/10/2011,A/Victoria/208/2009,160
+A/Jordan/20110030732/2011,A/Victoria/208/2009,160
+A/İzmir/176/2011,A/Victoria/208/2009,<40
+A/Turkey/04/2011,A/Victoria/208/2009,80
+A/Jordan/20110030749/2011,A/Victoria/208/2009,320
+A/Turkey/26/2011,A/Victoria/208/2009,40
+A/İzmir/182/2011,A/Victoria/208/2009,80
+A/Milano/268/2011,A/Victoria/208/2009,40
+A/Jordan/20110030777/2011,A/Victoria/208/2009,160
+A/Turkey/18/2011,A/Victoria/208/2009,160
+A/Norway/99/2012,A/Victoria/208/2009,160
+A/Turkey/19/2011,A/Victoria/208/2009,320
+A/İstanbul/202/2011,A/Victoria/208/2009,160
+A/Antalya/204/2011,A/Victoria/208/2009,80
+A/Ireland/11M92698/2011,A/Victoria/208/2009,80
+A/Turkey/21/2011,A/Victoria/208/2009,40
+A/Turkey/22/2011,A/Victoria/208/2009,160
+A/Turkey/27/2011,A/Victoria/208/2009,40
+A/Turkey/30/2011,A/Victoria/208/2009,40
+A/Turkey/31/2011,A/Victoria/208/2009,40
+A/Turkey/32/2011,A/Victoria/208/2009,160
+A/Ireland/11M92761/2011,A/Victoria/208/2009,80
+A/Trieste/60/2011,A/Victoria/208/2009,40
+A/Turkey/23/2011,A/Victoria/208/2009,160
+A/Turkey/24/2011,A/Victoria/208/2009,40
+A/Jordan/20110030780/2011,A/Victoria/208/2009,80
+A/Norway/2448/2011,A/Victoria/208/2009,160
+A/Ireland/11M92761/2011,A/Victoria/208/2009,80
+A/Ireland/11M92922/2011,A/Victoria/208/2009,80
+A/Turkey/28/2011,A/Victoria/208/2009,160
+A/Norway/39/2012,A/Victoria/208/2009,40
+A/Norway/96/2012,A/Victoria/208/2009,40
+A/Ireland/11V9451/2011,A/Victoria/208/2009,80
+A/Norway/38/2012,A/Victoria/208/2009,80
+A/Switzerland/5776029/2011,A/Victoria/208/2009,80
+A/Jordan/20110030776/2011,A/Victoria/208/2009,320
+A/İstanbul/249/2011,A/Victoria/208/2009,320
+A/Latvia/12-47890p/2011,A/Victoria/208/2009,80
+A/Netherlands/713/2011,A/Victoria/208/2009,80
+A/Bursa/250/2011,A/Victoria/208/2009,160
+A/İzmir/251/2011,A/Victoria/208/2009,80
+A/Norway/3/2012,A/Victoria/208/2009,80
+A/Norway/75/2012,A/Victoria/208/2009,80
+A/Norway/97/2012,A/Victoria/208/2009,160
+A/Switzerland/5802473/2012,A/Victoria/208/2009,40
+A/Austria/654044/2012,A/Victoria/208/2009,40
+A/Ireland/12M90/2012,A/Victoria/208/2009,160
+A/Lyon/37/2012,A/Victoria/208/2009,80
+A/Netherlands/001/2012,A/Victoria/208/2009,320
+A/Norway/73/2012,A/Victoria/208/2009,160
+A/Switzerland/5834715/2012,A/Victoria/208/2009,80
+A/Switzerland/5834718/2012,A/Victoria/208/2009,80
+A/Switzerland/5834731/2012,A/Victoria/208/2009,160
+A/Berlin/6/2012,A/Victoria/208/2009,160
+A/Hamburg/1/2012,A/Victoria/208/2009,160
+A/Austria/654591/2012,A/Victoria/208/2009,320
+A/Latvia/1-34462p/2012,A/Victoria/208/2009,80
+A/Latvia/1-34610/2012,A/Victoria/208/2009,80
+A/Ireland/12v397/2012,A/Victoria/208/2009,80
+A/England/12/2012,A/Victoria/208/2009,160
+A/Norway/114/2012,A/Victoria/208/2009,40
+A/Latvia/1-35583/2012,A/Victoria/208/2009,80
+A/Austria/655242/2012,A/Victoria/208/2009,160
+A/Netherlands/002/2012,A/Victoria/208/2009,40
+A/Rheinland-Pfalz/1/2012,A/Victoria/208/2009,160
+A/Switzerland/5834730/2012,A/Victoria/208/2009,80
+A/Switzerland/5834796/2012,A/Victoria/208/2009,80
+A/Berlin/4/2012,A/Victoria/208/2009,160
+A/Baden-Württemberg/3/2012,A/Victoria/208/2009,160
+A/Latvia/1-37528/2012,A/Victoria/208/2009,80
+A/England/21/2012,A/Victoria/208/2009,40
+A/Berlin/5/2012,A/Victoria/208/2009,160
+A/Berlin/7/2012,A/Victoria/208/2009,160
+A/Brandenburg/1/2012,A/Victoria/208/2009,160
+A/England/20/2012,A/Victoria/208/2009,40
+A/Berlin/8/2012,A/Victoria/208/2009,160
+A/Switzerland/5867852/2012,A/Victoria/208/2009,80
+A/Austria/653679/2012,A/Victoria/208/2009,80
+A/Perth/16/2009,A/Alabama/5/2010,160
+A/Victoria/208/2009,A/Alabama/5/2010,1280
+A/Alabama/5/2010,A/Alabama/5/2010,320
+A/Hong Kong/3969/2011,A/Alabama/5/2010,320
+A/Stockholm/18/2011,A/Alabama/5/2010,160
+A/Iowa/19/2010,A/Alabama/5/2010,1280
+A/Finland/190/2011,A/Alabama/5/2010,160
+A/England/259/2011,A/Alabama/5/2010,160
+A/Norway/1789/2011,A/Alabama/5/2010,320
+A/Denmark/87/2011,A/Alabama/5/2010,160
+A/Jordan/20110030568/2011,A/Alabama/5/2010,160
+A/Jordan/20110030585/2011,A/Alabama/5/2010,40
+A/Kobe/241/2011,A/Alabama/5/2010,80
+A/Hiroshima-C/53/2011,A/Alabama/5/2010,320
+A/Jordan/20110030655/2011,A/Alabama/5/2010,160
+A/Yopougon/GR1336/2011,A/Alabama/5/2010,80
+A/Jordan/20110030687/2011,A/Alabama/5/2010,160
+A/Bursa/108/2011,A/Alabama/5/2010,80
+A/Turkey/01/2011,A/Alabama/5/2010,160
+A/Denmark/90/2011,A/Alabama/5/2010,160
+A/Jordan/20110030713/2011,A/Alabama/5/2010,80
+A/Jordan/20110030706/2011,A/Alabama/5/2010,160
+A/Jordan/20110030717/2011,A/Alabama/5/2010,160
+A/Netherlands/710/2011,A/Alabama/5/2010,160
+A/Turkey/06/2011,A/Alabama/5/2010,80
+A/Turkey/10/2011,A/Alabama/5/2010,160
+A/Jordan/20110030732/2011,A/Alabama/5/2010,160
+A/İzmir/176/2011,A/Alabama/5/2010,40
+A/Turkey/04/2011,A/Alabama/5/2010,80
+A/Jordan/20110030749/2011,A/Alabama/5/2010,320
+A/Turkey/26/2011,A/Alabama/5/2010,40
+A/İzmir/182/2011,A/Alabama/5/2010,160
+A/Milano/268/2011,A/Alabama/5/2010,40
+A/Jordan/20110030777/2011,A/Alabama/5/2010,80
+A/Turkey/18/2011,A/Alabama/5/2010,160
+A/Norway/99/2012,A/Alabama/5/2010,320
+A/Turkey/19/2011,A/Alabama/5/2010,320
+A/İstanbul/202/2011,A/Alabama/5/2010,320
+A/Antalya/204/2011,A/Alabama/5/2010,160
+A/Ireland/11M92698/2011,A/Alabama/5/2010,80
+A/Turkey/21/2011,A/Alabama/5/2010,80
+A/Turkey/22/2011,A/Alabama/5/2010,160
+A/Turkey/27/2011,A/Alabama/5/2010,80
+A/Turkey/30/2011,A/Alabama/5/2010,40
+A/Turkey/31/2011,A/Alabama/5/2010,40
+A/Turkey/32/2011,A/Alabama/5/2010,160
+A/Ireland/11M92761/2011,A/Alabama/5/2010,80
+A/Trieste/60/2011,A/Alabama/5/2010,40
+A/Turkey/23/2011,A/Alabama/5/2010,320
+A/Turkey/24/2011,A/Alabama/5/2010,40
+A/Jordan/20110030780/2011,A/Alabama/5/2010,80
+A/Norway/2448/2011,A/Alabama/5/2010,640
+A/Ireland/11M92761/2011,A/Alabama/5/2010,80
+A/Ireland/11M92922/2011,A/Alabama/5/2010,80
+A/Turkey/28/2011,A/Alabama/5/2010,80
+A/Norway/39/2012,A/Alabama/5/2010,80
+A/Norway/96/2012,A/Alabama/5/2010,80
+A/Ireland/11V9451/2011,A/Alabama/5/2010,160
+A/Norway/38/2012,A/Alabama/5/2010,160
+A/Switzerland/5776029/2011,A/Alabama/5/2010,80
+A/Jordan/20110030776/2011,A/Alabama/5/2010,160
+A/İstanbul/249/2011,A/Alabama/5/2010,320
+A/Latvia/12-47890p/2011,A/Alabama/5/2010,160
+A/Netherlands/713/2011,A/Alabama/5/2010,160
+A/Bursa/250/2011,A/Alabama/5/2010,160
+A/İzmir/251/2011,A/Alabama/5/2010,160
+A/Norway/3/2012,A/Alabama/5/2010,160
+A/Norway/75/2012,A/Alabama/5/2010,160
+A/Norway/97/2012,A/Alabama/5/2010,320
+A/Switzerland/5802473/2012,A/Alabama/5/2010,80
+A/Austria/654044/2012,A/Alabama/5/2010,40
+A/Ireland/12M90/2012,A/Alabama/5/2010,160
+A/Lyon/37/2012,A/Alabama/5/2010,80
+A/Netherlands/001/2012,A/Alabama/5/2010,640
+A/Norway/73/2012,A/Alabama/5/2010,640
+A/Switzerland/5834715/2012,A/Alabama/5/2010,160
+A/Switzerland/5834718/2012,A/Alabama/5/2010,80
+A/Switzerland/5834731/2012,A/Alabama/5/2010,160
+A/Berlin/6/2012,A/Alabama/5/2010,640
+A/Hamburg/1/2012,A/Alabama/5/2010,320
+A/Austria/654591/2012,A/Alabama/5/2010,640
+A/Latvia/1-34462p/2012,A/Alabama/5/2010,160
+A/Latvia/1-34610/2012,A/Alabama/5/2010,80
+A/Ireland/12v397/2012,A/Alabama/5/2010,80
+A/England/12/2012,A/Alabama/5/2010,320
+A/Norway/114/2012,A/Alabama/5/2010,80
+A/Latvia/1-35583/2012,A/Alabama/5/2010,160
+A/Austria/655242/2012,A/Alabama/5/2010,320
+A/Netherlands/002/2012,A/Alabama/5/2010,80
+A/Rheinland-Pfalz/1/2012,A/Alabama/5/2010,160
+A/Switzerland/5834730/2012,A/Alabama/5/2010,80
+A/Switzerland/5834796/2012,A/Alabama/5/2010,80
+A/Berlin/4/2012,A/Alabama/5/2010,160
+A/Baden-Württemberg/3/2012,A/Alabama/5/2010,160
+A/Latvia/1-37528/2012,A/Alabama/5/2010,160
+A/England/21/2012,A/Alabama/5/2010,40
+A/Berlin/5/2012,A/Alabama/5/2010,160
+A/Berlin/7/2012,A/Alabama/5/2010,160
+A/Brandenburg/1/2012,A/Alabama/5/2010,640
+A/England/20/2012,A/Alabama/5/2010,80
+A/Berlin/8/2012,A/Alabama/5/2010,160
+A/Switzerland/5867852/2012,A/Alabama/5/2010,80
+A/Austria/653679/2012,A/Alabama/5/2010,80
+A/Perth/16/2009,A/Hong Kong/3969/2011,640
+A/Victoria/208/2009,A/Hong Kong/3969/2011,2560
+A/Alabama/5/2010,A/Hong Kong/3969/2011,320
+A/Hong Kong/3969/2011,A/Hong Kong/3969/2011,1280
+A/Stockholm/18/2011,A/Hong Kong/3969/2011,320
+A/Iowa/19/2010,A/Hong Kong/3969/2011,2560
+A/Finland/190/2011,A/Hong Kong/3969/2011,640
+A/England/259/2011,A/Hong Kong/3969/2011,640
+A/Norway/1789/2011,A/Hong Kong/3969/2011,1280
+A/Denmark/87/2011,A/Hong Kong/3969/2011,320
+A/Jordan/20110030568/2011,A/Hong Kong/3969/2011,640
+A/Jordan/20110030585/2011,A/Hong Kong/3969/2011,160
+A/Kobe/241/2011,A/Hong Kong/3969/2011,160
+A/Hiroshima-C/53/2011,A/Hong Kong/3969/2011,640
+A/Jordan/20110030655/2011,A/Hong Kong/3969/2011,640
+A/Yopougon/GR1336/2011,A/Hong Kong/3969/2011,160
+A/Jordan/20110030687/2011,A/Hong Kong/3969/2011,320
+A/Bursa/108/2011,A/Hong Kong/3969/2011,160
+A/Turkey/01/2011,A/Hong Kong/3969/2011,320
+A/Denmark/90/2011,A/Hong Kong/3969/2011,640
+A/Jordan/20110030713/2011,A/Hong Kong/3969/2011,160
+A/Jordan/20110030706/2011,A/Hong Kong/3969/2011,320
+A/Jordan/20110030717/2011,A/Hong Kong/3969/2011,320
+A/Netherlands/710/2011,A/Hong Kong/3969/2011,160
+A/Turkey/06/2011,A/Hong Kong/3969/2011,160
+A/Turkey/10/2011,A/Hong Kong/3969/2011,320
+A/Jordan/20110030732/2011,A/Hong Kong/3969/2011,320
+A/İzmir/176/2011,A/Hong Kong/3969/2011,80
+A/Turkey/04/2011,A/Hong Kong/3969/2011,160
+A/Jordan/20110030749/2011,A/Hong Kong/3969/2011,640
+A/Turkey/26/2011,A/Hong Kong/3969/2011,160
+A/İzmir/182/2011,A/Hong Kong/3969/2011,320
+A/Milano/268/2011,A/Hong Kong/3969/2011,160
+A/Jordan/20110030777/2011,A/Hong Kong/3969/2011,320
+A/Turkey/18/2011,A/Hong Kong/3969/2011,640
+A/Norway/99/2012,A/Hong Kong/3969/2011,640
+A/Turkey/19/2011,A/Hong Kong/3969/2011,1280
+A/İstanbul/202/2011,A/Hong Kong/3969/2011,1280
+A/Antalya/204/2011,A/Hong Kong/3969/2011,320
+A/Ireland/11M92698/2011,A/Hong Kong/3969/2011,160
+A/Turkey/21/2011,A/Hong Kong/3969/2011,160
+A/Turkey/22/2011,A/Hong Kong/3969/2011,640
+A/Turkey/27/2011,A/Hong Kong/3969/2011,160
+A/Turkey/30/2011,A/Hong Kong/3969/2011,160
+A/Turkey/31/2011,A/Hong Kong/3969/2011,160
+A/Turkey/32/2011,A/Hong Kong/3969/2011,640
+A/Ireland/11M92761/2011,A/Hong Kong/3969/2011,160
+A/Trieste/60/2011,A/Hong Kong/3969/2011,160
+A/Turkey/23/2011,A/Hong Kong/3969/2011,1280
+A/Turkey/24/2011,A/Hong Kong/3969/2011,160
+A/Jordan/20110030780/2011,A/Hong Kong/3969/2011,320
+A/Norway/2448/2011,A/Hong Kong/3969/2011,1280
+A/Ireland/11M92761/2011,A/Hong Kong/3969/2011,160
+A/Ireland/11M92922/2011,A/Hong Kong/3969/2011,320
+A/Turkey/28/2011,A/Hong Kong/3969/2011,320
+A/Norway/39/2012,A/Hong Kong/3969/2011,160
+A/Norway/96/2012,A/Hong Kong/3969/2011,160
+A/Ireland/11V9451/2011,A/Hong Kong/3969/2011,320
+A/Norway/38/2012,A/Hong Kong/3969/2011,320
+A/Switzerland/5776029/2011,A/Hong Kong/3969/2011,160
+A/Jordan/20110030776/2011,A/Hong Kong/3969/2011,640
+A/İstanbul/249/2011,A/Hong Kong/3969/2011,1280
+A/Latvia/12-47890p/2011,A/Hong Kong/3969/2011,320
+A/Netherlands/713/2011,A/Hong Kong/3969/2011,320
+A/Bursa/250/2011,A/Hong Kong/3969/2011,640
+A/İzmir/251/2011,A/Hong Kong/3969/2011,320
+A/Norway/3/2012,A/Hong Kong/3969/2011,160
+A/Norway/75/2012,A/Hong Kong/3969/2011,320
+A/Norway/97/2012,A/Hong Kong/3969/2011,1280
+A/Switzerland/5802473/2012,A/Hong Kong/3969/2011,160
+A/Austria/654044/2012,A/Hong Kong/3969/2011,160
+A/Ireland/12M90/2012,A/Hong Kong/3969/2011,640
+A/Lyon/37/2012,A/Hong Kong/3969/2011,160
+A/Netherlands/001/2012,A/Hong Kong/3969/2011,1280
+A/Norway/73/2012,A/Hong Kong/3969/2011,640
+A/Switzerland/5834715/2012,A/Hong Kong/3969/2011,640
+A/Switzerland/5834718/2012,A/Hong Kong/3969/2011,320
+A/Switzerland/5834731/2012,A/Hong Kong/3969/2011,320
+A/Berlin/6/2012,A/Hong Kong/3969/2011,1280
+A/Hamburg/1/2012,A/Hong Kong/3969/2011,640
+A/Austria/654591/2012,A/Hong Kong/3969/2011,1280
+A/Latvia/1-34462p/2012,A/Hong Kong/3969/2011,320
+A/Latvia/1-34610/2012,A/Hong Kong/3969/2011,320
+A/Ireland/12v397/2012,A/Hong Kong/3969/2011,160
+A/England/12/2012,A/Hong Kong/3969/2011,640
+A/Norway/114/2012,A/Hong Kong/3969/2011,160
+A/Latvia/1-35583/2012,A/Hong Kong/3969/2011,640
+A/Austria/655242/2012,A/Hong Kong/3969/2011,640
+A/Netherlands/002/2012,A/Hong Kong/3969/2011,160
+A/Rheinland-Pfalz/1/2012,A/Hong Kong/3969/2011,640
+A/Switzerland/5834730/2012,A/Hong Kong/3969/2011,320
+A/Switzerland/5834796/2012,A/Hong Kong/3969/2011,320
+A/Berlin/4/2012,A/Hong Kong/3969/2011,640
+A/Baden-Württemberg/3/2012,A/Hong Kong/3969/2011,320
+A/Latvia/1-37528/2012,A/Hong Kong/3969/2011,320
+A/England/21/2012,A/Hong Kong/3969/2011,80
+A/Berlin/5/2012,A/Hong Kong/3969/2011,640
+A/Berlin/7/2012,A/Hong Kong/3969/2011,640
+A/Brandenburg/1/2012,A/Hong Kong/3969/2011,1280
+A/England/20/2012,A/Hong Kong/3969/2011,320
+A/Berlin/8/2012,A/Hong Kong/3969/2011,320
+A/Switzerland/5867852/2012,A/Hong Kong/3969/2011,160
+A/Austria/653679/2012,A/Hong Kong/3969/2011,160
+A/Perth/16/2009,A/Stockholm/18/2011,160
+A/Victoria/208/2009,A/Stockholm/18/2011,2560
+A/Alabama/5/2010,A/Stockholm/18/2011,160
+A/Hong Kong/3969/2011,A/Stockholm/18/2011,640
+A/Stockholm/18/2011,A/Stockholm/18/2011,640
+A/Iowa/19/2010,A/Stockholm/18/2011,2560
+A/Finland/190/2011,A/Stockholm/18/2011,320
+A/England/259/2011,A/Stockholm/18/2011,320
+A/Norway/1789/2011,A/Stockholm/18/2011,640
+A/Denmark/87/2011,A/Stockholm/18/2011,160
+A/Jordan/20110030568/2011,A/Stockholm/18/2011,640
+A/Jordan/20110030585/2011,A/Stockholm/18/2011,160
+A/Kobe/241/2011,A/Stockholm/18/2011,80
+A/Hiroshima-C/53/2011,A/Stockholm/18/2011,320
+A/Jordan/20110030655/2011,A/Stockholm/18/2011,640
+A/Yopougon/GR1336/2011,A/Stockholm/18/2011,320
+A/Jordan/20110030687/2011,A/Stockholm/18/2011,640
+A/Bursa/108/2011,A/Stockholm/18/2011,160
+A/Turkey/01/2011,A/Stockholm/18/2011,320
+A/Denmark/90/2011,A/Stockholm/18/2011,320
+A/Jordan/20110030713/2011,A/Stockholm/18/2011,160
+A/Jordan/20110030706/2011,A/Stockholm/18/2011,640
+A/Jordan/20110030717/2011,A/Stockholm/18/2011,160
+A/Netherlands/710/2011,A/Stockholm/18/2011,80
+A/Turkey/06/2011,A/Stockholm/18/2011,160
+A/Turkey/10/2011,A/Stockholm/18/2011,320
+A/Jordan/20110030732/2011,A/Stockholm/18/2011,640
+A/İzmir/176/2011,A/Stockholm/18/2011,80
+A/Turkey/04/2011,A/Stockholm/18/2011,160
+A/Jordan/20110030749/2011,A/Stockholm/18/2011,640
+A/Turkey/26/2011,A/Stockholm/18/2011,160
+A/İzmir/182/2011,A/Stockholm/18/2011,320
+A/Milano/268/2011,A/Stockholm/18/2011,160
+A/Jordan/20110030777/2011,A/Stockholm/18/2011,320
+A/Turkey/18/2011,A/Stockholm/18/2011,320
+A/Norway/99/2012,A/Stockholm/18/2011,640
+A/Turkey/19/2011,A/Stockholm/18/2011,1280
+A/İstanbul/202/2011,A/Stockholm/18/2011,320
+A/Antalya/204/2011,A/Stockholm/18/2011,320
+A/Ireland/11M92698/2011,A/Stockholm/18/2011,320
+A/Turkey/21/2011,A/Stockholm/18/2011,160
+A/Turkey/22/2011,A/Stockholm/18/2011,640
+A/Turkey/27/2011,A/Stockholm/18/2011,160
+A/Turkey/30/2011,A/Stockholm/18/2011,160
+A/Turkey/31/2011,A/Stockholm/18/2011,160
+A/Turkey/32/2011,A/Stockholm/18/2011,640
+A/Ireland/11M92761/2011,A/Stockholm/18/2011,320
+A/Trieste/60/2011,A/Stockholm/18/2011,160
+A/Turkey/23/2011,A/Stockholm/18/2011,640
+A/Turkey/24/2011,A/Stockholm/18/2011,160
+A/Jordan/20110030780/2011,A/Stockholm/18/2011,320
+A/Norway/2448/2011,A/Stockholm/18/2011,640
+A/Ireland/11M92761/2011,A/Stockholm/18/2011,320
+A/Ireland/11M92922/2011,A/Stockholm/18/2011,640
+A/Turkey/28/2011,A/Stockholm/18/2011,640
+A/Norway/39/2012,A/Stockholm/18/2011,160
+A/Norway/96/2012,A/Stockholm/18/2011,160
+A/Ireland/11V9451/2011,A/Stockholm/18/2011,320
+A/Norway/38/2012,A/Stockholm/18/2011,320
+A/Switzerland/5776029/2011,A/Stockholm/18/2011,320
+A/Jordan/20110030776/2011,A/Stockholm/18/2011,320
+A/İstanbul/249/2011,A/Stockholm/18/2011,640
+A/Latvia/12-47890p/2011,A/Stockholm/18/2011,160
+A/Netherlands/713/2011,A/Stockholm/18/2011,160
+A/Bursa/250/2011,A/Stockholm/18/2011,320
+A/İzmir/251/2011,A/Stockholm/18/2011,160
+A/Norway/3/2012,A/Stockholm/18/2011,320
+A/Norway/75/2012,A/Stockholm/18/2011,320
+A/Norway/97/2012,A/Stockholm/18/2011,640
+A/Switzerland/5802473/2012,A/Stockholm/18/2011,160
+A/Austria/654044/2012,A/Stockholm/18/2011,80
+A/Ireland/12M90/2012,A/Stockholm/18/2011,320
+A/Lyon/37/2012,A/Stockholm/18/2011,320
+A/Netherlands/001/2012,A/Stockholm/18/2011,640
+A/Norway/73/2012,A/Stockholm/18/2011,640
+A/Switzerland/5834715/2012,A/Stockholm/18/2011,320
+A/Switzerland/5834718/2012,A/Stockholm/18/2011,320
+A/Switzerland/5834731/2012,A/Stockholm/18/2011,320
+A/Berlin/6/2012,A/Stockholm/18/2011,640
+A/Hamburg/1/2012,A/Stockholm/18/2011,320
+A/Austria/654591/2012,A/Stockholm/18/2011,320
+A/Latvia/1-34462p/2012,A/Stockholm/18/2011,320
+A/Latvia/1-34610/2012,A/Stockholm/18/2011,160
+A/Ireland/12v397/2012,A/Stockholm/18/2011,320
+A/England/12/2012,A/Stockholm/18/2011,320
+A/Norway/114/2012,A/Stockholm/18/2011,160
+A/Latvia/1-35583/2012,A/Stockholm/18/2011,160
+A/Austria/655242/2012,A/Stockholm/18/2011,320
+A/Netherlands/002/2012,A/Stockholm/18/2011,80
+A/Rheinland-Pfalz/1/2012,A/Stockholm/18/2011,320
+A/Switzerland/5834730/2012,A/Stockholm/18/2011,160
+A/Switzerland/5834796/2012,A/Stockholm/18/2011,160
+A/Berlin/4/2012,A/Stockholm/18/2011,320
+A/Baden-Württemberg/3/2012,A/Stockholm/18/2011,160
+A/Latvia/1-37528/2012,A/Stockholm/18/2011,160
+A/England/21/2012,A/Stockholm/18/2011,80
+A/Berlin/5/2012,A/Stockholm/18/2011,320
+A/Berlin/7/2012,A/Stockholm/18/2011,320
+A/Brandenburg/1/2012,A/Stockholm/18/2011,640
+A/England/20/2012,A/Stockholm/18/2011,160
+A/Berlin/8/2012,A/Stockholm/18/2011,160
+A/Switzerland/5867852/2012,A/Stockholm/18/2011,160
+A/Austria/653679/2012,A/Stockholm/18/2011,80
+A/Perth/16/2009,A/Iowa/19/2010,160
+A/Victoria/208/2009,A/Iowa/19/2010,2560
+A/Alabama/5/2010,A/Iowa/19/2010,160
+A/Hong Kong/3969/2011,A/Iowa/19/2010,320
+A/Stockholm/18/2011,A/Iowa/19/2010,160
+A/Iowa/19/2010,A/Iowa/19/2010,2560
+A/Finland/190/2011,A/Iowa/19/2010,160
+A/England/259/2011,A/Iowa/19/2010,160
+A/Norway/1789/2011,A/Iowa/19/2010,640
+A/Denmark/87/2011,A/Iowa/19/2010,160
+A/Jordan/20110030568/2011,A/Iowa/19/2010,320
+A/Jordan/20110030585/2011,A/Iowa/19/2010,80
+A/Kobe/241/2011,A/Iowa/19/2010,80
+A/Hiroshima-C/53/2011,A/Iowa/19/2010,320
+A/Jordan/20110030655/2011,A/Iowa/19/2010,320
+A/Yopougon/GR1336/2011,A/Iowa/19/2010,80
+A/Jordan/20110030687/2011,A/Iowa/19/2010,320
+A/Bursa/108/2011,A/Iowa/19/2010,160
+A/Turkey/01/2011,A/Iowa/19/2010,160
+A/Denmark/90/2011,A/Iowa/19/2010,160
+A/Jordan/20110030713/2011,A/Iowa/19/2010,80
+A/Jordan/20110030706/2011,A/Iowa/19/2010,320
+A/Jordan/20110030717/2011,A/Iowa/19/2010,160
+A/Netherlands/710/2011,A/Iowa/19/2010,160
+A/Turkey/06/2011,A/Iowa/19/2010,80
+A/Turkey/10/2011,A/Iowa/19/2010,160
+A/Jordan/20110030732/2011,A/Iowa/19/2010,320
+A/İzmir/176/2011,A/Iowa/19/2010,80
+A/Turkey/04/2011,A/Iowa/19/2010,160
+A/Jordan/20110030749/2011,A/Iowa/19/2010,320
+A/Turkey/26/2011,A/Iowa/19/2010,80
+A/İzmir/182/2011,A/Iowa/19/2010,160
+A/Milano/268/2011,A/Iowa/19/2010,80
+A/Jordan/20110030777/2011,A/Iowa/19/2010,160
+A/Turkey/18/2011,A/Iowa/19/2010,160
+A/Norway/99/2012,A/Iowa/19/2010,640
+A/Turkey/19/2011,A/Iowa/19/2010,320
+A/İstanbul/202/2011,A/Iowa/19/2010,320
+A/Antalya/204/2011,A/Iowa/19/2010,160
+A/Ireland/11M92698/2011,A/Iowa/19/2010,160
+A/Turkey/21/2011,A/Iowa/19/2010,80
+A/Turkey/22/2011,A/Iowa/19/2010,320
+A/Turkey/27/2011,A/Iowa/19/2010,80
+A/Turkey/30/2011,A/Iowa/19/2010,40
+A/Turkey/31/2011,A/Iowa/19/2010,40
+A/Turkey/32/2011,A/Iowa/19/2010,320
+A/Ireland/11M92761/2011,A/Iowa/19/2010,80
+A/Trieste/60/2011,A/Iowa/19/2010,80
+A/Turkey/23/2011,A/Iowa/19/2010,320
+A/Turkey/24/2011,A/Iowa/19/2010,80
+A/Jordan/20110030780/2011,A/Iowa/19/2010,160
+A/Norway/2448/2011,A/Iowa/19/2010,1280
+A/Ireland/11M92761/2011,A/Iowa/19/2010,160
+A/Ireland/11M92922/2011,A/Iowa/19/2010,160
+A/Turkey/28/2011,A/Iowa/19/2010,160
+A/Norway/39/2012,A/Iowa/19/2010,80
+A/Norway/96/2012,A/Iowa/19/2010,80
+A/Ireland/11V9451/2011,A/Iowa/19/2010,160
+A/Norway/38/2012,A/Iowa/19/2010,160
+A/Switzerland/5776029/2011,A/Iowa/19/2010,160
+A/Jordan/20110030776/2011,A/Iowa/19/2010,320
+A/İstanbul/249/2011,A/Iowa/19/2010,320
+A/Latvia/12-47890p/2011,A/Iowa/19/2010,160
+A/Netherlands/713/2011,A/Iowa/19/2010,160
+A/Bursa/250/2011,A/Iowa/19/2010,160
+A/İzmir/251/2011,A/Iowa/19/2010,160
+A/Norway/3/2012,A/Iowa/19/2010,80
+A/Norway/75/2012,A/Iowa/19/2010,160
+A/Norway/97/2012,A/Iowa/19/2010,640
+A/Switzerland/5802473/2012,A/Iowa/19/2010,80
+A/Austria/654044/2012,A/Iowa/19/2010,80
+A/Ireland/12M90/2012,A/Iowa/19/2010,320
+A/Lyon/37/2012,A/Iowa/19/2010,80
+A/Netherlands/001/2012,A/Iowa/19/2010,640
+A/Norway/73/2012,A/Iowa/19/2010,1280
+A/Switzerland/5834715/2012,A/Iowa/19/2010,320
+A/Switzerland/5834718/2012,A/Iowa/19/2010,160
+A/Switzerland/5834731/2012,A/Iowa/19/2010,160
+A/Berlin/6/2012,A/Iowa/19/2010,640
+A/Hamburg/1/2012,A/Iowa/19/2010,320
+A/Austria/654591/2012,A/Iowa/19/2010,640
+A/Latvia/1-34462p/2012,A/Iowa/19/2010,160
+A/Latvia/1-34610/2012,A/Iowa/19/2010,160
+A/Ireland/12v397/2012,A/Iowa/19/2010,80
+A/England/12/2012,A/Iowa/19/2010,320
+A/Norway/114/2012,A/Iowa/19/2010,80
+A/Latvia/1-35583/2012,A/Iowa/19/2010,160
+A/Austria/655242/2012,A/Iowa/19/2010,320
+A/Netherlands/002/2012,A/Iowa/19/2010,40
+A/Rheinland-Pfalz/1/2012,A/Iowa/19/2010,320
+A/Switzerland/5834730/2012,A/Iowa/19/2010,80
+A/Switzerland/5834796/2012,A/Iowa/19/2010,160
+A/Berlin/4/2012,A/Iowa/19/2010,320
+A/Baden-Württemberg/3/2012,A/Iowa/19/2010,160
+A/Latvia/1-37528/2012,A/Iowa/19/2010,160
+A/England/21/2012,A/Iowa/19/2010,40
+A/Berlin/5/2012,A/Iowa/19/2010,160
+A/Berlin/7/2012,A/Iowa/19/2010,160
+A/Brandenburg/1/2012,A/Iowa/19/2010,640
+A/England/20/2012,A/Iowa/19/2010,80
+A/Berlin/8/2012,A/Iowa/19/2010,160
+A/Switzerland/5867852/2012,A/Iowa/19/2010,80
+A/Austria/653679/2012,A/Iowa/19/2010,80
+A/Perth/16/2009,A/Finland/190/2011,160
+A/Victoria/208/2009,A/Finland/190/2011,2560
+A/Alabama/5/2010,A/Finland/190/2011,160
+A/Hong Kong/3969/2011,A/Finland/190/2011,1280
+A/Stockholm/18/2011,A/Finland/190/2011,320
+A/Iowa/19/2010,A/Finland/190/2011,2560
+A/Finland/190/2011,A/Finland/190/2011,640
+A/England/259/2011,A/Finland/190/2011,640
+A/Norway/1789/2011,A/Finland/190/2011,2560
+A/Denmark/87/2011,A/Finland/190/2011,640
+A/Jordan/20110030568/2011,A/Finland/190/2011,1280
+A/Jordan/20110030585/2011,A/Finland/190/2011,320
+A/Kobe/241/2011,A/Finland/190/2011,160
+A/Hiroshima-C/53/2011,A/Finland/190/2011,640
+A/Jordan/20110030655/2011,A/Finland/190/2011,640
+A/Yopougon/GR1336/2011,A/Finland/190/2011,160
+A/Jordan/20110030687/2011,A/Finland/190/2011,640
+A/Bursa/108/2011,A/Finland/190/2011,320
+A/Turkey/01/2011,A/Finland/190/2011,320
+A/Denmark/90/2011,A/Finland/190/2011,640
+A/Jordan/20110030713/2011,A/Finland/190/2011,160
+A/Jordan/20110030706/2011,A/Finland/190/2011,640
+A/Jordan/20110030717/2011,A/Finland/190/2011,320
+A/Netherlands/710/2011,A/Finland/190/2011,160
+A/Turkey/06/2011,A/Finland/190/2011,160
+A/Turkey/10/2011,A/Finland/190/2011,640
+A/Jordan/20110030732/2011,A/Finland/190/2011,640
+A/İzmir/176/2011,A/Finland/190/2011,160
+A/Turkey/04/2011,A/Finland/190/2011,160
+A/Jordan/20110030749/2011,A/Finland/190/2011,1280
+A/Turkey/26/2011,A/Finland/190/2011,160
+A/İzmir/182/2011,A/Finland/190/2011,320
+A/Milano/268/2011,A/Finland/190/2011,160
+A/Jordan/20110030777/2011,A/Finland/190/2011,320
+A/Turkey/18/2011,A/Finland/190/2011,1280
+A/Norway/99/2012,A/Finland/190/2011,1280
+A/Turkey/19/2011,A/Finland/190/2011,1280
+A/İstanbul/202/2011,A/Finland/190/2011,1280
+A/Antalya/204/2011,A/Finland/190/2011,320
+A/Ireland/11M92698/2011,A/Finland/190/2011,320
+A/Turkey/21/2011,A/Finland/190/2011,160
+A/Turkey/22/2011,A/Finland/190/2011,640
+A/Turkey/27/2011,A/Finland/190/2011,160
+A/Turkey/30/2011,A/Finland/190/2011,160
+A/Turkey/31/2011,A/Finland/190/2011,160
+A/Turkey/32/2011,A/Finland/190/2011,640
+A/Ireland/11M92761/2011,A/Finland/190/2011,160
+A/Trieste/60/2011,A/Finland/190/2011,160
+A/Turkey/23/2011,A/Finland/190/2011,1280
+A/Turkey/24/2011,A/Finland/190/2011,160
+A/Jordan/20110030780/2011,A/Finland/190/2011,320
+A/Norway/2448/2011,A/Finland/190/2011,1280
+A/Ireland/11M92761/2011,A/Finland/190/2011,320
+A/Ireland/11M92922/2011,A/Finland/190/2011,320
+A/Turkey/28/2011,A/Finland/190/2011,640
+A/Norway/39/2012,A/Finland/190/2011,160
+A/Norway/96/2012,A/Finland/190/2011,160
+A/Ireland/11V9451/2011,A/Finland/190/2011,640
+A/Norway/38/2012,A/Finland/190/2011,320
+A/Switzerland/5776029/2011,A/Finland/190/2011,320
+A/Jordan/20110030776/2011,A/Finland/190/2011,640
+A/İstanbul/249/2011,A/Finland/190/2011,1280
+A/Latvia/12-47890p/2011,A/Finland/190/2011,320
+A/Netherlands/713/2011,A/Finland/190/2011,320
+A/Bursa/250/2011,A/Finland/190/2011,640
+A/İzmir/251/2011,A/Finland/190/2011,320
+A/Norway/3/2012,A/Finland/190/2011,160
+A/Norway/75/2012,A/Finland/190/2011,640
+A/Norway/97/2012,A/Finland/190/2011,1280
+A/Switzerland/5802473/2012,A/Finland/190/2011,160
+A/Austria/654044/2012,A/Finland/190/2011,160
+A/Ireland/12M90/2012,A/Finland/190/2011,640
+A/Lyon/37/2012,A/Finland/190/2011,160
+A/Netherlands/001/2012,A/Finland/190/2011,1280
+A/Norway/73/2012,A/Finland/190/2011,1280
+A/Switzerland/5834715/2012,A/Finland/190/2011,1280
+A/Switzerland/5834718/2012,A/Finland/190/2011,640
+A/Switzerland/5834731/2012,A/Finland/190/2011,640
+A/Berlin/6/2012,A/Finland/190/2011,1280
+A/Hamburg/1/2012,A/Finland/190/2011,160
+A/Austria/654591/2012,A/Finland/190/2011,1280
+A/Latvia/1-34462p/2012,A/Finland/190/2011,320
+A/Latvia/1-34610/2012,A/Finland/190/2011,320
+A/Ireland/12v397/2012,A/Finland/190/2011,160
+A/England/12/2012,A/Finland/190/2011,1280
+A/Norway/114/2012,A/Finland/190/2011,160
+A/Latvia/1-35583/2012,A/Finland/190/2011,640
+A/Austria/655242/2012,A/Finland/190/2011,1280
+A/Netherlands/002/2012,A/Finland/190/2011,160
+A/Rheinland-Pfalz/1/2012,A/Finland/190/2011,640
+A/Switzerland/5834730/2012,A/Finland/190/2011,640
+A/Switzerland/5834796/2012,A/Finland/190/2011,640
+A/Berlin/4/2012,A/Finland/190/2011,640
+A/Baden-Württemberg/3/2012,A/Finland/190/2011,640
+A/Latvia/1-37528/2012,A/Finland/190/2011,320
+A/England/21/2012,A/Finland/190/2011,160
+A/Berlin/5/2012,A/Finland/190/2011,640
+A/Berlin/7/2012,A/Finland/190/2011,640
+A/Brandenburg/1/2012,A/Finland/190/2011,1280
+A/England/20/2012,A/Finland/190/2011,320
+A/Berlin/8/2012,A/Finland/190/2011,640
+A/Switzerland/5867852/2012,A/Finland/190/2011,640
+A/Austria/653679/2012,A/Finland/190/2011,320
+A/Perth/16/2009,A/England/259/2011,160
+A/Victoria/208/2009,A/England/259/2011,2560
+A/Alabama/5/2010,A/England/259/2011,80
+A/Hong Kong/3969/2011,A/England/259/2011,640
+A/Stockholm/18/2011,A/England/259/2011,160
+A/Iowa/19/2010,A/England/259/2011,2560
+A/Finland/190/2011,A/England/259/2011,320
+A/England/259/2011,A/England/259/2011,640
+A/Norway/1789/2011,A/England/259/2011,640
+A/Denmark/87/2011,A/England/259/2011,320
+A/Jordan/20110030568/2011,A/England/259/2011,320
+A/Jordan/20110030585/2011,A/England/259/2011,160
+A/Kobe/241/2011,A/England/259/2011,80
+A/Hiroshima-C/53/2011,A/England/259/2011,320
+A/Jordan/20110030655/2011,A/England/259/2011,640
+A/Yopougon/GR1336/2011,A/England/259/2011,160
+A/Jordan/20110030687/2011,A/England/259/2011,320
+A/Bursa/108/2011,A/England/259/2011,160
+A/Turkey/01/2011,A/England/259/2011,160
+A/Denmark/90/2011,A/England/259/2011,320
+A/Jordan/20110030713/2011,A/England/259/2011,160
+A/Jordan/20110030706/2011,A/England/259/2011,320
+A/Jordan/20110030717/2011,A/England/259/2011,320
+A/Netherlands/710/2011,A/England/259/2011,160
+A/Turkey/06/2011,A/England/259/2011,160
+A/Turkey/10/2011,A/England/259/2011,320
+A/Jordan/20110030732/2011,A/England/259/2011,320
+A/İzmir/176/2011,A/England/259/2011,160
+A/Turkey/04/2011,A/England/259/2011,160
+A/Jordan/20110030749/2011,A/England/259/2011,640
+A/Turkey/26/2011,A/England/259/2011,80
+A/İzmir/182/2011,A/England/259/2011,320
+A/Milano/268/2011,A/England/259/2011,160
+A/Jordan/20110030777/2011,A/England/259/2011,320
+A/Turkey/18/2011,A/England/259/2011,320
+A/Norway/99/2012,A/England/259/2011,640
+A/Turkey/19/2011,A/England/259/2011,640
+A/İstanbul/202/2011,A/England/259/2011,320
+A/Antalya/204/2011,A/England/259/2011,320
+A/Ireland/11M92698/2011,A/England/259/2011,160
+A/Turkey/21/2011,A/England/259/2011,160
+A/Turkey/22/2011,A/England/259/2011,320
+A/Turkey/27/2011,A/England/259/2011,80
+A/Turkey/30/2011,A/England/259/2011,80
+A/Turkey/31/2011,A/England/259/2011,80
+A/Turkey/32/2011,A/England/259/2011,320
+A/Ireland/11M92761/2011,A/England/259/2011,160
+A/Trieste/60/2011,A/England/259/2011,160
+A/Turkey/23/2011,A/England/259/2011,320
+A/Turkey/24/2011,A/England/259/2011,80
+A/Jordan/20110030780/2011,A/England/259/2011,320
+A/Norway/2448/2011,A/England/259/2011,640
+A/Ireland/11M92761/2011,A/England/259/2011,320
+A/Ireland/11M92922/2011,A/England/259/2011,160
+A/Turkey/28/2011,A/England/259/2011,320
+A/Norway/39/2012,A/England/259/2011,160
+A/Norway/96/2012,A/England/259/2011,160
+A/Ireland/11V9451/2011,A/England/259/2011,320
+A/Norway/38/2012,A/England/259/2011,320
+A/Switzerland/5776029/2011,A/England/259/2011,160
+A/Jordan/20110030776/2011,A/England/259/2011,320
+A/İstanbul/249/2011,A/England/259/2011,320
+A/Latvia/12-47890p/2011,A/England/259/2011,320
+A/Netherlands/713/2011,A/England/259/2011,160
+A/Bursa/250/2011,A/England/259/2011,320
+A/İzmir/251/2011,A/England/259/2011,320
+A/Norway/3/2012,A/England/259/2011,160
+A/Norway/75/2012,A/England/259/2011,320
+A/Norway/97/2012,A/England/259/2011,640
+A/Switzerland/5802473/2012,A/England/259/2011,160
+A/Austria/654044/2012,A/England/259/2011,160
+A/Ireland/12M90/2012,A/England/259/2011,320
+A/Lyon/37/2012,A/England/259/2011,160
+A/Netherlands/001/2012,A/England/259/2011,640
+A/Norway/73/2012,A/England/259/2011,640
+A/Switzerland/5834715/2012,A/England/259/2011,320
+A/Switzerland/5834718/2012,A/England/259/2011,160
+A/Switzerland/5834731/2012,A/England/259/2011,320
+A/Berlin/6/2012,A/England/259/2011,640
+A/Hamburg/1/2012,A/England/259/2011,320
+A/Austria/654591/2012,A/England/259/2011,640
+A/Latvia/1-34462p/2012,A/England/259/2011,320
+A/Latvia/1-34610/2012,A/England/259/2011,320
+A/Ireland/12v397/2012,A/England/259/2011,160
+A/England/12/2012,A/England/259/2011,320
+A/Norway/114/2012,A/England/259/2011,160
+A/Latvia/1-35583/2012,A/England/259/2011,320
+A/Austria/655242/2012,A/England/259/2011,320
+A/Netherlands/002/2012,A/England/259/2011,80
+A/Rheinland-Pfalz/1/2012,A/England/259/2011,320
+A/Switzerland/5834730/2012,A/England/259/2011,160
+A/Switzerland/5834796/2012,A/England/259/2011,160
+A/Berlin/4/2012,A/England/259/2011,320
+A/Baden-Württemberg/3/2012,A/England/259/2011,160
+A/Latvia/1-37528/2012,A/England/259/2011,320
+A/England/21/2012,A/England/259/2011,160
+A/Berlin/5/2012,A/England/259/2011,320
+A/Berlin/7/2012,A/England/259/2011,320
+A/Brandenburg/1/2012,A/England/259/2011,640
+A/England/20/2012,A/England/259/2011,160
+A/Berlin/8/2012,A/England/259/2011,320
+A/Switzerland/5867852/2012,A/England/259/2011,160
+A/Austria/653679/2012,A/England/259/2011,160
+A/Perth/16/2009,A/Norway/1789/2011,320
+A/Victoria/208/2009,A/Norway/1789/2011,2560
+A/Alabama/5/2010,A/Norway/1789/2011,320
+A/Hong Kong/3969/2011,A/Norway/1789/2011,1280
+A/Stockholm/18/2011,A/Norway/1789/2011,320
+A/Iowa/19/2010,A/Norway/1789/2011,2560
+A/Finland/190/2011,A/Norway/1789/2011,640
+A/England/259/2011,A/Norway/1789/2011,640
+A/Norway/1789/2011,A/Norway/1789/2011,1280
+A/Denmark/87/2011,A/Norway/1789/2011,640
+A/Jordan/20110030568/2011,A/Norway/1789/2011,640
+A/Jordan/20110030585/2011,A/Norway/1789/2011,160
+A/Kobe/241/2011,A/Norway/1789/2011,160
+A/Hiroshima-C/53/2011,A/Norway/1789/2011,640
+A/Jordan/20110030655/2011,A/Norway/1789/2011,640
+A/Yopougon/GR1336/2011,A/Norway/1789/2011,320
+A/Jordan/20110030687/2011,A/Norway/1789/2011,640
+A/Bursa/108/2011,A/Norway/1789/2011,320
+A/Turkey/01/2011,A/Norway/1789/2011,320
+A/Denmark/90/2011,A/Norway/1789/2011,640
+A/Jordan/20110030713/2011,A/Norway/1789/2011,320
+A/Jordan/20110030706/2011,A/Norway/1789/2011,640
+A/Jordan/20110030717/2011,A/Norway/1789/2011,320
+A/Netherlands/710/2011,A/Norway/1789/2011,320
+A/Turkey/06/2011,A/Norway/1789/2011,320
+A/Turkey/10/2011,A/Norway/1789/2011,640
+A/Jordan/20110030732/2011,A/Norway/1789/2011,640
+A/İzmir/176/2011,A/Norway/1789/2011,160
+A/Turkey/04/2011,A/Norway/1789/2011,320
+A/Jordan/20110030749/2011,A/Norway/1789/2011,180
+A/Turkey/26/2011,A/Norway/1789/2011,160
+A/İzmir/182/2011,A/Norway/1789/2011,640
+A/Milano/268/2011,A/Norway/1789/2011,160
+A/Jordan/20110030777/2011,A/Norway/1789/2011,320
+A/Turkey/18/2011,A/Norway/1789/2011,640
+A/Norway/99/2012,A/Norway/1789/2011,1280
+A/Turkey/19/2011,A/Norway/1789/2011,1280
+A/İstanbul/202/2011,A/Norway/1789/2011,1280
+A/Antalya/204/2011,A/Norway/1789/2011,640
+A/Ireland/11M92698/2011,A/Norway/1789/2011,320
+A/Turkey/21/2011,A/Norway/1789/2011,320
+A/Turkey/22/2011,A/Norway/1789/2011,1280
+A/Turkey/27/2011,A/Norway/1789/2011,160
+A/Turkey/30/2011,A/Norway/1789/2011,160
+A/Turkey/31/2011,A/Norway/1789/2011,160
+A/Turkey/32/2011,A/Norway/1789/2011,640
+A/Ireland/11M92761/2011,A/Norway/1789/2011,320
+A/Trieste/60/2011,A/Norway/1789/2011,160
+A/Turkey/23/2011,A/Norway/1789/2011,1280
+A/Turkey/24/2011,A/Norway/1789/2011,320
+A/Jordan/20110030780/2011,A/Norway/1789/2011,320
+A/Norway/2448/2011,A/Norway/1789/2011,1280
+A/Ireland/11M92761/2011,A/Norway/1789/2011,320
+A/Ireland/11M92922/2011,A/Norway/1789/2011,320
+A/Turkey/28/2011,A/Norway/1789/2011,640
+A/Norway/39/2012,A/Norway/1789/2011,160
+A/Norway/96/2012,A/Norway/1789/2011,320
+A/Ireland/11V9451/2011,A/Norway/1789/2011,640
+A/Norway/38/2012,A/Norway/1789/2011,640
+A/Switzerland/5776029/2011,A/Norway/1789/2011,320
+A/Jordan/20110030776/2011,A/Norway/1789/2011,640
+A/İstanbul/249/2011,A/Norway/1789/2011,1280
+A/Latvia/12-47890p/2011,A/Norway/1789/2011,640
+A/Netherlands/713/2011,A/Norway/1789/2011,320
+A/Bursa/250/2011,A/Norway/1789/2011,640
+A/İzmir/251/2011,A/Norway/1789/2011,640
+A/Norway/3/2012,A/Norway/1789/2011,320
+A/Norway/75/2012,A/Norway/1789/2011,640
+A/Norway/97/2012,A/Norway/1789/2011,1280
+A/Switzerland/5802473/2012,A/Norway/1789/2011,160
+A/Austria/654044/2012,A/Norway/1789/2011,160
+A/Ireland/12M90/2012,A/Norway/1789/2011,640
+A/Lyon/37/2012,A/Norway/1789/2011,320
+A/Netherlands/001/2012,A/Norway/1789/2011,1280
+A/Norway/73/2012,A/Norway/1789/2011,1280
+A/Switzerland/5834715/2012,A/Norway/1789/2011,640
+A/Switzerland/5834718/2012,A/Norway/1789/2011,320
+A/Switzerland/5834731/2012,A/Norway/1789/2011,640
+A/Berlin/6/2012,A/Norway/1789/2011,1280
+A/Hamburg/1/2012,A/Norway/1789/2011,640
+A/Austria/654591/2012,A/Norway/1789/2011,1280
+A/Latvia/1-34462p/2012,A/Norway/1789/2011,640
+A/Latvia/1-34610/2012,A/Norway/1789/2011,320
+A/Ireland/12v397/2012,A/Norway/1789/2011,320
+A/England/12/2012,A/Norway/1789/2011,640
+A/Norway/114/2012,A/Norway/1789/2011,320
+A/Latvia/1-35583/2012,A/Norway/1789/2011,640
+A/Austria/655242/2012,A/Norway/1789/2011,640
+A/Netherlands/002/2012,A/Norway/1789/2011,160
+A/Rheinland-Pfalz/1/2012,A/Norway/1789/2011,640
+A/Switzerland/5834730/2012,A/Norway/1789/2011,320
+A/Switzerland/5834796/2012,A/Norway/1789/2011,320
+A/Berlin/4/2012,A/Norway/1789/2011,640
+A/Baden-Württemberg/3/2012,A/Norway/1789/2011,640
+A/Latvia/1-37528/2012,A/Norway/1789/2011,320
+A/England/21/2012,A/Norway/1789/2011,160
+A/Berlin/5/2012,A/Norway/1789/2011,640
+A/Berlin/7/2012,A/Norway/1789/2011,1280
+A/Brandenburg/1/2012,A/Norway/1789/2011,1280
+A/England/20/2012,A/Norway/1789/2011,320
+A/Berlin/8/2012,A/Norway/1789/2011,640
+A/Switzerland/5867852/2012,A/Norway/1789/2011,320
+A/Austria/653679/2012,A/Norway/1789/2011,160
+A/Perth/16/2009,A/Perth/16/2009,640
+A/Victoria/208/2009,A/Perth/16/2009,1280
+A/Alabama/5/2010,A/Perth/16/2009,40
+A/Hong Kong/3969/2011,A/Perth/16/2009,160
+A/Stockholm/18/2011,A/Perth/16/2009,40
+A/Iowa/19/2010,A/Perth/16/2009,1280
+A/Finland/190/2011,A/Perth/16/2009,160
+A/England/259/2011,A/Perth/16/2009,160
+A/Norway/1789/2011,A/Perth/16/2009,160
+A/Brisbane/299/2011,A/Perth/16/2009,320
+A/Dakar/21/2011,A/Perth/16/2009,80
+A/Dakar/23/2011,A/Perth/16/2009,80
+A/Stockholm/37/2011,A/Perth/16/2009,80
+A/Stockholm/42/2011,A/Perth/16/2009,160
+A/Jordan/20110030729/2011,A/Perth/16/2009,80
+A/Stockholm/2011-21445/2011,A/Perth/16/2009,80
+A/Suceava/87402/2012,A/Perth/16/2009,160
+A/Stockholm/40/2011,A/Perth/16/2009,<40
+A/Stockholm/39/2011,A/Perth/16/2009,80
+A/Turkey/37/2011,A/Perth/16/2009,40
+A/Bacau/88448/2012,A/Perth/16/2009,160
+A/Turkey/36/2011,A/Perth/16/2009,40
+A/Turkey/39/2011,A/Perth/16/2009,<40
+A/Antalya/214/2011,A/Perth/16/2009,80
+A/Turkey/33/2011,A/Perth/16/2009,40
+A/Turkey/34/2011,A/Perth/16/2009,40
+A/Turkey/35/2011,A/Perth/16/2009,40
+A/Turkey/38/2011,A/Perth/16/2009,40
+A/Turkey/40/2011,A/Perth/16/2009,40
+A/Stockholm/43/2011,A/Perth/16/2009,40
+A/Stockholm/12-00978/2012,A/Perth/16/2009,160
+A/Turkey/41/2011,A/Perth/16/2009,40
+A/Turkey/42/2011,A/Perth/16/2009,40
+A/Stockholm/1200979/2012,A/Perth/16/2009,160
+A/Galati/88977/2012,A/Perth/16/2009,160
+A/Stockholm/44/2011,A/Perth/16/2009,160
+A/Turkey/43/2011,A/Perth/16/2009,160
+A/Turkey/44/2011,A/Perth/16/2009,40
+A/Turkey/45/2011,A/Perth/16/2009,80
+A/Turkey/46/2011,A/Perth/16/2009,80
+A/Turkey/48/2011,A/Perth/16/2009,40
+A/Turkey/49/2011,A/Perth/16/2009,40
+A/Turkey/50/2011,A/Perth/16/2009,80
+A/Turkey/51/2011,A/Perth/16/2009,40
+A/Turkey/52/2011,A/Perth/16/2009,40
+A/Bacau/89197/2012,A/Perth/16/2009,160
+A/Turkey/53/2011,A/Perth/16/2009,80
+A/Turkey/55/2011,A/Perth/16/2009,80
+A/Braila/89501/2012,A/Perth/16/2009,80
+A/Iasi/89451/2012,A/Perth/16/2009,160
+A/Turkey/54/2011,A/Perth/16/2009,80
+A/Turkey/56/2011,A/Perth/16/2009,80
+A/Finland/196/2012,A/Perth/16/2009,80
+A/Turkey/57/2011,A/Perth/16/2009,40
+A/Stockholm/12-00694/2012,A/Perth/16/2009,160
+A/Stockholm/12-00574/2012,A/Perth/16/2009,160
+A/Stockholm/12-00974/2012,A/Perth/16/2009,40
+A/Finland/197/2012,A/Perth/16/2009,320
+A/Stockholm/12-00695/2012,A/Perth/16/2009,320
+A/Stockholm/12-00752/2012,A/Perth/16/2009,40
+A/Latvia/1-39879p/2012,A/Perth/16/2009,160
+A/Perth/16/2009,A/Victoria/208/2009,80
+A/Victoria/208/2009,A/Victoria/208/2009,2560
+A/Alabama/5/2010,A/Victoria/208/2009,40
+A/Hong Kong/3969/2011,A/Victoria/208/2009,160
+A/Stockholm/18/2011,A/Victoria/208/2009,40
+A/Iowa/19/2010,A/Victoria/208/2009,5120
+A/Finland/190/2011,A/Victoria/208/2009,160
+A/England/259/2011,A/Victoria/208/2009,160
+A/Norway/1789/2011,A/Victoria/208/2009,160
+A/Brisbane/299/2011,A/Victoria/208/2009,640
+A/Dakar/21/2011,A/Victoria/208/2009,160
+A/Dakar/23/2011,A/Victoria/208/2009,160
+A/Stockholm/37/2011,A/Victoria/208/2009,80
+A/Stockholm/42/2011,A/Victoria/208/2009,160
+A/Jordan/20110030729/2011,A/Victoria/208/2009,160
+A/Stockholm/2011-21445/2011,A/Victoria/208/2009,80
+A/Suceava/87402/2012,A/Victoria/208/2009,160
+A/Stockholm/40/2011,A/Victoria/208/2009,40
+A/Stockholm/39/2011,A/Victoria/208/2009,80
+A/Turkey/37/2011,A/Victoria/208/2009,40
+A/Bacau/88448/2012,A/Victoria/208/2009,160
+A/Turkey/36/2011,A/Victoria/208/2009,80
+A/Turkey/39/2011,A/Victoria/208/2009,40
+A/Antalya/214/2011,A/Victoria/208/2009,160
+A/Turkey/33/2011,A/Victoria/208/2009,80
+A/Turkey/34/2011,A/Victoria/208/2009,80
+A/Turkey/35/2011,A/Victoria/208/2009,40
+A/Turkey/38/2011,A/Victoria/208/2009,80
+A/Turkey/40/2011,A/Victoria/208/2009,80
+A/Stockholm/43/2011,A/Victoria/208/2009,40
+A/Stockholm/12-00978/2012,A/Victoria/208/2009,160
+A/Turkey/41/2011,A/Victoria/208/2009,80
+A/Turkey/42/2011,A/Victoria/208/2009,80
+A/Stockholm/1200979/2012,A/Victoria/208/2009,160
+A/Galati/88977/2012,A/Victoria/208/2009,160
+A/Stockholm/44/2011,A/Victoria/208/2009,160
+A/Turkey/43/2011,A/Victoria/208/2009,160
+A/Turkey/44/2011,A/Victoria/208/2009,80
+A/Turkey/45/2011,A/Victoria/208/2009,80
+A/Turkey/46/2011,A/Victoria/208/2009,80
+A/Turkey/48/2011,A/Victoria/208/2009,80
+A/Turkey/49/2011,A/Victoria/208/2009,80
+A/Turkey/50/2011,A/Victoria/208/2009,80
+A/Turkey/51/2011,A/Victoria/208/2009,80
+A/Turkey/52/2011,A/Victoria/208/2009,80
+A/Bacau/89197/2012,A/Victoria/208/2009,160
+A/Turkey/53/2011,A/Victoria/208/2009,80
+A/Turkey/55/2011,A/Victoria/208/2009,80
+A/Braila/89501/2012,A/Victoria/208/2009,80
+A/Iasi/89451/2012,A/Victoria/208/2009,160
+A/Turkey/54/2011,A/Victoria/208/2009,80
+A/Turkey/56/2011,A/Victoria/208/2009,160
+A/Finland/196/2012,A/Victoria/208/2009,160
+A/Turkey/57/2011,A/Victoria/208/2009,80
+A/Stockholm/12-00694/2012,A/Victoria/208/2009,160
+A/Stockholm/12-00574/2012,A/Victoria/208/2009,160
+A/Stockholm/12-00974/2012,A/Victoria/208/2009,40
+A/Finland/197/2012,A/Victoria/208/2009,320
+A/Stockholm/12-00695/2012,A/Victoria/208/2009,320
+A/Stockholm/12-00752/2012,A/Victoria/208/2009,80
+A/Latvia/1-39879p/2012,A/Victoria/208/2009,160
+A/Perth/16/2009,A/Alabama/5/2010,160
+A/Victoria/208/2009,A/Alabama/5/2010,1280
+A/Alabama/5/2010,A/Alabama/5/2010,160
+A/Hong Kong/3969/2011,A/Alabama/5/2010,320
+A/Stockholm/18/2011,A/Alabama/5/2010,80
+A/Iowa/19/2010,A/Alabama/5/2010,1280
+A/Finland/190/2011,A/Alabama/5/2010,160
+A/England/259/2011,A/Alabama/5/2010,320
+A/Norway/1789/2011,A/Alabama/5/2010,320
+A/Brisbane/299/2011,A/Alabama/5/2010,640
+A/Dakar/21/2011,A/Alabama/5/2010,160
+A/Dakar/23/2011,A/Alabama/5/2010,160
+A/Stockholm/37/2011,A/Alabama/5/2010,160
+A/Stockholm/42/2011,A/Alabama/5/2010,640
+A/Jordan/20110030729/2011,A/Alabama/5/2010,160
+A/Stockholm/2011-21445/2011,A/Alabama/5/2010,160
+A/Suceava/87402/2012,A/Alabama/5/2010,320
+A/Stockholm/40/2011,A/Alabama/5/2010,40
+A/Stockholm/39/2011,A/Alabama/5/2010,80
+A/Turkey/37/2011,A/Alabama/5/2010,80
+A/Bacau/88448/2012,A/Alabama/5/2010,320
+A/Turkey/36/2011,A/Alabama/5/2010,80
+A/Turkey/39/2011,A/Alabama/5/2010,40
+A/Antalya/214/2011,A/Alabama/5/2010,80
+A/Turkey/33/2011,A/Alabama/5/2010,80
+A/Turkey/34/2011,A/Alabama/5/2010,80
+A/Turkey/35/2011,A/Alabama/5/2010,40
+A/Turkey/38/2011,A/Alabama/5/2010,160
+A/Turkey/40/2011,A/Alabama/5/2010,80
+A/Stockholm/43/2011,A/Alabama/5/2010,80
+A/Stockholm/12-00978/2012,A/Alabama/5/2010,640
+A/Turkey/41/2011,A/Alabama/5/2010,160
+A/Turkey/42/2011,A/Alabama/5/2010,160
+A/Stockholm/1200979/2012,A/Alabama/5/2010,640
+A/Galati/88977/2012,A/Alabama/5/2010,160
+A/Stockholm/44/2011,A/Alabama/5/2010,320
+A/Turkey/43/2011,A/Alabama/5/2010,160
+A/Turkey/44/2011,A/Alabama/5/2010,80
+A/Turkey/45/2011,A/Alabama/5/2010,80
+A/Turkey/46/2011,A/Alabama/5/2010,80
+A/Turkey/48/2011,A/Alabama/5/2010,80
+A/Turkey/49/2011,A/Alabama/5/2010,160
+A/Turkey/50/2011,A/Alabama/5/2010,160
+A/Turkey/51/2011,A/Alabama/5/2010,80
+A/Turkey/52/2011,A/Alabama/5/2010,80
+A/Bacau/89197/2012,A/Alabama/5/2010,320
+A/Turkey/53/2011,A/Alabama/5/2010,80
+A/Turkey/55/2011,A/Alabama/5/2010,80
+A/Braila/89501/2012,A/Alabama/5/2010,160
+A/Iasi/89451/2012,A/Alabama/5/2010,320
+A/Turkey/54/2011,A/Alabama/5/2010,80
+A/Turkey/56/2011,A/Alabama/5/2010,160
+A/Finland/196/2012,A/Alabama/5/2010,160
+A/Turkey/57/2011,A/Alabama/5/2010,80
+A/Stockholm/12-00694/2012,A/Alabama/5/2010,320
+A/Stockholm/12-00574/2012,A/Alabama/5/2010,320
+A/Stockholm/12-00974/2012,A/Alabama/5/2010,80
+A/Finland/197/2012,A/Alabama/5/2010,640
+A/Stockholm/12-00695/2012,A/Alabama/5/2010,640
+A/Stockholm/12-00752/2012,A/Alabama/5/2010,80
+A/Latvia/1-39879p/2012,A/Alabama/5/2010,320
+A/Perth/16/2009,A/Hong Kong/3969/2011,640
+A/Victoria/208/2009,A/Hong Kong/3969/2011,5120
+A/Alabama/5/2010,A/Hong Kong/3969/2011,320
+A/Hong Kong/3969/2011,A/Hong Kong/3969/2011,1280
+A/Stockholm/18/2011,A/Hong Kong/3969/2011,320
+A/Iowa/19/2010,A/Hong Kong/3969/2011,5120
+A/Finland/190/2011,A/Hong Kong/3969/2011,1280
+A/England/259/2011,A/Hong Kong/3969/2011,1280
+A/Norway/1789/2011,A/Hong Kong/3969/2011,1280
+A/Brisbane/299/2011,A/Hong Kong/3969/2011,1280
+A/Dakar/21/2011,A/Hong Kong/3969/2011,320
+A/Dakar/23/2011,A/Hong Kong/3969/2011,320
+A/Stockholm/37/2011,A/Hong Kong/3969/2011,320
+A/Stockholm/42/2011,A/Hong Kong/3969/2011,640
+A/Jordan/20110030729/2011,A/Hong Kong/3969/2011,640
+A/Stockholm/2011-21445/2011,A/Hong Kong/3969/2011,320
+A/Suceava/87402/2012,A/Hong Kong/3969/2011,640
+A/Stockholm/40/2011,A/Hong Kong/3969/2011,160
+A/Stockholm/39/2011,A/Hong Kong/3969/2011,320
+A/Turkey/37/2011,A/Hong Kong/3969/2011,320
+A/Bacau/88448/2012,A/Hong Kong/3969/2011,640
+A/Turkey/36/2011,A/Hong Kong/3969/2011,320
+A/Turkey/39/2011,A/Hong Kong/3969/2011,160
+A/Antalya/214/2011,A/Hong Kong/3969/2011,320
+A/Turkey/33/2011,A/Hong Kong/3969/2011,320
+A/Turkey/34/2011,A/Hong Kong/3969/2011,320
+A/Turkey/35/2011,A/Hong Kong/3969/2011,320
+A/Turkey/38/2011,A/Hong Kong/3969/2011,320
+A/Turkey/40/2011,A/Hong Kong/3969/2011,320
+A/Stockholm/43/2011,A/Hong Kong/3969/2011,160
+A/Stockholm/12-00978/2012,A/Hong Kong/3969/2011,640
+A/Turkey/41/2011,A/Hong Kong/3969/2011,320
+A/Turkey/42/2011,A/Hong Kong/3969/2011,320
+A/Stockholm/1200979/2012,A/Hong Kong/3969/2011,640
+A/Galati/88977/2012,A/Hong Kong/3969/2011,640
+A/Stockholm/44/2011,A/Hong Kong/3969/2011,640
+A/Turkey/43/2011,A/Hong Kong/3969/2011,640
+A/Turkey/44/2011,A/Hong Kong/3969/2011,160
+A/Turkey/45/2011,A/Hong Kong/3969/2011,320
+A/Turkey/46/2011,A/Hong Kong/3969/2011,320
+A/Turkey/48/2011,A/Hong Kong/3969/2011,320
+A/Turkey/49/2011,A/Hong Kong/3969/2011,320
+A/Turkey/50/2011,A/Hong Kong/3969/2011,320
+A/Turkey/51/2011,A/Hong Kong/3969/2011,320
+A/Turkey/52/2011,A/Hong Kong/3969/2011,80
+A/Bacau/89197/2012,A/Hong Kong/3969/2011,640
+A/Turkey/53/2011,A/Hong Kong/3969/2011,640
+A/Turkey/55/2011,A/Hong Kong/3969/2011,640
+A/Braila/89501/2012,A/Hong Kong/3969/2011,640
+A/Iasi/89451/2012,A/Hong Kong/3969/2011,1280
+A/Turkey/54/2011,A/Hong Kong/3969/2011,320
+A/Turkey/56/2011,A/Hong Kong/3969/2011,640
+A/Finland/196/2012,A/Hong Kong/3969/2011,320
+A/Turkey/57/2011,A/Hong Kong/3969/2011,320
+A/Stockholm/12-00694/2012,A/Hong Kong/3969/2011,640
+A/Stockholm/12-00574/2012,A/Hong Kong/3969/2011,640
+A/Stockholm/12-00974/2012,A/Hong Kong/3969/2011,320
+A/Finland/197/2012,A/Hong Kong/3969/2011,1280
+A/Stockholm/12-00695/2012,A/Hong Kong/3969/2011,1280
+A/Stockholm/12-00752/2012,A/Hong Kong/3969/2011,160
+A/Latvia/1-39879p/2012,A/Hong Kong/3969/2011,640
+A/Perth/16/2009,A/Stockholm/18/2011,160
+A/Victoria/208/2009,A/Stockholm/18/2011,2560
+A/Alabama/5/2010,A/Stockholm/18/2011,80
+A/Hong Kong/3969/2011,A/Stockholm/18/2011,320
+A/Stockholm/18/2011,A/Stockholm/18/2011,320
+A/Iowa/19/2010,A/Stockholm/18/2011,2560
+A/Finland/190/2011,A/Stockholm/18/2011,320
+A/England/259/2011,A/Stockholm/18/2011,640
+A/Norway/1789/2011,A/Stockholm/18/2011,320
+A/Brisbane/299/2011,A/Stockholm/18/2011,640
+A/Dakar/21/2011,A/Stockholm/18/2011,640
+A/Dakar/23/2011,A/Stockholm/18/2011,640
+A/Stockholm/37/2011,A/Stockholm/18/2011,160
+A/Stockholm/42/2011,A/Stockholm/18/2011,320
+A/Jordan/20110030729/2011,A/Stockholm/18/2011,320
+A/Stockholm/2011-21445/2011,A/Stockholm/18/2011,320
+A/Suceava/87402/2012,A/Stockholm/18/2011,320
+A/Stockholm/40/2011,A/Stockholm/18/2011,80
+A/Stockholm/39/2011,A/Stockholm/18/2011,320
+A/Turkey/37/2011,A/Stockholm/18/2011,160
+A/Bacau/88448/2012,A/Stockholm/18/2011,320
+A/Turkey/36/2011,A/Stockholm/18/2011,160
+A/Turkey/39/2011,A/Stockholm/18/2011,80
+A/Antalya/214/2011,A/Stockholm/18/2011,320
+A/Turkey/33/2011,A/Stockholm/18/2011,160
+A/Turkey/34/2011,A/Stockholm/18/2011,160
+A/Turkey/35/2011,A/Stockholm/18/2011,160
+A/Turkey/38/2011,A/Stockholm/18/2011,160
+A/Turkey/40/2011,A/Stockholm/18/2011,160
+A/Stockholm/43/2011,A/Stockholm/18/2011,160
+A/Stockholm/12-00978/2012,A/Stockholm/18/2011,320
+A/Turkey/41/2011,A/Stockholm/18/2011,160
+A/Turkey/42/2011,A/Stockholm/18/2011,160
+A/Stockholm/1200979/2012,A/Stockholm/18/2011,320
+A/Galati/88977/2012,A/Stockholm/18/2011,320
+A/Stockholm/44/2011,A/Stockholm/18/2011,320
+A/Turkey/43/2011,A/Stockholm/18/2011,640
+A/Turkey/44/2011,A/Stockholm/18/2011,160
+A/Turkey/45/2011,A/Stockholm/18/2011,160
+A/Turkey/46/2011,A/Stockholm/18/2011,160
+A/Turkey/48/2011,A/Stockholm/18/2011,320
+A/Turkey/49/2011,A/Stockholm/18/2011,320
+A/Turkey/50/2011,A/Stockholm/18/2011,320
+A/Turkey/51/2011,A/Stockholm/18/2011,160
+A/Turkey/52/2011,A/Stockholm/18/2011,320
+A/Bacau/89197/2012,A/Stockholm/18/2011,320
+A/Turkey/53/2011,A/Stockholm/18/2011,320
+A/Turkey/55/2011,A/Stockholm/18/2011,640
+A/Braila/89501/2012,A/Stockholm/18/2011,160
+A/Iasi/89451/2012,A/Stockholm/18/2011,640
+A/Turkey/54/2011,A/Stockholm/18/2011,320
+A/Turkey/56/2011,A/Stockholm/18/2011,1280
+A/Finland/196/2012,A/Stockholm/18/2011,320
+A/Turkey/57/2011,A/Stockholm/18/2011,320
+A/Stockholm/12-00694/2012,A/Stockholm/18/2011,320
+A/Stockholm/12-00574/2012,A/Stockholm/18/2011,320
+A/Stockholm/12-00974/2012,A/Stockholm/18/2011,160
+A/Finland/197/2012,A/Stockholm/18/2011,640
+A/Stockholm/12-00695/2012,A/Stockholm/18/2011,640
+A/Stockholm/12-00752/2012,A/Stockholm/18/2011,320
+A/Latvia/1-39879p/2012,A/Stockholm/18/2011,320
+A/Perth/16/2009,A/Iowa/19/2010,160
+A/Victoria/208/2009,A/Iowa/19/2010,5120
+A/Alabama/5/2010,A/Iowa/19/2010,160
+A/Hong Kong/3969/2011,A/Iowa/19/2010,320
+A/Stockholm/18/2011,A/Iowa/19/2010,160
+A/Iowa/19/2010,A/Iowa/19/2010,5120
+A/Finland/190/2011,A/Iowa/19/2010,320
+A/England/259/2011,A/Iowa/19/2010,320
+A/Norway/1789/2011,A/Iowa/19/2010,320
+A/Brisbane/299/2011,A/Iowa/19/2010,1280
+A/Dakar/21/2011,A/Iowa/19/2010,320
+A/Dakar/23/2011,A/Iowa/19/2010,320
+A/Stockholm/37/2011,A/Iowa/19/2010,160
+A/Stockholm/42/2011,A/Iowa/19/2010,640
+A/Jordan/20110030729/2011,A/Iowa/19/2010,160
+A/Stockholm/2011-21445/2011,A/Iowa/19/2010,160
+A/Suceava/87402/2012,A/Iowa/19/2010,320
+A/Stockholm/40/2011,A/Iowa/19/2010,80
+A/Stockholm/39/2011,A/Iowa/19/2010,160
+A/Turkey/37/2011,A/Iowa/19/2010,80
+A/Bacau/88448/2012,A/Iowa/19/2010,320
+A/Turkey/36/2011,A/Iowa/19/2010,160
+A/Turkey/39/2011,A/Iowa/19/2010,80
+A/Antalya/214/2011,A/Iowa/19/2010,160
+A/Turkey/33/2011,A/Iowa/19/2010,80
+A/Turkey/34/2011,A/Iowa/19/2010,80
+A/Turkey/35/2011,A/Iowa/19/2010,80
+A/Turkey/38/2011,A/Iowa/19/2010,160
+A/Turkey/40/2011,A/Iowa/19/2010,160
+A/Stockholm/43/2011,A/Iowa/19/2010,80
+A/Stockholm/12-00978/2012,A/Iowa/19/2010,640
+A/Turkey/41/2011,A/Iowa/19/2010,160
+A/Turkey/42/2011,A/Iowa/19/2010,160
+A/Stockholm/1200979/2012,A/Iowa/19/2010,640
+A/Galati/88977/2012,A/Iowa/19/2010,320
+A/Stockholm/44/2011,A/Iowa/19/2010,640
+A/Turkey/43/2011,A/Iowa/19/2010,320
+A/Turkey/44/2011,A/Iowa/19/2010,80
+A/Turkey/45/2011,A/Iowa/19/2010,160
+A/Turkey/46/2011,A/Iowa/19/2010,160
+A/Turkey/48/2011,A/Iowa/19/2010,160
+A/Turkey/49/2011,A/Iowa/19/2010,160
+A/Turkey/50/2011,A/Iowa/19/2010,160
+A/Turkey/51/2011,A/Iowa/19/2010,160
+A/Turkey/52/2011,A/Iowa/19/2010,160
+A/Bacau/89197/2012,A/Iowa/19/2010,320
+A/Turkey/53/2011,A/Iowa/19/2010,160
+A/Turkey/55/2011,A/Iowa/19/2010,160
+A/Braila/89501/2012,A/Iowa/19/2010,160
+A/Iasi/89451/2012,A/Iowa/19/2010,320
+A/Turkey/54/2011,A/Iowa/19/2010,160
+A/Turkey/56/2011,A/Iowa/19/2010,320
+A/Finland/196/2012,A/Iowa/19/2010,160
+A/Turkey/57/2011,A/Iowa/19/2010,160
+A/Stockholm/12-00694/2012,A/Iowa/19/2010,320
+A/Stockholm/12-00574/2012,A/Iowa/19/2010,640
+A/Stockholm/12-00974/2012,A/Iowa/19/2010,80
+A/Finland/197/2012,A/Iowa/19/2010,1280
+A/Stockholm/12-00695/2012,A/Iowa/19/2010,1280
+A/Stockholm/12-00752/2012,A/Iowa/19/2010,160
+A/Latvia/1-39879p/2012,A/Iowa/19/2010,320
+A/Perth/16/2009,A/Finland/190/2011,160
+A/Victoria/208/2009,A/Finland/190/2011,5120
+A/Alabama/5/2010,A/Finland/190/2011,80
+A/Hong Kong/3969/2011,A/Finland/190/2011,1280
+A/Stockholm/18/2011,A/Finland/190/2011,160
+A/Iowa/19/2010,A/Finland/190/2011,5120
+A/Finland/190/2011,A/Finland/190/2011,1280
+A/England/259/2011,A/Finland/190/2011,1280
+A/Norway/1789/2011,A/Finland/190/2011,640
+A/Brisbane/299/2011,A/Finland/190/2011,640
+A/Dakar/21/2011,A/Finland/190/2011,320
+A/Dakar/23/2011,A/Finland/190/2011,320
+A/Stockholm/37/2011,A/Finland/190/2011,640
+A/Stockholm/42/2011,A/Finland/190/2011,1280
+A/Jordan/20110030729/2011,A/Finland/190/2011,640
+A/Stockholm/2011-21445/2011,A/Finland/190/2011,640
+A/Suceava/87402/2012,A/Finland/190/2011,640
+A/Stockholm/40/2011,A/Finland/190/2011,80
+A/Stockholm/39/2011,A/Finland/190/2011,640
+A/Turkey/37/2011,A/Finland/190/2011,320
+A/Bacau/88448/2012,A/Finland/190/2011,640
+A/Turkey/36/2011,A/Finland/190/2011,320
+A/Turkey/39/2011,A/Finland/190/2011,160
+A/Antalya/214/2011,A/Finland/190/2011,640
+A/Turkey/33/2011,A/Finland/190/2011,320
+A/Turkey/34/2011,A/Finland/190/2011,320
+A/Turkey/35/2011,A/Finland/190/2011,160
+A/Turkey/38/2011,A/Finland/190/2011,640
+A/Turkey/40/2011,A/Finland/190/2011,320
+A/Stockholm/43/2011,A/Finland/190/2011,320
+A/Stockholm/12-00978/2012,A/Finland/190/2011,640
+A/Turkey/41/2011,A/Finland/190/2011,640
+A/Turkey/42/2011,A/Finland/190/2011,640
+A/Stockholm/1200979/2012,A/Finland/190/2011,640
+A/Galati/88977/2012,A/Finland/190/2011,640
+A/Stockholm/44/2011,A/Finland/190/2011,320
+A/Turkey/43/2011,A/Finland/190/2011,640
+A/Turkey/44/2011,A/Finland/190/2011,160
+A/Turkey/45/2011,A/Finland/190/2011,320
+A/Turkey/46/2011,A/Finland/190/2011,320
+A/Turkey/48/2011,A/Finland/190/2011,320
+A/Turkey/49/2011,A/Finland/190/2011,320
+A/Turkey/50/2011,A/Finland/190/2011,640
+A/Turkey/51/2011,A/Finland/190/2011,320
+A/Turkey/52/2011,A/Finland/190/2011,320
+A/Bacau/89197/2012,A/Finland/190/2011,640
+A/Turkey/53/2011,A/Finland/190/2011,640
+A/Turkey/55/2011,A/Finland/190/2011,640
+A/Braila/89501/2012,A/Finland/190/2011,640
+A/Iasi/89451/2012,A/Finland/190/2011,1280
+A/Turkey/54/2011,A/Finland/190/2011,320
+A/Turkey/56/2011,A/Finland/190/2011,640
+A/Finland/196/2012,A/Finland/190/2011,320
+A/Turkey/57/2011,A/Finland/190/2011,320
+A/Stockholm/12-00694/2012,A/Finland/190/2011,1280
+A/Stockholm/12-00574/2012,A/Finland/190/2011,640
+A/Stockholm/12-00974/2012,A/Finland/190/2011,160
+A/Finland/197/2012,A/Finland/190/2011,2560
+A/Stockholm/12-00695/2012,A/Finland/190/2011,1280
+A/Stockholm/12-00752/2012,A/Finland/190/2011,320
+A/Latvia/1-39879p/2012,A/Finland/190/2011,640
+A/Perth/16/2009,A/England/259/2011,160
+A/Victoria/208/2009,A/England/259/2011,2560
+A/Alabama/5/2010,A/England/259/2011,80
+A/Hong Kong/3969/2011,A/England/259/2011,640
+A/Stockholm/18/2011,A/England/259/2011,160
+A/Iowa/19/2010,A/England/259/2011,1280
+A/Finland/190/2011,A/England/259/2011,320
+A/England/259/2011,A/England/259/2011,640
+A/Norway/1789/2011,A/England/259/2011,320
+A/Brisbane/299/2011,A/England/259/2011,320
+A/Dakar/21/2011,A/England/259/2011,320
+A/Dakar/23/2011,A/England/259/2011,320
+A/Stockholm/37/2011,A/England/259/2011,160
+A/Stockholm/42/2011,A/England/259/2011,320
+A/Jordan/20110030729/2011,A/England/259/2011,320
+A/Stockholm/2011-21445/2011,A/England/259/2011,320
+A/Suceava/87402/2012,A/England/259/2011,640
+A/Stockholm/40/2011,A/England/259/2011,80
+A/Stockholm/39/2011,A/England/259/2011,160
+A/Turkey/37/2011,A/England/259/2011,320
+A/Bacau/88448/2012,A/England/259/2011,640
+A/Turkey/36/2011,A/England/259/2011,160
+A/Turkey/39/2011,A/England/259/2011,80
+A/Antalya/214/2011,A/England/259/2011,320
+A/Turkey/33/2011,A/England/259/2011,160
+A/Turkey/34/2011,A/England/259/2011,160
+A/Turkey/35/2011,A/England/259/2011,80
+A/Turkey/38/2011,A/England/259/2011,320
+A/Turkey/40/2011,A/England/259/2011,160
+A/Stockholm/43/2011,A/England/259/2011,80
+A/Stockholm/12-00978/2012,A/England/259/2011,320
+A/Turkey/41/2011,A/England/259/2011,160
+A/Turkey/42/2011,A/England/259/2011,320
+A/Stockholm/1200979/2012,A/England/259/2011,640
+A/Galati/88977/2012,A/England/259/2011,640
+A/Stockholm/44/2011,A/England/259/2011,320
+A/Turkey/43/2011,A/England/259/2011,640
+A/Turkey/44/2011,A/England/259/2011,160
+A/Turkey/45/2011,A/England/259/2011,160
+A/Turkey/46/2011,A/England/259/2011,160
+A/Turkey/48/2011,A/England/259/2011,160
+A/Turkey/49/2011,A/England/259/2011,160
+A/Turkey/50/2011,A/England/259/2011,160
+A/Turkey/51/2011,A/England/259/2011,160
+A/Turkey/52/2011,A/England/259/2011,320
+A/Bacau/89197/2012,A/England/259/2011,640
+A/Turkey/53/2011,A/England/259/2011,320
+A/Turkey/55/2011,A/England/259/2011,640
+A/Braila/89501/2012,A/England/259/2011,320
+A/Iasi/89451/2012,A/England/259/2011,320
+A/Turkey/54/2011,A/England/259/2011,160
+A/Turkey/56/2011,A/England/259/2011,640
+A/Finland/196/2012,A/England/259/2011,320
+A/Turkey/57/2011,A/England/259/2011,160
+A/Stockholm/12-00694/2012,A/England/259/2011,320
+A/Stockholm/12-00574/2012,A/England/259/2011,640
+A/Stockholm/12-00974/2012,A/England/259/2011,160
+A/Finland/197/2012,A/England/259/2011,640
+A/Stockholm/12-00695/2012,A/England/259/2011,640
+A/Stockholm/12-00752/2012,A/England/259/2011,160
+A/Latvia/1-39879p/2012,A/England/259/2011,320
+A/Perth/16/2009,A/Norway/1789/2011,320
+A/Victoria/208/2009,A/Norway/1789/2011,2560
+A/Alabama/5/2010,A/Norway/1789/2011,160
+A/Hong Kong/3969/2011,A/Norway/1789/2011,640
+A/Stockholm/18/2011,A/Norway/1789/2011,320
+A/Iowa/19/2010,A/Norway/1789/2011,5120
+A/Finland/190/2011,A/Norway/1789/2011,640
+A/England/259/2011,A/Norway/1789/2011,640
+A/Norway/1789/2011,A/Norway/1789/2011,640
+A/Brisbane/299/2011,A/Norway/1789/2011,640
+A/Dakar/21/2011,A/Norway/1789/2011,640
+A/Dakar/23/2011,A/Norway/1789/2011,320
+A/Stockholm/37/2011,A/Norway/1789/2011,320
+A/Stockholm/42/2011,A/Norway/1789/2011,640
+A/Jordan/20110030729/2011,A/Norway/1789/2011,640
+A/Stockholm/2011-21445/2011,A/Norway/1789/2011,320
+A/Suceava/87402/2012,A/Norway/1789/2011,640
+A/Stockholm/40/2011,A/Norway/1789/2011,160
+A/Stockholm/39/2011,A/Norway/1789/2011,640
+A/Turkey/37/2011,A/Norway/1789/2011,640
+A/Bacau/88448/2012,A/Norway/1789/2011,640
+A/Turkey/36/2011,A/Norway/1789/2011,640
+A/Turkey/39/2011,A/Norway/1789/2011,320
+A/Antalya/214/2011,A/Norway/1789/2011,640
+A/Turkey/33/2011,A/Norway/1789/2011,320
+A/Turkey/34/2011,A/Norway/1789/2011,320
+A/Turkey/35/2011,A/Norway/1789/2011,320
+A/Turkey/38/2011,A/Norway/1789/2011,640
+A/Turkey/40/2011,A/Norway/1789/2011,640
+A/Stockholm/43/2011,A/Norway/1789/2011,160
+A/Stockholm/12-00978/2012,A/Norway/1789/2011,640
+A/Turkey/41/2011,A/Norway/1789/2011,640
+A/Turkey/42/2011,A/Norway/1789/2011,640
+A/Stockholm/1200979/2012,A/Norway/1789/2011,1280
+A/Galati/88977/2012,A/Norway/1789/2011,640
+A/Stockholm/44/2011,A/Norway/1789/2011,320
+A/Turkey/43/2011,A/Norway/1789/2011,640
+A/Turkey/44/2011,A/Norway/1789/2011,320
+A/Turkey/45/2011,A/Norway/1789/2011,640
+A/Turkey/46/2011,A/Norway/1789/2011,320
+A/Turkey/48/2011,A/Norway/1789/2011,320
+A/Turkey/49/2011,A/Norway/1789/2011,640
+A/Turkey/50/2011,A/Norway/1789/2011,640
+A/Turkey/51/2011,A/Norway/1789/2011,320
+A/Turkey/52/2011,A/Norway/1789/2011,640
+A/Bacau/89197/2012,A/Norway/1789/2011,1280
+A/Turkey/53/2011,A/Norway/1789/2011,640
+A/Turkey/55/2011,A/Norway/1789/2011,640
+A/Braila/89501/2012,A/Norway/1789/2011,640
+A/Iasi/89451/2012,A/Norway/1789/2011,640
+A/Turkey/54/2011,A/Norway/1789/2011,640
+A/Turkey/56/2011,A/Norway/1789/2011,640
+A/Finland/196/2012,A/Norway/1789/2011,320
+A/Turkey/57/2011,A/Norway/1789/2011,320
+A/Stockholm/12-00694/2012,A/Norway/1789/2011,640
+A/Stockholm/12-00574/2012,A/Norway/1789/2011,640
+A/Stockholm/12-00974/2012,A/Norway/1789/2011,320
+A/Finland/197/2012,A/Norway/1789/2011,2560
+A/Stockholm/12-00695/2012,A/Norway/1789/2011,1280
+A/Stockholm/12-00752/2012,A/Norway/1789/2011,320
+A/Latvia/1-39879p/2012,A/Norway/1789/2011,320
+A/Perth/16/2009,A/Brisbane/299/2011,320
+A/Victoria/208/2009,A/Brisbane/299/2011,2560
+A/Alabama/5/2010,A/Brisbane/299/2011,160
+A/Hong Kong/3969/2011,A/Brisbane/299/2011,640
+A/Stockholm/18/2011,A/Brisbane/299/2011,320
+A/Iowa/19/2010,A/Brisbane/299/2011,2560
+A/Finland/190/2011,A/Brisbane/299/2011,640
+A/England/259/2011,A/Brisbane/299/2011,640
+A/Norway/1789/2011,A/Brisbane/299/2011,640
+A/Brisbane/299/2011,A/Brisbane/299/2011,640
+A/Dakar/21/2011,A/Brisbane/299/2011,*
+A/Dakar/23/2011,A/Brisbane/299/2011,*
+A/Stockholm/37/2011,A/Brisbane/299/2011,*
+A/Stockholm/42/2011,A/Brisbane/299/2011,*
+A/Jordan/20110030729/2011,A/Brisbane/299/2011,*
+A/Stockholm/2011-21445/2011,A/Brisbane/299/2011,*
+A/Suceava/87402/2012,A/Brisbane/299/2011,*
+A/Stockholm/40/2011,A/Brisbane/299/2011,*
+A/Stockholm/39/2011,A/Brisbane/299/2011,*
+A/Turkey/37/2011,A/Brisbane/299/2011,*
+A/Bacau/88448/2012,A/Brisbane/299/2011,*
+A/Turkey/36/2011,A/Brisbane/299/2011,*
+A/Turkey/39/2011,A/Brisbane/299/2011,*
+A/Antalya/214/2011,A/Brisbane/299/2011,*
+A/Turkey/33/2011,A/Brisbane/299/2011,*
+A/Turkey/34/2011,A/Brisbane/299/2011,*
+A/Turkey/35/2011,A/Brisbane/299/2011,*
+A/Turkey/38/2011,A/Brisbane/299/2011,*
+A/Turkey/40/2011,A/Brisbane/299/2011,*
+A/Stockholm/43/2011,A/Brisbane/299/2011,*
+A/Stockholm/12-00978/2012,A/Brisbane/299/2011,*
+A/Turkey/41/2011,A/Brisbane/299/2011,*
+A/Turkey/42/2011,A/Brisbane/299/2011,*
+A/Stockholm/1200979/2012,A/Brisbane/299/2011,*
+A/Galati/88977/2012,A/Brisbane/299/2011,*
+A/Stockholm/44/2011,A/Brisbane/299/2011,*
+A/Turkey/43/2011,A/Brisbane/299/2011,*
+A/Turkey/44/2011,A/Brisbane/299/2011,*
+A/Turkey/45/2011,A/Brisbane/299/2011,*
+A/Turkey/46/2011,A/Brisbane/299/2011,*
+A/Turkey/48/2011,A/Brisbane/299/2011,*
+A/Turkey/49/2011,A/Brisbane/299/2011,*
+A/Turkey/50/2011,A/Brisbane/299/2011,*
+A/Turkey/51/2011,A/Brisbane/299/2011,*
+A/Turkey/52/2011,A/Brisbane/299/2011,*
+A/Bacau/89197/2012,A/Brisbane/299/2011,*
+A/Turkey/53/2011,A/Brisbane/299/2011,*
+A/Turkey/55/2011,A/Brisbane/299/2011,*
+A/Braila/89501/2012,A/Brisbane/299/2011,*
+A/Iasi/89451/2012,A/Brisbane/299/2011,*
+A/Turkey/54/2011,A/Brisbane/299/2011,*
+A/Turkey/56/2011,A/Brisbane/299/2011,*
+A/Finland/196/2012,A/Brisbane/299/2011,*
+A/Turkey/57/2011,A/Brisbane/299/2011,*
+A/Stockholm/12-00694/2012,A/Brisbane/299/2011,*
+A/Stockholm/12-00574/2012,A/Brisbane/299/2011,*
+A/Stockholm/12-00974/2012,A/Brisbane/299/2011,*
+A/Finland/197/2012,A/Brisbane/299/2011,*
+A/Stockholm/12-00695/2012,A/Brisbane/299/2011,*
+A/Stockholm/12-00752/2012,A/Brisbane/299/2011,*
+A/Latvia/1-39879p/2012,A/Brisbane/299/2011,*
+A/Perth/16/2009,A/Brisbane/299/2011,160
+A/Victoria/208/2009,A/Brisbane/299/2011,2560
+A/Alabama/5/2010,A/Brisbane/299/2011,80
+A/Hong Kong/3969/2011,A/Brisbane/299/2011,640
+A/Stockholm/18/2011,A/Brisbane/299/2011,160
+A/Iowa/19/2010,A/Brisbane/299/2011,5120
+A/Finland/190/2011,A/Brisbane/299/2011,320
+A/England/259/2011,A/Brisbane/299/2011,640
+A/Norway/1789/2011,A/Brisbane/299/2011,320
+A/Brisbane/299/2011,A/Brisbane/299/2011,320
+A/Dakar/21/2011,A/Brisbane/299/2011,*
+A/Dakar/23/2011,A/Brisbane/299/2011,*
+A/Stockholm/37/2011,A/Brisbane/299/2011,*
+A/Stockholm/42/2011,A/Brisbane/299/2011,*
+A/Jordan/20110030729/2011,A/Brisbane/299/2011,*
+A/Stockholm/2011-21445/2011,A/Brisbane/299/2011,*
+A/Suceava/87402/2012,A/Brisbane/299/2011,*
+A/Stockholm/40/2011,A/Brisbane/299/2011,*
+A/Stockholm/39/2011,A/Brisbane/299/2011,*
+A/Turkey/37/2011,A/Brisbane/299/2011,*
+A/Bacau/88448/2012,A/Brisbane/299/2011,*
+A/Turkey/36/2011,A/Brisbane/299/2011,*
+A/Turkey/39/2011,A/Brisbane/299/2011,*
+A/Antalya/214/2011,A/Brisbane/299/2011,*
+A/Turkey/33/2011,A/Brisbane/299/2011,*
+A/Turkey/34/2011,A/Brisbane/299/2011,*
+A/Turkey/35/2011,A/Brisbane/299/2011,*
+A/Turkey/38/2011,A/Brisbane/299/2011,*
+A/Turkey/40/2011,A/Brisbane/299/2011,*
+A/Stockholm/43/2011,A/Brisbane/299/2011,*
+A/Stockholm/12-00978/2012,A/Brisbane/299/2011,*
+A/Turkey/41/2011,A/Brisbane/299/2011,*
+A/Turkey/42/2011,A/Brisbane/299/2011,*
+A/Stockholm/1200979/2012,A/Brisbane/299/2011,*
+A/Galati/88977/2012,A/Brisbane/299/2011,*
+A/Stockholm/44/2011,A/Brisbane/299/2011,*
+A/Turkey/43/2011,A/Brisbane/299/2011,*
+A/Turkey/44/2011,A/Brisbane/299/2011,*
+A/Turkey/45/2011,A/Brisbane/299/2011,*
+A/Turkey/46/2011,A/Brisbane/299/2011,*
+A/Turkey/48/2011,A/Brisbane/299/2011,*
+A/Turkey/49/2011,A/Brisbane/299/2011,*
+A/Turkey/50/2011,A/Brisbane/299/2011,*
+A/Turkey/51/2011,A/Brisbane/299/2011,*
+A/Turkey/52/2011,A/Brisbane/299/2011,*
+A/Bacau/89197/2012,A/Brisbane/299/2011,*
+A/Turkey/53/2011,A/Brisbane/299/2011,*
+A/Turkey/55/2011,A/Brisbane/299/2011,*
+A/Braila/89501/2012,A/Brisbane/299/2011,*
+A/Iasi/89451/2012,A/Brisbane/299/2011,*
+A/Turkey/54/2011,A/Brisbane/299/2011,*
+A/Turkey/56/2011,A/Brisbane/299/2011,*
+A/Finland/196/2012,A/Brisbane/299/2011,*
+A/Turkey/57/2011,A/Brisbane/299/2011,*
+A/Stockholm/12-00694/2012,A/Brisbane/299/2011,*
+A/Stockholm/12-00574/2012,A/Brisbane/299/2011,*
+A/Stockholm/12-00974/2012,A/Brisbane/299/2011,*
+A/Finland/197/2012,A/Brisbane/299/2011,*
+A/Stockholm/12-00695/2012,A/Brisbane/299/2011,*
+A/Stockholm/12-00752/2012,A/Brisbane/299/2011,*
+A/Latvia/1-39879p/2012,A/Brisbane/299/2011,*
+A/Brisbane/10/2007,A/Brisbane/10/2007,5120
+A/Perth/16/2009,A/Brisbane/10/2007,40
+A/Hong Kong/3969/2011,A/Brisbane/10/2007,160
+A/Iowa/19/2010,A/Brisbane/10/2007,160
+A/Bratislava/31/2011,A/Brisbane/10/2007,40
+A/Finland/190/2011,A/Brisbane/10/2007,80
+A/Brisbane/10/2007,A/Perth/16/2009,320
+A/Perth/16/2009,A/Perth/16/2009,1280
+A/Hong Kong/3969/2011,A/Perth/16/2009,80
+A/Iowa/19/2010,A/Perth/16/2009,640
+A/Bratislava/31/2011,A/Perth/16/2009,160
+A/Finland/190/2011,A/Perth/16/2009,80
+A/Brisbane/10/2007,A/Perth/16/2009,*
+A/Perth/16/2009,A/Perth/16/2009,*
+A/Hong Kong/3969/2011,A/Perth/16/2009,*
+A/Iowa/19/2010,A/Perth/16/2009,*
+A/Bratislava/31/2011,A/Perth/16/2009,640
+A/Finland/190/2011,A/Perth/16/2009,320
+A/Brisbane/10/2007,A/Hong Kong/3969/2011,320
+A/Perth/16/2009,A/Hong Kong/3969/2011,320
+A/Hong Kong/3969/2011,A/Hong Kong/3969/2011,320
+A/Iowa/19/2010,A/Hong Kong/3969/2011,2560
+A/Bratislava/31/2011,A/Hong Kong/3969/2011,1280
+A/Finland/190/2011,A/Hong Kong/3969/2011,640
+A/Brisbane/10/2007,A/Iowa/19/2010,320
+A/Perth/16/2009,A/Iowa/19/2010,80
+A/Hong Kong/3969/2011,A/Iowa/19/2010,320
+A/Iowa/19/2010,A/Iowa/19/2010,5120
+A/Bratislava/31/2011,A/Iowa/19/2010,320
+A/Finland/190/2011,A/Iowa/19/2010,640
+A/Brisbane/10/2007,A/Brisbane/10/2007,5120
+A/Perth/16/2009,A/Brisbane/10/2007,<40
+A/Perth/10/2009,A/Brisbane/10/2007,40
+A/Hong Kong/3969/2011,A/Brisbane/10/2007,<40
+A/Iowa/19/2010,A/Brisbane/10/2007,80
+A/England/253/2011,A/Brisbane/10/2007,<40
+A/England/257/2011,A/Brisbane/10/2007,<40
+A/England/256/2011,A/Brisbane/10/2007,<40
+A/England/255/2011,A/Brisbane/10/2007,<40
+A/Bratislava/31/2011,A/Brisbane/10/2007,<40
+A/England/258/2011,A/Brisbane/10/2007,<40
+A/England/259/2011,A/Brisbane/10/2007,<40
+A/Tunisia/15685/2011,A/Brisbane/10/2007,<40
+A/Brisbane/10/2007,A/Perth/16/2009,80
+A/Perth/16/2009,A/Perth/16/2009,640
+A/Perth/10/2009,A/Perth/16/2009,320
+A/Hong Kong/3969/2011,A/Perth/16/2009,80
+A/Iowa/19/2010,A/Perth/16/2009,640
+A/England/253/2011,A/Perth/16/2009,160
+A/England/257/2011,A/Perth/16/2009,80
+A/England/256/2011,A/Perth/16/2009,80
+A/England/255/2011,A/Perth/16/2009,80
+A/Bratislava/31/2011,A/Perth/16/2009,320
+A/England/258/2011,A/Perth/16/2009,160
+A/England/259/2011,A/Perth/16/2009,80
+A/Tunisia/15685/2011,A/Perth/16/2009,80
+A/Brisbane/10/2007,A/Perth/10/2009,80
+A/Perth/16/2009,A/Perth/10/2009,80
+A/Perth/10/2009,A/Perth/10/2009,640
+A/Hong Kong/3969/2011,A/Perth/10/2009,160
+A/Iowa/19/2010,A/Perth/10/2009,2560
+A/England/253/2011,A/Perth/10/2009,640
+A/England/257/2011,A/Perth/10/2009,640
+A/England/256/2011,A/Perth/10/2009,320
+A/England/255/2011,A/Perth/10/2009,320
+A/Bratislava/31/2011,A/Perth/10/2009,1280
+A/England/258/2011,A/Perth/10/2009,640
+A/England/259/2011,A/Perth/10/2009,320
+A/Tunisia/15685/2011,A/Perth/10/2009,160
+A/Brisbane/10/2007,A/Hong Kong/3969/2011,80
+A/Perth/16/2009,A/Hong Kong/3969/2011,160
+A/Perth/10/2009,A/Hong Kong/3969/2011,640
+A/Hong Kong/3969/2011,A/Hong Kong/3969/2011,160
+A/Iowa/19/2010,A/Hong Kong/3969/2011,2560
+A/England/253/2011,A/Hong Kong/3969/2011,1280
+A/England/257/2011,A/Hong Kong/3969/2011,1280
+A/England/256/2011,A/Hong Kong/3969/2011,1280
+A/England/255/2011,A/Hong Kong/3969/2011,640
+A/Bratislava/31/2011,A/Hong Kong/3969/2011,2560
+A/England/258/2011,A/Hong Kong/3969/2011,1280
+A/England/259/2011,A/Hong Kong/3969/2011,1280
+A/Tunisia/15685/2011,A/Hong Kong/3969/2011,640
+A/Brisbane/10/2007,A/Iowa/19/2010,80
+A/Perth/16/2009,A/Iowa/19/2010,80
+A/Perth/10/2009,A/Iowa/19/2010,640
+A/Hong Kong/3969/2011,A/Iowa/19/2010,80
+A/Iowa/19/2010,A/Iowa/19/2010,5120
+A/England/253/2011,A/Iowa/19/2010,640
+A/England/257/2011,A/Iowa/19/2010,320
+A/England/256/2011,A/Iowa/19/2010,320
+A/England/255/2011,A/Iowa/19/2010,320
+A/Bratislava/31/2011,A/Iowa/19/2010,1280
+A/England/258/2011,A/Iowa/19/2010,640
+A/England/259/2011,A/Iowa/19/2010,320
+A/Tunisia/15685/2011,A/Iowa/19/2010,320
+A/Brisbane/10/2007,A/Brisbane/10/2007,5120
+A/Perth/16/2009,A/Brisbane/10/2007,<40
+A/Perth/10/2009,A/Brisbane/10/2007,40
+A/Hong Kong/3969/2011,A/Brisbane/10/2007,<40
+A/Iowa/19/2010,A/Brisbane/10/2007,80
+A/Brisbane/299/2011,A/Brisbane/10/2007,<40
+A/Stockholm/22/2011,A/Brisbane/10/2007,<40
+A/Stockholm/23/2011,A/Brisbane/10/2007,<40
+A/Valladolid/47/2011,A/Brisbane/10/2007,<40
+A/Stockholm/26/2011,A/Brisbane/10/2007,<40
+A/Norway/2047/2011,A/Brisbane/10/2007,<40
+A/Norway/2125/2011,A/Brisbane/10/2007,<40
+A/Bayern/87/2011,A/Brisbane/10/2007,<40
+A/Stockholm/32/2011,A/Brisbane/10/2007,<40
+A/Stockholm/34/2011,A/Brisbane/10/2007,<40
+A/Netherlands/702/2011,A/Brisbane/10/2007,<40
+A/Berlin/85/2011,A/Brisbane/10/2007,<40
+A/Berlin/86/2011,A/Brisbane/10/2007,<40
+A/Berlin/87/2011,A/Brisbane/10/2007,<40
+A/Brisbane/10/2007,A/Perth/16/2009,80
+A/Perth/16/2009,A/Perth/16/2009,640
+A/Perth/10/2009,A/Perth/16/2009,320
+A/Hong Kong/3969/2011,A/Perth/16/2009,80
+A/Iowa/19/2010,A/Perth/16/2009,640
+A/Brisbane/299/2011,A/Perth/16/2009,80
+A/Stockholm/22/2011,A/Perth/16/2009,<40
+A/Stockholm/23/2011,A/Perth/16/2009,<40
+A/Valladolid/47/2011,A/Perth/16/2009,320
+A/Stockholm/26/2011,A/Perth/16/2009,80
+A/Norway/2047/2011,A/Perth/16/2009,80
+A/Norway/2125/2011,A/Perth/16/2009,320
+A/Bayern/87/2011,A/Perth/16/2009,160
+A/Stockholm/32/2011,A/Perth/16/2009,80
+A/Stockholm/34/2011,A/Perth/16/2009,40
+A/Netherlands/702/2011,A/Perth/16/2009,40
+A/Berlin/85/2011,A/Perth/16/2009,320
+A/Berlin/86/2011,A/Perth/16/2009,160
+A/Berlin/87/2011,A/Perth/16/2009,320
+A/Brisbane/10/2007,A/Perth/10/2009,80
+A/Perth/16/2009,A/Perth/10/2009,80
+A/Perth/10/2009,A/Perth/10/2009,640
+A/Hong Kong/3969/2011,A/Perth/10/2009,160
+A/Iowa/19/2010,A/Perth/10/2009,2560
+A/Brisbane/299/2011,A/Perth/10/2009,320
+A/Stockholm/22/2011,A/Perth/10/2009,40
+A/Stockholm/23/2011,A/Perth/10/2009,40
+A/Valladolid/47/2011,A/Perth/10/2009,640
+A/Stockholm/26/2011,A/Perth/10/2009,160
+A/Norway/2047/2011,A/Perth/10/2009,160
+A/Norway/2125/2011,A/Perth/10/2009,1280
+A/Bayern/87/2011,A/Perth/10/2009,640
+A/Stockholm/32/2011,A/Perth/10/2009,160
+A/Stockholm/34/2011,A/Perth/10/2009,80
+A/Netherlands/702/2011,A/Perth/10/2009,160
+A/Berlin/85/2011,A/Perth/10/2009,640
+A/Berlin/86/2011,A/Perth/10/2009,640
+A/Berlin/87/2011,A/Perth/10/2009,1280
+A/Brisbane/10/2007,A/Hong Kong/3969/2011,80
+A/Perth/16/2009,A/Hong Kong/3969/2011,160
+A/Perth/10/2009,A/Hong Kong/3969/2011,640
+A/Hong Kong/3969/2011,A/Hong Kong/3969/2011,160
+A/Iowa/19/2010,A/Hong Kong/3969/2011,2560
+A/Brisbane/299/2011,A/Hong Kong/3969/2011,320
+A/Stockholm/22/2011,A/Hong Kong/3969/2011,40
+A/Stockholm/23/2011,A/Hong Kong/3969/2011,80
+A/Valladolid/47/2011,A/Hong Kong/3969/2011,2560
+A/Stockholm/26/2011,A/Hong Kong/3969/2011,640
+A/Norway/2047/2011,A/Hong Kong/3969/2011,160
+A/Norway/2125/2011,A/Hong Kong/3969/2011,1280
+A/Bayern/87/2011,A/Hong Kong/3969/2011,1280
+A/Stockholm/32/2011,A/Hong Kong/3969/2011,320
+A/Stockholm/34/2011,A/Hong Kong/3969/2011,160
+A/Netherlands/702/2011,A/Hong Kong/3969/2011,80
+A/Berlin/85/2011,A/Hong Kong/3969/2011,1280
+A/Berlin/86/2011,A/Hong Kong/3969/2011,1280
+A/Berlin/87/2011,A/Hong Kong/3969/2011,2560
+A/Brisbane/10/2007,A/Iowa/19/2010,80
+A/Perth/16/2009,A/Iowa/19/2010,80
+A/Perth/10/2009,A/Iowa/19/2010,640
+A/Hong Kong/3969/2011,A/Iowa/19/2010,80
+A/Iowa/19/2010,A/Iowa/19/2010,5120
+A/Brisbane/299/2011,A/Iowa/19/2010,160
+A/Stockholm/22/2011,A/Iowa/19/2010,<40
+A/Stockholm/23/2011,A/Iowa/19/2010,40
+A/Valladolid/47/2011,A/Iowa/19/2010,640
+A/Stockholm/26/2011,A/Iowa/19/2010,160
+A/Norway/2047/2011,A/Iowa/19/2010,80
+A/Norway/2125/2011,A/Iowa/19/2010,640
+A/Bayern/87/2011,A/Iowa/19/2010,320
+A/Stockholm/32/2011,A/Iowa/19/2010,160
+A/Stockholm/34/2011,A/Iowa/19/2010,80
+A/Netherlands/702/2011,A/Iowa/19/2010,80
+A/Berlin/85/2011,A/Iowa/19/2010,640
+A/Berlin/86/2011,A/Iowa/19/2010,640
+A/Berlin/87/2011,A/Iowa/19/2010,640
+A/Brisbane/10/2007,A/Brisbane/10/2007,5120
+A/Perth/16/2009,A/Brisbane/10/2007,<40
+A/Perth/10/2009,A/Brisbane/10/2007,40
+A/Hong Kong/3969/2011,A/Brisbane/10/2007,<40
+A/Iowa/19/2010,A/Brisbane/10/2007,80
+A/Hormozgan/7981/2011,A/Brisbane/10/2007,<40
+A/Madrid/RR8753/2011,A/Brisbane/10/2007,<40
+A/Tehran/9720/2011,A/Brisbane/10/2007,<40
+A/Tehran/9721/2011,A/Brisbane/10/2007,<40
+A/Slovenia/2855/2011,A/Brisbane/10/2007,<40
+A/Berlin/93/2011,A/Brisbane/10/2007,<40
+A/Berlin/88/2011,A/Brisbane/10/2007,<40
+A/Belgium/G1147/2011,A/Brisbane/10/2007,<40
+A/Castilla La Mancha/RR8843/2011,A/Brisbane/10/2007,<40
+A/Castilla La Mancha/RR8870/2011,A/Brisbane/10/2007,<40
+A/Brisbane/10/2007,A/Perth/16/2009,80
+A/Perth/16/2009,A/Perth/16/2009,640
+A/Perth/10/2009,A/Perth/16/2009,320
+A/Hong Kong/3969/2011,A/Perth/16/2009,80
+A/Iowa/19/2010,A/Perth/16/2009,640
+A/Hormozgan/7981/2011,A/Perth/16/2009,40
+A/Madrid/RR8753/2011,A/Perth/16/2009,80
+A/Tehran/9720/2011,A/Perth/16/2009,160
+A/Tehran/9721/2011,A/Perth/16/2009,160
+A/Slovenia/2855/2011,A/Perth/16/2009,160
+A/Berlin/93/2011,A/Perth/16/2009,80
+A/Berlin/88/2011,A/Perth/16/2009,320
+A/Belgium/G1147/2011,A/Perth/16/2009,80
+A/Castilla La Mancha/RR8843/2011,A/Perth/16/2009,160
+A/Castilla La Mancha/RR8870/2011,A/Perth/16/2009,80
+A/Brisbane/10/2007,A/Perth/10/2009,80
+A/Perth/16/2009,A/Perth/10/2009,80
+A/Perth/10/2009,A/Perth/10/2009,640
+A/Hong Kong/3969/2011,A/Perth/10/2009,160
+A/Iowa/19/2010,A/Perth/10/2009,2560
+A/Hormozgan/7981/2011,A/Perth/10/2009,80
+A/Madrid/RR8753/2011,A/Perth/10/2009,320
+A/Tehran/9720/2011,A/Perth/10/2009,640
+A/Tehran/9721/2011,A/Perth/10/2009,640
+A/Slovenia/2855/2011,A/Perth/10/2009,640
+A/Berlin/93/2011,A/Perth/10/2009,160
+A/Berlin/88/2011,A/Perth/10/2009,1280
+A/Belgium/G1147/2011,A/Perth/10/2009,320
+A/Castilla La Mancha/RR8843/2011,A/Perth/10/2009,640
+A/Castilla La Mancha/RR8870/2011,A/Perth/10/2009,160
+A/Brisbane/10/2007,A/Hong Kong/3969/2011,80
+A/Perth/16/2009,A/Hong Kong/3969/2011,160
+A/Perth/10/2009,A/Hong Kong/3969/2011,640
+A/Hong Kong/3969/2011,A/Hong Kong/3969/2011,160
+A/Iowa/19/2010,A/Hong Kong/3969/2011,2560
+A/Hormozgan/7981/2011,A/Hong Kong/3969/2011,160
+A/Madrid/RR8753/2011,A/Hong Kong/3969/2011,640
+A/Tehran/9720/2011,A/Hong Kong/3969/2011,1280
+A/Tehran/9721/2011,A/Hong Kong/3969/2011,1280
+A/Slovenia/2855/2011,A/Hong Kong/3969/2011,640
+A/Berlin/93/2011,A/Hong Kong/3969/2011,160
+A/Berlin/88/2011,A/Hong Kong/3969/2011,1280
+A/Belgium/G1147/2011,A/Hong Kong/3969/2011,640
+A/Castilla La Mancha/RR8843/2011,A/Hong Kong/3969/2011,1280
+A/Castilla La Mancha/RR8870/2011,A/Hong Kong/3969/2011,640
+A/Brisbane/10/2007,A/Iowa/19/2010,80
+A/Perth/16/2009,A/Iowa/19/2010,80
+A/Perth/10/2009,A/Iowa/19/2010,640
+A/Hong Kong/3969/2011,A/Iowa/19/2010,80
+A/Iowa/19/2010,A/Iowa/19/2010,5120
+A/Hormozgan/7981/2011,A/Iowa/19/2010,160
+A/Madrid/RR8753/2011,A/Iowa/19/2010,160
+A/Tehran/9720/2011,A/Iowa/19/2010,320
+A/Tehran/9721/2011,A/Iowa/19/2010,640
+A/Slovenia/2855/2011,A/Iowa/19/2010,320
+A/Berlin/93/2011,A/Iowa/19/2010,160
+A/Berlin/88/2011,A/Iowa/19/2010,640
+A/Belgium/G1147/2011,A/Iowa/19/2010,160
+A/Castilla La Mancha/RR8843/2011,A/Iowa/19/2010,320
+A/Castilla La Mancha/RR8870/2011,A/Iowa/19/2010,160
+A/Brisbane/10/2007,A/Brisbane/10/2007,5120
+A/Perth/16/2009,A/Brisbane/10/2007,<40
+A/Perth/10/2009,A/Brisbane/10/2007,40
+A/Hong Kong/3969/2011,A/Brisbane/10/2007,<40
+A/Iowa/19/2010,A/Brisbane/10/2007,80
+A/Adjame/GR765/2011,A/Brisbane/10/2007,<40
+A/Parma/171/2011,A/Brisbane/10/2007,<40
+A/Turkey/01/2011,A/Brisbane/10/2007,<40
+A/Hong Kong/4974/2011,A/Brisbane/10/2007,<40
+A/Norway/2335/2011,A/Brisbane/10/2007,<40
+A/Norway/2329/2011,A/Brisbane/10/2007,<40
+A/Settat/91H/2011,A/Brisbane/10/2007,<40
+A/Norway/2431/2011,A/Brisbane/10/2007,<40
+A/Firenze/3/2011,A/Brisbane/10/2007,<40
+A/Parma/01/2012,A/Brisbane/10/2007,<40
+A/Berlin/3/2012,A/Brisbane/10/2007,<40
+A/Brisbane/10/2007,A/Perth/16/2009,80
+A/Perth/16/2009,A/Perth/16/2009,640
+A/Perth/10/2009,A/Perth/16/2009,320
+A/Hong Kong/3969/2011,A/Perth/16/2009,80
+A/Iowa/19/2010,A/Perth/16/2009,640
+A/Adjame/GR765/2011,A/Perth/16/2009,160
+A/Parma/171/2011,A/Perth/16/2009,40
+A/Turkey/01/2011,A/Perth/16/2009,80
+A/Hong Kong/4974/2011,A/Perth/16/2009,80
+A/Norway/2335/2011,A/Perth/16/2009,40
+A/Norway/2329/2011,A/Perth/16/2009,80
+A/Settat/91H/2011,A/Perth/16/2009,80
+A/Norway/2431/2011,A/Perth/16/2009,160
+A/Firenze/3/2011,A/Perth/16/2009,160
+A/Parma/01/2012,A/Perth/16/2009,<40
+A/Berlin/3/2012,A/Perth/16/2009,80
+A/Brisbane/10/2007,A/Perth/10/2009,80
+A/Perth/16/2009,A/Perth/10/2009,40
+A/Perth/10/2009,A/Perth/10/2009,640
+A/Hong Kong/3969/2011,A/Perth/10/2009,160
+A/Iowa/19/2010,A/Perth/10/2009,2560
+A/Adjame/GR765/2011,A/Perth/10/2009,320
+A/Parma/171/2011,A/Perth/10/2009,40
+A/Turkey/01/2011,A/Perth/10/2009,320
+A/Hong Kong/4974/2011,A/Perth/10/2009,160
+A/Norway/2335/2011,A/Perth/10/2009,160
+A/Norway/2329/2011,A/Perth/10/2009,160
+A/Settat/91H/2011,A/Perth/10/2009,160
+A/Norway/2431/2011,A/Perth/10/2009,640
+A/Firenze/3/2011,A/Perth/10/2009,320
+A/Parma/01/2012,A/Perth/10/2009,40
+A/Berlin/3/2012,A/Perth/10/2009,320
+A/Brisbane/10/2007,A/Hong Kong/3969/2011,80
+A/Perth/16/2009,A/Hong Kong/3969/2011,80
+A/Perth/10/2009,A/Hong Kong/3969/2011,640
+A/Hong Kong/3969/2011,A/Hong Kong/3969/2011,160
+A/Iowa/19/2010,A/Hong Kong/3969/2011,2560
+A/Adjame/GR765/2011,A/Hong Kong/3969/2011,1280
+A/Parma/171/2011,A/Hong Kong/3969/2011,80
+A/Turkey/01/2011,A/Hong Kong/3969/2011,640
+A/Hong Kong/4974/2011,A/Hong Kong/3969/2011,320
+A/Norway/2335/2011,A/Hong Kong/3969/2011,160
+A/Norway/2329/2011,A/Hong Kong/3969/2011,320
+A/Settat/91H/2011,A/Hong Kong/3969/2011,320
+A/Norway/2431/2011,A/Hong Kong/3969/2011,1280
+A/Firenze/3/2011,A/Hong Kong/3969/2011,640
+A/Parma/01/2012,A/Hong Kong/3969/2011,80
+A/Berlin/3/2012,A/Hong Kong/3969/2011,640
+A/Brisbane/10/2007,A/Iowa/19/2010,80
+A/Perth/16/2009,A/Iowa/19/2010,40
+A/Perth/10/2009,A/Iowa/19/2010,640
+A/Hong Kong/3969/2011,A/Iowa/19/2010,80
+A/Iowa/19/2010,A/Iowa/19/2010,5120
+A/Adjame/GR765/2011,A/Iowa/19/2010,320
+A/Parma/171/2011,A/Iowa/19/2010,40
+A/Turkey/01/2011,A/Iowa/19/2010,160
+A/Hong Kong/4974/2011,A/Iowa/19/2010,80
+A/Norway/2335/2011,A/Iowa/19/2010,80
+A/Norway/2329/2011,A/Iowa/19/2010,160
+A/Settat/91H/2011,A/Iowa/19/2010,160
+A/Norway/2431/2011,A/Iowa/19/2010,640
+A/Firenze/3/2011,A/Iowa/19/2010,320
+A/Parma/01/2012,A/Iowa/19/2010,40
+A/Berlin/3/2012,A/Iowa/19/2010,160

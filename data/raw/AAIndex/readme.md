@@ -1,0 +1,1 @@
+Users are required to download the AAIndex data files from \url{https://www.genome.jp/aaindex/} and place them in this directory.
