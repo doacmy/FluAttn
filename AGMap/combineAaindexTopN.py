@@ -145,28 +145,6 @@ def build_X_Y(pairs, seq_indices, dist_mat, props_1, weights_1, props_2, weights
     return X, Y
 
 
-def build_large_X_Y_memmap(pairs, seq_indices, dist_mat, props_1, weights_1, props_2, weights_2, prefix, batch_size=10000):
-    L = len(seq_indices[0]) * 3
-    n_pairs = len(pairs)
-
-
-    X_mem = np.memmap(f"{prefix}_X.npy", dtype=np.float32, mode='w+', shape=(n_pairs, L))
-    Y_mem = np.memmap(f"{prefix}_Y.npy", dtype=np.float32, mode='w+', shape=(n_pairs,))
-
-
-    for i in range(0, n_pairs, batch_size):
-        print(f"Building batch {i}/{n_pairs}")
-        sub_pairs = pairs[i:i+batch_size]
-        X_sub, Y_sub = build_X_Y(sub_pairs, seq_indices, dist_mat, props_1, weights_1, props_2, weights_2)
-        end = i + len(sub_pairs)
-        X_mem[i:end] = X_sub
-        Y_mem[i:end] = Y_sub
-
-    X_mem.flush()
-    Y_mem.flush()
-
-    return f"{prefix}_X.npy", f"{prefix}_Y.npy", (n_pairs, L)
-
 def get_data(config):
     seq_df = pd.read_csv(config["seq_path"])
     dist_df = pd.read_csv(config["dist_path"], index_col=0)
@@ -195,42 +173,22 @@ def get_data(config):
     props_2, weights_2 = load_standardized_aaindex_2_props()
 
 
-    if config.get("use_lazy_memmap", True):
-        train_X_path, train_Y_path, train_shape = build_large_X_Y_memmap(train_p, seq_indices, dist_mat, props_1, weights_1, props_2, weights_2, prefix="train")
-        test_X_path, test_Y_path, test_shape = build_large_X_Y_memmap(test_p, seq_indices, dist_mat, props_1, weights_1, props_2, weights_2, prefix="test")
-    else:
-        X_train, Y_train = build_X_Y(train_p, seq_indices, dist_mat, props_1, weights_1, props_2, weights_2)
-        X_test, Y_test = build_X_Y(test_p, seq_indices, dist_mat, props_1, weights_1, props_2, weights_2)
+    X_train, Y_train = build_X_Y(train_p, seq_indices, dist_mat, props_1, weights_1, props_2, weights_2)
+    X_test, Y_test = build_X_Y(test_p, seq_indices, dist_mat, props_1, weights_1, props_2, weights_2)
 
-        train_X_path, train_Y_path = "train_X.npy", "train_Y.npy"
-        test_X_path, test_Y_path = "test_X.npy", "test_Y.npy"
-        np.save(train_X_path, X_train)
-        np.save(train_Y_path, Y_train)
-        np.save(test_X_path, X_test)
-        np.save(test_Y_path, Y_test)
-        train_shape = X_train.shape
-        test_shape = X_test.shape
-
-    return train_X_path, train_Y_path, test_X_path, test_Y_path, train_shape, test_shape
+    return X_train, Y_train, X_test, Y_test
 
 class PairDataset(Dataset):
-    def __init__(self, X_path, y_path, shape, y_scaler=None):
-        self.lazy = config["use_lazy_memmap"]
-        self.shape = shape
+    def __init__(self, X, y, y_scaler=None):
+        self.X = X
+        self.y = y
         self.y_scaler = y_scaler
 
-        if self.lazy:
-            self.X = np.memmap(X_path, dtype=np.float32, mode='r', shape=shape)
-            self.y = np.memmap(y_path, dtype=np.float32, mode='r', shape=(shape[0],))
-        else:
-            self.X = np.load(X_path)
-            self.y = np.load(y_path)
-
     def __len__(self):
-        return self.shape[0]
+        return self.X.shape[0]
 
     def __getitem__(self, idx):
-        x = self.X[idx].copy() if self.lazy else self.X[idx]
+        x = self.X[idx]
         y = self.y[idx]
         if self.y_scaler:
             y = (y - self.y_scaler['mean']) / self.y_scaler['std']
@@ -297,7 +255,6 @@ if __name__ == "__main__":
         "aaindex_1_path": "data/prd/aaindex1_dicts.json",
         "aaindex_2_path": "data/prd/aaindex2_dicts.json",
         "standardize_y": True,
-        "use_lazy_memmap": False,
         "patience": 20,
         "stopping_delta": 1e-4,
         "test_size": 0.2,
@@ -320,18 +277,14 @@ if __name__ == "__main__":
 
     set_global_seed(config["random_state"])
 
-    X_train_path, y_train_path, X_test_path, y_test_path, train_shape, test_shape = get_data(config)
+    X_train, y_train, X_test, y_test = get_data(config)
 
     y_scaler = None
     if config["standardize_y"]:
-        if config["use_lazy_memmap"]:
-            y_train_array = np.memmap(y_train_path, dtype=np.float32, mode='r')
-        else:
-            y_train_array = np.load(y_train_path)
-        y_scaler = {'mean': y_train_array.mean(), 'std': y_train_array.std()}
+        y_scaler = {'mean': y_train.mean(), 'std': y_train.std()}
 
-    train_ds = PairDataset(X_train_path, y_train_path, train_shape, y_scaler)
-    test_ds  = PairDataset(X_test_path, y_test_path, test_shape, y_scaler)
+    train_ds = PairDataset(X_train, y_train, y_scaler)
+    test_ds  = PairDataset(X_test, y_test, y_scaler)
 
     val_size = max(1, int(0.1 * len(train_ds)))
     train_ds, val_ds = random_split(
@@ -347,7 +300,7 @@ if __name__ == "__main__":
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    model = MLPRegressor(input_dim=train_shape[1]).to(device)
+    model = MLPRegressor(input_dim=X_train.shape[1]).to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
     loss_fn = torch.nn.MSELoss()
 
