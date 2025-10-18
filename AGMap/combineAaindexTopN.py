@@ -7,6 +7,7 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader, random_split
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 from scipy.stats import pearsonr
+from itertools import combinations
 
 
 AA_TO_IDX = {aa: idx for idx, aa in enumerate("ARNDCQEGHILKMFPSTWYV")}
@@ -15,13 +16,6 @@ def set_global_seed(seed):
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
-
-def split_data(n):
-    from itertools import combinations
-    pairs = list(combinations(range(n), 2))
-    random.shuffle(pairs)
-    cut = int(len(pairs) * config["test_size"])
-    return pairs[cut:], pairs[:cut]
 
 def standardize_prop_1_dict(prop_dict):
     vals = np.array(list(prop_dict.values()))
@@ -145,8 +139,8 @@ def build_X_Y(pairs, seq_indices, dist_mat, props_1, weights_1, props_2, weights
     return X, Y
 
 
-def get_data(config):
-    seq_df = pd.read_csv(config["seq_path"])
+def get_train_data(config):
+    seq_df = pd.read_csv(config["train_seq_path"])
     dist_df = pd.read_csv(config["dist_path"], index_col=0)
 
     seq_df = seq_df[['short_name', 'HA1_sequence']].set_index('short_name')
@@ -161,7 +155,7 @@ def get_data(config):
     dist_mat = dist_df.values
 
     n = len(seqs)
-    train_p, test_p = split_data(n)
+    pairs = list(combinations(range(n), 2))
 
     seq_indices = np.full((len(seqs), len(seqs[0])), -1, dtype=np.int32)
     for i, seq in enumerate(seqs):
@@ -173,10 +167,17 @@ def get_data(config):
     props_2, weights_2 = load_standardized_aaindex_2_props()
 
 
-    X_train, Y_train = build_X_Y(train_p, seq_indices, dist_mat, props_1, weights_1, props_2, weights_2)
-    X_test, Y_test = build_X_Y(test_p, seq_indices, dist_mat, props_1, weights_1, props_2, weights_2)
+    X_train, Y_train = build_X_Y(pairs, seq_indices, dist_mat, props_1, weights_1, props_2, weights_2)
 
-    return X_train, Y_train, X_test, Y_test
+    return X_train, Y_train
+
+def get_test_data(config):
+
+    X_test, Y_test = 0, 0
+
+
+
+    return X_test, Y_test
 
 class PairDataset(Dataset):
     def __init__(self, X, y, y_scaler=None):
@@ -262,13 +263,13 @@ if __name__ == "__main__":
     }
 
     if data_set == "1963-2002":
-        config["seq_path"] = "data/prd/1963-2002/sequences.csv"
+        config["train_seq_path"] = "data/prd/1963-2002/sequences.csv"
         config["dist_path"] = "data/prd/1963-2002/distance_matrix.csv"
         config["prop1_path"] = "data/prd/1963-2002/prop1.csv"
         config["prop2_path" ]= "data/prd/1963-2002/prop2.csv"
 
     else:
-        config["seq_path"] = "data/prd/2003-2025/final_sequences.csv"
+        config["train_seq_path"] = "data/prd/2003-2025/final_sequences.csv"
         config["dist_path"] = "data/prd/2003-2025/2003_2025_distance_matrix.csv"
         config["prop1_path"] = "data/prd/2003-2025/prop1.csv"
         config["prop2_path" ]= "data/prd/2003-2025/prop2.csv"
@@ -277,7 +278,8 @@ if __name__ == "__main__":
 
     set_global_seed(config["random_state"])
 
-    X_train, y_train, X_test, y_test = get_data(config)
+    X_train, y_train = get_train_data(config)
+    X_test, y_test = get_test_data(config)
 
     y_scaler = None
     if config["standardize_y"]:
