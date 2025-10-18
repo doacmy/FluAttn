@@ -125,6 +125,40 @@ class SequencePairDataset(Dataset):
         return torch.from_numpy(x).float(), torch.tensor(y).float()
 
 
+class SequencePairBinaryDataset(Dataset):
+    """
+    仅使用病毒对序列的0-1比对特征：
+    - 对齐序列同位点相同 -> 0；不同 -> 1
+    - 特征形状为 (L, 1)，不依赖AAIndex属性
+    """
+    def __init__(self, df: pd.DataFrame, seq_len: int, y_scaler=None):
+        self.df = df.reset_index(drop=True)
+        self.seq_len = seq_len
+        self.y_scaler = y_scaler
+
+    def __len__(self):
+        return len(self.df)
+
+    def _encode_seq(self, s: str) -> np.ndarray:
+        return np.fromiter((aa_to_idx[c] for c in s), dtype=np.int32)
+
+    def __getitem__(self, idx):
+        row = self.df.iloc[idx]
+        s1, s2 = str(row['S1']), str(row['S2'])
+        y = float(row['distance'])
+
+        si = self._encode_seq(s1)  # (L,)
+        sj = self._encode_seq(s2)  # (L,)
+
+        mismatch = (si != sj).astype(np.float32)  # (L,)
+        x = mismatch[:, None]  # (L, 1)
+
+        if self.y_scaler:
+            y = (y - self.y_scaler['mean']) / (self.y_scaler['std'] + 1e-8)
+
+        return torch.from_numpy(x).float(), torch.tensor(y).float()
+
+
 class WeightedMultiHeadAttentionMLP(nn.Module):
     def __init__(self, seq_len, n_props, n_heads=4):
         super().__init__()
@@ -140,15 +174,12 @@ class WeightedMultiHeadAttentionMLP(nn.Module):
 
         # 输出MLP网络
         self.net = nn.Sequential(
-            nn.Linear(seq_len, 1024),
+            nn.Linear(seq_len, 256),
             nn.ReLU(),
-            nn.Dropout(0.1),
-            nn.Linear(1024, 512),
+            nn.Dropout(0.3),
+            nn.Linear(256, 128),
             nn.ReLU(),
-            nn.Dropout(0.1),
-            nn.Linear(512, 256),
-            nn.ReLU(),
-            nn.Linear(256, 1)
+            nn.Linear(128, 1)
         )
 
     def forward(self, x):
@@ -166,6 +197,30 @@ class WeightedMultiHeadAttentionMLP(nn.Module):
         fusion_weights = F.softmax(self.head_weights, dim=0)  # (H,)
         x_fused = torch.sum(heads_stack * fusion_weights.view(1, -1, 1), dim=1)  # (B, L)
         return self.net(x_fused).squeeze(-1)
+
+
+class PureMLPRegressor(nn.Module):
+    """
+    纯MLP回归器：不使用多头静态注意力，直接对 (L, P) 特征展平后回归。
+    输入: x -> (B, L, P)
+    展平: (B, L*P)
+    """
+    def __init__(self, seq_len, n_props):
+        super().__init__()
+        in_dim = seq_len * n_props
+        self.net = nn.Sequential(
+            nn.Linear(in_dim, 256),
+            nn.ReLU(),
+            nn.Dropout(0.3),
+            nn.Linear(256, 128),
+            nn.ReLU(),
+            nn.Linear(128, 1)
+        )
+
+    def forward(self, x):
+        # x: (B, L, P)
+        x = x.view(x.size(0), -1)  # (B, L*P)
+        return self.net(x).squeeze(-1)
 
 
 def standardize_property_dict(prop_dict):
@@ -198,18 +253,23 @@ def make_dataloaders_from_time_series(config, selected_names=None, prop_indices=
     val_csv = config.get('val_csv')
     test_csv = config.get('test_csv')
 
-    prop_matrix_full, prop_names_full = load_props_as_matrix(
-        config['json_path'],
-        corr_threshold=config.get('corr_threshold', 0.95),
-        selected_names=selected_names
-    )
+    use_aaindex = bool(config.get('use_aaindex', True))
 
-    if prop_indices is None:
-        prop_matrix = prop_matrix_full
-        prop_names = prop_names_full
-    else:
-        prop_matrix = prop_matrix_full[prop_indices, :]
-        prop_names = [prop_names_full[i] for i in prop_indices]
+    prop_matrix = None
+    prop_names = None
+    if use_aaindex:
+        prop_matrix_full, prop_names_full = load_props_as_matrix(
+            config['json_path'],
+            corr_threshold=config.get('corr_threshold', 0.95),
+            selected_names=selected_names
+        )
+
+        if prop_indices is None:
+            prop_matrix = prop_matrix_full
+            prop_names = prop_names_full
+        else:
+            prop_matrix = prop_matrix_full[prop_indices, :]
+            prop_names = [prop_names_full[i] for i in prop_indices]
 
     # 读取CSV
     df_train = pd.read_csv(train_csv)
@@ -226,16 +286,27 @@ def make_dataloaders_from_time_series(config, selected_names=None, prop_indices=
         y_scaler = {'mean': float(np.mean(y_vals)), 'std': float(np.std(y_vals) + 1e-8)}
 
     # 数据集与加载器
-    train_ds = SequencePairDataset(df_train, prop_matrix, seq_len, y_scaler=y_scaler)
-    val_ds = SequencePairDataset(df_val, prop_matrix, seq_len, y_scaler=y_scaler)
-    test_ds = SequencePairDataset(df_test, prop_matrix, seq_len, y_scaler=y_scaler)
+    if use_aaindex:
+        train_ds = SequencePairDataset(df_train, prop_matrix, seq_len, y_scaler=y_scaler)
+        val_ds = SequencePairDataset(df_val, prop_matrix, seq_len, y_scaler=y_scaler)
+        test_ds = SequencePairDataset(df_test, prop_matrix, seq_len, y_scaler=y_scaler)
+    else:
+        # 使用0-1比对，不依赖AAIndex属性
+        train_ds = SequencePairBinaryDataset(df_train, seq_len, y_scaler=y_scaler)
+        val_ds = SequencePairBinaryDataset(df_val, seq_len, y_scaler=y_scaler)
+        test_ds = SequencePairBinaryDataset(df_test, seq_len, y_scaler=y_scaler)
 
     train_dl = DataLoader(train_ds, batch_size=config['batch_size'], shuffle=True, num_workers=8, pin_memory=True)
     val_dl = DataLoader(val_ds, batch_size=config['batch_size'], num_workers=8, pin_memory=True)
     test_dl = DataLoader(test_ds, batch_size=config['batch_size'], num_workers=8, pin_memory=True)
 
-    n_props = prop_matrix.shape[0]
-    return train_dl, val_dl, test_dl, prop_names, y_scaler, seq_len, n_props
+    if use_aaindex:
+        n_props = prop_matrix.shape[0]
+        names = prop_names
+    else:
+        n_props = 1
+        names = ["mismatch"]
+    return train_dl, val_dl, test_dl, names, y_scaler, seq_len, n_props
 
 
 
@@ -304,11 +375,19 @@ def main_from_dataloaders(config, train_dl, val_dl, test_dl, prop_names, seq_len
     新数据路径（显式train/val/test CSV）训练入口。
     """
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    model = WeightedMultiHeadAttentionMLP(
-        seq_len=seq_len,
-        n_props=n_props,
-        n_heads=config["n_heads"]
-    ).to(device)
+    use_pure_mlp = bool(config.get("use_pure_mlp", False))
+    use_aaindex = bool(config.get("use_aaindex", True))
+    if use_pure_mlp:
+        model = PureMLPRegressor(
+            seq_len=seq_len,
+            n_props=n_props,
+        ).to(device)
+    else:
+        model = WeightedMultiHeadAttentionMLP(
+            seq_len=seq_len,
+            n_props=n_props,
+            n_heads=config["n_heads"]
+        ).to(device)
 
     model = train_loop(
         model, train_dl, val_dl, device,
@@ -325,11 +404,14 @@ def main_from_dataloaders(config, train_dl, val_dl, test_dl, prop_names, seq_len
     for k, v in test_metrics.items():
         print(f"{k:10}: {v:.4f}")
 
-    scores = extract_average_attention_weights(model.attn_weights, model.head_weights, prop_names)
-    print(f"\nTop-{config['top_n']} property importances:")
-    for name, score in scores[:config['top_n']]:
-        print(f"{name:15}: {score:.4f}")
-    
+    scores = []
+    can_rank_props = (not use_pure_mlp) and use_aaindex and (n_props > 1)
+    if can_rank_props:
+        scores = extract_average_attention_weights(model.attn_weights, model.head_weights, prop_names)
+        print(f"\nTop-{config['top_n']} property importances:")
+        for name, score in scores[:config['top_n']]:
+            print(f"{name:15}: {score:.4f}")
+
     return model, scores, prop_names, test_metrics
 
 def slice_features(X, Y, indices):
@@ -338,6 +420,9 @@ def slice_features(X, Y, indices):
 
 def auto_select_and_retrain_time_series(config):
     print("=== Step 0: Load CSV-based data (train/val/test) ===")
+    use_pure_mlp = bool(config.get("use_pure_mlp", False))
+    use_aaindex = bool(config.get("use_aaindex", True))
+
     # 首轮：使用全部属性
     train_dl, val_dl, test_dl, prop_names, y_scaler, seq_len, n_props = make_dataloaders_from_time_series(
         config, selected_names=None, prop_indices=None
@@ -347,6 +432,10 @@ def auto_select_and_retrain_time_series(config):
     model, scores, _, test_metrics = main_from_dataloaders(
         config, train_dl, val_dl, test_dl, prop_names, seq_len, n_props, y_scaler
     )
+
+    if use_pure_mlp or (not use_aaindex) or (n_props <= 1) or (len(scores) == 0):
+        print("\nSkip Top-N selection and retraining (pure MLP or no AAIndex or insufficient props).")
+        return model, scores, prop_names, test_metrics
 
     scores_wo_diff = [(name, s) for name, s in scores]
     top_n_props = [name for name, _ in scores_wo_diff[:config["top_n"]]]
@@ -384,16 +473,18 @@ if __name__ == "__main__":
         "out_path":  "data/time_series/prop1.csv",
 
         # 模型与训练参数
-        "batch_size": 1024,
+        "batch_size": 256,
         "n_heads": 4,
+        "use_pure_mlp": False,  # True 启用纯MLP回归（禁用多头静态注意力）
+        "use_aaindex": True,     # False 时使用0-1比对特征，跳过AAIndex
         "n_retrain_heads": 2,
         "epochs": 1000,
         "lr": 1e-3,
-        "weight_decay": 1e-4,
-        "patience": 100,
+        "weight_decay": 1e-3,
+        "patience": 60,
 
         # 数据处理参数
-        "standardize_y": True,
+        "standardize_y": False,
         "corr_threshold": 0.6,
         "random_state": 42,
 
@@ -405,7 +496,11 @@ if __name__ == "__main__":
     np.random.seed(config["random_state"])
     random.seed(config["random_state"]) 
 
-    model_topn, scores_topn, top_n_props, test_metrics_topn = auto_select_and_retrain_time_series(config)
+    model_final, scores_final, selected_props_final, test_metrics_final = auto_select_and_retrain_time_series(config)
 
-    scores_df = pd.DataFrame(scores_topn, columns=['prop_name', 'weight'])
-    scores_df.to_csv(config["out_path"], index=False)
+    # 仅在存在注意力权重时输出属性重要性
+    if scores_final:
+        scores_df = pd.DataFrame(scores_final, columns=['prop_name', 'weight'])
+        scores_df.to_csv(config["out_path"], index=False)
+    else:
+        print("No attention weights in Pure MLP mode; skip saving property importances.")

@@ -11,7 +11,7 @@ for record in SeqIO.parse('data/prd/2003-2025/align_seq.fasta', "fasta"):
     virus_name = record.description.split("|")[0].strip()
     ha1_seq = str(record.seq[start:end])
     
-    if '-' in ha1_seq:
+    if '-' in ha1_seq or 'X' in ha1_seq:
         discarded_count += 1
         continue
 
