@@ -78,20 +78,50 @@ def load_standardized_aaindex_props(json_path, corr_threshold=0.95, selected_nam
     prop_names = list(filtered_props.keys())
     return props, prop_names
 
-class PairDataset(Dataset):
-    def __init__(self, X, y, y_scaler=None):
-        self.X = X
-        self.y = y
+
+class SequencePairDataset(Dataset):
+    """
+    基于成对序列CSV的按需特征计算数据集（序列已对齐，均为标准氨基酸）。
+    - df: 包含列 S1, S2, distance
+    - prop_matrix: 形状 (P, 20) 的AAIndex属性矩阵，已标准化
+    - seq_len: 序列长度（各样本一致）
+    - prop_indices: 可选，只选择部分属性维度（Top-N 重训阶段）
+    - y_scaler: 可选，用于y标准化的字典 {mean, std}
+    """
+    def __init__(self, df: pd.DataFrame, prop_matrix: np.ndarray, seq_len: int, y_scaler=None, prop_indices=None):
+        self.df = df.reset_index(drop=True)
+        self.prop_matrix = prop_matrix  # (P, 20)
+        self.seq_len = seq_len
         self.y_scaler = y_scaler
+        self.prop_indices = prop_indices
 
     def __len__(self):
-        return self.X.shape[0]
+        return len(self.df)
+
+    def _encode_seq(self, s: str) -> np.ndarray:
+        # 序列均为标准氨基酸且长度一致，直接映射
+        return np.fromiter((aa_to_idx[c] for c in s), dtype=np.int32)
 
     def __getitem__(self, idx):
-        x = self.X[idx]
-        y = self.y[idx]
+        row = self.df.iloc[idx]
+        s1, s2 = str(row['S1']), str(row['S2'])
+        y = float(row['distance'])
+
+        si = self._encode_seq(s1)  # (L,)
+        sj = self._encode_seq(s2)  # (L,)
+
+        # prop_matrix: (P, 20); 索引得到 (P, L)
+        pi = self.prop_matrix[:, si]
+        pj = self.prop_matrix[:, sj]
+        diff = np.abs(pi - pj).T  # (L, P)
+        x = diff.astype(np.float32, copy=False)
+
+        if self.prop_indices is not None:
+            x = x[:, self.prop_indices]
+
         if self.y_scaler:
-            y = (y - self.y_scaler['mean']) / self.y_scaler['std']
+            y = (y - self.y_scaler['mean']) / (self.y_scaler['std'] + 1e-8)
+
         return torch.from_numpy(x).float(), torch.tensor(y).float()
 
 
@@ -110,15 +140,15 @@ class WeightedMultiHeadAttentionMLP(nn.Module):
 
         # 输出MLP网络
         self.net = nn.Sequential(
-            nn.Linear(seq_len, 512),
+            nn.Linear(seq_len, 1024),
             nn.ReLU(),
-            nn.Dropout(0.3),
+            nn.Dropout(0.1),
+            nn.Linear(1024, 512),
+            nn.ReLU(),
+            nn.Dropout(0.1),
             nn.Linear(512, 256),
             nn.ReLU(),
-            nn.Dropout(0.3),
-            nn.Linear(256, 128),
-            nn.ReLU(),
-            nn.Linear(128, 1)
+            nn.Linear(256, 1)
         )
 
     def forward(self, x):
@@ -143,71 +173,69 @@ def standardize_property_dict(prop_dict):
     mean, std = vals.mean(), vals.std()
     return {aa: (v - mean) / std for aa, v in prop_dict.items()}
 
-def split_data(n, test_size=0.2):
-    from itertools import combinations
-    pairs = list(combinations(range(n), 2))
-    random.shuffle(pairs)
-    cut = int(len(pairs) * test_size)
-    return pairs[cut:], pairs[:cut]
 
-def build_X_Y_fast(pairs, seq_indices, dist_mat, prop_matrix):
-    L = len(seq_indices[0])
-    n_props = prop_matrix.shape[0]
-    n_pairs = len(pairs)
-
-    X = np.zeros((n_pairs, L, n_props), dtype=np.float32)
-    Y = np.empty(n_pairs, dtype=np.float32)
-
-    for k, (i, j) in enumerate(pairs):
-        si = seq_indices[i]  # (L,)
-        sj = seq_indices[j]  # (L,)
-
-        valid_mask = (si >= 0) & (sj >= 0)
-
-        pi = prop_matrix[:, si.clip(min=0)]  # (P, L)
-        pj = prop_matrix[:, sj.clip(min=0)]  # (P, L)
-        prop_diff = np.abs(pi - pj).T        # (L, P)
-
-        X[k, valid_mask, :] = prop_diff[valid_mask]
-        Y[k] = dist_mat[i, j]
-
-    return X, Y
-
-def get_data(seq_csv, dist_csv, json_path, test_size=0.2, selected_names=None):
-    seq_df = pd.read_csv(seq_csv)
-    dist_df = pd.read_csv(dist_csv, index_col=0)
-
-    seq_df = seq_df[['short_name', 'HA1_sequence']].set_index('short_name')
-    common = seq_df.index.intersection(dist_df.index)
-    seq_df = seq_df.loc[common]
-    dist_df = dist_df.loc[common, common]
-
-    seqs_array = np.array(seq_df['HA1_sequence'].apply(list).to_list())
-    variable_sites = [i for i in range(seqs_array.shape[1]) if len(set(seqs_array[:, i]) - {'-'}) > 1]
-    seqs_var = seqs_array[:, variable_sites]
-    seqs = ["".join(row) for row in seqs_var]
-    dist_mat = dist_df.values
-
-    props, prop_names = load_standardized_aaindex_props(json_path, corr_threshold=config['corr_threshold'], selected_names=selected_names)
-
-    n = len(seqs)
-    train_p, test_p = split_data(n, test_size)
-
-    seq_indices = np.full((n, len(seqs[0])), -1, dtype=np.int32)
-    for i, seq in enumerate(seqs):
-        for j, aa in enumerate(seq):
-            seq_indices[i, j] = aa_to_idx.get(aa, -1)
-    
-
+def build_prop_matrix(props):
+    """将属性列表转换为 (P, 20) 的矩阵。"""
     prop_matrix = np.zeros((len(props), 20), dtype=np.float32)
     for p, prop in enumerate(props):
         for aa, idx in aa_to_idx.items():
             prop_matrix[p, idx] = prop.get(aa, 0.0)
-    
-    X_train, Y_train = build_X_Y_fast(train_p, seq_indices, dist_mat, prop_matrix)
-    X_test, Y_test = build_X_Y_fast(test_p, seq_indices, dist_mat, prop_matrix)
+    return prop_matrix
 
-    return X_train, Y_train, X_test, Y_test, prop_names, props
+
+def load_props_as_matrix(json_path, corr_threshold=0.95, selected_names=None):
+    props, prop_names = load_standardized_aaindex_props(json_path, corr_threshold=corr_threshold, selected_names=selected_names)
+    prop_matrix = build_prop_matrix(props)
+    return prop_matrix, prop_names
+
+
+def make_dataloaders_from_time_series(config, selected_names=None, prop_indices=None):
+    """
+    读取 data/time_series 下的 train/val/test.csv，构建按需计算的 DataLoader。
+    返回：train_dl, val_dl, test_dl, prop_names, y_scaler, seq_len, n_props
+    """
+    train_csv = config.get('train_csv')
+    val_csv = config.get('val_csv')
+    test_csv = config.get('test_csv')
+
+    prop_matrix_full, prop_names_full = load_props_as_matrix(
+        config['json_path'],
+        corr_threshold=config.get('corr_threshold', 0.95),
+        selected_names=selected_names
+    )
+
+    if prop_indices is None:
+        prop_matrix = prop_matrix_full
+        prop_names = prop_names_full
+    else:
+        prop_matrix = prop_matrix_full[prop_indices, :]
+        prop_names = [prop_names_full[i] for i in prop_indices]
+
+    # 读取CSV
+    df_train = pd.read_csv(train_csv)
+    df_val = pd.read_csv(val_csv)
+    df_test = pd.read_csv(test_csv)
+
+    # 序列已对齐且长度一致，直接从训练集首条推断长度
+    seq_len = int(len(str(df_train.iloc[0]['S1'])))
+
+    # y标准化仅用训练集统计量
+    y_scaler = None
+    if config.get('standardize_y', False):
+        y_vals = df_train['distance'].astype(float).values
+        y_scaler = {'mean': float(np.mean(y_vals)), 'std': float(np.std(y_vals) + 1e-8)}
+
+    # 数据集与加载器
+    train_ds = SequencePairDataset(df_train, prop_matrix, seq_len, y_scaler=y_scaler)
+    val_ds = SequencePairDataset(df_val, prop_matrix, seq_len, y_scaler=y_scaler)
+    test_ds = SequencePairDataset(df_test, prop_matrix, seq_len, y_scaler=y_scaler)
+
+    train_dl = DataLoader(train_ds, batch_size=config['batch_size'], shuffle=True, num_workers=8, pin_memory=True)
+    val_dl = DataLoader(val_ds, batch_size=config['batch_size'], num_workers=8, pin_memory=True)
+    test_dl = DataLoader(test_ds, batch_size=config['batch_size'], num_workers=8, pin_memory=True)
+
+    n_props = prop_matrix.shape[0]
+    return train_dl, val_dl, test_dl, prop_names, y_scaler, seq_len, n_props
 
 
 
@@ -248,10 +276,16 @@ def train_loop(model, train_dl, val_dl, device, epochs=200, lr=1e-3, weight_deca
             loss = criterion(model(x), y)
             loss.backward()
             optim.step()
+        # 评估训练集与验证集指标（以非训练模式计算）
+        train_metrics = evaluate(model, train_dl, device, y_scaler)
         val_metrics = evaluate(model, val_dl, device, y_scaler)
         val_rmse = val_metrics['RMSE']
         scheduler.step(val_rmse)
-        print(f"[Epoch {epoch:03d}] Val RMSE={val_rmse:.4f}, Pearson={val_metrics['Pearson_r']:.3f}")
+        print(
+            f"[Epoch {epoch:03d}] "
+            f"Train RMSE={train_metrics['RMSE']:.4f} | "
+            f"Val RMSE={val_rmse:.4f}, Pearson={val_metrics['Pearson_r']:.3f}"
+        )
         if val_rmse < best_val_rmse - 1e-4:
             best_val_rmse = val_rmse
             best_state = model.state_dict()
@@ -264,33 +298,17 @@ def train_loop(model, train_dl, val_dl, device, epochs=200, lr=1e-3, weight_deca
     model.load_state_dict(best_state)
     return model
 
-def main(config, X_train, y_train, X_test, y_test, prop_names):
-    y_scaler = None
-    if config["standardize_y"]:
-        y_scaler = {'mean': y_train.mean(), 'std': y_train.std()}
 
-    train_ds = PairDataset(X_train, y_train, y_scaler)
-    test_ds  = PairDataset(X_test, y_test, y_scaler)
-
-    val_size = max(1, int(0.1 * len(train_ds)))
-    train_ds, val_ds = random_split(
-        train_ds,
-        [len(train_ds) - val_size, val_size],
-        generator=torch.Generator().manual_seed(config["random_state"])
-    )
-
-    train_dl = DataLoader(train_ds, batch_size=config["batch_size"], shuffle=True, num_workers=8, pin_memory=True)
-    val_dl   = DataLoader(val_ds, batch_size=config["batch_size"], num_workers=8, pin_memory=True)
-    test_dl  = DataLoader(test_ds, batch_size=config["batch_size"], num_workers=8, pin_memory=True)
-
-
+def main_from_dataloaders(config, train_dl, val_dl, test_dl, prop_names, seq_len, n_props, y_scaler=None):
+    """
+    新数据路径（显式train/val/test CSV）训练入口。
+    """
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model = WeightedMultiHeadAttentionMLP(
-        seq_len=X_train.shape[1],
-        n_props=X_train.shape[2],
+        seq_len=seq_len,
+        n_props=n_props,
         n_heads=config["n_heads"]
     ).to(device)
-
 
     model = train_loop(
         model, train_dl, val_dl, device,
@@ -300,7 +318,6 @@ def main(config, X_train, y_train, X_test, y_test, prop_names):
         patience=config["patience"],
         y_scaler=y_scaler
     )
-
 
     test_metrics = evaluate(model, test_dl, device, y_scaler)
 
@@ -319,64 +336,63 @@ def slice_features(X, Y, indices):
     return X[:, :, indices], Y
 
 
-def auto_select_and_retrain(config):
-    print("=== Step 0: Load full data once ===")
-    X_train, y_train, X_test, y_test, prop_names, props = get_data(
-        config["seq_path"],
-        config["dist_path"],
-        config["json_path"],
-        test_size=config["test_size"],
-        selected_names=None
+def auto_select_and_retrain_time_series(config):
+    print("=== Step 0: Load CSV-based data (train/val/test) ===")
+    # 首轮：使用全部属性
+    train_dl, val_dl, test_dl, prop_names, y_scaler, seq_len, n_props = make_dataloaders_from_time_series(
+        config, selected_names=None, prop_indices=None
     )
 
     print("=== Step 1: Full property training ===")
-    model, scores, _, test_metrics = main(config, X_train, y_train, X_test, y_test, prop_names)
+    model, scores, _, test_metrics = main_from_dataloaders(
+        config, train_dl, val_dl, test_dl, prop_names, seq_len, n_props, y_scaler
+    )
+
     scores_wo_diff = [(name, s) for name, s in scores]
     top_n_props = [name for name, _ in scores_wo_diff[:config["top_n"]]]
     print(f"\nTop-{config['top_n']} selected AAIndex properties:")
     for name in top_n_props:
         print(f" - {name}")
 
-    print("\n=== Step 2: Filter features and retrain ===")
+    print("\n=== Step 2: Filter features and retrain (Top-N) ===")
     prop_indices = [prop_names.index(name) for name in top_n_props]
 
-
-
-    X_train_topn, y_train_topn = slice_features(X_train, y_train, prop_indices)
-    X_test_topn, y_test_topn = slice_features(X_test, y_test, prop_indices)
-
-    config_topn = config.copy()
-    config_topn["n_heads"] = config_topn["n_retrain_heads"]
-
-    model_topn, scores_topn, _, test_metrics_topn = main(
-        config_topn,
-        X_train_topn, y_train_topn,
-        X_test_topn, y_test_topn,
-        top_n_props
+    # 使用Top-N属性的重训数据加载器
+    train_dl2, val_dl2, test_dl2, prop_names2, y_scaler2, seq_len2, n_props2 = make_dataloaders_from_time_series(
+        config, selected_names=None, prop_indices=prop_indices
     )
 
-    return model_topn, scores_topn, top_n_props, test_metrics_topn
+    config_topn = config.copy()
+    config_topn["n_heads"] = config_topn.get("n_retrain_heads", config["n_heads"])  # 回退为原值
+
+    model_topn, scores_topn, _, test_metrics_topn = main_from_dataloaders(
+        config_topn, train_dl2, val_dl2, test_dl2, prop_names2, seq_len2, n_props2, y_scaler2
+    )
+
+    return model_topn, scores_topn, prop_names2, test_metrics_topn
 
 
 if __name__ == "__main__":
 
-    data_set = "2003-2025" # "1963-2002" or "2003-2025"
-
+    # 切换至使用 time_series 拆分的CSV文件
     config = {
         # 文件路径
         "json_path": "data/prd/aaindex1_dicts.json",
+        "train_csv": "data/time_series/train.csv",
+        "val_csv":   "data/time_series/val.csv",
+        "test_csv":  "data/time_series/test.csv",
+        "out_path":  "data/time_series/prop1.csv",
 
         # 模型与训练参数
-        "batch_size": 256,
+        "batch_size": 1024,
         "n_heads": 4,
         "n_retrain_heads": 2,
-        "epochs": 200,
+        "epochs": 1000,
         "lr": 1e-3,
         "weight_decay": 1e-4,
-        "patience": 15,
+        "patience": 100,
 
         # 数据处理参数
-        "test_size": 0.2,
         "standardize_y": True,
         "corr_threshold": 0.6,
         "random_state": 42,
@@ -385,24 +401,11 @@ if __name__ == "__main__":
         "top_n": 5
     }
 
-    if data_set == "1963-2002":
-        config["seq_path"] = "data/prd/1963-2002/sequences.csv"
-        config["dist_path"] = "data/prd/1963-2002/distance_matrix.csv"
-        config["out_path"] = "data/prd/1963-2002/prop1.csv"
-    else:
-        config["seq_path"] = "data/prd/2003-2025/final_sequences.csv"
-        config["dist_path"] = "data/prd/2003-2025/2003_2025_distance_matrix.csv"
-        config["out_path"] = "data/prd/2003-2025/prop1.csv"
-
-
     torch.manual_seed(config["random_state"])
     np.random.seed(config["random_state"])
-    random.seed(config["random_state"])
+    random.seed(config["random_state"]) 
 
-
-    model_topn, scores_topn, top_n_props, test_metrics_topn = auto_select_and_retrain(config)
+    model_topn, scores_topn, top_n_props, test_metrics_topn = auto_select_and_retrain_time_series(config)
 
     scores_df = pd.DataFrame(scores_topn, columns=['prop_name', 'weight'])
     scores_df.to_csv(config["out_path"], index=False)
-
-
