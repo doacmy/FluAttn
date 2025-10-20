@@ -158,7 +158,7 @@ def main():
     hi_df = pd.read_csv('new_data/2003-2025.csv')
     dist_df = compute_antigenic_distance(hi_df)
 
-    seq_df = get_seq_info(dist_df)
+    get_seq_info(dist_df)
 
 
     # df = attach_sequences(dist_df)

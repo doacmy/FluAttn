@@ -14,7 +14,6 @@ Features:
 
 import re
 import csv
-import argparse
 from pathlib import Path
 from typing import List, Tuple, Optional
 
@@ -213,26 +212,24 @@ def write_fasta(records, path: Path, ungap: bool = False):
                 f.write(seq[i:i+60] + "\n")
 
 
-# ---------- CLI ----------
+# ---------- In-code configuration (no CLI) ----------
 def main():
-    ap = argparse.ArgumentParser(description="Extract HA1 with SP auto-trim and tail enforcement.")
-    ap.add_argument("--in", dest="inp", required=True, help="Input FASTA (AA sequences, may contain '-'/'X')")
-    ap.add_argument("--out_ha1", required=True, help="Output FASTA for HA1")
-    ap.add_argument("--report", default="report.csv", help="CSV report path")
-    ap.add_argument("--sp_mode", choices=["off", "auto", "fixed"], default="auto",
-                    help="SP trimming mode: off=no trim; auto=heuristic; fixed=remove --sp_len residues")
-    ap.add_argument("--sp_len", type=int, default=16, help="Used when --sp_mode fixed")
-    ap.add_argument("--apply_to_already_ha1", action="store_true",
-                    help="Also try SP trimming for sequences classified as already_HA1")
-    ap.add_argument("--ungap_out", action="store_true",
-                help="If set, remove '-' when saving HA1 sequences.")
-    args = ap.parse_args()
+    # Base directory: the folder containing this script
+    base = Path(__file__).resolve().parent
 
-    in_path = Path(args.inp)
-    out_path = Path(args.out_ha1)
-    rep_path = Path(args.report) if args.report else None
+    # In-code parameters (previously provided via CLI)
+    # Matches: --in new_data_1/ali.fasta --out_ha1 new_data_1/ha1.fasta
+    #          --report new_data_1/report.csv --sp_mode auto --ungap_out
+    in_path = base / "ali.fasta"
+    out_csv_path = base / "ha1.csv"
+    rep_path = base / "report.csv"
 
-    ha1_records = []
+    sp_mode = "auto"                 # choices: "off" | "auto" | "fixed"
+    sp_len = 16                      # used when sp_mode == "fixed"
+    apply_to_already_ha1 = False     # previously --apply_to_already_ha1
+    ungap_out = True                 # previously --ungap_out
+
+    out_seq_rows = []  # for CSV: Virus, HA1_Sequence
     rows = []
 
     for name, seq in read_fasta(in_path):
@@ -265,13 +262,13 @@ def main():
 
         # ---- Signal peptide trimming ----
         sp_action = "none"
-        if args.sp_mode != "off" and (method != "already_HA1" or args.apply_to_already_ha1):
+        if sp_mode != "off" and (method != "already_HA1" or apply_to_already_ha1):
             ha1_clean, _ = strip_gaps_upper(ha1)
             sp_cut = None
-            if args.sp_mode == "fixed":
-                sp_cut = args.sp_len
-                sp_action = f"fixed:{args.sp_len}"
-            elif args.sp_mode == "auto":
+            if sp_mode == "fixed":
+                sp_cut = sp_len
+                sp_action = f"fixed:{sp_len}"
+            elif sp_mode == "auto":
                 sp_cut = find_sp_cleavage(ha1_clean[:SP_SCAN_WINDOW])
                 sp_action = f"auto:{sp_cut}" if sp_cut is not None else "auto:none"
             if sp_cut is not None and sp_cut > 0:
@@ -285,7 +282,12 @@ def main():
             ha1 = clip_gapless_len_to_gapped_prefix(ha1, clip_len)
             tail_note = "|tail_enforced"
 
-        ha1_records.append((name + " |HA1", ha1))
+        # Prepare output sequence (optionally ungap) and record for CSV
+        ha1_out = ha1.replace('-', '') if ungap_out else ha1
+        virus_simple = name.split('|', 1)[0].strip()
+        # Only keep sequences of length 329 in the CSV
+        if len(ha1_out) == 329:
+            out_seq_rows.append({"Virus": virus_simple, "HA1_Sequence": ha1_out})
         rows.append({
             "name": name,
             "len_input": len(clean),
@@ -296,7 +298,11 @@ def main():
             "status": "OK"
         })
 
-    write_fasta(ha1_records, out_path, ungap=args.ungap_out)
+    # Write final sequences as CSV instead of FASTA
+    with out_csv_path.open('w', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=["Virus", "HA1_Sequence"])
+        w.writeheader()
+        w.writerows(out_seq_rows)
 
     if rep_path:
         with rep_path.open('w', newline='') as f:
@@ -316,5 +322,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-# python new_data_1/P1_extract_ha1.py  --in new_data_1/ali.fasta  --out_ha1 new_data_1/ha1.fasta  --report new_data_1/report.csv  --sp_mode auto --ungap_out
