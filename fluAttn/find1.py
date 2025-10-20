@@ -159,8 +159,50 @@ class SequencePairBinaryDataset(Dataset):
         return torch.from_numpy(x).float(), torch.tensor(y).float()
 
 
+class ResidualBlock(nn.Module):
+    def __init__(self, dim, dropout=0.0):
+        super().__init__()
+        self.norm = nn.LayerNorm(dim)
+        self.fc1 = nn.Linear(dim, dim)
+        self.act = nn.ReLU()
+        self.fc2 = nn.Linear(dim, dim)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x):
+        out = self.norm(x)
+        out = self.fc1(out)
+        out = self.act(out)
+        out = self.dropout(out)
+        out = self.fc2(out)
+        out = self.dropout(out)
+        return x + out
+
+
+class ResidualRegressor(nn.Module):
+    """
+    使用残差块的回归网络：输入 (B, L)，输出 (B, 1)
+    """
+    def __init__(self, input_dim, hidden_dim=256, depth=3, dropout=0.3):
+        super().__init__()
+        self.in_proj = nn.Sequential(
+            nn.Linear(input_dim, hidden_dim),
+            nn.ReLU(),
+        )
+        self.blocks = nn.ModuleList([ResidualBlock(hidden_dim, dropout=dropout) for _ in range(depth)])
+        self.out_norm = nn.LayerNorm(hidden_dim)
+        self.out = nn.Linear(hidden_dim, 1)
+
+    def forward(self, x):
+        x = self.in_proj(x)
+        for blk in self.blocks:
+            x = blk(x)
+        x = self.out_norm(x)
+        x = self.out(x)
+        return x
+
+
 class WeightedMultiHeadAttentionMLP(nn.Module):
-    def __init__(self, seq_len, n_props, n_heads=4):
+    def __init__(self, seq_len, n_props, n_heads=4, depth=100, dropout=0):
         super().__init__()
         self.n_heads = n_heads
         self.seq_len = seq_len
@@ -172,15 +214,8 @@ class WeightedMultiHeadAttentionMLP(nn.Module):
         # 多头融合权重
         self.head_weights = nn.Parameter(torch.randn(n_heads))
 
-        # 输出MLP网络
-        self.net = nn.Sequential(
-            nn.Linear(seq_len, 256),
-            nn.ReLU(),
-            nn.Dropout(0.3),
-            nn.Linear(256, 128),
-            nn.ReLU(),
-            nn.Linear(128, 1)
-        )
+        # 残差MLP网络（替代原简单MLP）
+        self.net = ResidualRegressor(input_dim=seq_len, hidden_dim=seq_len, depth=depth, dropout=dropout)
 
     def forward(self, x):
         B = x.size(0)
@@ -474,18 +509,18 @@ if __name__ == "__main__":
 
         # 模型与训练参数
         "batch_size": 256,
-        "n_heads": 4,
+        "n_heads": 2,
         "use_pure_mlp": False,  # True 启用纯MLP回归（禁用多头静态注意力）
         "use_aaindex": True,     # False 时使用0-1比对特征，跳过AAIndex
         "n_retrain_heads": 2,
-        "epochs": 1000,
+        "epochs": 2000,
         "lr": 1e-3,
         "weight_decay": 1e-3,
-        "patience": 60,
+        "patience": 100,
 
         # 数据处理参数
         "standardize_y": False,
-        "corr_threshold": 0.6,
+        "corr_threshold": 0.7,
         "random_state": 42,
 
         # Top-N 属性选择
