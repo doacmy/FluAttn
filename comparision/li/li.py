@@ -404,9 +404,12 @@ if __name__ == "__main__":
 
     # Directly load X and Y from time series CSVs with columns: S1, S2, distance
     train_csv = "data/time_series/train.csv"
-    test_csv = "data/time_series/val.csv"
+    val_csv = "data/time_series/val.csv"
+    test_csv = "data/time_series/test.csv"
 
     df_train = pd.read_csv(train_csv)
+    df_val = pd.read_csv(val_csv)
+    df_train = pd.concat([df_train, df_val], axis=0, ignore_index=True)
     df_test = pd.read_csv(test_csv)
 
     # Compute non-conserved positions on the training set only

@@ -251,6 +251,15 @@ def auto_select_and_retrain(config):
     # 直接从 data/time_series/{train,val,test}.csv 读取 S1,S2,distance
     df_train = pd.read_csv(config["train_csv"])  # 需包含列: S1, S2, distance
     df_val   = pd.read_csv(config["val_csv"])    # 需包含列: S1, S2, distance
+
+    if not df_val.empty:
+        rs = config.get("random_state", None)
+        keep_val = df_val.sample(frac=0.2, random_state=rs)
+        move_to_train = df_val.drop(keep_val.index)
+        if not move_to_train.empty:
+            df_train = pd.concat([df_train, move_to_train], ignore_index=True)
+        df_val = keep_val.reset_index(drop=True)
+
     df_test  = pd.read_csv(config["test_csv"])   # 需包含列: S1, S2, distance
 
     prop_matrix, prop_names = load_aaindex_tensor(config)

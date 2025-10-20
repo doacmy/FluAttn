@@ -205,7 +205,7 @@ def _build_features_from_pairs(df: pd.DataFrame, props_1, weights_1, matrix_list
             M[m] = mat[ii1, ii2]
         X2[i, vi] = np.dot(w2, M)
 
-    X = np.concatenate([X0,X1,X2], axis=1)
+    X = np.concatenate([X2], axis=1)
     return X
 
 def get_data_from_pairs_csv(csv_path: str):
