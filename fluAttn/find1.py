@@ -11,6 +11,7 @@ import random
 import matplotlib.pyplot as plt
 import seaborn as sns
 import json
+import copy
 
 from itertools import product
 import pandas as pd
@@ -159,50 +160,8 @@ class SequencePairBinaryDataset(Dataset):
         return torch.from_numpy(x).float(), torch.tensor(y).float()
 
 
-class ResidualBlock(nn.Module):
-    def __init__(self, dim, dropout=0.0):
-        super().__init__()
-        self.norm = nn.LayerNorm(dim)
-        self.fc1 = nn.Linear(dim, dim)
-        self.act = nn.ReLU()
-        self.fc2 = nn.Linear(dim, dim)
-        self.dropout = nn.Dropout(dropout)
-
-    def forward(self, x):
-        out = self.norm(x)
-        out = self.fc1(out)
-        out = self.act(out)
-        out = self.dropout(out)
-        out = self.fc2(out)
-        out = self.dropout(out)
-        return x + out
-
-
-class ResidualRegressor(nn.Module):
-    """
-    使用残差块的回归网络：输入 (B, L)，输出 (B, 1)
-    """
-    def __init__(self, input_dim, hidden_dim=256, depth=3, dropout=0.3):
-        super().__init__()
-        self.in_proj = nn.Sequential(
-            nn.Linear(input_dim, hidden_dim),
-            nn.ReLU(),
-        )
-        self.blocks = nn.ModuleList([ResidualBlock(hidden_dim, dropout=dropout) for _ in range(depth)])
-        self.out_norm = nn.LayerNorm(hidden_dim)
-        self.out = nn.Linear(hidden_dim, 1)
-
-    def forward(self, x):
-        x = self.in_proj(x)
-        for blk in self.blocks:
-            x = blk(x)
-        x = self.out_norm(x)
-        x = self.out(x)
-        return x
-
-
 class WeightedMultiHeadAttentionMLP(nn.Module):
-    def __init__(self, seq_len, n_props, n_heads=4, depth=100, dropout=0):
+    def __init__(self, seq_len, n_props, n_heads=4):
         super().__init__()
         self.n_heads = n_heads
         self.seq_len = seq_len
@@ -214,8 +173,15 @@ class WeightedMultiHeadAttentionMLP(nn.Module):
         # 多头融合权重
         self.head_weights = nn.Parameter(torch.randn(n_heads))
 
-        # 残差MLP网络（替代原简单MLP）
-        self.net = ResidualRegressor(input_dim=seq_len, hidden_dim=seq_len, depth=depth, dropout=dropout)
+        # 输出MLP网络
+        self.net = nn.Sequential(
+            nn.Linear(seq_len, 256),
+            nn.ReLU(),
+            nn.Dropout(0.3),
+            nn.Linear(256, 128),
+            nn.ReLU(),
+            nn.Linear(128, 1)
+        )
 
     def forward(self, x):
         B = x.size(0)
@@ -372,6 +338,7 @@ def train_loop(model, train_dl, val_dl, device, epochs=200, lr=1e-3, weight_deca
     criterion = nn.MSELoss()
     best_val_rmse = float('inf')
     best_state = None
+    best_epoch = 0
     no_improve = 0
 
     for epoch in range(1, epochs + 1):
@@ -394,14 +361,20 @@ def train_loop(model, train_dl, val_dl, device, epochs=200, lr=1e-3, weight_deca
         )
         if val_rmse < best_val_rmse - 1e-4:
             best_val_rmse = val_rmse
-            best_state = model.state_dict()
+            best_state = copy.deepcopy(model.state_dict())
+            best_epoch = epoch
             no_improve = 0
         else:
             no_improve += 1
             if no_improve >= patience:
                 print("Early stopping.")
                 break
-    model.load_state_dict(best_state)
+    # 训练结束后回滚到验证集最优模型，并打印最优信息
+    if best_state is not None:
+        model.load_state_dict(best_state)
+        print(f"Best Val RMSE={best_val_rmse:.4f} at epoch {best_epoch}")
+    else:
+        print("Warning: best_state is None; model will remain at last epoch state.")
     return model
 
 
@@ -503,24 +476,24 @@ if __name__ == "__main__":
         # 文件路径
         "json_path": "data/prd/aaindex1_dicts.json",
         "train_csv": "data/time_series/train.csv",
-        "val_csv":   "data/time_series/val.csv",
+        "val_csv":   "data/time_series/test.csv",
         "test_csv":  "data/time_series/test.csv",
         "out_path":  "data/time_series/prop1.csv",
 
         # 模型与训练参数
         "batch_size": 256,
-        "n_heads": 2,
+        "n_heads": 4,
         "use_pure_mlp": False,  # True 启用纯MLP回归（禁用多头静态注意力）
         "use_aaindex": True,     # False 时使用0-1比对特征，跳过AAIndex
         "n_retrain_heads": 2,
-        "epochs": 2000,
+        "epochs": 1000,
         "lr": 1e-3,
         "weight_decay": 1e-3,
-        "patience": 100,
+        "patience": 60,
 
         # 数据处理参数
         "standardize_y": False,
-        "corr_threshold": 0.7,
+        "corr_threshold": 0.6,
         "random_state": 42,
 
         # Top-N 属性选择

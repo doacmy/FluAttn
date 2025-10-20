@@ -51,7 +51,7 @@ def compute_antigenic_distance(hi_long: pd.DataFrame) -> pd.DataFrame:
 
 def attach_sequences(
     dist_df: pd.DataFrame,
-    seq_csv_path: str = 'data/prd/2003-2025/sequences.csv',
+    seq_csv_path: str = None,
     virus_col: str = 'Virus',
     seq_col: str = 'HA1_Sequence',
     test_col: str = 'Test Virus',
@@ -59,9 +59,12 @@ def attach_sequences(
     test_seq_out: str = 'S1',
     ref_seq_out: str = 'S2',
 ):
+
     seq_df = pd.read_csv(seq_csv_path, usecols=[virus_col, seq_col])
-    seq_df = seq_df.drop_duplicates(subset=[virus_col], keep='first')
     seq_df[virus_col] = seq_df[virus_col].astype(str).str.strip()
+    seq_df[seq_col] = seq_df[seq_col].astype(str).str.strip()
+    seq_df = seq_df.dropna(subset=[seq_col])
+    seq_df = seq_df.drop_duplicates(subset=[virus_col, seq_col], keep='first')
 
     out = dist_df.copy()
     out[test_col] = out[test_col].astype(str).str.strip()
@@ -70,6 +73,7 @@ def attach_sequences(
     seq_for_test = seq_df.rename(columns={virus_col: test_col, seq_col: test_seq_out})
     seq_for_ref = seq_df.rename(columns={virus_col: ref_col, seq_col: ref_seq_out})
 
+    # 顺序左连接会在每个 (Test, Ref) 对上展开出 S1×S2 的笛卡尔积
     out = out.merge(seq_for_test, on=test_col, how='left')
     out = out.merge(seq_for_ref, on=ref_col, how='left')
 
@@ -120,57 +124,23 @@ def filter_year_vs_range(
     )
     return tmp[mask].copy()[['S1', 'S2', 'distance']]
 
-def get_seq_info(df):
-    fasta_dir = 'data/raw/GISAID'
-    raw_out_fasta = 'new_data_1/raw.fasta'
-    ali_out_fasta= 'new_data_1/ali.fasta'
-
-    test_names = df['Test Virus'].astype(str).str.strip()
-    ref_names = df['Reference Virus'].astype(str).str.strip()
-    all_viruses: Iterable[str] = pd.unique(pd.concat([test_names, ref_names], ignore_index=True))
-
-    records = []
-    if os.path.isdir(fasta_dir):
-        for fname in os.listdir(fasta_dir):
-            fpath = os.path.join(fasta_dir, fname)
-            for record in SeqIO.parse(fpath, 'fasta'):
-                name = str(record.description).split('|')[0].strip()
-                if name not in all_viruses:
-                    continue
-
-                seq = str(record.seq).strip()
-                if ('-' in seq) or ('X' in seq):
-                    continue
-                records.append(record)
-
-    
-    with open(raw_out_fasta, 'w') as handle:
-        SeqIO.write(records, handle, 'fasta')
-
-    os.system(f"muscle -in {raw_out_fasta} -out {ali_out_fasta} -maxiters 16 -diags")
-
-
-
 
 
 def main():
-
+    seq_csv_path = 'new_data_1/ha1.csv'
     hi_df = pd.read_csv('new_data/2003-2025.csv')
     dist_df = compute_antigenic_distance(hi_df)
 
-    get_seq_info(dist_df)
+    df = attach_sequences(dist_df, seq_csv_path)
 
+    train_df = filter_by_year_range(df, 2007, 2017)
+    train_df.to_csv('data/time_series/train.csv', index=False)
 
-    # df = attach_sequences(dist_df)
+    val_df = filter_year_vs_range(df, range_min=2007, range_max=2017, year=2018)
+    val_df.to_csv('data/time_series/val.csv', index=False)
 
-    # train_df = filter_by_year_range(df, 2007, 2017)
-    # train_df.to_csv('data/time_series/train.csv', index=False)
-
-    # val_df = filter_year_vs_range(df, range_min=2007, range_max=2017, year=2018)
-    # val_df.to_csv('data/time_series/val.csv', index=False)
-
-    # test_df = filter_year_vs_range(df, range_min=2007, range_max=2017, year=2019)
-    # test_df.to_csv('data/time_series/test.csv', index=False)
+    test_df = filter_year_vs_range(df, range_min=2007, range_max=2017, year=2019)
+    test_df.to_csv('data/time_series/test.csv', index=False)
 
     
 
