@@ -205,16 +205,10 @@ def _build_features_from_pairs(df: pd.DataFrame, props_1, weights_1, matrix_list
             M[m] = mat[ii1, ii2]
         X2[i, vi] = np.dot(w2, M)
 
-    X = np.concatenate([X2], axis=1)
+    X = np.concatenate([X0, X1, X2], axis=1)
     return X
 
-def get_data_from_pairs_csv(csv_path: str):
-    df = pd.read_csv(csv_path)
-    required_cols = {"S1", "S2", "distance"}
-    if not required_cols.issubset(df.columns):
-        missing = required_cols - set(df.columns)
-        raise ValueError(f"Missing required columns in {csv_path}: {missing}")
-
+def get_data_from_pairs_df(df):
     props_1, weights_1 = load_standardized_aaindex_1_props()
     props_2, weights_2 = load_standardized_aaindex_2_props()
 
@@ -239,7 +233,7 @@ class PairDataset(Dataset):
         return torch.from_numpy(x).float(), torch.tensor(y).float()
 
 class MLPRegressor(torch.nn.Module):
-    def __init__(self, input_dim, hidden_dims=[2048, 512, 64], dropout=0):
+    def __init__(self, input_dim, hidden_dims=[1024, 256, 128, 64], dropout=0):
         super().__init__()
         layers = []
         dims = [input_dim] + hidden_dims
@@ -298,9 +292,9 @@ if __name__ == "__main__":
         "aaindex_2_path": "data/prd/aaindex2_dicts.json",
         "prop1_path": "data/time_series/prop1.csv",
         "prop2_path": "data/time_series/prop2.csv",
-        "train_pairs_path": "data/time_series/train.csv",
-        "val_pairs_path": "data/time_series/val.csv",
-        "test_pairs_path": "data/time_series/test.csv",
+        "train_csv": "data/time_series/train.csv",
+        "val_csv": "data/time_series/val.csv",
+        "test_csv": "data/time_series/test.csv",
         "standardize_y": True,
         "patience": 20,
         "stopping_delta": 1e-4,
@@ -309,10 +303,23 @@ if __name__ == "__main__":
 
     set_global_seed(config["random_state"])
 
+    df_train = pd.read_csv(config["train_csv"])  # 需包含列: S1, S2, distance
+    df_val   = pd.read_csv(config["val_csv"])    # 需包含列: S1, S2, distance
+
+    if not df_val.empty:
+        rs = config.get("random_state", None)
+        keep_val = df_val.sample(frac=0.2, random_state=rs)
+        move_to_train = df_val.drop(keep_val.index)
+        if not move_to_train.empty:
+            df_train = pd.concat([df_train, move_to_train], ignore_index=True)
+        df_val = keep_val.reset_index(drop=True)
+
+    df_test  = pd.read_csv(config["test_csv"])   # 需包含列: S1, S2, distance
+
     # Load train/val/test directly from time_series CSVs
-    X_train, y_train = get_data_from_pairs_csv(config["train_pairs_path"])
-    X_val,   y_val   = get_data_from_pairs_csv(config["val_pairs_path"])
-    X_test,  y_test  = get_data_from_pairs_csv(config["test_pairs_path"])
+    X_train, y_train = get_data_from_pairs_df(df_train)
+    X_val,   y_val   = get_data_from_pairs_df(df_val)
+    X_test,  y_test  = get_data_from_pairs_df(df_test)
 
     y_scaler = None
     if config["standardize_y"]:
