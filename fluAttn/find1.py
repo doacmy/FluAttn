@@ -476,8 +476,8 @@ if __name__ == "__main__":
         # 文件路径
         "json_path": "data/prd/aaindex1_dicts.json",
         "train_csv": "data/time_series/train.csv",
-        "val_csv":   "data/time_series/test.csv",
-        "test_csv":  "data/time_series/test.csv",
+        "val_csv":   "data/time_series/val.csv",
+        "test_csv":  "data/time_series/val.csv",
         "out_path":  "data/time_series/prop1.csv",
 
         # 模型与训练参数
@@ -486,10 +486,10 @@ if __name__ == "__main__":
         "use_pure_mlp": False,  # True 启用纯MLP回归（禁用多头静态注意力）
         "use_aaindex": True,     # False 时使用0-1比对特征，跳过AAIndex
         "n_retrain_heads": 2,
-        "epochs": 1000,
+        "epochs": 100,
         "lr": 1e-3,
         "weight_decay": 1e-3,
-        "patience": 60,
+        "patience": 20,
 
         # 数据处理参数
         "standardize_y": False,

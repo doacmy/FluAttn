@@ -110,6 +110,36 @@ def has_glycosylation(seq):
     return positions
 
 
+def compute_nonconserved_positions_from_df(df: pd.DataFrame):
+    """
+    Compute non-conserved (variable) site indices based on sequences
+    present in the training set DataFrame. The DataFrame must have columns
+    'S1' and 'S2'. We consider all sequences in S1 and S2 and find indices
+    where at least two different residues appear.
+
+    Returns a sorted numpy array of 0-based indices.
+    """
+    if not {"S1", "S2"}.issubset(df.columns):
+        raise ValueError("DataFrame must contain 'S1' and 'S2' columns")
+
+    seqs = [str(s).strip() for s in df["S1"].tolist()] + [str(s).strip() for s in df["S2"].tolist()]
+    if len(seqs) == 0:
+        return np.array([], dtype=int)
+
+    L = len(seqs[0])
+    for idx, s in enumerate(seqs):
+        if len(s) != L:
+            raise ValueError(f"Inconsistent sequence lengths in training set at item {idx}: expected {L}, got {len(s)}")
+
+    variable_indices = []
+    for i in range(L):
+        chars = {s[i] for s in seqs}
+        if len(chars) > 1:
+            variable_indices.append(i)
+
+    return np.array(sorted(variable_indices), dtype=int)
+
+
 def split_data(n, test_size=0.2):
     pairs = list(combinations(range(n), 2))
     random.seed(random_state)
@@ -196,13 +226,109 @@ def Calculate_X_Y(pairs, virus_names, seqs_var, distance_matrix_path):
 
 
 
+def Calculate_X_Y_from_df(df: pd.DataFrame, variable_indices=None):
+    """
+    Build X and Y directly from a DataFrame with columns:
+    - 'S1': sequence 1 (string)
+    - 'S2': sequence 2 (string)
+    - 'distance': antigenic distance (float)
+
+    Feature construction mirrors Calculate_X_Y above:
+    - binary mutation vector of length L
+    - 12 additional engineered features
+    """
+    required_cols = {"S1", "S2", "distance"}
+    if not required_cols.issubset(df.columns):
+        missing = required_cols - set(df.columns)
+        raise ValueError(f"Missing required columns: {missing}")
+
+    N = len(df)
+    # Assume all sequences are the same length; infer from first row
+    first_s1 = str(df.iloc[0]["S1"]) if N > 0 else ""
+    L = len(first_s1)
+    if N == 0:
+        return np.zeros((0, 0)), np.array([])
+
+    # Determine which positions to use for the binary mutation vector
+    if variable_indices is None:
+        # If not provided, default to using all positions
+        variable_indices = np.arange(L, dtype=int)
+    else:
+        variable_indices = np.asarray(variable_indices, dtype=int)
+        if variable_indices.ndim != 1:
+            raise ValueError("variable_indices must be a 1D array of indices")
+
+    M = len(variable_indices)
+
+    X = np.zeros((N, M + 12))
+    Y = np.zeros(N)
+
+    for idx, row in df.iterrows():
+        seq1 = str(row["S1"]).strip()
+        seq2 = str(row["S2"]).strip()
+
+        if len(seq1) != L or len(seq2) != L:
+            raise ValueError(
+                f"Inconsistent sequence lengths at row {idx}: len(S1)={len(seq1)}, len(S2)={len(seq2)}, expected {L}"
+            )
+
+        # 1) Binary mutation vector limited to variable positions (train-defined)
+        binary_diff_full = np.array([0 if aa1 == aa2 else 1 for aa1, aa2 in zip(seq1, seq2)])
+        binary_diff = binary_diff_full[variable_indices]
+        X[idx, :M] = binary_diff
+
+        # 2) Count of mutations
+        # indices of mutations in full-length coordinate space
+        mutations_full = np.where(binary_diff_full == 1)[0]
+        X[idx, M + 0] = len(mutations_full)
+
+        # 3) N-glycosylation motif difference
+        gly1 = set(has_glycosylation(seq1))
+        gly2 = set(has_glycosylation(seq2))
+        X[idx, M + 1] = 1 if gly1 != gly2 else 0
+
+        # 4) Crucial positions mutated
+        key_mut = any(seq1[pos-1] != seq2[pos-1] for pos in crucial_positions if pos-1 < len(seq1))
+        X[idx, M + 2] = 1 if key_mut else 0
+
+        # 5) Epitope A-E mutated
+        for epi_idx, epi in enumerate(["A", "B", "C", "D", "E"]):
+            epi_sites = epitope_sites[epi]
+            epi_mut = any(seq1[pos-1] != seq2[pos-1] for pos in epi_sites if pos-1 < len(seq1))
+            X[idx, M + 3 + epi_idx] = 1 if epi_mut else 0
+
+        # 6) Physicochemical property differences (mean of top-3 diffs)
+        for feat_idx, prop in enumerate([hydrophobicity, volume, charge, polarity]):
+            diffs = []
+            for k in mutations_full:
+                aa1 = seq1[k]
+                aa2 = seq2[k]
+                val1 = prop.get(aa1, 0)
+                val2 = prop.get(aa2, 0)
+                diffs.append(abs(val1 - val2))
+
+            if len(diffs) == 0:
+                mean_diff = 0
+            elif len(diffs) < 3:
+                mean_diff = np.mean(diffs)
+            else:
+                mean_diff = np.mean(sorted(diffs, reverse=True)[:3])
+
+            X[idx, M + 8 + feat_idx] = mean_diff
+
+        # 7) Y: antigenic distance from the CSV
+        Y[idx] = float(row["distance"])
+
+    return X, Y
+
+
 def train_xgboost_with_cv(X_train, Y_train):
     
     param_grid = {
-        'max_depth': [6, 7, 8],
-        'learning_rate': [0.05, 0.1, 0.2],
-        'n_estimators': [200, 300, 400],
-        'gamma': [0.05, 0.1, 0.2]
+        'max_depth': [6],
+        'learning_rate': [0.05],
+        'n_estimators': [200],
+        'gamma': [0.1]
     }
 
     model = xgb.XGBRegressor(
@@ -275,19 +401,21 @@ def plot_true_vs_predicted_MDS(distance_matrix_path, virus_names, test_pairs, Y_
 
 if __name__ == "__main__":
     random_state = 42
-    data_set = "2003-2025" # "1963-2002" or "2003-2025"
-    if data_set == "1963-2002":
-        sequences_path = "data/prd/1963-2002/sequences.csv"
-        distance_matrix_path = "data/prd/1963-2002/distance_matrix.csv"
-    else:
-        sequences_path = "data/prd/2003-2025/final_sequences.csv"
-        distance_matrix_path = "data/prd/2003-2025/2003_2025_distance_matrix.csv"
 
-    virus_names, seqs_var = extract_variable_sites(sequences_path)
-    train_pairs, test_pairs = split_data(len(virus_names), test_size=0.2)
+    # Directly load X and Y from time series CSVs with columns: S1, S2, distance
+    train_csv = "data/time_series/train.csv"
+    test_csv = "data/time_series/val.csv"
 
-    X_train, Y_train = Calculate_X_Y(train_pairs, virus_names, seqs_var, distance_matrix_path)
-    X_test, Y_test = Calculate_X_Y(test_pairs, virus_names, seqs_var, distance_matrix_path)
+    df_train = pd.read_csv(train_csv)
+    df_test = pd.read_csv(test_csv)
+
+    # Compute non-conserved positions on the training set only
+    var_idx = compute_nonconserved_positions_from_df(df_train)
+    L_train = len(str(df_train.iloc[0]["S1"])) if len(df_train) > 0 else 0
+    print(f"Variable sites (train): {len(var_idx)}/{L_train}")
+
+    X_train, Y_train = Calculate_X_Y_from_df(df_train, variable_indices=var_idx)
+    X_test, Y_test = Calculate_X_Y_from_df(df_test, variable_indices=var_idx)
 
     model = train_xgboost_with_cv(X_train, Y_train)
     Y_pred = model.predict(X_test)
@@ -297,8 +425,6 @@ if __name__ == "__main__":
     mae = mean_absolute_error(Y_test, Y_pred)
     print(f"RMSE: {rmse:.4f}, R^2: {r2:.4f}, MAE: {mae:.4f}")
 
-    # plot_true_vs_predicted_MDS(distance_matrix_path, virus_names, test_pairs, Y_pred, data_set)
-
 # 1963-2002
 # Best parameters: {'gamma': 0.05, 'learning_rate': 0.2, 'max_depth': 7, 'n_estimators': 400}
 # RMSE: 0.7768, R^2: 0.9809, MAE: 0.5720
@@ -306,4 +432,3 @@ if __name__ == "__main__":
 # 2003-2025
 # Best parameters: {'gamma': 0.1, 'learning_rate': 0.2, 'max_depth': 8, 'n_estimators': 400}
 # RMSE: 1.0576, R^2: 0.7142, MAE: 0.7949
-
