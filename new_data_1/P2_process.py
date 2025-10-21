@@ -112,7 +112,6 @@ def filter_year_vs_range(
     test_col: str = 'Test Virus',
     ref_col: str = 'Reference Virus',
 ):
-    # 一列年份为 2018，另一列在 [2007, 2017]
     tmp = df.copy()
     test_year = tmp[test_col].astype(str).str.strip().str.extract(r'(\d{4})\s*$')[0]
     ref_year = tmp[ref_col].astype(str).str.strip().str.extract(r'(\d{4})\s*$')[0]
@@ -133,14 +132,25 @@ def main():
 
     df = attach_sequences(dist_df, seq_csv_path)
 
-    train_df = filter_by_year_range(df, 2007, 2017)
-    train_df.to_csv('data/time_series/train.csv', index=False)
+    base = 'data/time_series'
 
-    val_df = filter_year_vs_range(df, range_min=2007, range_max=2017, year=2018)
-    val_df.to_csv('data/time_series/val.csv', index=False)
+    train_val_window = 6
 
-    test_df = filter_year_vs_range(df, range_min=2007, range_max=2017, year=2019)
-    test_df.to_csv('data/time_series/test.csv', index=False)
+    for test_data_year in range(2019, 2025):
+        os.makedirs(f"{base}/{test_data_year}", exist_ok=True)
+
+        val_data_year = test_data_year - 1
+        train_data_end = val_data_year - 1
+        train_data_start = test_data_year - train_val_window
+        
+        train_df = filter_by_year_range(df, train_data_start, train_data_end)
+        train_df.to_csv(f'{base}/{test_data_year}/train.csv', index=False)
+
+        val_df = filter_year_vs_range(df, range_min=train_data_start, range_max=train_data_end, year=val_data_year)
+        val_df.to_csv(f'{base}/{test_data_year}/val.csv', index=False)
+
+        test_df = filter_year_vs_range(df, range_min=train_data_start, range_max=train_data_end, year=test_data_year)
+        test_df.to_csv(f'{base}/{test_data_year}/test.csv', index=False)
 
     
 

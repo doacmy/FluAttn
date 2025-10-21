@@ -1,4 +1,5 @@
 import numpy as np
+import os
 import random
 import pandas as pd
 from itertools import combinations
@@ -325,9 +326,9 @@ def Calculate_X_Y_from_df(df: pd.DataFrame, variable_indices=None):
 def train_xgboost_with_cv(X_train, Y_train):
     
     param_grid = {
-        'max_depth': [6],
-        'learning_rate': [0.05],
-        'n_estimators': [200],
+        'max_depth': [8],
+        'learning_rate': [0.2],
+        'n_estimators': [400],
         'gamma': [0.1]
     }
 
@@ -402,36 +403,38 @@ def plot_true_vs_predicted_MDS(distance_matrix_path, virus_names, test_pairs, Y_
 if __name__ == "__main__":
     random_state = 42
 
-    # Directly load X and Y from time series CSVs with columns: S1, S2, distance
-    train_csv = "data/time_series/train.csv"
-    val_csv = "data/time_series/val.csv"
-    test_csv = "data/time_series/test.csv"
+    for test_year in range(2019,2025):
 
-    df_train = pd.read_csv(train_csv)
-    df_val = pd.read_csv(val_csv)
-    df_train = pd.concat([df_train, df_val], axis=0, ignore_index=True)
-    df_test = pd.read_csv(test_csv)
+        # Directly load X and Y from time series CSVs with columns: S1, S2, distance
+        train_csv = f"data/time_series/{test_year}/train.csv"
+        val_csv = f"data/time_series/{test_year}/val.csv"
+        test_csv = f"data/time_series/{test_year}/test.csv"
 
-    # Compute non-conserved positions on the training set only
-    var_idx = compute_nonconserved_positions_from_df(df_train)
-    L_train = len(str(df_train.iloc[0]["S1"])) if len(df_train) > 0 else 0
-    print(f"Variable sites (train): {len(var_idx)}/{L_train}")
+        df_train = pd.read_csv(train_csv)
+        df_val = pd.read_csv(val_csv)
+        df_train = pd.concat([df_train, df_val], axis=0, ignore_index=True)
+        df_test = pd.read_csv(test_csv)
 
-    X_train, Y_train = Calculate_X_Y_from_df(df_train, variable_indices=var_idx)
-    X_test, Y_test = Calculate_X_Y_from_df(df_test, variable_indices=var_idx)
+        # Compute non-conserved positions on the training set only
+        var_idx = compute_nonconserved_positions_from_df(df_train)
+        L_train = len(str(df_train.iloc[0]["S1"])) if len(df_train) > 0 else 0
+        print(f"Variable sites (train): {len(var_idx)}/{L_train}")
 
-    model = train_xgboost_with_cv(X_train, Y_train)
-    Y_pred = model.predict(X_test)
+        X_train, Y_train = Calculate_X_Y_from_df(df_train, variable_indices=var_idx)
+        X_test, Y_test = Calculate_X_Y_from_df(df_test, variable_indices=var_idx)
 
-    rmse = np.sqrt(mean_squared_error(Y_test, Y_pred))
-    r2 = r2_score(Y_test, Y_pred)
-    mae = mean_absolute_error(Y_test, Y_pred)
-    print(f"RMSE: {rmse:.4f}, R^2: {r2:.4f}, MAE: {mae:.4f}")
+        model = train_xgboost_with_cv(X_train, Y_train)
+        Y_pred = model.predict(X_test)
 
-# 1963-2002
-# Best parameters: {'gamma': 0.05, 'learning_rate': 0.2, 'max_depth': 7, 'n_estimators': 400}
-# RMSE: 0.7768, R^2: 0.9809, MAE: 0.5720
+        rmse = np.sqrt(mean_squared_error(Y_test, Y_pred))
+        r2 = r2_score(Y_test, Y_pred)
+        mae = mean_absolute_error(Y_test, Y_pred)
+        print(f"{test_year} RMSE: {rmse:.4f}, R^2: {r2:.4f}, MAE: {mae:.4f}")
+        # Save yearly results to 'comparision/li/result.csv'
+        result_path = 'time_result/li.csv'
+        os.makedirs(os.path.dirname(result_path), exist_ok=True)
+        row = {"year": test_year, "rmse": rmse, "mae": mae, "r2": r2}
+        df_row = pd.DataFrame([row])
+        write_header = not os.path.exists(result_path) or os.stat(result_path).st_size == 0
+        df_row.to_csv(result_path, mode='a', index=False, header=write_header)
 
-# 2003-2025
-# Best parameters: {'gamma': 0.1, 'learning_rate': 0.2, 'max_depth': 8, 'n_estimators': 400}
-# RMSE: 1.0576, R^2: 0.7142, MAE: 0.7949

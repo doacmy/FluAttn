@@ -120,13 +120,20 @@ def main():
     dist_df = compute_antigenic_distance(hi_df)
     df = attach_sequences(dist_df)
 
-    train_df = filter_by_year_range(df, 2016, 2017)
+    train_val_window = 10
+    test_data_year = 2022
+
+    val_data_year = test_data_year - 1
+    train_data_end = val_data_year - 1
+    train_data_start = test_data_year - train_val_window
+    
+    train_df = filter_by_year_range(df, train_data_start, train_data_end)
     train_df.to_csv('data/time_series/train.csv', index=False)
 
-    val_df = filter_year_vs_range(df, range_min=2016, range_max=2017, year=2018)
+    val_df = filter_year_vs_range(df, range_min=train_data_start, range_max=train_data_end, year=val_data_year)
     val_df.to_csv('data/time_series/val.csv', index=False)
 
-    test_df = filter_year_vs_range(df, range_min=2016, range_max=2017, year=2019)
+    test_df = filter_year_vs_range(df, range_min=train_data_start, range_max=train_data_end, year=test_data_year)
     test_df.to_csv('data/time_series/test.csv', index=False)
 
     

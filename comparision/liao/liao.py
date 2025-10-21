@@ -1,31 +1,10 @@
 import random
+import os
 import numpy as np
 import pandas as pd
 from itertools import combinations
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
-
-
-def split_data(n, test_size=0.2):
-    pairs = list(combinations(range(n), 2))
-    random.seed(random_state)
-    random.shuffle(pairs)
-    
-    N = len(pairs)
-    test_count = int(N * test_size)
-    
-    test_pairs = pairs[:test_count]
-    train_pairs = pairs[test_count:]
-    
-    return train_pairs, test_pairs
-
-def extract_variable_sites(sequences_path):
-    sequences_df = pd.read_csv(sequences_path)
-    seqs = sequences_df['HA1_sequence'].apply(list).to_list()
-    seqs_var = np.array(seqs)
-
-    virus_names = sequences_df['short_name'].tolist()
-    return virus_names, seqs_var
 
 def Calculate_X_Y(groups, pairs, virus_names, seqs_var):
 
@@ -166,33 +145,43 @@ gm6 = {
 
 if __name__ == "__main__":
 
-    # 直接从 time_series 的 CSV 中读取 S1, S2, distance
-    train_csv = "data/time_series/train.csv"
-    val_csv = "data/time_series/val.csv"
-    test_csv = "data/time_series/test.csv"
+    for test_year in range(2019,2025):
+        train_csv = f"data/time_series/{test_year}/train.csv"
+        val_csv = f"data/time_series/{test_year}/val.csv"
+        test_csv = f"data/time_series/{test_year}/test.csv"
 
-    df_train = pd.read_csv(train_csv)
-    df_val = pd.read_csv(val_csv)
-    df_train = pd.concat([df_train, df_val], axis=0, ignore_index=True)
-    df_test = pd.read_csv(test_csv)
+        df_train = pd.read_csv(train_csv)
+        df_val = pd.read_csv(val_csv)
+        df_train = pd.concat([df_train, df_val], axis=0, ignore_index=True)
+        df_test = pd.read_csv(test_csv)
 
-    i = 1
-    gs = [gm1, gm2, gm3, gm4, gm5, gm6]
-    for gm in gs:
-        X_train, Y_train = Calculate_X_Y_from_df(gm, df_train)
-        X_test, Y_test = Calculate_X_Y_from_df(gm, df_test)
+        i = 1
+        gs = [gm1, gm2, gm3, gm4, gm5, gm6]
+        for gm in gs:
+            X_train, Y_train = Calculate_X_Y_from_df(gm, df_train)
+            X_test, Y_test = Calculate_X_Y_from_df(gm, df_test)
 
-        model = LinearRegression()
-        model.fit(X_train, Y_train)
+            model = LinearRegression()
+            model.fit(X_train, Y_train)
 
-        Y_pred = model.predict(X_test)
+            Y_pred = model.predict(X_test)
 
-        rmse = np.sqrt(mean_squared_error(Y_test, Y_pred))
-        r2 = r2_score(Y_test, Y_pred)
-        mae = mean_absolute_error(Y_test, Y_pred)
-        print(f"Group: gm_{i} RMSE: {rmse:.4f}, R^2: {r2:.4f}, MAE: {mae:.4f}")
+            rmse = np.sqrt(mean_squared_error(Y_test, Y_pred))
+            r2 = r2_score(Y_test, Y_pred)
+            mae = mean_absolute_error(Y_test, Y_pred)
+            print(f"Group: gm_{i} RMSE: {rmse:.4f}, R^2: {r2:.4f}, MAE: {mae:.4f}")
 
-        i += 1
+            
+
+            if i == 4:
+                result_path = 'time_result/liao.csv'
+                os.makedirs(os.path.dirname(result_path), exist_ok=True)
+                row = {"year": test_year, "RMSE": rmse, "MAE": mae, "R2": r2}
+                df_row = pd.DataFrame([row])
+                write_header = not os.path.exists(result_path) or os.stat(result_path).st_size == 0
+                df_row.to_csv(result_path, mode='a', index=False, header=write_header)
+            
+            i += 1
 
 
 # 1963-2002

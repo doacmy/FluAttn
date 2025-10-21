@@ -11,6 +11,7 @@ import random
 import matplotlib.pyplot as plt
 import seaborn as sns
 import json
+import copy
 
 from itertools import product
 import pandas as pd
@@ -187,7 +188,7 @@ def train_loop(model, train_dl, val_dl, device, epochs=200, lr=1e-3, weight_deca
         print(f"[Epoch {epoch:03d}] Val RMSE={val_rmse:.4f}, Pearson={val_metrics['Pearson_r']:.3f}")
         if val_rmse < best_val_rmse - 1e-4:
             best_val_rmse = val_rmse
-            best_state = model.state_dict()
+            best_state = copy.deepcopy(model.state_dict())
             no_improve = 0
         else:
             no_improve += 1
@@ -231,7 +232,7 @@ def main(config, X_train, y_train, X_test, y_test, prop_names, X_val=None, y_val
 
     test_metrics = evaluate(model, test_dl, device, y_scaler)
 
-    print("\n=== Test Metrics ===")
+    print(f"\n=== {test_year}: Test Metrics ===")
     for k, v in test_metrics.items():
         print(f"{k:10}: {v:.4f}")
 
@@ -305,38 +306,50 @@ def auto_select_and_retrain(config):
 
 
 if __name__ == "__main__":
-    # 使用 time_series 下的 train/test.csv 直接构建 X/Y
-    config = {
-        # 文件路径
-        "json_path": "data/prd/aaindex2_dicts.json",
-        "train_csv": "data/time_series/train.csv",
-        "val_csv":   "data/time_series/val.csv",
-        "test_csv":  "data/time_series/test.csv",
-        "out_path":  "data/time_series/prop2.csv",
 
-        # 模型与训练参数
-        "batch_size": 256,
-        "n_heads": 4,
-        "n_retrain_heads": 1,
-        "epochs": 200,
-        "lr": 1e-3,
-        "weight_decay": 1e-4,
-        "patience": 15,
 
-        # 数据处理参数
-        "standardize_y": True,
-        "corr_threshold": 0.8,
-        "random_state": 42,
+    for test_year in range(2019,2025):
+    
+        config = {
+            # 文件路径
+            "json_path": "data/prd/aaindex2_dicts.json",
+            "train_csv": f"data/time_series/{test_year}/train.csv",
+            "val_csv":   f"data/time_series/{test_year}/val.csv",
+            "test_csv":  f"data/time_series/{test_year}/test.csv",
+            "out_path":  "data/time_series/prop2.csv",
 
-        # Top-N 属性选择
-        "top_n": 5
-    }
+            # 模型与训练参数
+            "batch_size": 256,
+            "n_heads": 4,
+            "n_retrain_heads": 1,
+            "epochs": 200,
+            "lr": 1e-3,
+            "weight_decay": 1e-4,
+            "patience": 15,
 
-    torch.manual_seed(config["random_state"])
-    np.random.seed(config["random_state"])
-    random.seed(config["random_state"])
+            # 数据处理参数
+            "standardize_y": True,
+            "corr_threshold": 0.8,
+            "random_state": 42,
 
-    model_topn, scores_topn, top_n_props, test_metrics_topn = auto_select_and_retrain(config)
+            # Top-N 属性选择
+            "top_n": 5
+        }
 
-    scores_df = pd.DataFrame(scores_topn, columns=['prop_name', 'weight'])
-    scores_df.to_csv(config["out_path"], index=False)
+        torch.manual_seed(config["random_state"])
+        np.random.seed(config["random_state"])
+        random.seed(config["random_state"])
+
+        model_topn, scores_topn, top_n_props, test_metrics_topn = auto_select_and_retrain(config)
+
+        scores_df = pd.DataFrame(scores_topn, columns=['prop_name', 'weight'])
+        scores_df.to_csv(config["out_path"], index=False)
+
+        result_path = os.path.join('time_result', 'find2.csv')
+        result_row = {
+            'year': test_year,
+            **test_metrics_topn
+        }
+        result_df = pd.DataFrame([result_row], columns=['year', 'RMSE', 'MAE', 'R2', 'Pearson_r'])
+        write_header = not os.path.exists(result_path)
+        result_df.to_csv(result_path, mode='a', header=write_header, index=False)
