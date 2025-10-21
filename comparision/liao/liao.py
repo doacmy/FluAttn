@@ -145,7 +145,7 @@ gm6 = {
 
 if __name__ == "__main__":
 
-    for test_year in range(2019,2025):
+    for test_year in range(2022,2025):
         train_csv = f"data/time_series/{test_year}/train.csv"
         val_csv = f"data/time_series/{test_year}/val.csv"
         test_csv = f"data/time_series/{test_year}/test.csv"

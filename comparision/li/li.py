@@ -403,7 +403,7 @@ def plot_true_vs_predicted_MDS(distance_matrix_path, virus_names, test_pairs, Y_
 if __name__ == "__main__":
     random_state = 42
 
-    for test_year in range(2019,2025):
+    for test_year in range(2022,2025):
 
         # Directly load X and Y from time series CSVs with columns: S1, S2, distance
         train_csv = f"data/time_series/{test_year}/train.csv"

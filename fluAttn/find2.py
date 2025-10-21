@@ -308,7 +308,7 @@ def auto_select_and_retrain(config):
 if __name__ == "__main__":
 
 
-    for test_year in range(2019,2025):
+    for test_year in range(2022,2025):
     
         config = {
             # 文件路径
