@@ -316,7 +316,7 @@ if __name__ == "__main__":
             "train_csv": f"data/time_series/{test_year}/train.csv",
             "val_csv":   f"data/time_series/{test_year}/val.csv",
             "test_csv":  f"data/time_series/{test_year}/test.csv",
-            "out_path":  "data/time_series/prop2.csv",
+            "out_path":  f"fluAttn/prop/{test_year}/",
 
             # 模型与训练参数
             "batch_size": 256,
@@ -342,8 +342,9 @@ if __name__ == "__main__":
 
         model_topn, scores_topn, top_n_props, test_metrics_topn = auto_select_and_retrain(config)
 
+        os.makedirs(os.path.dirname(config["out_path"]), exist_ok=True)
         scores_df = pd.DataFrame(scores_topn, columns=['prop_name', 'weight'])
-        scores_df.to_csv(config["out_path"], index=False)
+        scores_df.to_csv(config["out_path"] + 'prop2.csv', index=False)
 
         result_path = os.path.join('time_result', 'find2.csv')
         result_row = {

@@ -8,6 +8,8 @@ from torch.utils.data import Dataset, DataLoader, random_split
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 from scipy.stats import pearsonr
 from itertools import combinations
+import os
+import copy
 
 
 AA_TO_IDX = {aa: idx for idx, aa in enumerate("ARNDCQEGHILKMFPSTWYV")}
@@ -285,99 +287,94 @@ def evaluate(model, dl, device, y_scaler=None):
 
 if __name__ == "__main__":
 
-    config = {
-        "random_state": 42,
-        "batch_size": 256,
-        "aaindex_1_path": "data/prd/aaindex1_dicts.json",
-        "aaindex_2_path": "data/prd/aaindex2_dicts.json",
-        "prop1_path": "data/time_series/prop1.csv",
-        "prop2_path": "data/time_series/prop2.csv",
-        "train_csv": "data/time_series/train.csv",
-        "val_csv": "data/time_series/val.csv",
-        "test_csv": "data/time_series/test.csv",
-        "standardize_y": True,
-        "patience": 20,
-        "stopping_delta": 1e-4,
-        "epochs": 200
-    }
+    for test_year in range(2022,2025):
+        config = {
+            "random_state": 42,
+            "batch_size": 256,
+            "aaindex_1_path": "data/prd/aaindex1_dicts.json",
+            "aaindex_2_path": "data/prd/aaindex2_dicts.json",
+            "prop1_path": f"fluAttn/prop/{test_year}/prop1.csv",
+            "prop2_path": f"fluAttn/prop/{test_year}/prop2.csv",
+            "train_csv": f"data/time_series/{test_year}/train.csv",
+            "val_csv": f"data/time_series/{test_year}/val.csv",
+            "test_csv": f"data/time_series/{test_year}/test.csv",
+            "standardize_y": True,
+            "patience": 20,
+            "stopping_delta": 1e-4,
+            "epochs": 200
+        }
 
-    set_global_seed(config["random_state"])
+        set_global_seed(config["random_state"])
 
-    df_train = pd.read_csv(config["train_csv"])  # 需包含列: S1, S2, distance
-    df_val   = pd.read_csv(config["val_csv"])    # 需包含列: S1, S2, distance
+        df_train = pd.read_csv(config["train_csv"])  # 需包含列: S1, S2, distance
+        df_val   = pd.read_csv(config["val_csv"])    # 需包含列: S1, S2, distance
 
-    if not df_val.empty:
-        rs = config.get("random_state", None)
-        keep_val = df_val.sample(frac=0.2, random_state=rs)
-        move_to_train = df_val.drop(keep_val.index)
-        if not move_to_train.empty:
-            df_train = pd.concat([df_train, move_to_train], ignore_index=True)
-        df_val = keep_val.reset_index(drop=True)
+        if not df_val.empty:
+            rs = config.get("random_state", None)
+            keep_val = df_val.sample(frac=0.2, random_state=rs)
+            move_to_train = df_val.drop(keep_val.index)
+            if not move_to_train.empty:
+                df_train = pd.concat([df_train, move_to_train], ignore_index=True)
+            df_val = keep_val.reset_index(drop=True)
 
-    df_test  = pd.read_csv(config["test_csv"])   # 需包含列: S1, S2, distance
+        df_test  = pd.read_csv(config["test_csv"])   # 需包含列: S1, S2, distance
 
-    # Load train/val/test directly from time_series CSVs
-    X_train, y_train = get_data_from_pairs_df(df_train)
-    X_val,   y_val   = get_data_from_pairs_df(df_val)
-    X_test,  y_test  = get_data_from_pairs_df(df_test)
+        # Load train/val/test directly from time_series CSVs
+        X_train, y_train = get_data_from_pairs_df(df_train)
+        X_val,   y_val   = get_data_from_pairs_df(df_val)
+        X_test,  y_test  = get_data_from_pairs_df(df_test)
 
-    y_scaler = None
-    if config["standardize_y"]:
-        y_scaler = {'mean': y_train.mean(), 'std': max(1e-8, y_train.std())}
+        y_scaler = None
+        if config["standardize_y"]:
+            y_scaler = {'mean': y_train.mean(), 'std': max(1e-8, y_train.std())}
 
-    train_ds = PairDataset(X_train, y_train, y_scaler)
-    val_ds   = PairDataset(X_val, y_val, y_scaler)
-    test_ds  = PairDataset(X_test, y_test, y_scaler)
+        train_ds = PairDataset(X_train, y_train, y_scaler)
+        val_ds   = PairDataset(X_val, y_val, y_scaler)
+        test_ds  = PairDataset(X_test, y_test, y_scaler)
 
-    train_loader = DataLoader(train_ds, batch_size=config["batch_size"], shuffle=True, num_workers=8, pin_memory=True)
-    val_loader   = DataLoader(val_ds, batch_size=config["batch_size"], num_workers=8, pin_memory=True)
-    test_loader  = DataLoader(test_ds, batch_size=config["batch_size"], num_workers=8, pin_memory=True)
+        train_loader = DataLoader(train_ds, batch_size=config["batch_size"], shuffle=True, num_workers=8, pin_memory=True)
+        val_loader   = DataLoader(val_ds, batch_size=config["batch_size"], num_workers=8, pin_memory=True)
+        test_loader  = DataLoader(test_ds, batch_size=config["batch_size"], num_workers=8, pin_memory=True)
 
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    model = MLPRegressor(input_dim=X_train.shape[1]).to(device)
-    optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
-    loss_fn = torch.nn.MSELoss()
+        model = MLPRegressor(input_dim=X_train.shape[1]).to(device)
+        optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
+        loss_fn = torch.nn.MSELoss()
 
-    best_val_rmse = float("inf")
-    best_model = None
-    patience = config["patience"]
-    delta = config["stopping_delta"]
-    epochs_no_improve = 0
+        best_val_rmse = float("inf")
+        best_model = None
+        patience = config["patience"]
+        delta = config["stopping_delta"]
+        epochs_no_improve = 0
 
-    for epoch in range(config["epochs"]):
-        train_loss = train(model, optimizer, loss_fn, train_loader, device)
-        val_rmse, val_mae, val_r2 = evaluate(model, val_loader, device, y_scaler)
+        for epoch in range(config["epochs"]):
+            train_loss = train(model, optimizer, loss_fn, train_loader, device)
+            val_rmse, val_mae, val_r2 = evaluate(model, val_loader, device, y_scaler)
 
-        print(f"Epoch {epoch:02d}: Train Loss = {train_loss:.4f} | Val RMSE = {val_rmse:.4f}, MAE = {val_mae:.4f}, R2 = {val_r2:.4f}")
+            print(f"Epoch {epoch:02d}: Train Loss = {train_loss:.4f} | Val RMSE = {val_rmse:.4f}, MAE = {val_mae:.4f}, R2 = {val_r2:.4f}")
 
-        if val_rmse < best_val_rmse - delta:
-            best_val_rmse = val_rmse
-            best_model = model.state_dict()
-            epochs_no_improve = 0
-        else:
-            epochs_no_improve += 1
+            if val_rmse < best_val_rmse - delta:
+                best_val_rmse = val_rmse
+                best_state = copy.deepcopy(model.state_dict())
+                epochs_no_improve = 0
+            else:
+                epochs_no_improve += 1
 
-        if epochs_no_improve >= patience:
-            print(f"Early stopping triggered at epoch {epoch:02d}. Best Val RMSE: {best_val_rmse:.4f}")
-            break
+            if epochs_no_improve >= patience:
+                print(f"Early stopping triggered at epoch {epoch:02d}. Best Val RMSE: {best_val_rmse:.4f}")
+                break
 
-    if best_model is not None:
-        model.load_state_dict(best_model)
-    model.eval()
+        if best_model is not None:
+            model.load_state_dict(best_model)
+        model.eval()
 
-    test_rmse, test_mae, test_r2 = evaluate(model, test_loader, device, y_scaler)
-    print(f"Test RMSE = {test_rmse:.4f}, MAE = {test_mae:.4f}, R2 = {test_r2:.4f}")
+        test_rmse, test_mae, test_r2 = evaluate(model, test_loader, device, y_scaler)
+        print(f"Test RMSE = {test_rmse:.4f}, MAE = {test_mae:.4f}, R2 = {test_r2:.4f}")
+        result_path = 'time_result/combine.csv'
+        os.makedirs(os.path.dirname(result_path), exist_ok=True)
+        row = {"year": test_year, "RMSE": test_rmse, "MAE": test_mae, "R2": test_r2}
+        df_row = pd.DataFrame([row])
+        write_header = not os.path.exists(result_path) or os.stat(result_path).st_size == 0
+        df_row.to_csv(result_path, mode='a', index=False, header=write_header)
 
-
-# 1963-2002
-# X0          RMSE = 0.8200, MAE = 0.5997, R2 = 0.9787
-# X0,X1       RMSE = 0.7737, MAE = 0.5596, R2 = 0.9810
-# X0,X2       RMSE = 0.7888, MAE = 0.5729, R2 = 0.9803
-# X0,X1,X2    RMSE = 0.7666, MAE = 0.5585, R2 = 0.9814
-
-# 2003-2025
-# X0          RMSE = 0.9227, MAE = 0.6168, R2 = 0.7825
-# X0,X1       RMSE = 0.7266, MAE = 0.4685, R2 = 0.8651
-# X0,X2       RMSE = 0.7435, MAE = 0.4813, R2 = 0.8587
-# X0,X1,X2    RMSE = 0.6520, MAE = 0.4211, R2 = 0.8914

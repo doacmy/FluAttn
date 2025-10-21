@@ -1,2 +1,3 @@
 time_series_data/data/*
 *.pyc
+comparision/durazzi/*
