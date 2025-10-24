@@ -432,7 +432,7 @@ def get_final_model(main_matrix_name: str, first_aux_name: str, second_aux_name:
 
     print(f"RMSE: {rmse:.4f}, R2: {r2:.4f}, MAE: {mae:.4f}")
 
-    result_path = 'time_result/yao.csv'
+    result_path = 'time_result/yao_origin.csv'
     os.makedirs(os.path.dirname(result_path), exist_ok=True)
     row = {"year": test_year, "RMSE": rmse, "MAE": mae, "R2": r2}
     df_row = pd.DataFrame([row])
@@ -446,64 +446,27 @@ def get_final_model(main_matrix_name: str, first_aux_name: str, second_aux_name:
 
 
 if __name__ == "__main__":
-    for test_year in range(2023,2025):
-        random_state=42
-        imputer = SimpleImputer(strategy="mean")
+    random_state=42
+    imputer = SimpleImputer(strategy="mean")
 
-        train_csv = f"data/time_series/{test_year}/train.csv"
-        val_csv = f"data/time_series/{test_year}/val.csv"
-        test_csv = f"data/time_series/{test_year}/test.csv"
+    test_year = 2023
+    matrix_dir = 'data/prd/AAIndex/'
+    train_csv = f"data/time_series/{test_year}/train.csv"
+    val_csv = f"data/time_series/{test_year}/val.csv"
+    test_csv = f"data/time_series/{test_year}/test.csv"
 
-        df_train = pd.read_csv(train_csv)
-        df_val = pd.read_csv(val_csv)
-        df_train = pd.concat([df_train, df_val], axis=0, ignore_index=True)
-        df_test = pd.read_csv(test_csv)
+    df_train = pd.read_csv(train_csv)
+    df_val = pd.read_csv(val_csv)
+    df_train = pd.concat([df_train, df_val], axis=0, ignore_index=True)
+    df_test = pd.read_csv(test_csv)
 
-        matrix_dir = 'data/prd/AAIndex/'
+    # main_matrix_name = 'OVEJ920102.csv'
+    # first_aux_name = 'KOSJ950107.csv'
+    # second_aux_name = 'DOSZ010103.csv'
 
-        os.makedirs(os.path.dirname(f"comparision/yao/{test_year}/"), exist_ok=True)
+    main_matrix_name = 'DOSZ010104.csv'
+    first_aux_name = 'DOSZ010101.csv'
+    second_aux_name = 'OVEJ920101.csv'
 
-        main_record_path = f"comparision/yao/{test_year}/main_record.csv"
-        aux_0_record_path = f"comparision/yao/{test_year}/aux_0_record.csv"
-        aux_1_record_path = f"comparision/yao/{test_year}/aux_1_record.csv"
-
-        if not Path(main_record_path).exists():
-            df = pd.DataFrame(columns=['matrix_name','rmse'])
-            df.to_csv(Path(main_record_path), index=False)
-
-        if not Path(aux_0_record_path).exists():
-            df = pd.DataFrame(columns=['main_matrix_name','aux_matrix_name','rmse'])
-            df.to_csv(Path(aux_0_record_path), index=False)
-
-        if not Path(aux_1_record_path).exists():
-            df = pd.DataFrame(columns=['main_matrix_name','aux_0_matrix_name','aux_1_matrix_name','rmse'])
-            df.to_csv(Path(aux_1_record_path), index=False)
-
-        # # Step 1: 寻找主矩阵（10 折交叉验证）
-        # find_main_matrix(df_train)
-
-        # # Step 2: 寻找第一辅助矩阵（基于 Step 1 的结果池）
-        # df = pd.read_csv(main_record_path)
-        # top15 = df.sort_values(by="rmse").head(15)
-        # matrix_names = top15['matrix_name'].tolist()
-
-        # for matrix in matrix_names:
-        #     print(f"Processing matrix: {matrix}")
-        #     find_first_auxiliary_matrix(df_train, matrix)
-
-        # Step 3: 寻找第二辅助矩阵（从最佳 first aux 继续）
-        df = pd.read_csv(aux_0_record_path)
-        top = df.sort_values(by="rmse").head(1)
-        main_matrix_name = top['main_matrix_name'].values[0]
-        first_aux_matrix = top['aux_matrix_name'].values[0]
-
-        find_second_auxiliary_matrix(df_train, main_matrix_name, first_aux_matrix)
-
-        # Step 4: 获得最终模型并在测试集评估
-        df = pd.read_csv(aux_1_record_path)
-        top = df.sort_values(by="rmse").head(1)
-        main_matrix_name = top['main_matrix_name'].values[0]
-        first_aux_name = top['aux_0_matrix_name'].values[0]
-        second_aux_name = top['aux_1_matrix_name'].values[0]
-        get_final_model(main_matrix_name, first_aux_name, second_aux_name, df_train, df_test)
+    get_final_model(main_matrix_name, first_aux_name, second_aux_name, df_train, df_test)
 

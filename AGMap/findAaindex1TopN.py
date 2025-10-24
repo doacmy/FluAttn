@@ -11,7 +11,7 @@ import random
 import matplotlib.pyplot as plt
 import seaborn as sns
 import json
-from itertools import combinations
+
 from itertools import product
 import pandas as pd
 import os
@@ -66,9 +66,12 @@ def remove_highly_correlated_props(raw_props, threshold=0.95):
     filtered_props = {k: raw_props[k] for k in keep}
     return filtered_props
 
-def load_standardized_aaindex_props(json_path, corr_threshold=0.95):
+def load_standardized_aaindex_props(json_path, corr_threshold=0.95, selected_names=None):
     with open(json_path, "r") as f:
         raw_props = json.load(f)
+
+    if selected_names is not None:
+        raw_props = {k: raw_props[k] for k in selected_names if k in raw_props}
 
     filtered_props = remove_highly_correlated_props(raw_props, threshold=corr_threshold)
     props = [standardize_property_dict(d) for d in filtered_props.values()]
@@ -76,16 +79,23 @@ def load_standardized_aaindex_props(json_path, corr_threshold=0.95):
     return props, prop_names
 
 class PairDataset(Dataset):
-    def __init__(self, X, y, y_scaler=None):
-        self.X = X
-        self.y = y
+    def __init__(self, X_path, y_path, shape, y_scaler=None):
+        self.lazy = config["use_lazy_memmap"]
+        self.shape = shape
         self.y_scaler = y_scaler
 
+        if self.lazy:
+            self.X = np.memmap(X_path, dtype=np.float32, mode='r', shape=shape)
+            self.y = np.memmap(y_path, dtype=np.float32, mode='r', shape=(shape[0],))
+        else:
+            self.X = np.load(X_path)
+            self.y = np.load(y_path)
+
     def __len__(self):
-        return self.X.shape[0]
+        return self.shape[0]
 
     def __getitem__(self, idx):
-        x = self.X[idx]
+        x = self.X[idx].copy() if self.lazy else self.X[idx]
         y = self.y[idx]
         if self.y_scaler:
             y = (y - self.y_scaler['mean']) / self.y_scaler['std']
@@ -140,8 +150,14 @@ def standardize_property_dict(prop_dict):
     mean, std = vals.mean(), vals.std()
     return {aa: (v - mean) / std for aa, v in prop_dict.items()}
 
+def split_data(n, test_size=0.2):
+    from itertools import combinations
+    pairs = list(combinations(range(n), 2))
+    random.shuffle(pairs)
+    cut = int(len(pairs) * test_size)
+    return pairs[cut:], pairs[:cut]
 
-def build_X_Y(pairs, seq_indices, dist_mat, prop_matrix):
+def build_X_Y_fast(pairs, seq_indices, dist_mat, prop_matrix):
     L = len(seq_indices[0])
     n_props = prop_matrix.shape[0]
     n_pairs = len(pairs)
@@ -164,26 +180,48 @@ def build_X_Y(pairs, seq_indices, dist_mat, prop_matrix):
 
     return X, Y
 
-def get_train_data(seq_csv, dist_csv, json_path):
+def build_large_X_Y_memmap(pairs, seq_indices, dist_mat, prop_matrix, prefix, batch_size=10000):
+    n_pairs = len(pairs)
+    n_props = prop_matrix.shape[0]
+    L = len(seq_indices[0])
+
+    X_mem = np.memmap(f"{prefix}_X.npy", dtype=np.float32, mode='w+', shape=(n_pairs, L, n_props))
+    Y_mem = np.memmap(f"{prefix}_Y.npy", dtype=np.float32, mode='w+', shape=(n_pairs,))
+
+
+    for i in range(0, n_pairs, batch_size):
+        print(f"Building batch {i}/{n_pairs}")
+        sub_pairs = pairs[i:i+batch_size]
+        X_sub, Y_sub = build_X_Y_fast(sub_pairs, seq_indices, dist_mat, prop_matrix)
+        end = i + len(sub_pairs)
+        X_mem[i:end] = X_sub
+        Y_mem[i:end] = Y_sub
+
+    X_mem.flush()
+    Y_mem.flush()
+
+    return f"{prefix}_X.npy", f"{prefix}_Y.npy", (n_pairs, L, n_props)
+
+def get_data(seq_csv, dist_csv, json_path, test_size=0.2, selected_names=None):
     seq_df = pd.read_csv(seq_csv)
     dist_df = pd.read_csv(dist_csv, index_col=0)
 
     seq_df = seq_df[['short_name', 'HA1_sequence']].set_index('short_name')
-
-    seq_df = seq_df[~seq_df['HA1_sequence'].str.contains('X', na=False)]
-
     common = seq_df.index.intersection(dist_df.index)
     seq_df = seq_df.loc[common]
     dist_df = dist_df.loc[common, common]
 
     seqs_array = np.array(seq_df['HA1_sequence'].apply(list).to_list())
-    # 使用全部序列位点（不再只选取可变位点）
-    seqs = ["".join(row) for row in seqs_array]
+    variable_sites = [i for i in range(seqs_array.shape[1]) if len(set(seqs_array[:, i]) - {'-'}) > 1]
+    seqs_var = seqs_array[:, variable_sites]
+    seqs = ["".join(row) for row in seqs_var]
     dist_mat = dist_df.values
 
-    props, prop_names = load_standardized_aaindex_props(json_path, corr_threshold=config['corr_threshold'])
+    props, prop_names = load_standardized_aaindex_props(json_path, corr_threshold=config['corr_threshold'], selected_names=selected_names)
 
     n = len(seqs)
+    train_p, test_p = split_data(n, test_size)
+
     seq_indices = np.full((n, len(seqs[0])), -1, dtype=np.int32)
     for i, seq in enumerate(seqs):
         for j, aa in enumerate(seq):
@@ -195,91 +233,24 @@ def get_train_data(seq_csv, dist_csv, json_path):
         for aa, idx in aa_to_idx.items():
             prop_matrix[p, idx] = prop.get(aa, 0.0)
     
-    pairs = list(combinations(range(len(common)), 2))
-    X_train, Y_train = build_X_Y(pairs, seq_indices, dist_mat, prop_matrix)
+    if config.get("use_lazy_memmap", True):
+        train_X_path, train_Y_path, train_shape = build_large_X_Y_memmap(train_p, seq_indices, dist_mat, prop_matrix, prefix="train")
+        test_X_path, test_Y_path, test_shape = build_large_X_Y_memmap(test_p, seq_indices, dist_mat, prop_matrix, prefix="test")
+    else:
+        X_train, Y_train = build_X_Y_fast(train_p, seq_indices, dist_mat, prop_matrix)
+        X_test, Y_test = build_X_Y_fast(test_p, seq_indices, dist_mat, prop_matrix)
 
+        train_X_path, train_Y_path = "train_X.npy", "train_Y.npy"
+        test_X_path, test_Y_path = "test_X.npy", "test_Y.npy"
+        np.save(train_X_path, X_train)
+        np.save(train_Y_path, Y_train)
+        np.save(test_X_path, X_test)
+        np.save(test_Y_path, Y_test)
+        train_shape = X_train.shape
+        test_shape = X_test.shape
 
-    return X_train, Y_train, prop_names, props
+    return train_X_path, train_Y_path, test_X_path, test_Y_path, prop_names, props, train_shape, test_shape
 
-
-def get_test_data(train_seq_csv, test_seq_csv, dist_csv, json_path):
-
-    dist_df = pd.read_csv(dist_csv, index_col=0)
-
-    train_seq_df = pd.read_csv(train_seq_csv)
-    test_seq_df = pd.read_csv(test_seq_csv)
-    # 对齐基本字段并索引
-    train_seq_df = train_seq_df[['short_name', 'HA1_sequence']].set_index('short_name')
-    test_seq_df = test_seq_df[['short_name', 'HA1_sequence']].set_index('short_name')
-
-    train_seq_df = train_seq_df[~train_seq_df['HA1_sequence'].str.contains('X', na=False)]
-    test_seq_df = test_seq_df[~test_seq_df['HA1_sequence'].str.contains('X', na=False)]
-
-    # 仅保留在距离矩阵中的条目
-    train_common = train_seq_df.index.intersection(dist_df.index)
-    test_common = test_seq_df.index.intersection(dist_df.index)
-    if len(train_common) == 0 or len(test_common) == 0:
-        return np.zeros((0, 0, 0), dtype=np.float32), np.zeros((0,), dtype=np.float32)
-
-    # 从HI矩阵读取并展开为long格式，在此long_df中过滤(test, train)跨组病毒对
-    hi_matrix_path = os.path.join('data', 'prd', '2003-2025', '2003-2025_HI_matrix.csv')
-    hi_wide = pd.read_csv(hi_matrix_path)
-    # 将宽表转换为长表：列名为参考病毒，行为测试病毒
-    long_df = hi_wide.melt(id_vars=['Test Virus'], var_name='Reference Virus', value_name='HI')
-    # 仅保留双方都在距离矩阵中的测试/训练组合，且HI值为数字
-    mask = long_df['Test Virus'].isin(test_common) & long_df['Reference Virus'].isin(train_common)
-    hi_numeric = pd.to_numeric(long_df['HI'], errors='coerce')
-    long_df = long_df.loc[mask & hi_numeric.notna()].copy()
-    long_df['HI'] = hi_numeric.loc[long_df.index].astype(float)
-    hi_filtered = long_df[['Test Virus', 'Reference Virus']].drop_duplicates()
-
-    # A/Albania/302203/2024,A/Blida/42154/2022,120
-
-
-
-    # 按照原始test/train出现顺序进行排序，保证稳定性
-    test_order = {name: i for i, name in enumerate(list(test_common))}
-    train_order = {name: i for i, name in enumerate(list(train_common))}
-    pairs = list(map(tuple, hi_filtered.values.tolist()))
-    pairs.sort(key=lambda x: (test_order.get(x[0], 1e12), train_order.get(x[1], 1e12)))
-
-    # 仅保留实际用到的病毒名称，并构造顺序：测试集在前，训练集在后
-    used_test = [t for t in test_common if any(p[0] == t for p in pairs)]
-    used_train = [r for r in train_common if any(p[1] == r for p in pairs)]
-    names_combined = list(dict.fromkeys(used_test + used_train))
-
-    # 构建合并序列映射，使用全部序列位点
-    seq_map = {}
-    seq_map.update(train_seq_df['HA1_sequence'].to_dict())
-    seq_map.update(test_seq_df['HA1_sequence'].to_dict())
-    seqs_var = [seq_map[name] for name in names_combined]
-
-    # 子集化距离矩阵以匹配顺序
-    dist_sub = dist_df.loc[names_combined, names_combined].values
-
-    # 加载并标准化AAIndex属性，与训练集保持一致的筛选阈值
-    props, _prop_names = load_standardized_aaindex_props(json_path, corr_threshold=config['corr_threshold'])
-    prop_matrix = np.zeros((len(props), 20), dtype=np.float32)
-    for p, prop in enumerate(props):
-        for aa, idx in aa_to_idx.items():
-            prop_matrix[p, idx] = prop.get(aa, 0.0)
-
-    # 将序列转换为索引矩阵
-    n = len(seqs_var)
-    L = len(seqs_var[0]) if n > 0 else 0
-    seq_indices = np.full((n, L), -1, dtype=np.int32)
-    for i, seq in enumerate(seqs_var):
-        for j, aa in enumerate(seq):
-            seq_indices[i, j] = aa_to_idx.get(aa, -1)
-
-    # 构建跨组测试-训练的索引对
-    name_to_idx = {name: i for i, name in enumerate(names_combined)}
-    pair_indices = [(name_to_idx[t], name_to_idx[r]) for t, r in pairs if t in name_to_idx and r in name_to_idx]
-
-    # 生成X和Y
-    X_test, y_test = build_X_Y(pair_indices, seq_indices, dist_sub, prop_matrix)
-
-    return X_test, y_test
 
 
 def evaluate(model, dl, device, y_scaler=None):
@@ -335,13 +306,18 @@ def train_loop(model, train_dl, val_dl, device, epochs=200, lr=1e-3, weight_deca
     model.load_state_dict(best_state)
     return model
 
-def main(config, X_train, y_train, X_test, y_test, prop_names):
+def main(config, X_train_path, y_train_path, X_test_path, y_test_path, prop_names, train_shape, test_shape):
     y_scaler = None
     if config["standardize_y"]:
-        y_scaler = {'mean': y_train.mean(), 'std': y_train.std()}
 
-    train_ds = PairDataset(X_train, y_train, y_scaler)
-    test_ds  = PairDataset(X_test, y_test, y_scaler)
+        if config["use_lazy_memmap"]:
+            y_train_array = np.memmap(y_train_path, dtype=np.float32, mode='r')
+        else:
+            y_train_array = np.load(y_train_path)
+        y_scaler = {'mean': y_train_array.mean(), 'std': y_train_array.std()}
+
+    train_ds = PairDataset(X_train_path, y_train_path, train_shape, y_scaler)
+    test_ds  = PairDataset(X_test_path, y_test_path, test_shape, y_scaler)
 
     val_size = max(1, int(0.1 * len(train_ds)))
     train_ds, val_ds = random_split(
@@ -357,8 +333,8 @@ def main(config, X_train, y_train, X_test, y_test, prop_names):
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model = WeightedMultiHeadAttentionMLP(
-        seq_len=X_train.shape[1],
-        n_props=X_train.shape[2],
+        seq_len=train_shape[1],
+        n_props=train_shape[2],
         n_heads=config["n_heads"]
     ).to(device)
 
@@ -380,33 +356,54 @@ def main(config, X_train, y_train, X_test, y_test, prop_names):
         print(f"{k:10}: {v:.4f}")
 
     scores = extract_average_attention_weights(model.attn_weights, model.head_weights, prop_names)
+    # Save full property scores for the 2003-2025 dataset
+    pd.DataFrame(scores, columns=["prop_name", "weight"]).to_csv(
+        "data/prd/2003-2025/a1_prop.csv", index=False
+    )
+
     print(f"\nTop-{config['top_n']} property importances:")
     for name, score in scores[:config['top_n']]:
         print(f"{name:15}: {score:.4f}")
     
     return model, scores, prop_names, test_metrics
 
-def slice_features(X, Y, indices):
-    return X[:, :, indices], Y
+def slice_memmap_features(X_path, Y_path, shape, indices, prefix):
+    n, L, P = shape
+    new_P = len(indices)
+
+    new_X_path = f"{prefix}_topn_X.npy"
+    new_Y_path = Y_path
+
+    if config["use_lazy_memmap"]:
+        X_old = np.memmap(X_path, dtype=np.float32, mode='r', shape=(n, L, P))
+        X_new = np.memmap(new_X_path, dtype=np.float32, mode='w+', shape=(n, L, new_P))
+    else:
+        X_old = np.load(X_path)
+        X_new = np.empty((n, L, new_P), dtype=np.float32)
+
+    for i in range(n):
+        X_new[i] = X_old[i][:, indices]
+
+    if config["use_lazy_memmap"]:
+        X_new.flush()
+    else:
+        np.save(new_X_path, X_new)
+    
+    return new_X_path, new_Y_path, (n, L, new_P)
 
 
 def auto_select_and_retrain(config):
     print("=== Step 0: Load full data once ===")
-    X_train, y_train, prop_names, props = get_train_data(
-        config["train_seq_path"],
+    X_train_path, y_train_path, X_test_path, y_test_path, prop_names, props, train_shape, test_shape = get_data(
+        config["seq_path"],
         config["dist_path"],
-        config["json_path"]
-    )
-
-    X_test, y_test = get_test_data(
-        config["train_seq_path"],
-        config["test_seq_path"],
-        config["dist_path"],
-        config["json_path"]
+        config["json_path"],
+        test_size=config["test_size"],
+        selected_names=None
     )
 
     print("=== Step 1: Full property training ===")
-    model, scores, _, test_metrics = main(config, X_train, y_train, X_test, y_test, prop_names)
+    model, scores, _, test_metrics = main(config, X_train_path, y_train_path, X_test_path, y_test_path, prop_names, train_shape, test_shape)
     scores_wo_diff = [(name, s) for name, s in scores]
     top_n_props = [name for name, _ in scores_wo_diff[:config["top_n"]]]
     print(f"\nTop-{config['top_n']} selected AAIndex properties:")
@@ -418,17 +415,22 @@ def auto_select_and_retrain(config):
 
 
 
-    X_train_topn, y_train_topn = slice_features(X_train, y_train, prop_indices)
-    X_test_topn, y_test_topn = slice_features(X_test, y_test, prop_indices)
+    X_train_topn_path, y_train_topn_path, train_topn_shape = slice_memmap_features(
+        X_train_path, y_train_path, train_shape, prop_indices, prefix="train"
+    )
+    X_test_topn_path, y_test_topn_path, test_topn_shape = slice_memmap_features(
+        X_test_path, y_test_path, test_shape, prop_indices, prefix="test"
+    )
 
     config_topn = config.copy()
     config_topn["n_heads"] = config_topn["n_retrain_heads"]
 
     model_topn, scores_topn, _, test_metrics_topn = main(
         config_topn,
-        X_train_topn, y_train_topn,
-        X_test_topn, y_test_topn,
-        top_n_props
+        X_train_topn_path, y_train_topn_path,
+        X_test_topn_path, y_test_topn_path,
+        top_n_props,
+        train_topn_shape, test_topn_shape
     )
 
     return model_topn, scores_topn, top_n_props, test_metrics_topn
@@ -436,15 +438,11 @@ def auto_select_and_retrain(config):
 
 if __name__ == "__main__":
 
+    data_set = "2003-2025" # "1963-2002" or "2003-2025"
+
     config = {
         # 文件路径
         "json_path": "data/prd/aaindex1_dicts.json",
-        "dist_path": "data/prd/2003-2025/2003_2025_distance_matrix.csv",
-        "out_path": "data/prd/2003-2025/prop1.csv",
-
-        "train_seq_path": "time_series_data/data/2024/train/train.csv",
-        "test_seq_path": "time_series_data/data/2024/test/test.csv",
-
 
         # 模型与训练参数
         "batch_size": 256,
@@ -456,6 +454,7 @@ if __name__ == "__main__":
         "patience": 15,
 
         # 数据处理参数
+        "test_size": 0.2,
         "standardize_y": True,
         "corr_threshold": 0.6,
         "random_state": 42,
@@ -463,6 +462,17 @@ if __name__ == "__main__":
         # Top-N 属性选择
         "top_n": 5
     }
+
+    if data_set == "1963-2002":
+        config["seq_path"] = "data/prd/1963-2002/sequences.csv"
+        config["dist_path"] = "data/prd/1963-2002/distance_matrix.csv"
+        config["out_path"] = "data/prd/1963-2002/prop1.csv"
+        config["use_lazy_memmap"] = False
+    else:
+        config["seq_path"] = "data/prd/2003-2025/final_sequences.csv"
+        config["dist_path"] = "data/prd/2003-2025/2003_2025_distance_matrix.csv"
+        config["out_path"] = "data/prd/2003-2025/prop1.csv"
+        config["use_lazy_memmap"] = True
 
 
     torch.manual_seed(config["random_state"])
@@ -474,3 +484,6 @@ if __name__ == "__main__":
 
     scores_df = pd.DataFrame(scores_topn, columns=['prop_name', 'weight'])
     scores_df.to_csv(config["out_path"], index=False)
+
+
+

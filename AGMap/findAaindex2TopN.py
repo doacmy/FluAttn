@@ -31,16 +31,23 @@ def rank_aaindex_matrices_by_attention(model, matrix_names):
 
 
 class PairDataset(Dataset):
-    def __init__(self, X, y, y_scaler=None):
-        self.X = X
-        self.y = y
+    def __init__(self, X_path, y_path, shape, y_scaler=None):
+        self.lazy = config["use_lazy_memmap"]
+        self.shape = shape
         self.y_scaler = y_scaler
 
+        if self.lazy:
+            self.X = np.memmap(X_path, dtype=np.float32, mode='r', shape=shape)
+            self.y = np.memmap(y_path, dtype=np.float32, mode='r', shape=(shape[0],))
+        else:
+            self.X = np.load(X_path)
+            self.y = np.load(y_path)
+
     def __len__(self):
-        return self.X.shape[0]
+        return self.shape[0]
 
     def __getitem__(self, idx):
-        x = self.X[idx]
+        x = self.X[idx].copy() if self.lazy else self.X[idx]
         y = self.y[idx]
         if self.y_scaler:
             y = (y - self.y_scaler['mean']) / self.y_scaler['std']
@@ -143,6 +150,27 @@ def build_X_Y_fast(pairs, seq_indices, dist_mat, prop_matrix):
     return X, Y
 
 
+def build_large_X_Y_memmap(pairs, seq_indices, dist_mat, prop_matrix, prefix, batch_size=10000):
+    n_pairs = len(pairs)
+    L = len(seq_indices[0])
+    n_props = len(prop_matrix)
+
+    X_mem = np.memmap(f"{prefix}_X.npy", dtype=np.float32, mode='w+', shape=(n_pairs, L, n_props))
+    Y_mem = np.memmap(f"{prefix}_Y.npy", dtype=np.float32, mode='w+', shape=(n_pairs,))
+
+    for i in range(0, n_pairs, batch_size):
+        print(f"Building batch {i}/{n_pairs}")
+        sub_pairs = pairs[i:i+batch_size]
+        X_sub, Y_sub = build_X_Y_fast(sub_pairs, seq_indices, dist_mat, prop_matrix)
+        end = i + len(sub_pairs)
+        X_mem[i:end] = X_sub
+        Y_mem[i:end] = Y_sub
+
+    X_mem.flush()
+    Y_mem.flush()
+
+    return f"{prefix}_X.npy", f"{prefix}_Y.npy", (n_pairs, L, n_props)
+
 def get_data(seq_csv, dist_csv, json_path, test_size=0.2, selected_names=None):
     seq_df = pd.read_csv(seq_csv)
     dist_df = pd.read_csv(dist_csv, index_col=0)
@@ -168,10 +196,23 @@ def get_data(seq_csv, dist_csv, json_path, test_size=0.2, selected_names=None):
         for j, aa in enumerate(seq):
             seq_indices[i, j] = aa_to_idx.get(aa, -1)
 
-    X_train, Y_train = build_X_Y_fast(train_p, seq_indices, dist_mat, prop_matrix)
-    X_test, Y_test = build_X_Y_fast(test_p, seq_indices, dist_mat, prop_matrix)
+    if config.get("use_lazy_memmap", True):
+        train_X_path, train_Y_path, train_shape = build_large_X_Y_memmap(train_p, seq_indices, dist_mat, prop_matrix, prefix="train")
+        test_X_path, test_Y_path, test_shape = build_large_X_Y_memmap(test_p, seq_indices, dist_mat, prop_matrix, prefix="test")
+    else:
+        X_train, Y_train = build_X_Y_fast(train_p, seq_indices, dist_mat, prop_matrix)
+        X_test, Y_test = build_X_Y_fast(test_p, seq_indices, dist_mat, prop_matrix)
 
-    return X_train, Y_train, X_test, Y_test, matrix_names
+        train_X_path, train_Y_path = "train_X.npy", "train_Y.npy"
+        test_X_path, test_Y_path = "test_X.npy", "test_Y.npy"
+        np.save(train_X_path, X_train)
+        np.save(train_Y_path, Y_train)
+        np.save(test_X_path, X_test)
+        np.save(test_Y_path, Y_test)
+        train_shape = X_train.shape
+        test_shape = X_test.shape
+
+    return train_X_path, train_Y_path, test_X_path, test_Y_path, matrix_names, prop_matrix, train_shape, test_shape
 
 
 
@@ -228,13 +269,18 @@ def train_loop(model, train_dl, val_dl, device, epochs=200, lr=1e-3, weight_deca
     model.load_state_dict(best_state)
     return model
 
-def main(config, X_train, y_train, X_test, y_test, prop_names):
+def main(config, X_train_path, y_train_path, X_test_path, y_test_path, prop_names, train_shape, test_shape):
     y_scaler = None
     if config["standardize_y"]:
-        y_scaler = {'mean': y_train.mean(), 'std': y_train.std()}
 
-    train_ds = PairDataset(X_train, y_train, y_scaler)
-    test_ds  = PairDataset(X_test, y_test, y_scaler)
+        if config["use_lazy_memmap"]:
+            y_train_array = np.memmap(y_train_path, dtype=np.float32, mode='r')
+        else:
+            y_train_array = np.load(y_train_path)
+        y_scaler = {'mean': y_train_array.mean(), 'std': y_train_array.std()}
+
+    train_ds = PairDataset(X_train_path, y_train_path, train_shape, y_scaler)
+    test_ds  = PairDataset(X_test_path, y_test_path, test_shape, y_scaler)
 
     val_size = max(1, int(0.1 * len(train_ds)))
     train_ds, val_ds = random_split(
@@ -249,8 +295,8 @@ def main(config, X_train, y_train, X_test, y_test, prop_names):
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model = WeightedMultiHeadAttentionMLP(
-        seq_len=X_train.shape[1],
-        n_props=X_train.shape[2],
+        seq_len=train_shape[1],
+        n_props=train_shape[2],
         n_heads=config["n_heads"]
     ).to(device)
 
@@ -276,13 +322,34 @@ def main(config, X_train, y_train, X_test, y_test, prop_names):
     
     return model, scores, prop_names, test_metrics
 
-def slice_features(X, Y, indices):
-    return X[:, :, indices], Y
+def slice_memmap_features(X_path, Y_path, shape, indices, prefix):
+    n, L, P = shape
+    new_P = len(indices)
+
+    new_X_path = f"{prefix}_topn_X.npy"
+    new_Y_path = Y_path
+
+    if config["use_lazy_memmap"]:
+        X_old = np.memmap(X_path, dtype=np.float32, mode='r', shape=(n, L, P))
+        X_new = np.memmap(new_X_path, dtype=np.float32, mode='w+', shape=(n, L, new_P))
+    else:
+        X_old = np.load(X_path)
+        X_new = np.empty((n, L, new_P), dtype=np.float32)
+
+    for i in range(n):
+        X_new[i] = X_old[i][:, indices]
+
+    if config["use_lazy_memmap"]:
+        X_new.flush()
+    else:
+        np.save(new_X_path, X_new)
+    
+    return new_X_path, new_Y_path, (n, L, new_P)
 
 
 def auto_select_and_retrain(config):
     print("=== Step 0: Load full data once ===")
-    X_train, y_train, X_test, y_test, prop_names = get_data(
+    X_train_path, y_train_path, X_test_path, y_test_path, prop_names, props, train_shape, test_shape = get_data(
         config["seq_path"],
         config["dist_path"],
         config["json_path"],
@@ -291,7 +358,7 @@ def auto_select_and_retrain(config):
     )
 
     print("=== Step 1: Full property training ===")
-    model, scores, _, test_metrics = main(config, X_train, y_train, X_test, y_test, prop_names)
+    model, scores, _, test_metrics = main(config, X_train_path, y_train_path, X_test_path, y_test_path, prop_names, train_shape, test_shape)
     scores_wo_diff = [(name, s) for name, s in scores]
     top_n_props = [name for name, _ in scores_wo_diff[:config["top_n"]]]
     print(f"\nTop-{config['top_n']} selected AAIndex properties:")
@@ -303,17 +370,22 @@ def auto_select_and_retrain(config):
 
 
 
-    X_train_topn, y_train_topn = slice_features(X_train, y_train, prop_indices)
-    X_test_topn, y_test_topn = slice_features(X_test, y_test, prop_indices)
+    X_train_topn_path, y_train_topn_path, train_topn_shape = slice_memmap_features(
+        X_train_path, y_train_path, train_shape, prop_indices, prefix="train"
+    )
+    X_test_topn_path, y_test_topn_path, test_topn_shape = slice_memmap_features(
+        X_test_path, y_test_path, test_shape, prop_indices, prefix="test"
+    )
 
     config_topn = config.copy()
     config_topn["n_heads"] = config_topn["n_retrain_heads"]
 
     model_topn, scores_topn, _, test_metrics_topn = main(
         config_topn,
-        X_train_topn, y_train_topn,
-        X_test_topn, y_test_topn,
-        top_n_props
+        X_train_topn_path, y_train_topn_path,
+        X_test_topn_path, y_test_topn_path,
+        top_n_props,
+        train_topn_shape, test_topn_shape
     )
 
     return model_topn, scores_topn, top_n_props, test_metrics_topn
@@ -327,6 +399,8 @@ if __name__ == "__main__":
         # 文件路径
         "json_path": "data/prd/aaindex2_dicts.json",
 
+        # 是否启用懒加载 memmap
+        "use_lazy_memmap": True,
 
         # 模型与训练参数
         "batch_size": 256,
@@ -366,5 +440,7 @@ if __name__ == "__main__":
 
     scores_df = pd.DataFrame(scores_topn, columns=['prop_name', 'weight'])
     scores_df.to_csv(config["out_path"], index=False)
+
+
 
 
