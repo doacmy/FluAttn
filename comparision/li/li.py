@@ -403,38 +403,37 @@ def plot_true_vs_predicted_MDS(distance_matrix_path, virus_names, test_pairs, Y_
 if __name__ == "__main__":
     random_state = 42
 
-    for test_year in range(2022,2025):
+    test_year = 2026
 
-        # Directly load X and Y from time series CSVs with columns: S1, S2, distance
-        train_csv = f"data/time_series/{test_year}/train.csv"
-        val_csv = f"data/time_series/{test_year}/val.csv"
-        test_csv = f"data/time_series/{test_year}/test.csv"
+    train_csv = f"data/all_time/H3N2/train.csv"
+    val_csv = f"data/all_time/H3N2/val.csv"
+    test_csv = f"data/all_time/H3N2/test.csv"
 
-        df_train = pd.read_csv(train_csv)
-        df_val = pd.read_csv(val_csv)
-        df_train = pd.concat([df_train, df_val], axis=0, ignore_index=True)
-        df_test = pd.read_csv(test_csv)
+    df_train = pd.read_csv(train_csv)
+    df_val = pd.read_csv(val_csv)
+    df_train = pd.concat([df_train, df_val], axis=0, ignore_index=True)
+    df_test = pd.read_csv(test_csv)
 
-        # Compute non-conserved positions on the training set only
-        var_idx = compute_nonconserved_positions_from_df(df_train)
-        L_train = len(str(df_train.iloc[0]["S1"])) if len(df_train) > 0 else 0
-        print(f"Variable sites (train): {len(var_idx)}/{L_train}")
+    # Compute non-conserved positions on the training set only
+    var_idx = compute_nonconserved_positions_from_df(df_train)
+    L_train = len(str(df_train.iloc[0]["S1"])) if len(df_train) > 0 else 0
+    print(f"Variable sites (train): {len(var_idx)}/{L_train}")
 
-        X_train, Y_train = Calculate_X_Y_from_df(df_train, variable_indices=var_idx)
-        X_test, Y_test = Calculate_X_Y_from_df(df_test, variable_indices=var_idx)
+    X_train, Y_train = Calculate_X_Y_from_df(df_train, variable_indices=var_idx)
+    X_test, Y_test = Calculate_X_Y_from_df(df_test, variable_indices=var_idx)
 
-        model = train_xgboost_with_cv(X_train, Y_train)
-        Y_pred = model.predict(X_test)
+    model = train_xgboost_with_cv(X_train, Y_train)
+    Y_pred = model.predict(X_test)
 
-        rmse = np.sqrt(mean_squared_error(Y_test, Y_pred))
-        r2 = r2_score(Y_test, Y_pred)
-        mae = mean_absolute_error(Y_test, Y_pred)
-        print(f"{test_year} RMSE: {rmse:.4f}, R^2: {r2:.4f}, MAE: {mae:.4f}")
-        # Save yearly results to 'comparision/li/result.csv'
-        result_path = 'time_result/li.csv'
-        os.makedirs(os.path.dirname(result_path), exist_ok=True)
-        row = {"year": test_year, "rmse": rmse, "mae": mae, "r2": r2}
-        df_row = pd.DataFrame([row])
-        write_header = not os.path.exists(result_path) or os.stat(result_path).st_size == 0
-        df_row.to_csv(result_path, mode='a', index=False, header=write_header)
+    rmse = np.sqrt(mean_squared_error(Y_test, Y_pred))
+    r2 = r2_score(Y_test, Y_pred)
+    mae = mean_absolute_error(Y_test, Y_pred)
+    print(f"{test_year} RMSE: {rmse:.4f}, R^2: {r2:.4f}, MAE: {mae:.4f}")
+    # Save yearly results to 'comparision/li/result.csv'
+    result_path = 'time_result/li.csv'
+    os.makedirs(os.path.dirname(result_path), exist_ok=True)
+    row = {"year": test_year, "rmse": rmse, "mae": mae, "r2": r2}
+    df_row = pd.DataFrame([row])
+    write_header = not os.path.exists(result_path) or os.stat(result_path).st_size == 0
+    df_row.to_csv(result_path, mode='a', index=False, header=write_header)
 

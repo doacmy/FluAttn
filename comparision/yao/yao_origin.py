@@ -449,11 +449,14 @@ if __name__ == "__main__":
     random_state=42
     imputer = SimpleImputer(strategy="mean")
 
-    test_year = 2023
     matrix_dir = 'data/prd/AAIndex/'
-    train_csv = f"data/time_series/{test_year}/train.csv"
-    val_csv = f"data/time_series/{test_year}/val.csv"
-    test_csv = f"data/time_series/{test_year}/test.csv"
+
+    test_year = 2026
+
+    train_csv = f"data/all_time/H3N2/train.csv"
+    val_csv = f"data/all_time/H3N2/val.csv"
+    test_csv = f"data/all_time/H3N2/test.csv"
+
 
     df_train = pd.read_csv(train_csv)
     df_val = pd.read_csv(val_csv)
