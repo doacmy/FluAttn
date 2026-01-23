@@ -235,7 +235,7 @@ class PairDataset(Dataset):
         return torch.from_numpy(x).float(), torch.tensor(y).float()
 
 class MLPRegressor(torch.nn.Module):
-    def __init__(self, input_dim, hidden_dims=[1024, 256, 128, 64], dropout=0):
+    def __init__(self, input_dim, hidden_dims=[256, 128], dropout=0):
         super().__init__()
         layers = []
         dims = [input_dim] + hidden_dims
