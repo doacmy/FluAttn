@@ -307,50 +307,50 @@ def auto_select_and_retrain(config):
 
 if __name__ == "__main__":
 
+    test_year = 2026
 
-    for test_year in range(2022,2025):
     
-        config = {
-            # 文件路径
-            "json_path": "data/prd/aaindex2_dicts.json",
-            "train_csv": f"data/time_series/{test_year}/train.csv",
-            "val_csv":   f"data/time_series/{test_year}/val.csv",
-            "test_csv":  f"data/time_series/{test_year}/test.csv",
-            "out_path":  f"fluAttn/prop/{test_year}/",
+    config = {
+        # 文件路径
+        "json_path": "data/prd/aaindex2_dicts.json",
+        "train_csv": f"data/all_time/H3N2/train.csv",
+        "val_csv":   f"data/all_time/H3N2/val.csv",
+        "test_csv":  f"data/all_time/H3N2/test.csv",
+        "out_path":  f"fluAttn/prop/{test_year}/",
 
-            # 模型与训练参数
-            "batch_size": 256,
-            "n_heads": 4,
-            "n_retrain_heads": 1,
-            "epochs": 200,
-            "lr": 1e-3,
-            "weight_decay": 1e-4,
-            "patience": 15,
+        # 模型与训练参数
+        "batch_size": 256,
+        "n_heads": 4,
+        "n_retrain_heads": 1,
+        "epochs": 200,
+        "lr": 1e-3,
+        "weight_decay": 1e-4,
+        "patience": 15,
 
-            # 数据处理参数
-            "standardize_y": True,
-            "corr_threshold": 0.8,
-            "random_state": 42,
+        # 数据处理参数
+        "standardize_y": True,
+        "corr_threshold": 0.8,
+        "random_state": 42,
 
-            # Top-N 属性选择
-            "top_n": 5
-        }
+        # Top-N 属性选择
+        "top_n": 5
+    }
 
-        torch.manual_seed(config["random_state"])
-        np.random.seed(config["random_state"])
-        random.seed(config["random_state"])
+    torch.manual_seed(config["random_state"])
+    np.random.seed(config["random_state"])
+    random.seed(config["random_state"])
 
-        model_topn, scores_topn, top_n_props, test_metrics_topn = auto_select_and_retrain(config)
+    model_topn, scores_topn, top_n_props, test_metrics_topn = auto_select_and_retrain(config)
 
-        os.makedirs(os.path.dirname(config["out_path"]), exist_ok=True)
-        scores_df = pd.DataFrame(scores_topn, columns=['prop_name', 'weight'])
-        scores_df.to_csv(config["out_path"] + 'prop2.csv', index=False)
+    os.makedirs(os.path.dirname(config["out_path"]), exist_ok=True)
+    scores_df = pd.DataFrame(scores_topn, columns=['prop_name', 'weight'])
+    scores_df.to_csv(config["out_path"] + 'prop2.csv', index=False)
 
-        result_path = os.path.join('time_result', 'find2.csv')
-        result_row = {
-            'year': test_year,
-            **test_metrics_topn
-        }
-        result_df = pd.DataFrame([result_row], columns=['year', 'RMSE', 'MAE', 'R2', 'Pearson_r'])
-        write_header = not os.path.exists(result_path)
-        result_df.to_csv(result_path, mode='a', header=write_header, index=False)
+    result_path = os.path.join('time_result', 'find2.csv')
+    result_row = {
+        'year': test_year,
+        **test_metrics_topn
+    }
+    result_df = pd.DataFrame([result_row], columns=['year', 'RMSE', 'MAE', 'R2', 'Pearson_r'])
+    write_header = not os.path.exists(result_path)
+    result_df.to_csv(result_path, mode='a', header=write_header, index=False)
